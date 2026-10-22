@@ -59,7 +59,7 @@ Copy this shape when you add sprints: `### Sprint N — title`, then numbered ro
 1. ✅ [AGENT][LOCAL] Write `AGENT.md` product brief; run `init-project.ps1` (web, prune) — scope: AGENT.md, scripts/
 2. ✅ [AGENT][LOCAL] Add React + TanStack Table + Recharts to `examples/web/` — scope: examples/web/
 3. ✅ [AGENT][LOCAL] Define Device TypeScript types + `schemas/device.schema.json` — scope: examples/web/src/types/, schemas/
-4. 🔲 [HUMAN] Create GitHub repo + Pages (Actions); `setup-github-repo` when ready — scope: scripts/
+4. ✅ [HUMAN] Create GitHub repo + Pages (Actions); `setup-github-repo` when ready — scope: scripts/
 5. 🔲 [HUMAN] Optional: `/brand` product branding pass — scope: branding/
 
 ### Sprint 1 — Data pipeline
@@ -85,11 +85,11 @@ Copy this shape when you add sprints: `### Sprint N — title`, then numbered ro
 ### Sprint 5 — Polish & deploy
 
 1. 🔲 [AGENT][LOCAL] Device detail + About/methodology; GitHub Action data refresh — scope: examples/web/, .github/
-2. 🔲 [HUMAN] Enable GitHub Pages (Actions source); smoke on phone — scope: repo settings
+2. ✅ [HUMAN] Enable GitHub Pages (Actions source); smoke on phone — scope: repo settings
 
 ### Waiting on a person
 
-1. 🔲 [HUMAN] Push first remote + enable Pages when ready
+1. ✅ [HUMAN] Push first remote + enable Pages when ready
 
 ### Open PRs (synced)
 
