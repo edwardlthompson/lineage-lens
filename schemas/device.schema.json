@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://edwardlthompson.github.io/lineage-lens/schemas/device.schema.json",
+  "title": "LineageLensDevicesFile",
+  "type": "object",
+  "required": ["generated_at", "device_count", "enriched_count", "devices"],
+  "additionalProperties": false,
+  "properties": {
+    "generated_at": { "type": "string", "format": "date-time" },
+    "source_wiki_ref": { "type": ["string", "null"] },
+    "device_count": { "type": "integer", "minimum": 0 },
+    "enriched_count": { "type": "integer", "minimum": 0 },
+    "devices": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/device" }
+    }
+  },
+  "$defs": {
+    "cameraModule": {
+      "type": "object",
+      "required": ["type"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["main", "wide", "ultrawide", "telephoto", "macro", "depth", "front", "other"]
+        },
+        "mp": { "type": ["number", "null"] },
+        "sensor_model": { "type": ["string", "null"] },
+        "optical_format": { "type": ["string", "null"] },
+        "sensor_size_mm": { "type": ["number", "null"] },
+        "pixel_pitch_um": { "type": ["number", "null"] },
+        "focal_length_mm": { "type": ["number", "null"] },
+        "aperture": { "type": ["number", "null"] },
+        "fov_deg": { "type": ["number", "null"] },
+        "ois": { "type": ["boolean", "null"] },
+        "flash": { "type": ["string", "null"] },
+        "zoom": { "type": ["number", "null"] },
+        "info": { "type": ["string", "null"] }
+      }
+    },
+    "device": {
+      "type": "object",
+      "required": [
+        "id",
+        "codename",
+        "vendor",
+        "name",
+        "models",
+        "type",
+        "versions",
+        "maintainers",
+        "status",
+        "cameras",
+        "aggregates",
+        "scores",
+        "provenance"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "codename": { "type": "string", "minLength": 1 },
+        "variant": { "type": ["integer", "null"] },
+        "vendor": { "type": "string" },
+        "name": { "type": "string" },
+        "models": { "type": "array", "items": { "type": "string" } },
+        "type": { "type": "string" },
+        "release_date": { "type": ["string", "null"] },
+        "release_year": { "type": ["integer", "null"] },
+        "image": { "type": ["string", "null"] },
+        "versions": { "type": "array", "items": { "type": "string" } },
+        "current_branch": { "type": ["string", "null"] },
+        "maintainers": { "type": "array", "items": { "type": "string" } },
+        "first_supported_date": { "type": ["string", "null"] },
+        "status": {
+          "type": "string",
+          "enum": ["current", "discontinued", "experimental", "unknown"]
+        },
+        "wiki_url": { "type": ["string", "null"] },
+        "download_url": { "type": ["string", "null"] },
+        "soc": { "type": ["string", "null"] },
+        "cpu": { "type": ["string", "null"] },
+        "cpu_cores": { "type": ["string", "null"] },
+        "cpu_freq": { "type": ["string", "null"] },
+        "gpu": { "type": ["string", "null"] },
+        "ram": { "type": ["string", "null"] },
+        "storage": { "type": ["string", "null"] },
+        "screen": { "type": ["object", "null"] },
+        "battery": { "type": ["object", "null"] },
+        "dimensions": { "type": ["object", "null"] },
+        "network": { "type": ["array", "null"], "items": { "type": "string" } },
+        "wifi": { "type": ["string", "null"] },
+        "bluetooth": { "type": ["string", "null"] },
+        "peripherals": { "type": ["array", "null"], "items": { "type": "string" } },
+        "architecture": { "type": ["string", "null"] },
+        "waterproofing": { "type": ["string", "null"] },
+        "cameras": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/cameraModule" }
+        },
+        "video": { "type": ["object", "null"] },
+        "aggregates": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "main_sensor_size": { "type": ["number", "null"] },
+            "main_optical_format": { "type": ["string", "null"] },
+            "main_pixel_pitch": { "type": ["number", "null"] },
+            "has_ois_main": { "type": ["boolean", "null"] },
+            "has_telephoto": { "type": ["boolean", "null"] },
+            "max_optical_zoom": { "type": ["number", "null"] },
+            "camera_module_count": { "type": ["number", "null"] },
+            "combined_mp": { "type": ["number", "null"] }
+          }
+        },
+        "scores": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "camera_score": { "type": ["number", "null"] },
+            "longevity_score": { "type": ["number", "null"] },
+            "worth_buying_score": { "type": ["number", "null"] }
+          }
+        },
+        "provenance": {
+          "type": "object",
+          "required": ["data_sources", "quality", "last_updated"],
+          "additionalProperties": false,
+          "properties": {
+            "data_sources": { "type": "array", "items": { "type": "string" } },
+            "quality": {
+              "type": "string",
+              "enum": ["enriched", "wiki_only", "partial"]
+            },
+            "last_updated": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}
