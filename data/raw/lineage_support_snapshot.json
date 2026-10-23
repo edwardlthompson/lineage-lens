@@ -1,0 +1,8447 @@
+{
+  "scanned_at": "2026-10-23T01:12:19Z",
+  "source": "LineageOS/lineage_wiki _data/devices/*.yml",
+  "method": {
+    "currently_supported": "non-empty maintainers AND current_branch set",
+    "current_branch": "active LineageOS version line for official builds",
+    "versions": "historical official version list on that device YAML (not only current)",
+    "row_vs_codename": "YAML rows may include variants of the same codename"
+  },
+  "totals": {
+    "yaml_files": 767,
+    "parsed_rows": 767,
+    "rows_currently_supported": 443,
+    "rows_not_currently_supported": 324,
+    "unique_codenames_all": 634,
+    "unique_codenames_currently_supported": 344,
+    "yaml_parse_errors": 0,
+    "edge_no_maintainer_but_branch": 324,
+    "edge_maintainer_but_no_branch": 0
+  },
+  "currently_supported_by_branch": {
+    "24.0": 227,
+    "23.2": 76,
+    "22.2": 140
+  },
+  "versions_listed_on_currently_supported_devices": {
+    "24.0": 227,
+    "23.2": 275,
+    "23.0": 203,
+    "22.2": 351,
+    "22.1": 258,
+    "21": 270,
+    "20": 227,
+    "19.1": 149,
+    "18.1": 133,
+    "17.1": 82,
+    "16.0": 33,
+    "15.1": 20,
+    "14.1": 20
+  },
+  "currently_supported_by_type": {
+    "phone": 365,
+    "tablet": 22,
+    "Devkit": 16,
+    "Handheld game console": 16,
+    "Set top box": 15,
+    "foldable": 5,
+    "TV": 2,
+    "phone (slider)": 2
+  },
+  "currently_supported_top_vendors": {
+    "Xiaomi": 102,
+    "Motorola": 61,
+    "OnePlus": 50,
+    "Samsung": 41,
+    "Google": 40,
+    "LG": 30,
+    "Sony": 21,
+    "NVIDIA": 13,
+    "Nubia": 9,
+    "Nintendo": 8,
+    "Realme": 7,
+    "Lenovo": 7,
+    "AYN": 6,
+    "Fairphone": 5,
+    "Razer": 4,
+    "Radxa": 4,
+    "SHIFT": 3,
+    "Nokia": 3,
+    "ASUS": 3,
+    "Vsmart": 2
+  },
+  "currently_supported_devices": [
+    {
+      "vendor": "ASUS",
+      "name": "ZenFone 8",
+      "codename": "sake",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "DD3Boh",
+        "mikooomich"
+      ]
+    },
+    {
+      "vendor": "ASUS",
+      "name": "Zenfone Max Pro M1",
+      "codename": "X00TD",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "15.1",
+        "16.0",
+        "18.1",
+        "19.1",
+        "20",
+        "24.0"
+      ],
+      "maintainers": [
+        "Vivekachooz"
+      ]
+    },
+    {
+      "vendor": "AYN",
+      "name": "Odin 2",
+      "codename": "odin2",
+      "variant": null,
+      "type": "Handheld game console",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "AnierinBliss",
+        "djchittoor",
+        "onelots"
+      ]
+    },
+    {
+      "vendor": "AYN",
+      "name": "Odin 3",
+      "codename": "odin3",
+      "variant": null,
+      "type": "Handheld game console",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "AnierinBliss",
+        "Tuan Anh",
+        "balika011",
+        "djchittoor",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "AYN",
+      "name": "Odin2 Portal",
+      "codename": "odin2portal",
+      "variant": null,
+      "type": "Handheld game console",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "AnierinBliss",
+        "balika011",
+        "bgcngm"
+      ]
+    },
+    {
+      "vendor": "AYN",
+      "name": "Thor",
+      "codename": "odin2thor",
+      "variant": null,
+      "type": "Handheld game console",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "AnierinBliss",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Amazon",
+      "name": "Fire Max 11",
+      "codename": "sunstone",
+      "variant": null,
+      "type": "tablet",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "R0rt1z2"
+      ]
+    },
+    {
+      "vendor": "DroidLogic",
+      "name": "ADT-4/4+/4 (Low Ram)",
+      "codename": "ohm",
+      "variant": 2,
+      "type": "Set top box",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "DroidLogic",
+      "name": "Developer Kit (S905X4-B/K)",
+      "codename": "ohm",
+      "variant": 1,
+      "type": "Set top box",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "F(x)tec",
+      "name": "Pro¹ X",
+      "codename": "pro1x",
+      "variant": null,
+      "type": "phone (slider)",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "BadDaemon",
+        "bgcngm",
+        "mccreary",
+        "npjohnson",
+        "qsnc",
+        "tdm"
+      ]
+    },
+    {
+      "vendor": "Fairphone",
+      "name": "4",
+      "codename": "FP4",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Fairphone",
+      "name": "5",
+      "codename": "FP5",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 10",
+      "codename": "frankel",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 10 Pro",
+      "codename": "blazer",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 10 Pro Fold",
+      "codename": "rango",
+      "variant": null,
+      "type": "foldable",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 10 Pro XL",
+      "codename": "mustang",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 10a",
+      "codename": "stallion",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 4",
+      "codename": "flame",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 4 XL",
+      "codename": "coral",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 4a",
+      "codename": "sunfish",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 4a 5G",
+      "codename": "bramble",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 5",
+      "codename": "redfin",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 5a",
+      "codename": "barbet",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 6",
+      "codename": "oriole",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 6 Pro",
+      "codename": "raven",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 6a",
+      "codename": "bluejay",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 7",
+      "codename": "panther",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 7 Pro",
+      "codename": "cheetah",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 7a",
+      "codename": "lynx",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "niclimcy"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 8",
+      "codename": "shiba",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 8 Pro",
+      "codename": "husky",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 8a",
+      "codename": "akita",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 9",
+      "codename": "tokay",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 9 Pro",
+      "codename": "caiman",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 9 Pro Fold",
+      "codename": "comet",
+      "variant": null,
+      "type": "foldable",
+      "current_branch": "24.0",
+      "versions": [
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 9 Pro XL",
+      "codename": "komodo",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 9a",
+      "codename": "tegu",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel Fold",
+      "codename": "felix",
+      "variant": null,
+      "type": "foldable",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel Tablet",
+      "codename": "tangorpro",
+      "variant": null,
+      "type": "tablet",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "mikeioannina",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Lenovo",
+      "name": "K12",
+      "codename": "guam",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Rajin Gangadharan (GRajin)",
+        "Deivid Ignacio Parra (Deivid21)"
+      ]
+    },
+    {
+      "vendor": "Lenovo",
+      "name": "K12 Note",
+      "codename": "guamp",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "DelightReza",
+        "Deivid Ignacio Parra (Deivid21)"
+      ]
+    },
+    {
+      "vendor": "Lenovo",
+      "name": "K12 Pro",
+      "codename": "cebu",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Deivid Ignacio Parra (Deivid21)"
+      ]
+    },
+    {
+      "vendor": "Lenovo",
+      "name": "K13 Note",
+      "codename": "capri",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Deivid Ignacio Parra (Deivid21)",
+        "Sultanahamer"
+      ]
+    },
+    {
+      "vendor": "Lenovo",
+      "name": "K13 Pro",
+      "codename": "caprip",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "Deivid Ignacio Parra (Deivid21)"
+      ]
+    },
+    {
+      "vendor": "Lenovo",
+      "name": "Z5 Pro GT",
+      "codename": "heart",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "themard",
+        "optionaltoast"
+      ]
+    },
+    {
+      "vendor": "Lenovo",
+      "name": "Z6 Pro",
+      "codename": "zippo",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Lucchetto",
+        "themard",
+        "einargednochsson"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "Edge S30",
+      "codename": "xpeng",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "themard"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "ThinkPhone by motorola",
+      "codename": "bronco",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.1",
+        "22.2",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "demon000",
+        "elginsk8r"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "defy 2021",
+      "codename": "bathena",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Deivid Ignacio Parra (Deivid21)",
+        "Francisco Sanchez (Fraaxius)"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "edge 20",
+      "codename": "berlin",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "SGCMarkus"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "edge 20 pro",
+      "codename": "pstar",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "SGCMarkus"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "edge 2021",
+      "codename": "berlna",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "SyberHexen"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "edge 2024",
+      "codename": "avatrn",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "elginsk8r"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "edge 30",
+      "codename": "dubai",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "themard",
+        "sb6596",
+        "Demon000"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "edge 30 fusion",
+      "codename": "tundra",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "themard",
+        "electimon",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "edge 30 neo",
+      "codename": "miami",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "marcost2"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "edge 40 pro",
+      "codename": "rtwo",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "sgcmarkus",
+        "themard"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "edge s",
+      "codename": "nio",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "dianlujitao"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "edge+ (2023)",
+      "codename": "rtwo",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "sgcmarkus",
+        "themard"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto S30 Pro",
+      "codename": "tundra",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "themard",
+        "electimon",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto X40",
+      "codename": "rtwo",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "sgcmarkus",
+        "themard"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto e7 plus",
+      "codename": "guam",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Rajin Gangadharan (GRajin)",
+        "Deivid Ignacio Parra (Deivid21)"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g 5G - 2024",
+      "codename": "fogo",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g play (2021)",
+      "codename": "guamna",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "Deivid Ignacio Parra (Deivid21)"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g power 2021",
+      "codename": "borneo",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Syed Fawwaz Hussain (Fazwalrus)",
+        "Deivid Ignacio Parra (Deivid21)"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g pure",
+      "codename": "ellis",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "bengris32"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g stylus 5G",
+      "codename": "denver",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Vivekachooz"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g stylus 5G (2022)",
+      "codename": "milanf",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "AnierinBliss"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g stylus 5G (2023)",
+      "codename": "genevn",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "elginsk8r",
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g05",
+      "codename": "lamu",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "R0rt1z2",
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g10",
+      "codename": "capri",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Deivid Ignacio Parra (Deivid21)",
+        "Sultanahamer"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g10 power",
+      "codename": "capri",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Deivid Ignacio Parra (Deivid21)",
+        "Sultanahamer"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g100",
+      "codename": "nio",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "dianlujitao"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g15",
+      "codename": "lamu",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "R0rt1z2",
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g15 power",
+      "codename": "lamu",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "R0rt1z2",
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g200 5G",
+      "codename": "xpeng",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "themard"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g30",
+      "codename": "caprip",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "Deivid Ignacio Parra (Deivid21)"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g32",
+      "codename": "devon",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Dhina17",
+        "mikeioannina",
+        "Deivid Ignacio Parra (Deivid21)"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g34 5G",
+      "codename": "fogos",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g42",
+      "codename": "hawao",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Dhina17",
+        "mikeioannina",
+        "Deivid Ignacio Parra (Deivid21)"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g45 5G",
+      "codename": "fogos",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g50",
+      "codename": "ibiza",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Onelots"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g52",
+      "codename": "rhode",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Dhina17",
+        "mikeioannina",
+        "tomoms",
+        "Deivid Ignacio Parra (Deivid21)"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g82 5G",
+      "codename": "rhodep",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "AnandSuresh02",
+        "sevenrock"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g84 5G",
+      "codename": "bangkk",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g9",
+      "codename": "guamp",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "DelightReza",
+        "Deivid Ignacio Parra (Deivid21)"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g9 play",
+      "codename": "guamp",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "DelightReza",
+        "Deivid Ignacio Parra (Deivid21)"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g9 power",
+      "codename": "cebu",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Deivid Ignacio Parra (Deivid21)"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "one action",
+      "codename": "troika",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Stricted",
+        "npjohnson",
+        "DaemonMCR"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "one vision",
+      "codename": "kane",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Stricted",
+        "npjohnson",
+        "DaemonMCR"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "p50",
+      "codename": "kane",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Stricted",
+        "npjohnson",
+        "DaemonMCR"
+      ]
+    },
+    {
+      "vendor": "Nothing",
+      "name": "Phone (1)",
+      "codename": "Spacewar",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "zlewchan",
+        "ko_ko_konb"
+      ]
+    },
+    {
+      "vendor": "Nubia",
+      "name": "Mini 5G",
+      "codename": "TP1803",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "ArianK16a",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "OSOM",
+      "name": "OV1",
+      "codename": "pyrite",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "11 5G",
+      "codename": "salami",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "bgcngm"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "12R",
+      "codename": "aston",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "inferno0230"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "13",
+      "codename": "dodge",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "bgcngm",
+        "chandu078",
+        "dianlujitao",
+        "ItsVixano"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "15",
+      "codename": "infiniti",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "chandu078"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "15T",
+      "codename": "fairlady",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "7",
+      "codename": "guacamoleb",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "shantanu-sarkar"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "7 Pro",
+      "codename": "guacamole",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "elginsk8r"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "7 Pro (T-Mobile)",
+      "codename": "guacamole",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "elginsk8r"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "7T",
+      "codename": "hotdogb",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "Onelots"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "7T (T-Mobile)",
+      "codename": "hotdogb",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "Onelots"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "7T Pro",
+      "codename": "hotdog",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "qsnc"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "8",
+      "codename": "instantnoodle",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "jabashque"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "8 (T-Mobile)",
+      "codename": "instantnoodle",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "jabashque"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "8 Pro",
+      "codename": "instantnoodlep",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "8T",
+      "codename": "kebab",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "8T (T-Mobile)",
+      "codename": "kebab",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "9",
+      "codename": "lemonade",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "tangalbert919",
+        "ZVNexus"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "9 (T-Mobile)",
+      "codename": "lemonade",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "tangalbert919",
+        "ZVNexus"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "9 Pro",
+      "codename": "lemonadep",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "bgcngm",
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "9 Pro (T-Mobile)",
+      "codename": "lemonadep",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "bgcngm",
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "9R",
+      "codename": "lemonades",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "DaemonMCR",
+        "Tuan Anh"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "9RT",
+      "codename": "martini",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "basamaryan"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Ace 3",
+      "codename": "astonc",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "inferno0230"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Ace 5 Pro",
+      "codename": "hummer",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "awa-xaga"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Nord CE 2 Lite 5G",
+      "codename": "oscaro",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Vivekachooz"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Nord CE 3 Lite 5G",
+      "codename": "larry",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Vivekachooz"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Nord CE4",
+      "codename": "benz",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "inferno0230"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Nord N10",
+      "codename": "billie",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "24.0"
+      ],
+      "maintainers": [
+        "danascape"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Nord N200",
+      "codename": "dre",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "tangalbert919",
+        "elginsk8r"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Nord N30 5G",
+      "codename": "larry",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Vivekachooz"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Open",
+      "codename": "xueying",
+      "variant": null,
+      "type": "foldable",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "bgcngm"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Pad 2 Pro",
+      "codename": "erhai",
+      "variant": 1,
+      "type": "tablet",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "bgcngm"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Pad 3",
+      "codename": "erhai",
+      "variant": 2,
+      "type": "tablet",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "bgcngm"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Pad 3 Pro",
+      "codename": "iceland",
+      "variant": 1,
+      "type": "tablet",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "StudioKeys"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Pad 4",
+      "codename": "iceland",
+      "variant": 2,
+      "type": "tablet",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "StudioKeys"
+      ]
+    },
+    {
+      "vendor": "Razer",
+      "name": "Edge 5G",
+      "codename": "nicole",
+      "variant": 1,
+      "type": "tablet",
+      "current_branch": "24.0",
+      "versions": [
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "AnierinBliss",
+        "balika011",
+        "mikeioannina",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Razer",
+      "name": "Edge WiFi",
+      "codename": "nicole",
+      "variant": 2,
+      "type": "tablet",
+      "current_branch": "24.0",
+      "versions": [
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "AnierinBliss",
+        "balika011",
+        "mikeioannina",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Realme",
+      "name": "10 Pro 5G",
+      "codename": "luigi",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Vivekachooz"
+      ]
+    },
+    {
+      "vendor": "Realme",
+      "name": "9 5G",
+      "codename": "oscarru",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "Vivekachooz"
+      ]
+    },
+    {
+      "vendor": "Realme",
+      "name": "9 Pro 5G",
+      "codename": "oscar",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Vivekachooz"
+      ]
+    },
+    {
+      "vendor": "Realme",
+      "name": "GT7 Pro",
+      "codename": "pista",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "kmiit"
+      ]
+    },
+    {
+      "vendor": "Realme",
+      "name": "GT7 Pro Racing Edition",
+      "codename": "piloti",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "ItsVixano"
+      ]
+    },
+    {
+      "vendor": "Realme",
+      "name": "Q5",
+      "codename": "oscarc",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "Vivekachooz"
+      ]
+    },
+    {
+      "vendor": "Retroid Pocket",
+      "name": "6",
+      "codename": "RP6",
+      "variant": null,
+      "type": "Handheld game console",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "AnierinBliss"
+      ]
+    },
+    {
+      "vendor": "Retroid Pocket",
+      "name": "Retroid Pocket Nova",
+      "codename": "RPN",
+      "variant": null,
+      "type": "Handheld game console",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "AnierinBliss"
+      ]
+    },
+    {
+      "vendor": "SDMC",
+      "name": "DV9135",
+      "codename": "tifa",
+      "variant": null,
+      "type": "Set top box",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "Tuan Anh"
+      ]
+    },
+    {
+      "vendor": "SHIFT",
+      "name": "SHIFTphone 8.0",
+      "codename": "otter",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "amartinz",
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "SHIFT",
+      "name": "SHIFTphone 8.1",
+      "codename": "otter",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "amartinz",
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy A21s",
+      "codename": "a21s",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "DaemonMCR"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy A52 4G",
+      "codename": "a52q",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Simon1511"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy A52s 5G",
+      "codename": "a52sxq",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Simon1511"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy A72",
+      "codename": "a72q",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Simon1511"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy A73 5G",
+      "codename": "a73xq",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Simon1511"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy M52 5G",
+      "codename": "m52xq",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Simon1511"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Note20 (4G/5G)",
+      "codename": "c1s",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "CmdCtrlDevic3"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Note20 Ultra (4G/5G)",
+      "codename": "c2s",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "CmdCtrlDevic3"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy S20 (4G/5G)",
+      "codename": "x1s",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "ExtremeXT",
+        "fcuzzocrea"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy S20 FE (Exynos)",
+      "codename": "r8s",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "CmdCtrlDevic3"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy S20 Ultra (5G)",
+      "codename": "z3s",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "ExtremeXT",
+        "fcuzzocrea"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy S20+ (4G/5G)",
+      "codename": "y2s",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "ExtremeXT",
+        "fcuzzocrea"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy S22",
+      "codename": "r0s",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "ExtremeXT"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy S22 Ultra",
+      "codename": "b0s",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "ExtremeXT"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy S22+",
+      "codename": "g0s",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "ExtremeXT"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy S23",
+      "codename": "dm1q",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "DaemonMCR",
+        "josip-k",
+        "krazey"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Tab A7 10.4 2020 (LTE)",
+      "codename": "gta4l",
+      "variant": null,
+      "type": "tablet",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "chrmhoffmann"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Tab A7 10.4 2020 (Wi-Fi)",
+      "codename": "gta4lwifi",
+      "variant": null,
+      "type": "tablet",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "chrmhoffmann"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Tab S7 (LTE)",
+      "codename": "gts7l",
+      "variant": null,
+      "type": "tablet",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "bgcngm"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Tab S7 (Wi-Fi)",
+      "codename": "gts7lwifi",
+      "variant": null,
+      "type": "tablet",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "bgcngm"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Tab S7+ (LTE/5G)",
+      "codename": "gts7xl",
+      "variant": null,
+      "type": "tablet",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "bgcngm",
+        "programminghoch10"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Tab S7+ (Wi-Fi)",
+      "codename": "gts7xlwifi",
+      "variant": null,
+      "type": "tablet",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "bgcngm"
+      ]
+    },
+    {
+      "vendor": "Solana",
+      "name": "Saga",
+      "codename": "ingot",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "npjohnson",
+        "tomoms"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia 1 II",
+      "codename": "pdx203",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "hellobbn"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia 1 III",
+      "codename": "pdx215",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "hellobbn"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia 1 IV",
+      "codename": "pdx223",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Tuan Anh"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia 1 V",
+      "codename": "pdx234",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "hellobbn"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia 1 VI",
+      "codename": "pdx245",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "BotchedRPR"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia 10",
+      "codename": "kirin",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia 10 IV",
+      "codename": "pdx225",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "jmpfbmx"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia 10 V",
+      "codename": "pdx235",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "jmpfbmx",
+        "LuK1337"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia 10 VII",
+      "codename": "pdx257",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "jmpfbmx"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia 5 II",
+      "codename": "pdx206",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "kyasu",
+        "hellobbn"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia 5 III",
+      "codename": "pdx214",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "kyasu",
+        "hellobbn"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia 5 IV",
+      "codename": "pdx224",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Tuan Anh",
+        "wolfhechel"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia 5 V",
+      "codename": "pdx237",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "kyasu",
+        "hellobbn"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia XA2",
+      "codename": "pioneer",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "jmpfbmx"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia XA2 Plus",
+      "codename": "voyager",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia XA2 Ultra",
+      "codename": "discovery",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "LuK1337"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "12",
+      "codename": "cupid",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Aelin",
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "12 Pro",
+      "codename": "zeus",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Aelin",
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "12S",
+      "codename": "mayfly",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Flower Sea"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "12S Pro",
+      "codename": "unicorn",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Aelin",
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "12S Ultra",
+      "codename": "thor",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Aelin",
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "12T Pro",
+      "codename": "diting",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Aelin",
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "13",
+      "codename": "fuxi",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "lolipuru"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "13 Pro",
+      "codename": "nuwa",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Minus"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "MIX Fold 2",
+      "codename": "zizhan",
+      "variant": null,
+      "type": "foldable",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Aelin",
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 10 Pro",
+      "codename": "cmi",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "luffitys"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 10 Ultra",
+      "codename": "cas",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "binbin323"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 10T",
+      "codename": "apollon",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Khalvat-M",
+        "Ramisky"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 10T Lite 5G",
+      "codename": "gauguin",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Penguin766",
+        "Lynnrin"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 10T Pro",
+      "codename": "apollon",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Khalvat-M",
+        "Ramisky"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 10i 5G",
+      "codename": "gauguin",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Penguin766",
+        "Lynnrin"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 11X",
+      "codename": "alioth",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "althafvly",
+        "chrmhoffmann"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi A3",
+      "codename": "laurel_sprout",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Skyblueborb",
+        "Onelots"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO C55",
+      "codename": "earth",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO F3",
+      "codename": "alioth",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "althafvly",
+        "chrmhoffmann"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO F5 (Global)",
+      "codename": "marble",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Aelin",
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO F5 (India)",
+      "codename": "marble",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Aelin",
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO F5 Pro",
+      "codename": "mondrian",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Aelin",
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO F6 Pro",
+      "codename": "vermeer",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Lunark"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO M5s",
+      "codename": "rosemary",
+      "variant": 4,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO X4 GT",
+      "codename": "xaga",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "ChrisCatto",
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi 12C",
+      "codename": "earth",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi 12C NFC",
+      "codename": "earth",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi 9",
+      "codename": "lancelot",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi K30S Ultra",
+      "codename": "apollon",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Khalvat-M",
+        "Ramisky"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi K40",
+      "codename": "alioth",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "althafvly",
+        "chrmhoffmann"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi K50 Ultra",
+      "codename": "diting",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Aelin",
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi K50i",
+      "codename": "xaga",
+      "variant": 4,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "ChrisCatto",
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi K60",
+      "codename": "mondrian",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Aelin",
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi K60 Pro",
+      "codename": "socrates",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "WenHao2130"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi K70",
+      "codename": "vermeer",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Lunark"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 10S",
+      "codename": "rosemary",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 10S Latin America",
+      "codename": "rosemary",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 10S NFC",
+      "codename": "rosemary",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 11T Pro",
+      "codename": "xaga",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "ChrisCatto",
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 11T Pro+",
+      "codename": "xaga",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "24.0"
+      ],
+      "maintainers": [
+        "ChrisCatto",
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 12 Turbo",
+      "codename": "marble",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Aelin",
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 8",
+      "codename": "ginkgo",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "17.1",
+        "18.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Skyblueborb",
+        "mikeioannina",
+        "programminghoch10"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 8T",
+      "codename": "ginkgo",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "17.1",
+        "18.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Skyblueborb",
+        "mikeioannina",
+        "programminghoch10"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 9",
+      "codename": "merlinx",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "20",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "surblazer"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 9 Pro 5G",
+      "codename": "gauguin",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "Penguin766",
+        "Lynnrin"
+      ]
+    },
+    {
+      "vendor": "Zinwa",
+      "name": "Q25 Pro",
+      "codename": "Q25",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "24.0",
+      "versions": [
+        "23.2",
+        "24.0"
+      ],
+      "maintainers": [
+        "electimon",
+        "basamaryan",
+        "npjohnson",
+        "Androbots",
+        "niclimcy"
+      ]
+    },
+    {
+      "vendor": "Fairphone",
+      "name": "The Fairphone (Gen. 6)",
+      "codename": "FP6",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.2"
+      ],
+      "maintainers": [
+        "ArianK16a",
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "V60 ThinQ",
+      "codename": "timelm",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "pnguyen879"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "Velvet 5G",
+      "codename": "caymanlm",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.2"
+      ],
+      "maintainers": [
+        "lifehackerhansol",
+        "Simex"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "Wing",
+      "codename": "winglm",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.2"
+      ],
+      "maintainers": [
+        "Simex"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "edge",
+      "codename": "racer",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "23.2"
+      ],
+      "maintainers": [
+        "ItsVixano"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "edge 30 ultra",
+      "codename": "eqs",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "demon000",
+        "Tomoms"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g 5G",
+      "codename": "kiev",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "basamaryan",
+        "SyberHexen",
+        "Vivekachooz"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g 5G plus",
+      "codename": "nairo",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "ItsVixano",
+        "Ivanmeler",
+        "SyberHexen",
+        "zlewchan"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto one 5G",
+      "codename": "nairo",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "ItsVixano",
+        "Ivanmeler",
+        "SyberHexen",
+        "zlewchan"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto one 5G ace",
+      "codename": "kiev",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "basamaryan",
+        "SyberHexen",
+        "Vivekachooz"
+      ]
+    },
+    {
+      "vendor": "Nothing",
+      "name": "Phone (2)",
+      "codename": "Pong",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "chandu078"
+      ]
+    },
+    {
+      "vendor": "Nubia",
+      "name": "Red Magic 5G (China)",
+      "codename": "nx659j",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "20",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "zlewchan"
+      ]
+    },
+    {
+      "vendor": "Nubia",
+      "name": "Red Magic 5G (Global)",
+      "codename": "nx659j",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "20",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "zlewchan"
+      ]
+    },
+    {
+      "vendor": "Nubia",
+      "name": "Red Magic 5S (China)",
+      "codename": "nx659j",
+      "variant": 4,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "20",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "zlewchan"
+      ]
+    },
+    {
+      "vendor": "Nubia",
+      "name": "Red Magic 5S (Global)",
+      "codename": "nx659j",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "20",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "zlewchan"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "12",
+      "codename": "waffle",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "chandu078"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "13R",
+      "codename": "giulia",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "chandu078",
+        "madmax"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Ace 3 Pro",
+      "codename": "corvette",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "chandu078",
+        "LucasBlackLu"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Ace 3V",
+      "codename": "audi",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "anky894"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Ace 5",
+      "codename": "giuliac",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "chandu078",
+        "madmax"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Nord 4",
+      "codename": "avalon",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "anky894"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Nord 5",
+      "codename": "lexus",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "grepfox"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Nord N20",
+      "codename": "gunnar",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "tangalbert919"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Pad 2",
+      "codename": "caihong",
+      "variant": 2,
+      "type": "tablet",
+      "current_branch": "23.2",
+      "versions": [
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "inferno0230"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "Pad Pro",
+      "codename": "caihong",
+      "variant": 1,
+      "type": "tablet",
+      "current_branch": "23.2",
+      "versions": [
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "inferno0230"
+      ]
+    },
+    {
+      "vendor": "Realme",
+      "name": "GT Neo6",
+      "codename": "bale",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.2"
+      ],
+      "maintainers": [
+        "MisterZtr"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy A71",
+      "codename": "a71",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "Haky86"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy F62",
+      "codename": "f62",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "Linux4"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy M62",
+      "codename": "f62",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "Linux4"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Note10",
+      "codename": "d1",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "Linux4"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Note10 5G",
+      "codename": "d1x",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "Rocky7842",
+        "Linux4"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Note10+",
+      "codename": "d2s",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "Linux4"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Note10+ 5G",
+      "codename": "d2x",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "Linux4"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy S10",
+      "codename": "beyond1lte",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "Linux4"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy S10 5G",
+      "codename": "beyondx",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "Linux4"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy S10+",
+      "codename": "beyond2lte",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "Linux4"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy S10e",
+      "codename": "beyond0lte",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "Linux4"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy S20 FE (Snapdragon)",
+      "codename": "r8q",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "ata-kaner"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy S20 FE 5G",
+      "codename": "r8q",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "ata-kaner"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Tab S6 Lite (LTE)",
+      "codename": "gta4xl",
+      "variant": null,
+      "type": "tablet",
+      "current_branch": "23.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "haggertk",
+        "Linux4"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Tab S6 Lite (Wi-Fi)",
+      "codename": "gta4xlwifi",
+      "variant": null,
+      "type": "tablet",
+      "current_branch": "23.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "Linux4",
+        "haggertk"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Tab S6 Lite 2024 (Wi-Fi)",
+      "codename": "gta4xlswifi",
+      "variant": null,
+      "type": "tablet",
+      "current_branch": "23.2",
+      "versions": [
+        "23.2"
+      ],
+      "maintainers": [
+        "Linux4"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia 10 Plus",
+      "codename": "mermaid",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "LuK1337"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "11 Lite 5G NE",
+      "codename": "lisa",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "ItsVixano"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "11 Lite NE 5G",
+      "codename": "lisa",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "ItsVixano"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 10",
+      "codename": "umi",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "0xCAFEBABE",
+        "przekichane"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 10S",
+      "codename": "thyme",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "Alcatraz323",
+        "Flicker372"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 11",
+      "codename": "venus",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.2"
+      ],
+      "maintainers": [
+        "ItsVixano"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 11 LE",
+      "codename": "lisa",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "ItsVixano"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 11 Lite 5G",
+      "codename": "renoir",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 11 Pro",
+      "codename": "mars",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "23.2"
+      ],
+      "maintainers": [
+        "WilliamSado"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 11X Pro",
+      "codename": "haydn",
+      "variant": 4,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "adarshgrewal"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 11i",
+      "codename": "haydn",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "adarshgrewal"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 9T",
+      "codename": "davinci",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "17.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi CC9 Pro",
+      "codename": "tucana",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "SanyaPilot"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi Note 10",
+      "codename": "tucana",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "SanyaPilot"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi Note 10 Pro",
+      "codename": "tucana",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "SanyaPilot"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO F2 Pro",
+      "codename": "lmi",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "SebaUbuntu"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO F4",
+      "codename": "munch",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "SebaUbuntu"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO F6",
+      "codename": "peridot",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.2"
+      ],
+      "maintainers": [
+        "adarshgrewal"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO X6 5G",
+      "codename": "garnet",
+      "variant": 4,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "adarshgrewal"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO X6 5G (India)",
+      "codename": "garnet",
+      "variant": 5,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "adarshgrewal"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi K20 (China)",
+      "codename": "davinci",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "17.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi K20 (India)",
+      "codename": "davinci",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "17.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "ArianK16a"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi K30 Pro",
+      "codename": "lmi",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "SebaUbuntu"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi K40 Pro",
+      "codename": "haydn",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "adarshgrewal"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi K40 Pro+",
+      "codename": "haydn",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "adarshgrewal"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi K40S",
+      "codename": "munch",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "maintainers": [
+        "SebaUbuntu"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 10 Pro",
+      "codename": "sweet",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "basamaryan",
+        "danielml3"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 10 Pro (India)",
+      "codename": "sweet",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "basamaryan",
+        "danielml3"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 10 Pro Max (India)",
+      "codename": "sweet",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "basamaryan",
+        "danielml3"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 13 Pro 5G",
+      "codename": "garnet",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "adarshgrewal"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 13 Pro 5G (China)",
+      "codename": "garnet",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "adarshgrewal"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 13 Pro 5G (India)",
+      "codename": "garnet",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "adarshgrewal"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 7 Pro",
+      "codename": "violet",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "16.0",
+        "20",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "maintainers": [
+        "0xCAFEBABE"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Turbo 3",
+      "codename": "peridot",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "23.2",
+      "versions": [
+        "23.2"
+      ],
+      "maintainers": [
+        "adarshgrewal"
+      ]
+    },
+    {
+      "vendor": "ASUS",
+      "name": "Zenfone 5Z (ZS620KL)",
+      "codename": "Z01R",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "ThEMarD"
+      ]
+    },
+    {
+      "vendor": "AYN",
+      "name": "Odin (M0)",
+      "codename": "odin_m0",
+      "variant": null,
+      "type": "Handheld game console",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "rtx4d"
+      ]
+    },
+    {
+      "vendor": "AYN",
+      "name": "Odin (M2)",
+      "codename": "odin_m2",
+      "variant": null,
+      "type": "Handheld game console",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "rtx4d"
+      ]
+    },
+    {
+      "vendor": "Banana Pi",
+      "name": "M5 (S905X3, eMMC Only) [Android TV]",
+      "codename": "m5",
+      "variant": null,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bumerc",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Banana Pi",
+      "name": "M5 (S905X3, eMMC Only) [Tablet]",
+      "codename": "m5_tab",
+      "variant": null,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bumerc",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Dynalink",
+      "name": "TV Box 4K (2021)",
+      "codename": "wade",
+      "variant": null,
+      "type": "Set top box",
+      "current_branch": "22.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "chrmhoffmann",
+        "npjohnson",
+        "luca020400",
+        "trautamaki"
+      ]
+    },
+    {
+      "vendor": "Essential",
+      "name": "PH-1",
+      "codename": "mata",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "haggertk",
+        "npjohnson",
+        "tomoms"
+      ]
+    },
+    {
+      "vendor": "F(x)tec",
+      "name": "Pro¹",
+      "codename": "pro1",
+      "variant": null,
+      "type": "phone (slider)",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "BadDaemon",
+        "bgcngm",
+        "intervigil",
+        "mccreary",
+        "npjohnson",
+        "tdm"
+      ]
+    },
+    {
+      "vendor": "Fairphone",
+      "name": "3",
+      "codename": "FP3",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "teamb58"
+      ]
+    },
+    {
+      "vendor": "Fairphone",
+      "name": "3+",
+      "codename": "FP3",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "teamb58"
+      ]
+    },
+    {
+      "vendor": "Freebox",
+      "name": "Pop / TV (Broadcom Wi-Fi/Bluetooth)",
+      "codename": "nicepool",
+      "variant": null,
+      "type": "Set top box",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "chrmhoffmann",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Freebox",
+      "name": "Pop / TV (Realtek Wi-Fi/Bluetooth)",
+      "codename": "nicepool_rtk",
+      "variant": null,
+      "type": "Set top box",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "chrmhoffmann",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "ADT-2",
+      "codename": "beast",
+      "variant": null,
+      "type": "Set top box",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "ADT-3",
+      "codename": "deadpool",
+      "variant": null,
+      "type": "Set top box",
+      "current_branch": "22.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bgcngm",
+        "npjohnson",
+        "stricted"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Chromecast with Google TV (4K)",
+      "codename": "sabrina",
+      "variant": null,
+      "type": "Set top box",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "stricted"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Jamboard [Android TV]",
+      "codename": "baracus",
+      "variant": null,
+      "type": "TV",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Jamboard [Tablet]",
+      "codename": "baracus_tab",
+      "variant": null,
+      "type": "TV",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel",
+      "codename": "sailfish",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "electimon"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 2",
+      "codename": "walleye",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "chrmhoffmann",
+        "Eamo5",
+        "npjohnson",
+        "jro1979"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 2 XL",
+      "codename": "taimen",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "chrmhoffmann",
+        "Eamo5",
+        "npjohnson",
+        "jro1979"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 3",
+      "codename": "blueline",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "razorloves"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 3 XL",
+      "codename": "crosshatch",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "razorloves"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 3a",
+      "codename": "sargo",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel 3a XL",
+      "codename": "bonito",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "name": "Pixel XL",
+      "codename": "marlin",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "electimon"
+      ]
+    },
+    {
+      "vendor": "HardKernel",
+      "name": "ODROID-C4 (S905X3, eMMC Only) [Android TV]",
+      "codename": "odroidc4",
+      "variant": null,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bgcngm",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "HardKernel",
+      "name": "ODROID-C4 (S905X3, eMMC Only) [Tablet]",
+      "codename": "odroidc4_tab",
+      "variant": null,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bgcngm",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "G5 (International)",
+      "codename": "h850",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "G5 (T-Mobile)",
+      "codename": "h830",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "G5 (US Unlocked)",
+      "codename": "rs988",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "15.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "G6 (Canada - ENG BL)",
+      "codename": "h873",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "G6 (EU Unlocked - ENG BL)",
+      "codename": "h870d",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "G6 (EU Unlocked)",
+      "codename": "h870",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "G6 (T-Mobile)",
+      "codename": "h872",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "G6 (US Unlocked)",
+      "codename": "us997",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "G7 ThinQ (G710AWM/EM/EMW)",
+      "codename": "judyln",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "lifehackerhansol"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "G7 ThinQ (G710N)",
+      "codename": "g710n",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "lifehackerhansol"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "G7 ThinQ (G710ULM/VMX)",
+      "codename": "g710ulm",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "lifehackerhansol"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "G7+ ThinQ",
+      "codename": "judyln",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "lifehackerhansol"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "Style3",
+      "codename": "style3lm",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "rtx4d"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "V20 (AT&T)",
+      "codename": "h910",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "V20 (GSM Unlocked - DirtySanta)",
+      "codename": "us996d",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "V20 (GSM Unlocked)",
+      "codename": "us996",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "V20 (Global)",
+      "codename": "h990",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "V20 (Sprint)",
+      "codename": "ls997",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "V20 (T-Mobile)",
+      "codename": "h918",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "V20 (Verizon)",
+      "codename": "vs995",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "Simex",
+        "basamaryan",
+        "Androbots",
+        "AShiningRay",
+        "ROMSG",
+        "Geel"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "V30 (Japan)",
+      "codename": "l01k",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "lifehackerhansol",
+        "SGCMarkus"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "V30 (Other)",
+      "codename": "joan",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "lifehackerhansol",
+        "SGCMarkus"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "V30 (T-Mobile)",
+      "codename": "joan",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "lifehackerhansol",
+        "SGCMarkus"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "V30 (Unlocked)",
+      "codename": "joan",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "lifehackerhansol",
+        "SGCMarkus"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "V35 ThinQ",
+      "codename": "judyp",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "Juleast"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "V40 ThinQ",
+      "codename": "judypn",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "Tuan Anh"
+      ]
+    },
+    {
+      "vendor": "LG",
+      "name": "Velvet 4G",
+      "codename": "caymanslm",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "rtx4d"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g6 plus",
+      "codename": "evert",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "jro1979"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g7",
+      "codename": "river",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "erfanoabdi",
+        "npjohnson",
+        "SyberHexen"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g7 play",
+      "codename": "channel",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "SyberHexen",
+        "deadman96385",
+        "erfanoabdi",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g7 plus",
+      "codename": "lake",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "jro1979",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto g7 power",
+      "codename": "ocean",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "SyberHexen",
+        "erfanoabdi",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto x4",
+      "codename": "payton",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "erfanoabdi",
+        "ThEMarD",
+        "electimon"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto z (2018)",
+      "codename": "nash",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "erfanoabdi",
+        "npjohnson",
+        "qsnc"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto z2 force",
+      "codename": "nash",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "erfanoabdi",
+        "npjohnson",
+        "qsnc"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto z3",
+      "codename": "messi",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Motorola",
+      "name": "moto z3 play",
+      "codename": "beckham",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "jro1979"
+      ]
+    },
+    {
+      "vendor": "NVIDIA",
+      "name": "Jetson Nano 2GB [Android TV]",
+      "codename": "porg",
+      "variant": 2,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "webgeek1234",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "NVIDIA",
+      "name": "Jetson Nano 2GB [Tablet]",
+      "codename": "porg_tab",
+      "variant": 2,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "webgeek1234",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "NVIDIA",
+      "name": "Jetson Nano [Android TV]",
+      "codename": "porg",
+      "variant": 1,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "webgeek1234",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "NVIDIA",
+      "name": "Jetson Nano [Tablet]",
+      "codename": "porg_tab",
+      "variant": 1,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "webgeek1234",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "NVIDIA",
+      "name": "Jetson TX1 [Android TV]",
+      "codename": "foster",
+      "variant": 2,
+      "type": "Set top box",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "15.1",
+        "17.1",
+        "18.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "webgeek1234",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "NVIDIA",
+      "name": "Jetson TX1 [Tablet]",
+      "codename": "foster_tab",
+      "variant": 2,
+      "type": "Set top box",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "15.1",
+        "17.1",
+        "18.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "webgeek1234",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "NVIDIA",
+      "name": "Jetson TX2 NX [Android TV]",
+      "codename": "quill",
+      "variant": 2,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "NVIDIA",
+      "name": "Jetson TX2 NX [Tablet]",
+      "codename": "quill_tab",
+      "variant": 2,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "NVIDIA",
+      "name": "Jetson TX2 [Android TV]",
+      "codename": "quill",
+      "variant": 1,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "NVIDIA",
+      "name": "Jetson TX2 [Tablet]",
+      "codename": "quill_tab",
+      "variant": 1,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "NVIDIA",
+      "name": "Shield TV (2015 / 2015 Pro / 2017 / 2019 Pro) [Android TV]",
+      "codename": "foster",
+      "variant": 1,
+      "type": "Set top box",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "15.1",
+        "17.1",
+        "18.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "webgeek1234",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "NVIDIA",
+      "name": "Shield TV (2015 / 2015 Pro / 2017 / 2019 Pro) [Tablet]",
+      "codename": "foster_tab",
+      "variant": 1,
+      "type": "Set top box",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "15.1",
+        "17.1",
+        "18.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "webgeek1234",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "NVIDIA",
+      "name": "Shield TV (2019) [Android TV]",
+      "codename": "sif",
+      "variant": null,
+      "type": "Set top box",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "webgeek1234",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Nintendo",
+      "name": "Switch Lite [Android TV]",
+      "codename": "nx",
+      "variant": 3,
+      "type": "Handheld game console",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "makinbacon",
+        "npjohnson",
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "Nintendo",
+      "name": "Switch Lite [Tablet]",
+      "codename": "nx_tab",
+      "variant": 3,
+      "type": "Handheld game console",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "makinbacon",
+        "npjohnson",
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "Nintendo",
+      "name": "Switch OLED [Android TV]",
+      "codename": "nx",
+      "variant": 4,
+      "type": "Handheld game console",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "makinbacon",
+        "npjohnson",
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "Nintendo",
+      "name": "Switch OLED [Tablet]",
+      "codename": "nx_tab",
+      "variant": 4,
+      "type": "Handheld game console",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "makinbacon",
+        "npjohnson",
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "Nintendo",
+      "name": "Switch v1 [Android TV]",
+      "codename": "nx",
+      "variant": 1,
+      "type": "Handheld game console",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "makinbacon",
+        "npjohnson",
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "Nintendo",
+      "name": "Switch v1 [Tablet]",
+      "codename": "nx_tab",
+      "variant": 1,
+      "type": "Handheld game console",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "makinbacon",
+        "npjohnson",
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "Nintendo",
+      "name": "Switch v2 [Android TV]",
+      "codename": "nx",
+      "variant": 2,
+      "type": "Handheld game console",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "makinbacon",
+        "npjohnson",
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "Nintendo",
+      "name": "Switch v2 [Tablet]",
+      "codename": "nx_tab",
+      "variant": 2,
+      "type": "Handheld game console",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "makinbacon",
+        "npjohnson",
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "Nokia",
+      "name": "6.1 (2018)",
+      "codename": "PL2",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Nokia",
+      "name": "7 plus",
+      "codename": "B2N",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "Tuan Anh"
+      ]
+    },
+    {
+      "vendor": "Nokia",
+      "name": "8",
+      "codename": "NB1",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "Tuan Anh"
+      ]
+    },
+    {
+      "vendor": "Nubia",
+      "name": "Red Magic Mars",
+      "codename": "nx619j",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "Cyborg2017",
+        "rtx4d"
+      ]
+    },
+    {
+      "vendor": "Nubia",
+      "name": "X",
+      "codename": "nx616j",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "rtx4d"
+      ]
+    },
+    {
+      "vendor": "Nubia",
+      "name": "Z17",
+      "codename": "nx563j",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "BeYkeRYkt"
+      ]
+    },
+    {
+      "vendor": "Nubia",
+      "name": "Z18",
+      "codename": "nx606j",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "Cyborg2017",
+        "rtx4d"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "5",
+      "codename": "cheeseburger",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "qsnc"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "5T",
+      "codename": "dumpling",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "qsnc"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "6",
+      "codename": "enchilada",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "LuK1337"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "6T",
+      "codename": "fajita",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "EdwinMoq"
+      ]
+    },
+    {
+      "vendor": "OnePlus",
+      "name": "6T (T-Mobile)",
+      "codename": "fajita",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "EdwinMoq"
+      ]
+    },
+    {
+      "vendor": "Radxa",
+      "name": "Zero (S905Y2, eMMC Only) [Android TV]",
+      "codename": "radxa0",
+      "variant": null,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bgcngm",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Radxa",
+      "name": "Zero (S905Y2, eMMC Only) [Tablet]",
+      "codename": "radxa0_tab",
+      "variant": null,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bgcngm",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Radxa",
+      "name": "Zero 2 (S905D3, eMMC Only) [Android TV]",
+      "codename": "radxa02",
+      "variant": null,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bgcngm",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Radxa",
+      "name": "Zero 2 (S905D3, eMMC Only) [Tablet]",
+      "codename": "radxa02_tab",
+      "variant": null,
+      "type": "Devkit",
+      "current_branch": "22.2",
+      "versions": [
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bgcngm",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Razer",
+      "name": "Phone",
+      "codename": "cheryl",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "Razer",
+      "name": "Phone 2",
+      "codename": "aura",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "mikeioannina",
+        "npjohnson"
+      ]
+    },
+    {
+      "vendor": "SHIFT",
+      "name": "SHIFT6mq",
+      "codename": "axolotl",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "amartinz",
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Tab A 8.0 (2019)",
+      "codename": "gtowifi",
+      "variant": null,
+      "type": "tablet",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "lifehackerhansol"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Tab S5e (LTE)",
+      "codename": "gts4lv",
+      "variant": null,
+      "type": "tablet",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bgcngm",
+        "LuK1337"
+      ]
+    },
+    {
+      "vendor": "Samsung",
+      "name": "Galaxy Tab S5e (Wi-Fi)",
+      "codename": "gts4lvwifi",
+      "variant": null,
+      "type": "tablet",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "LuK1337",
+        "bgcngm"
+      ]
+    },
+    {
+      "vendor": "Smartisan",
+      "name": "R1",
+      "codename": "trident",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "rtx4d"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia XZ2",
+      "codename": "akari",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "dtrunk90"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia XZ2 Compact",
+      "codename": "xz2c",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "dtrunk90"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia XZ2 Premium",
+      "codename": "aurora",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "dtrunk90"
+      ]
+    },
+    {
+      "vendor": "Sony",
+      "name": "Xperia XZ3",
+      "codename": "akatsuki",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "dtrunk90"
+      ]
+    },
+    {
+      "vendor": "Vsmart",
+      "name": "Joy 3",
+      "codename": "casuarina",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "Tuan Anh",
+        "nhglong"
+      ]
+    },
+    {
+      "vendor": "Vsmart",
+      "name": "Joy 3+",
+      "codename": "casuarina",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "Tuan Anh",
+        "nhglong"
+      ]
+    },
+    {
+      "vendor": "Walmart",
+      "name": "onn. TV Box 4K (2021)",
+      "codename": "dopinder",
+      "variant": null,
+      "type": "Set top box",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "npjohnson",
+        "webgeek1234"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Black Shark",
+      "codename": "shark",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "rtx4d",
+        "tdrkDev"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 5",
+      "codename": "gemini",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bgcngm",
+        "ikeramat"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 5s Plus",
+      "codename": "natrium",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "14.1",
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "LuK1337"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 6",
+      "codename": "sagit",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "ArianK16a",
+        "Nanhumly"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 8",
+      "codename": "dipper",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "infrag"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 8 Explorer Edition",
+      "codename": "ursa",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bgcngm"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 8 Pro",
+      "codename": "equuleus",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bgcngm"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 9 Lite",
+      "codename": "pyxis",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "ceracz"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi 9 SE",
+      "codename": "grus",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "SebaUbuntu"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi CC9",
+      "codename": "pyxis",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "ceracz"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi CC9 Meitu Edition",
+      "codename": "vela",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "0xCAFEBABE"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi MIX 2",
+      "codename": "chiron",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "mikeioannina"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi MIX 2S",
+      "codename": "polaris",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bgcngm"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi MIX 3",
+      "codename": "perseus",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bgcngm",
+        "rtx4d"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Mi Note 2",
+      "codename": "scorpio",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "Onelots"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO F1",
+      "codename": "beryllium",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "bgcngm",
+        "warabhishek"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO M2 Pro",
+      "codename": "miatoll",
+      "variant": 1,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "dereference23",
+        "ItsVixano"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO X3 NFC",
+      "codename": "surya",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "maintainers": [
+        "Shimitar",
+        "TheStrechh",
+        "ikeramat"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "POCO X3 Pro",
+      "codename": "vayu",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "22.2"
+      ],
+      "maintainers": [
+        "SebaUbuntu"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 10 Lite",
+      "codename": "miatoll",
+      "variant": 6,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "dereference23",
+        "ItsVixano"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 9 Pro (Global)",
+      "codename": "miatoll",
+      "variant": 3,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "dereference23",
+        "ItsVixano"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 9 Pro (India)",
+      "codename": "miatoll",
+      "variant": 4,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "dereference23",
+        "ItsVixano"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 9 Pro Max",
+      "codename": "miatoll",
+      "variant": 5,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "dereference23",
+        "ItsVixano"
+      ]
+    },
+    {
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 9S",
+      "codename": "miatoll",
+      "variant": 2,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "maintainers": [
+        "dereference23",
+        "ItsVixano"
+      ]
+    },
+    {
+      "vendor": "ZTE",
+      "name": "Axon 9 Pro",
+      "codename": "akershus",
+      "variant": null,
+      "type": "phone",
+      "current_branch": "22.2",
+      "versions": [
+        "22.2"
+      ],
+      "maintainers": [
+        "rtx4d",
+        "tdrkDev"
+      ]
+    }
+  ]
+}

@@ -29,8 +29,24 @@ export function createFeedbackPanel(
     t(kind === "bug" ? "feedback.bug.title" : "feedback.feature.title"),
   );
 
+  const header = document.createElement("header");
+  header.className = "gp-feedback-header";
   const title = document.createElement("h2");
   title.textContent = t(kind === "bug" ? "feedback.bug.title" : "feedback.feature.title");
+  const closeBtn = document.createElement("button");
+  closeBtn.type = "button";
+  closeBtn.className = "gp-feedback-close";
+  closeBtn.dataset.testid = "feedback-close";
+  closeBtn.setAttribute("aria-label", t("feedback.close"));
+  closeBtn.textContent = "×";
+  const close = (): void => {
+    // Closing without Discard must still clear the crash so reload does not
+    // keep reopening Report a bug (bootstrap pushes feedback when pending).
+    clearPendingCrash();
+    callbacks.onClose();
+  };
+  closeBtn.addEventListener("click", close);
+  header.append(title, closeBtn);
 
   const hint = document.createElement("p");
   hint.textContent = t("feedback.clipboard.hint");
@@ -102,11 +118,10 @@ export function createFeedbackPanel(
   });
   discardBtn.addEventListener("click", () => {
     void navigator.clipboard?.writeText("");
-    clearPendingCrash();
-    callbacks.onClose();
+    close();
   });
 
   refresh();
-  panel.append(title, hint, area, preview, offline, copyBtn, openBtn, discardBtn);
+  panel.append(header, hint, area, preview, offline, copyBtn, openBtn, discardBtn);
   return panel;
 }

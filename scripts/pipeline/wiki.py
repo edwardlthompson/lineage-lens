@@ -22,12 +22,36 @@ def _as_list(val: Any) -> list[Any]:
     return [val]
 
 
+def _waterproofing_from_peripherals(raw: Any) -> Optional[str]:
+    from scripts.pipeline.gsmarena import extract_ip_rating
+
+    blob = " ".join(str(p) for p in _as_list(raw))
+    return extract_ip_rating(blob)
+
+
 def _nullish(val: Any) -> Any:
     if val is None:
         return None
     if isinstance(val, str) and val.strip().lower() in {"", "none", "null", "nil"}:
         return None
     return val
+
+
+def _normalize_soc(raw: Any) -> Optional[str]:
+    """Strip marketing brands (e.g. Dragonwing™) and redundant (QCxxxx) tails."""
+    if raw is None:
+        return None
+    s = str(raw).strip()
+    if not s:
+        return None
+    # Qualcomm Dragonwing™ QCS8550 (QCS8550) → Qualcomm QCS8550
+    s = re.sub(r"Dragonwing\s*", "", s, flags=re.IGNORECASE)
+    s = s.replace("\u2122", "").replace("™", "")
+    s = re.sub(r"\s{2,}", " ", s).strip()
+    m = re.match(r"^(.*?)\s*\(([A-Z0-9][A-Z0-9\-]+)\)\s*$", s)
+    if m and m.group(2).lower() in m.group(1).lower().replace(" ", ""):
+        s = m.group(1).strip()
+    return s or None
 
 
 def _flatten_polymorphic(val: Any) -> Any:
@@ -82,13 +106,26 @@ def _parse_release_year(release: Any) -> tuple[Optional[str], Optional[int]]:
     return s, year
 
 
+def _flash_is_none(flash: Any) -> bool:
+    """Lineage wiki often writes flash: None as the string \"None\"."""
+    if flash is None:
+        return True
+    s = str(flash).strip().lower()
+    return s in {"", "none", "null", "nil", "no"}
+
+
 def _camera_type_from_label(label: Optional[str], flash: Any, index: int) -> str:
     lab = (label or "").lower()
     if any(x in lab for x in ("front", "selfie")):
         return "front"
-    if "ultra" in lab or "uw" in lab:
+    if "ultra" in lab or lab in {"uw", "uwide"} or "ultra-wide" in lab or "ultrawide" in lab:
         return "ultrawide"
     if "tele" in lab or "periscope" in lab:
+        # telemacro → macro if only macro-ish; prefer tele when both
+        if "macro" in lab and "tele" not in lab.replace("telemacro", ""):
+            return "macro"
+        if "telemacro" in lab or "tele macro" in lab:
+            return "macro"
         return "telephoto"
     if "macro" in lab:
         return "macro"
@@ -96,7 +133,8 @@ def _camera_type_from_label(label: Optional[str], flash: Any, index: int) -> str
         return "depth"
     if "wide" in lab or "main" in lab or "primary" in lab:
         return "main"
-    if flash is None and index > 0:
+    # Wiki: unlabeled rear-facing flash None / \"None\" on a non-first module → selfie
+    if _flash_is_none(flash) and index > 0 and not lab:
         return "front"
     if index == 0:
         return "main"
@@ -210,7 +248,7 @@ def wiki_device_to_record(data: dict[str, Any], *, updated: str) -> dict[str, An
         "status": status,
         "wiki_url": f"https://wiki.lineageos.org/devices/{wiki_slug}/",
         "download_url": f"https://download.lineageos.org/devices/{wiki_slug}",
-        "soc": None if data.get("soc") is None else str(data.get("soc")),
+        "soc": _normalize_soc(data.get("soc")),
         "cpu": None if data.get("cpu") is None else str(data.get("cpu")),
         "cpu_cores": None if data.get("cpu_cores") is None else str(data.get("cpu_cores")),
         "cpu_freq": None if data.get("cpu_freq") is None else str(data.get("cpu_freq")),
@@ -225,14 +263,20 @@ def wiki_device_to_record(data: dict[str, Any], *, updated: str) -> dict[str, An
         "bluetooth": None if data.get("bluetooth") is None else str(data.get("bluetooth")),
         "peripherals": [str(p) for p in _as_list(data.get("peripherals"))] or None,
         "architecture": None if data.get("architecture") is None else str(data.get("architecture")),
-        "waterproofing": None,
+        "waterproofing": _waterproofing_from_peripherals(data.get("peripherals")),
         "cameras": cameras,
         "video": None,
         "aggregates": _wiki_aggregates(cameras),
         "scores": {},
         "provenance": {
             "data_sources": ["lineage_wiki"],
-            "quality": "wiki_only",
+            # partial = structured multi-module roles from wiki (still no deep sensor sheet)
+            "quality": (
+                "partial"
+                if len(cameras) >= 2
+                and any(c.get("type") in {"ultrawide", "telephoto", "macro", "front"} for c in cameras)
+                else "wiki_only"
+            ),
             "last_updated": updated,
         },
     }
@@ -242,14 +286,17 @@ def wiki_device_to_record(data: dict[str, Any], *, updated: str) -> dict[str, An
 def _wiki_aggregates(cameras: list[dict[str, Any]]) -> dict[str, Any]:
     main = next((c for c in cameras if c.get("type") in {"main", "wide"}), None)
     teles = [c for c in cameras if c.get("type") == "telephoto"]
+    uws = [c for c in cameras if c.get("type") == "ultrawide"]
     return {
         "main_sensor_size": None,
         "main_optical_format": None,
         "main_pixel_pitch": None,
         "has_ois_main": None,
         "has_telephoto": bool(teles) or any("tele" in str(c.get("info") or "").lower() for c in cameras),
+        "has_ultrawide": bool(uws),
         "max_optical_zoom": None,
         "camera_module_count": len(cameras),
+        "rear_module_count": sum(1 for c in cameras if c.get("type") != "front"),
         "combined_mp": None,
         "main_mp": None if main is None else main.get("mp"),
     }

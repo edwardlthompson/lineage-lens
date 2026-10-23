@@ -54,6 +54,13 @@ export function createSettingsPanel(callbacks: SettingsPanelCallbacks): HTMLElem
         <input type="file" accept="application/json" hidden data-settings-import-file />
       </div>
     </section>
+    <section class="gp-settings-group" data-settings-haystack="${t("settings.section.faq")} ${t("settings.faq.optics.title")} ${t("settings.faq.optics.body")}">
+      <h3>${t("settings.section.faq")}</h3>
+      <div class="gp-settings-faq" data-testid="settings-faq-optics">
+        <p class="gp-settings-faq-title">${t("settings.faq.optics.title")}</p>
+        <p class="gp-settings-faq-body">${t("settings.faq.optics.body")}</p>
+      </div>
+    </section>
     <section class="gp-settings-group" data-settings-haystack="${t("settings.section.about")} ${t("settings.about")} ${t("settings.about_hint")}">
       <h3>${t("settings.section.about")}</h3>
       <button type="button" class="gp-settings-nav" data-settings-about>

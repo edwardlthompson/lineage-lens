@@ -27,6 +27,8 @@ export function bindPanelDialog(panel: HTMLElement, onClose: () => void): () => 
       return;
     }
     if (event.key !== "Tab") return;
+    // Only trap Tab while focus is inside this dialog.
+    if (!panel.contains(document.activeElement)) return;
 
     const elements = focusable();
     if (!elements.length) return;
@@ -42,10 +44,20 @@ export function bindPanelDialog(panel: HTMLElement, onClose: () => void): () => 
     }
   };
 
+  // Panel + document: Escape works with focus inside the dialog or elsewhere on the page.
   panel.addEventListener("keydown", onKeyDown);
+  document.addEventListener("keydown", onDocumentKeyDown);
+
+  function onDocumentKeyDown(event: KeyboardEvent): void {
+    if (event.key !== "Escape") return;
+    // Avoid double-firing when Escape originates inside the panel (bubbles to document).
+    if (panel.contains(event.target as Node | null)) return;
+    onKeyDown(event);
+  }
 
   return () => {
     panel.removeEventListener("keydown", onKeyDown);
+    document.removeEventListener("keydown", onDocumentKeyDown);
     previousFocus?.focus();
   };
 }

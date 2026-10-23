@@ -61,15 +61,20 @@ describe("createAppShell nav render", () => {
     expect(root.querySelector("[data-about-open]")).toBeNull();
     expect(root.querySelector("[data-donate-open]")).toBeNull();
     expect(root.querySelector(".gp-theme-toggle")).toBeNull();
-    expect(root.querySelector("[data-testid='home-status']")).toBeTruthy();
-    expect(root.querySelectorAll(".gp-status-card").length).toBe(1);
+    expect(root.querySelector("[data-testid='home-status']")).toBeNull();
+    expect(root.querySelector("[data-testid='home-toolbar']")).toBeTruthy();
+    expect(root.querySelectorAll(".gp-status-card").length).toBe(0);
   });
 
-  it("hides Settings in the header on inner routes", () => {
+  it("shows Back instead of Settings on inner routes", () => {
+    const cb = handlers();
     const root = document.createElement("div");
-    createAppShell(root, { ...baseState(), nav: push(homeNav(), "settings") }, handlers());
+    createAppShell(root, { ...baseState(), nav: push(homeNav(), "feedback") }, cb);
     expect(root.querySelector("[data-settings-open]")).toBeNull();
-    expect(root.querySelector("[data-testid='settings-panel']")).toBeTruthy();
+    expect(root.querySelector("[data-nav-back]")).toBeTruthy();
+    expect(root.querySelector("[data-testid='feedback-panel']")).toBeTruthy();
+    root.querySelector<HTMLButtonElement>("[data-nav-back]")?.click();
+    expect(cb.onPop).toHaveBeenCalledTimes(1);
   });
 
   it("restores persisted panel scroll", () => {

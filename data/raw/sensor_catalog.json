@@ -1,0 +1,1831 @@
+{
+  "type1_mm": 16.0,
+  "generated_by": "scripts/pipeline/build_sensor_catalog.py",
+  "sensors": {
+    "IMX989": {
+      "vendor": "Sony",
+      "optical_format": "1/1.0",
+      "diag_mm": 15.86,
+      "pixel_pitch_um": 1.6,
+      "mp": 50.3,
+      "notes": "1\" type; 0.8\u00b5m native / 1.6\u00b5m Quad Bayer binned",
+      "sources": [
+        "sony-module-listings",
+        "press"
+      ]
+    },
+    "IMX766": {
+      "vendor": "Sony",
+      "optical_format": "1/1.56",
+      "diag_mm": 10.24,
+      "pixel_pitch_um": 1.0,
+      "mp": 50.3,
+      "sources": [
+        "https://commonlands.com/pages/image-sensors/imx766"
+      ]
+    },
+    "IMX890": {
+      "vendor": "Sony",
+      "optical_format": "1/1.56",
+      "diag_mm": 10.2564,
+      "pixel_pitch_um": 1.0,
+      "mp": 50.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX686": {
+      "vendor": "Sony",
+      "optical_format": "1/1.73",
+      "diag_mm": 9.2486,
+      "pixel_pitch_um": 0.8,
+      "mp": 64.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX586": {
+      "vendor": "Sony",
+      "optical_format": "1/2.0",
+      "diag_mm": 8.0,
+      "pixel_pitch_um": 0.8,
+      "mp": 48.0,
+      "sources": [
+        "https://www.sony.com/en/SonyInfo/News/Press/201807/18-060E/",
+        "IMX586 datasheet"
+      ]
+    },
+    "IMX363": {
+      "vendor": "Sony",
+      "optical_format": "1/2.55",
+      "diag_mm": 6.2745,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.2,
+      "sources": [
+        "pixel-teardowns"
+      ]
+    },
+    "IMX787": {
+      "vendor": "Sony",
+      "optical_format": "1/2.55",
+      "diag_mm": 6.2745,
+      "pixel_pitch_um": 0.7,
+      "mp": 50.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX712": {
+      "vendor": "Sony",
+      "optical_format": "1/2.55",
+      "diag_mm": 6.2745,
+      "pixel_pitch_um": 0.7,
+      "mp": 50.0,
+      "sources": [
+        "oem-listings",
+        "front-uw"
+      ]
+    },
+    "IMX564": {
+      "vendor": "Sony",
+      "optical_format": "1/2.0",
+      "diag_mm": 8.0,
+      "pixel_pitch_um": 0.7,
+      "mp": 48.0,
+      "sources": [
+        "pixel8-teardowns"
+      ]
+    },
+    "IMX481": {
+      "vendor": "Sony",
+      "optical_format": "1/2.8",
+      "diag_mm": 5.7143,
+      "pixel_pitch_um": 1.12,
+      "mp": 16.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX882": {
+      "vendor": "Sony",
+      "optical_format": "1/2.0",
+      "diag_mm": 8.0,
+      "pixel_pitch_um": 0.8,
+      "mp": 50.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX355": {
+      "vendor": "Sony",
+      "optical_format": "1/2.8",
+      "diag_mm": 5.7143,
+      "pixel_pitch_um": 1.0,
+      "mp": 12.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX471": {
+      "vendor": "Sony",
+      "optical_format": "1/3.0",
+      "diag_mm": 5.3333,
+      "pixel_pitch_um": 1.0,
+      "mp": 16.0,
+      "role_hint": "front",
+      "sources": [
+        "oem-listings",
+        "oneplus-8t"
+      ]
+    },
+    "IMX616": {
+      "vendor": "Sony",
+      "optical_format": "1/2.8",
+      "diag_mm": 5.7143,
+      "pixel_pitch_um": 0.8,
+      "mp": 32.0,
+      "role_hint": "front",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX583": {
+      "vendor": "Sony",
+      "optical_format": "1/2.55",
+      "diag_mm": 6.2745,
+      "pixel_pitch_um": 0.8,
+      "mp": 48.0,
+      "role_hint": "front",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "OV32C": {
+      "vendor": "OmniVision",
+      "optical_format": "1/2.8",
+      "diag_mm": 5.7143,
+      "pixel_pitch_um": 0.8,
+      "mp": 32.0,
+      "role_hint": "front",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "OV16A1Q": {
+      "vendor": "OmniVision",
+      "optical_format": "1/3.06",
+      "diag_mm": 5.2288,
+      "pixel_pitch_um": 1.0,
+      "mp": 16.0,
+      "role_hint": "front",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "OV50A": {
+      "vendor": "OmniVision",
+      "optical_format": "1/1.5",
+      "diag_mm": 10.6667,
+      "pixel_pitch_um": 1.0,
+      "mp": 50.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "OV02B1B": {
+      "vendor": "OmniVision",
+      "optical_format": "1/5.0",
+      "diag_mm": 3.2,
+      "pixel_pitch_um": 1.75,
+      "mp": 2.0,
+      "role_hint": "macro",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "GC02M1B": {
+      "vendor": "GalaxyCore",
+      "optical_format": "1/5.0",
+      "diag_mm": 3.2,
+      "pixel_pitch_um": 1.75,
+      "mp": 2.0,
+      "role_hint": "macro",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "GC5035": {
+      "vendor": "GalaxyCore",
+      "optical_format": "1/4.7",
+      "diag_mm": 3.4043,
+      "pixel_pitch_um": 1.12,
+      "mp": 5.0,
+      "role_hint": "macro",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "S5K3T2": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.2",
+      "diag_mm": 5.0,
+      "pixel_pitch_um": 0.8,
+      "mp": 20.0,
+      "role_hint": "front",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "S5K3P9": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.0",
+      "diag_mm": 5.3333,
+      "pixel_pitch_um": 1.0,
+      "mp": 16.0,
+      "role_hint": "front",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX381": {
+      "vendor": "Sony",
+      "optical_format": "1/2.55",
+      "diag_mm": 6.2745,
+      "pixel_pitch_um": 1.25,
+      "mp": 12.2,
+      "sources": [
+        "pixel7-leaks"
+      ]
+    },
+    "GM1": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.0",
+      "diag_mm": 8.0,
+      "pixel_pitch_um": 0.8,
+      "mp": 48.0,
+      "aliases": [
+        "GM1",
+        "S5KGM1"
+      ],
+      "sources": [
+        "pixel7-pro-leaks"
+      ]
+    },
+    "S5KGM1": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.0",
+      "diag_mm": 8.0,
+      "pixel_pitch_um": 0.8,
+      "mp": 48.0,
+      "sources": [
+        "pixel7-pro-leaks"
+      ]
+    },
+    "S5K3J1": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.0",
+      "diag_mm": 5.3333,
+      "pixel_pitch_um": 1.22,
+      "mp": 10.8,
+      "role_hint": "front",
+      "aliases": [
+        "3J1",
+        "S5K3J1"
+      ],
+      "sources": [
+        "pixel7-leaks"
+      ]
+    },
+    "IMX858": {
+      "vendor": "Sony",
+      "optical_format": "1/2.51",
+      "diag_mm": 6.3745,
+      "pixel_pitch_um": 0.7,
+      "mp": 50.0,
+      "sources": [
+        "pixel9-oem"
+      ]
+    },
+    "IMX789": {
+      "vendor": "Sony",
+      "optical_format": "1/1.43",
+      "diag_mm": 11.1888,
+      "pixel_pitch_um": 1.12,
+      "mp": 48.0,
+      "sources": [
+        "oneplus9pro"
+      ]
+    },
+    "IMX709": {
+      "vendor": "Sony",
+      "optical_format": "1/3.5",
+      "diag_mm": 4.5714,
+      "pixel_pitch_um": 1.0,
+      "mp": 8.0,
+      "sources": [
+        "oneplus9pro"
+      ]
+    },
+    "IMX707": {
+      "vendor": "Sony",
+      "optical_format": "1/1.28",
+      "diag_mm": 12.5,
+      "pixel_pitch_um": 1.22,
+      "mp": 50.0,
+      "sources": [
+        "xiaomi12pro"
+      ]
+    },
+    "KD1": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.42",
+      "diag_mm": 5.25,
+      "pixel_pitch_um": 0.64,
+      "mp": 32.0,
+      "aliases": [
+        "KD1",
+        "S5KKD1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KKD1": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.42",
+      "diag_mm": 5.25,
+      "pixel_pitch_um": 0.64,
+      "mp": 32.0,
+      "aliases": [
+        "KD1",
+        "S5KKD1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "GN8": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.95",
+      "diag_mm": 8.19,
+      "pixel_pitch_um": 0.8,
+      "mp": 50.0,
+      "aliases": [
+        "GN8",
+        "S5KGN8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KGN8": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.95",
+      "diag_mm": 8.19,
+      "pixel_pitch_um": 0.8,
+      "mp": 50.0,
+      "aliases": [
+        "GN8",
+        "S5KGN8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "HP2": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.3",
+      "diag_mm": 12.31,
+      "pixel_pitch_um": 0.6,
+      "mp": 200.0,
+      "aliases": [
+        "HP2",
+        "S5KHP2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KHP2": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.3",
+      "diag_mm": 12.31,
+      "pixel_pitch_um": 0.6,
+      "mp": 200.0,
+      "aliases": [
+        "HP2",
+        "S5KHP2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "HPX": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.4",
+      "diag_mm": 11.43,
+      "pixel_pitch_um": 0.56,
+      "mp": 200.0,
+      "aliases": [
+        "HPX",
+        "S5KHPX"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KHPX": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.4",
+      "diag_mm": 11.43,
+      "pixel_pitch_um": 0.56,
+      "mp": 200.0,
+      "aliases": [
+        "HPX",
+        "S5KHPX"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "HP3": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.4",
+      "diag_mm": 11.43,
+      "pixel_pitch_um": 0.56,
+      "mp": 200.0,
+      "aliases": [
+        "HP3",
+        "S5KHP3"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KHP3": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.4",
+      "diag_mm": 11.43,
+      "pixel_pitch_um": 0.56,
+      "mp": 200.0,
+      "aliases": [
+        "HP3",
+        "S5KHP3"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "HP1": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.22",
+      "diag_mm": 13.11,
+      "pixel_pitch_um": 0.64,
+      "mp": 200.0,
+      "aliases": [
+        "HP1",
+        "S5KHP1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KHP1": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.22",
+      "diag_mm": 13.11,
+      "pixel_pitch_um": 0.64,
+      "mp": 200.0,
+      "aliases": [
+        "HP1",
+        "S5KHP1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "HM6": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.67",
+      "diag_mm": 9.58,
+      "pixel_pitch_um": 0.64,
+      "mp": 108.0,
+      "aliases": [
+        "HM6",
+        "S5KHM6"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KHM6": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.67",
+      "diag_mm": 9.58,
+      "pixel_pitch_um": 0.64,
+      "mp": 108.0,
+      "aliases": [
+        "HM6",
+        "S5KHM6"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "HM3": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.33",
+      "diag_mm": 12.03,
+      "pixel_pitch_um": 0.8,
+      "mp": 108.0,
+      "aliases": [
+        "HM3",
+        "S5KHM3"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KHM3": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.33",
+      "diag_mm": 12.03,
+      "pixel_pitch_um": 0.8,
+      "mp": 108.0,
+      "aliases": [
+        "HM3",
+        "S5KHM3"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "HM2": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.52",
+      "diag_mm": 10.53,
+      "pixel_pitch_um": 0.7,
+      "mp": 108.0,
+      "aliases": [
+        "HM2",
+        "S5KHM2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KHM2": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.52",
+      "diag_mm": 10.53,
+      "pixel_pitch_um": 0.7,
+      "mp": 108.0,
+      "aliases": [
+        "HM2",
+        "S5KHM2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "HMX": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.33",
+      "diag_mm": 12.03,
+      "pixel_pitch_um": 0.8,
+      "mp": 108.0,
+      "aliases": [
+        "HMX",
+        "S5KHMX"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KHMX": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.33",
+      "diag_mm": 12.03,
+      "pixel_pitch_um": 0.8,
+      "mp": 108.0,
+      "aliases": [
+        "HMX",
+        "S5KHMX"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "HM1": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.33",
+      "diag_mm": 12.03,
+      "pixel_pitch_um": 0.8,
+      "mp": 108.0,
+      "aliases": [
+        "HM1",
+        "S5KHM1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KHM1": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.33",
+      "diag_mm": 12.03,
+      "pixel_pitch_um": 0.8,
+      "mp": 108.0,
+      "aliases": [
+        "HM1",
+        "S5KHM1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "GW3": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.97",
+      "diag_mm": 8.12,
+      "pixel_pitch_um": 0.7,
+      "mp": 64.0,
+      "aliases": [
+        "GW3",
+        "S5KGW3"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KGW3": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.97",
+      "diag_mm": 8.12,
+      "pixel_pitch_um": 0.7,
+      "mp": 64.0,
+      "aliases": [
+        "GW3",
+        "S5KGW3"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "GW2": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.72",
+      "diag_mm": 9.21,
+      "pixel_pitch_um": 0.8,
+      "mp": 64.0,
+      "aliases": [
+        "GW2",
+        "S5KGW2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KGW2": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.72",
+      "diag_mm": 9.21,
+      "pixel_pitch_um": 0.8,
+      "mp": 64.0,
+      "aliases": [
+        "GW2",
+        "S5KGW2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "GW1": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.72",
+      "diag_mm": 9.21,
+      "pixel_pitch_um": 0.8,
+      "mp": 64.0,
+      "aliases": [
+        "GW1",
+        "S5KGW1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KGW1": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.72",
+      "diag_mm": 9.21,
+      "pixel_pitch_um": 0.8,
+      "mp": 64.0,
+      "aliases": [
+        "GW1",
+        "S5KGW1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "GN9": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.57",
+      "diag_mm": 10.21,
+      "pixel_pitch_um": 1.0,
+      "mp": 50.0,
+      "aliases": [
+        "GN9",
+        "S5KGN9"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KGN9": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.57",
+      "diag_mm": 10.21,
+      "pixel_pitch_um": 1.0,
+      "mp": 50.0,
+      "aliases": [
+        "GN9",
+        "S5KGN9"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "GN5": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.57",
+      "diag_mm": 10.19,
+      "pixel_pitch_um": 1.0,
+      "mp": 50.0,
+      "aliases": [
+        "GN5",
+        "S5KGN5"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KGN5": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.57",
+      "diag_mm": 10.19,
+      "pixel_pitch_um": 1.0,
+      "mp": 50.0,
+      "aliases": [
+        "GN5",
+        "S5KGN5"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "GN3": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.57",
+      "diag_mm": 10.19,
+      "pixel_pitch_um": 1.0,
+      "mp": 50.0,
+      "aliases": [
+        "GN3",
+        "S5KGN3"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KGN3": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.57",
+      "diag_mm": 10.19,
+      "pixel_pitch_um": 1.0,
+      "mp": 50.0,
+      "aliases": [
+        "GN3",
+        "S5KGN3"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "GN2": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.12",
+      "diag_mm": 14.28,
+      "pixel_pitch_um": 1.4,
+      "mp": 50.0,
+      "aliases": [
+        "GN2",
+        "S5KGN2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KGN2": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.12",
+      "diag_mm": 14.28,
+      "pixel_pitch_um": 1.4,
+      "mp": 50.0,
+      "aliases": [
+        "GN2",
+        "S5KGN2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "GN1": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.31",
+      "diag_mm": 12.21,
+      "pixel_pitch_um": 1.2,
+      "mp": 50.0,
+      "aliases": [
+        "GN1",
+        "S5KGN1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KGN1": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.31",
+      "diag_mm": 12.21,
+      "pixel_pitch_um": 1.2,
+      "mp": 50.0,
+      "aliases": [
+        "GN1",
+        "S5KGN1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "JN1": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.76",
+      "diag_mm": 6.54,
+      "pixel_pitch_um": 0.64,
+      "mp": 50.0,
+      "aliases": [
+        "JN1",
+        "S5KJN1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KJN1": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.76",
+      "diag_mm": 6.54,
+      "pixel_pitch_um": 0.64,
+      "mp": 50.0,
+      "aliases": [
+        "JN1",
+        "S5KJN1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "GM5": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.55",
+      "diag_mm": 7.06,
+      "pixel_pitch_um": 0.7,
+      "mp": 48.0,
+      "aliases": [
+        "GM5",
+        "S5KGM5"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KGM5": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.55",
+      "diag_mm": 7.06,
+      "pixel_pitch_um": 0.7,
+      "mp": 48.0,
+      "aliases": [
+        "GM5",
+        "S5KGM5"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "GM2": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.0",
+      "diag_mm": 8.0,
+      "pixel_pitch_um": 0.8,
+      "mp": 48.0,
+      "aliases": [
+        "GM2",
+        "S5KGM2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5KGM2": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.0",
+      "diag_mm": 8.0,
+      "pixel_pitch_um": 0.8,
+      "mp": 48.0,
+      "aliases": [
+        "GM2",
+        "S5KGM2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "GH1": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.65",
+      "diag_mm": 6.77,
+      "pixel_pitch_um": 0.7,
+      "mp": 43.7,
+      "aliases": [
+        "GH1",
+        "S5KGH1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    },
+    "S5KGH1": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.65",
+      "diag_mm": 6.77,
+      "pixel_pitch_um": 0.7,
+      "mp": 43.7,
+      "aliases": [
+        "GH1",
+        "S5KGH1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    },
+    "JD1": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.14",
+      "diag_mm": 5.1,
+      "pixel_pitch_um": 0.7,
+      "mp": 32.0,
+      "aliases": [
+        "JD1",
+        "S5KJD1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    },
+    "S5KJD1": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.14",
+      "diag_mm": 5.1,
+      "pixel_pitch_um": 0.7,
+      "mp": 32.0,
+      "aliases": [
+        "JD1",
+        "S5KJD1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    },
+    "GD1": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.80",
+      "diag_mm": 6.4,
+      "pixel_pitch_um": 0.8,
+      "mp": 32.0,
+      "aliases": [
+        "GD1",
+        "S5KGD1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    },
+    "S5KGD1": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.80",
+      "diag_mm": 6.4,
+      "pixel_pitch_um": 0.8,
+      "mp": 32.0,
+      "aliases": [
+        "GD1",
+        "S5KGD1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    },
+    "2L3": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.55",
+      "diag_mm": 7.06,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.2,
+      "aliases": [
+        "2L3",
+        "S5K2L3"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K2L3": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.55",
+      "diag_mm": 7.06,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.2,
+      "aliases": [
+        "2L3",
+        "S5K2L3"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "2L2": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.55",
+      "diag_mm": 7.06,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.2,
+      "aliases": [
+        "2L2",
+        "S5K2L2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K2L2": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.55",
+      "diag_mm": 7.06,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.2,
+      "aliases": [
+        "2L2",
+        "S5K2L2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "2L4": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.55",
+      "diag_mm": 7.06,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.2,
+      "aliases": [
+        "2L4",
+        "S5K2L4"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K2L4": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.55",
+      "diag_mm": 7.06,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.2,
+      "aliases": [
+        "2L4",
+        "S5K2L4"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "2L7": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.56",
+      "diag_mm": 7.06,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.2,
+      "aliases": [
+        "2L7",
+        "S5K2L7"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K2L7": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.56",
+      "diag_mm": 7.06,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.2,
+      "aliases": [
+        "2L7",
+        "S5K2L7"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "2L8": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.80",
+      "diag_mm": 6.4,
+      "pixel_pitch_um": 1.28,
+      "mp": 12.2,
+      "aliases": [
+        "2L8",
+        "S5K2L8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K2L8": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.80",
+      "diag_mm": 6.4,
+      "pixel_pitch_um": 1.28,
+      "mp": 12.2,
+      "aliases": [
+        "2L8",
+        "S5K2L8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "2L9": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.55",
+      "diag_mm": 7.06,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.2,
+      "aliases": [
+        "2L9",
+        "S5K2L9"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K2L9": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.55",
+      "diag_mm": 7.06,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.2,
+      "aliases": [
+        "2L9",
+        "S5K2L9"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "2LD": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.76",
+      "diag_mm": 9.072,
+      "pixel_pitch_um": 1.8,
+      "mp": 12.2,
+      "aliases": [
+        "2LD",
+        "S5K2LD"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K2LD": {
+      "vendor": "Samsung",
+      "optical_format": "1/1.76",
+      "diag_mm": 9.072,
+      "pixel_pitch_um": 1.8,
+      "mp": 12.2,
+      "aliases": [
+        "2LD",
+        "S5K2LD"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "2M8": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.60",
+      "diag_mm": 6.828,
+      "pixel_pitch_um": 1.34,
+      "mp": 13.0,
+      "aliases": [
+        "2M8",
+        "S5K2M8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K2M8": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.60",
+      "diag_mm": 6.828,
+      "pixel_pitch_um": 1.34,
+      "mp": 13.0,
+      "aliases": [
+        "2M8",
+        "S5K2M8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "2P2": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.60",
+      "diag_mm": 6.828,
+      "pixel_pitch_um": 1.12,
+      "mp": 16.0,
+      "aliases": [
+        "2P2",
+        "S5K2P2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K2P2": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.60",
+      "diag_mm": 6.828,
+      "pixel_pitch_um": 1.12,
+      "mp": 16.0,
+      "aliases": [
+        "2P2",
+        "S5K2P2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "2P8": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.60",
+      "diag_mm": 6.828,
+      "pixel_pitch_um": 1.12,
+      "mp": 16.0,
+      "aliases": [
+        "2P8",
+        "S5K2P8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K2P8": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.60",
+      "diag_mm": 6.828,
+      "pixel_pitch_um": 1.12,
+      "mp": 16.0,
+      "aliases": [
+        "2P8",
+        "S5K2P8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "2T8": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.60",
+      "diag_mm": 6.828,
+      "pixel_pitch_um": 1.1,
+      "mp": 20.0,
+      "aliases": [
+        "2T8",
+        "S5K2T8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K2T8": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.60",
+      "diag_mm": 6.828,
+      "pixel_pitch_um": 1.1,
+      "mp": 20.0,
+      "aliases": [
+        "2T8",
+        "S5K2T8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "3H2": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.20",
+      "diag_mm": 5.68,
+      "pixel_pitch_um": 1.4,
+      "mp": 8.0,
+      "aliases": [
+        "3H2",
+        "S5K3H2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K3H2": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.20",
+      "diag_mm": 5.68,
+      "pixel_pitch_um": 1.4,
+      "mp": 8.0,
+      "aliases": [
+        "3H2",
+        "S5K3H2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "3J1": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.20",
+      "diag_mm": 5.57,
+      "pixel_pitch_um": 1.22,
+      "mp": 10.0,
+      "aliases": [
+        "3J1",
+        "S5K3J1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    },
+    "3L2": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.06",
+      "diag_mm": 5.867,
+      "pixel_pitch_um": 1.12,
+      "mp": 13.0,
+      "aliases": [
+        "3L2",
+        "S5K3L2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K3L2": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.06",
+      "diag_mm": 5.867,
+      "pixel_pitch_um": 1.12,
+      "mp": 13.0,
+      "aliases": [
+        "3L2",
+        "S5K3L2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "3L8": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.06",
+      "diag_mm": 5.867,
+      "pixel_pitch_um": 1.12,
+      "mp": 13.0,
+      "aliases": [
+        "3L8",
+        "S5K3L8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K3L8": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.06",
+      "diag_mm": 5.867,
+      "pixel_pitch_um": 1.12,
+      "mp": 13.0,
+      "aliases": [
+        "3L8",
+        "S5K3L8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "3M2": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.06",
+      "diag_mm": 5.867,
+      "pixel_pitch_um": 1.12,
+      "mp": 13.0,
+      "aliases": [
+        "3M2",
+        "S5K3M2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K3M2": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.06",
+      "diag_mm": 5.867,
+      "pixel_pitch_um": 1.12,
+      "mp": 13.0,
+      "aliases": [
+        "3M2",
+        "S5K3M2"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "3P3": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.06",
+      "diag_mm": 5.867,
+      "pixel_pitch_um": 1.0,
+      "mp": 16.0,
+      "aliases": [
+        "3P3",
+        "S5K3P3"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K3P3": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.06",
+      "diag_mm": 5.867,
+      "pixel_pitch_um": 1.0,
+      "mp": 16.0,
+      "aliases": [
+        "3P3",
+        "S5K3P3"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "3P8": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.10",
+      "diag_mm": 6.4,
+      "pixel_pitch_um": 1.0,
+      "mp": 16.0,
+      "aliases": [
+        "3P8",
+        "S5K3P8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K3P8": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.10",
+      "diag_mm": 6.4,
+      "pixel_pitch_um": 1.0,
+      "mp": 16.0,
+      "aliases": [
+        "3P8",
+        "S5K3P8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "3P9": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.10",
+      "diag_mm": 6.4,
+      "pixel_pitch_um": 1.0,
+      "mp": 16.0,
+      "aliases": [
+        "3P9",
+        "S5K3P9"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "3T1": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.0",
+      "diag_mm": 6.4,
+      "pixel_pitch_um": 0.9,
+      "mp": 20.0,
+      "aliases": [
+        "3T1",
+        "S5K3T1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    },
+    "S5K3T1": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.0",
+      "diag_mm": 6.4,
+      "pixel_pitch_um": 0.9,
+      "mp": 20.0,
+      "aliases": [
+        "3T1",
+        "S5K3T1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    },
+    "4E6": {
+      "vendor": "Samsung",
+      "optical_format": "1/4",
+      "diag_mm": 4.5,
+      "pixel_pitch_um": 1.34,
+      "mp": 5.0,
+      "aliases": [
+        "4E6",
+        "S5K4E6"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    },
+    "S5K4E6": {
+      "vendor": "Samsung",
+      "optical_format": "1/4",
+      "diag_mm": 4.5,
+      "pixel_pitch_um": 1.34,
+      "mp": 5.0,
+      "aliases": [
+        "4E6",
+        "S5K4E6"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    },
+    "4E8": {
+      "vendor": "Samsung",
+      "optical_format": "1/4",
+      "diag_mm": 4.5,
+      "pixel_pitch_um": 1.4,
+      "mp": 5.0,
+      "aliases": [
+        "4E8",
+        "S5K4E8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K4E8": {
+      "vendor": "Samsung",
+      "optical_format": "1/4",
+      "diag_mm": 4.5,
+      "pixel_pitch_um": 1.4,
+      "mp": 5.0,
+      "aliases": [
+        "4E8",
+        "S5K4E8"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "4H5": {
+      "vendor": "Samsung",
+      "optical_format": "1/4",
+      "diag_mm": 4.5,
+      "pixel_pitch_um": 1.12,
+      "mp": 8.0,
+      "aliases": [
+        "4H5",
+        "S5K4H5"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "S5K4H5": {
+      "vendor": "Samsung",
+      "optical_format": "1/4",
+      "diag_mm": 4.5,
+      "pixel_pitch_um": 1.12,
+      "mp": 8.0,
+      "aliases": [
+        "4H5",
+        "S5K4H5"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ]
+    },
+    "4H7": {
+      "vendor": "Samsung",
+      "optical_format": "1/4",
+      "diag_mm": 4.5,
+      "pixel_pitch_um": 1.12,
+      "mp": 8.0,
+      "aliases": [
+        "4H7",
+        "S5K4H7"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    },
+    "S5K4H7": {
+      "vendor": "Samsung",
+      "optical_format": "1/4",
+      "diag_mm": 4.5,
+      "pixel_pitch_um": 1.12,
+      "mp": 8.0,
+      "aliases": [
+        "4H7",
+        "S5K4H7"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    },
+    "I": {
+      "vendor": "Samsung",
+      "optical_format": "1/5",
+      "diag_mm": 3.6,
+      "pixel_pitch_um": 1.12,
+      "mp": 3.7,
+      "aliases": [
+        "I",
+        "S5KI"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    },
+    "S5KI": {
+      "vendor": "Samsung",
+      "optical_format": "1/5",
+      "diag_mm": 3.6,
+      "pixel_pitch_um": 1.12,
+      "mp": 3.7,
+      "aliases": [
+        "I",
+        "S5KI"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ISOCELL"
+      ],
+      "role_hint": "front"
+    }
+  },
+  "aliases": {
+    "GM1": "GM1",
+    "S5KGM1": "GM1",
+    "3J1": "3J1",
+    "S5K3J1": "3J1",
+    "KD1": "S5KKD1",
+    "S5KKD1": "S5KKD1",
+    "GN8": "S5KGN8",
+    "S5KGN8": "S5KGN8",
+    "HP2": "S5KHP2",
+    "S5KHP2": "S5KHP2",
+    "HPX": "S5KHPX",
+    "S5KHPX": "S5KHPX",
+    "HP3": "S5KHP3",
+    "S5KHP3": "S5KHP3",
+    "HP1": "S5KHP1",
+    "S5KHP1": "S5KHP1",
+    "HM6": "S5KHM6",
+    "S5KHM6": "S5KHM6",
+    "HM3": "S5KHM3",
+    "S5KHM3": "S5KHM3",
+    "HM2": "S5KHM2",
+    "S5KHM2": "S5KHM2",
+    "HMX": "S5KHMX",
+    "S5KHMX": "S5KHMX",
+    "HM1": "S5KHM1",
+    "S5KHM1": "S5KHM1",
+    "GW3": "S5KGW3",
+    "S5KGW3": "S5KGW3",
+    "GW2": "S5KGW2",
+    "S5KGW2": "S5KGW2",
+    "GW1": "S5KGW1",
+    "S5KGW1": "S5KGW1",
+    "GN9": "S5KGN9",
+    "S5KGN9": "S5KGN9",
+    "GN5": "S5KGN5",
+    "S5KGN5": "S5KGN5",
+    "GN3": "S5KGN3",
+    "S5KGN3": "S5KGN3",
+    "GN2": "S5KGN2",
+    "S5KGN2": "S5KGN2",
+    "GN1": "S5KGN1",
+    "S5KGN1": "S5KGN1",
+    "JN1": "S5KJN1",
+    "S5KJN1": "S5KJN1",
+    "GM5": "S5KGM5",
+    "S5KGM5": "S5KGM5",
+    "GM2": "S5KGM2",
+    "S5KGM2": "S5KGM2",
+    "GH1": "S5KGH1",
+    "S5KGH1": "S5KGH1",
+    "JD1": "S5KJD1",
+    "S5KJD1": "S5KJD1",
+    "GD1": "S5KGD1",
+    "S5KGD1": "S5KGD1",
+    "2L3": "S5K2L3",
+    "S5K2L3": "S5K2L3",
+    "2L2": "S5K2L2",
+    "S5K2L2": "S5K2L2",
+    "2L4": "S5K2L4",
+    "S5K2L4": "S5K2L4",
+    "2L7": "S5K2L7",
+    "S5K2L7": "S5K2L7",
+    "2L8": "S5K2L8",
+    "S5K2L8": "S5K2L8",
+    "2L9": "S5K2L9",
+    "S5K2L9": "S5K2L9",
+    "2LD": "S5K2LD",
+    "S5K2LD": "S5K2LD",
+    "2M8": "S5K2M8",
+    "S5K2M8": "S5K2M8",
+    "2P2": "S5K2P2",
+    "S5K2P2": "S5K2P2",
+    "2P8": "S5K2P8",
+    "S5K2P8": "S5K2P8",
+    "2T8": "S5K2T8",
+    "S5K2T8": "S5K2T8",
+    "3H2": "S5K3H2",
+    "S5K3H2": "S5K3H2",
+    "3L2": "S5K3L2",
+    "S5K3L2": "S5K3L2",
+    "3L8": "S5K3L8",
+    "S5K3L8": "S5K3L8",
+    "3M2": "S5K3M2",
+    "S5K3M2": "S5K3M2",
+    "3P3": "S5K3P3",
+    "S5K3P3": "S5K3P3",
+    "3P8": "S5K3P8",
+    "S5K3P8": "S5K3P8",
+    "3P9": "3P9",
+    "S5K3P9": "3P9",
+    "3T1": "S5K3T1",
+    "S5K3T1": "S5K3T1",
+    "4E6": "S5K4E6",
+    "S5K4E6": "S5K4E6",
+    "4E8": "S5K4E8",
+    "S5K4E8": "S5K4E8",
+    "4H5": "S5K4H5",
+    "S5K4H5": "S5K4H5",
+    "4H7": "S5K4H7",
+    "S5K4H7": "S5K4H7",
+    "I": "S5KI",
+    "S5KI": "S5KI"
+  }
+}

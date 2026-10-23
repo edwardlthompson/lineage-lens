@@ -1,7 +1,7 @@
 # Build Plan
 
 <!-- remaining-tally -->
-**Remaining:** AGENT 11 · LOCAL 11 · CLOUD 0 · AUTO 1 · HUMAN 8 · ADB 1 · **21 open**
+**Remaining:** AGENT 5 · LOCAL 5 · CLOUD 0 · AUTO 0 · HUMAN 1 · ADB 0 · **6 open**
 <!-- /remaining-tally -->
 
 Live board for a product repo. Finished work: [`COMPLETED_TASKS.md`](COMPLETED_TASKS.md).

@@ -13,6 +13,7 @@ import { markUpdateChecked, markVersionSeen } from "./about/updatePrefs";
 import { assetUrl } from "./assetUrl";
 import { installCrashHandler } from "./crash-capture/installHandler";
 import { readPendingCrash } from "./crash-capture/pendingCrash";
+import { mountDevicesApp } from "./features/table/mountDevicesApp";
 import { getSaveCrashes } from "./feedback/saveCrashes";
 import { t } from "./i18n";
 import {
@@ -25,7 +26,6 @@ import {
 import { runNavTransition } from "./nav/viewTransitions";
 import { shareTargetDescription } from "./share-target";
 import { initTheme, subscribeThemeChange } from "./theme";
-import { mountDevicesApp } from "./features/table/mountDevicesApp";
 
 let popAbort: AbortController | undefined;
 let devicesMounted = false;

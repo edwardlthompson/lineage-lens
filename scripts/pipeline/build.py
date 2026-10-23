@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build examples/web/public/data/devices.json from wiki + camera CSV."""
+"""Build examples/web/public/data/devices.json from wiki + CSV + GSMArena cache."""
 
 from __future__ import annotations
 
@@ -15,44 +15,174 @@ if str(ROOT) not in sys.path:
 
 from scripts.pipeline.csv_cameras import parse_enrichment_csv  # noqa: E402
 from scripts.pipeline.fetch_wiki import ensure_wiki_devices  # noqa: E402
+from scripts.pipeline.gsmarena import extract_ip_rating  # noqa: E402
+from scripts.pipeline.lineage_status import (  # noqa: E402
+    codename_branch_map,
+    fetch_download_builds,
+    resolve_status,
+)
 from scripts.pipeline.scores import apply_scores  # noqa: E402
+from scripts.pipeline.enrichment_quality import (  # noqa: E402
+    assign_provenance_quality,
+    fill_structured_video_from_caps,
+)
+from scripts.pipeline.flagship_overrides import (  # noqa: E402
+    apply_flagship_overrides,
+    load_flagship_overrides,
+)
+from scripts.pipeline.optical import fill_camera_derived_fields  # noqa: E402
+from scripts.pipeline.sensor_catalog import (  # noqa: E402
+    ensure_front_from_sensors,
+    fill_sensor_sizes,
+    promote_unlabeled_fronts,
+)
+from scripts.pipeline.sensor_models import (  # noqa: E402
+    apply_sensors_to_cameras,
+    load_sensor_cache,
+)
 from scripts.pipeline.wiki import iter_wiki_devices  # noqa: E402
+from scripts.pipeline.wikipedia_ip import load_ip_cache  # noqa: E402
 
 
-def _merge(wiki_device: dict, enrichment: dict | None, *, updated: str) -> dict:
-    if enrichment is None:
-        apply_scores(wiki_device)
-        return wiki_device
+def _load_gsmarena_cache(cache_dir: Path) -> dict[str, dict]:
+    root = cache_dir / "gsmarena"
+    out: dict[str, dict] = {}
+    if not root.is_dir():
+        return out
+    for path in root.glob("*.json"):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        if data.get("error") or not data.get("cameras"):
+            continue
+        out[path.stem.lower()] = data
+    return out
 
-    # Prefer deep cameras from CSV; keep wiki flash/info modules that CSV lacks (e.g. front)
-    deep = list(enrichment.get("cameras") or [])
-    wiki_cams = wiki_device.get("cameras") or []
-    fronts = [c for c in wiki_cams if c.get("type") == "front"]
-    cameras = deep + fronts
 
-    wiki_device["cameras"] = cameras
-    wiki_device["video"] = enrichment.get("video")
-    wiki_device["waterproofing"] = enrichment.get("waterproofing") or wiki_device.get("waterproofing")
+def _fill_waterproofing(device: dict, wiki_ip: dict[str, str]) -> None:
+    """Prefer existing / CSV / GSMArena; else Wikipedia cache; else peripherals text."""
+    if device.get("waterproofing"):
+        return
+    code = str(device.get("codename") or "").lower()
+    if code and code in wiki_ip:
+        device["waterproofing"] = wiki_ip[code]
+        return
+    peri = device.get("peripherals") or []
+    blob = " ".join(str(p) for p in peri)
+    found = extract_ip_rating(blob)
+    if found:
+        device["waterproofing"] = found
 
-    if enrichment.get("release_year") and not wiki_device.get("release_year"):
-        wiki_device["release_year"] = enrichment["release_year"]
-        wiki_device["release_date"] = enrichment.get("release_date") or wiki_device.get("release_date")
 
-    agg = dict(wiki_device.get("aggregates") or {})
-    agg.update({k: v for k, v in (enrichment.get("aggregates") or {}).items() if v is not None})
-    agg["camera_module_count"] = len(cameras)
-    wiki_device["aggregates"] = agg
+def _apply_lineage_status(device: dict, branch_by_code: dict[str, str]) -> None:
+    """Overwrite status from download.lineageos.org using codename (never leave unknown)."""
+    resolved = resolve_status(
+        str(device.get("codename") or ""),
+        branch_by_code=branch_by_code,
+        wiki_maintainers=list(device.get("maintainers") or []),
+        wiki_branch=device.get("current_branch"),
+    )
+    device["status"] = resolved["status"]
+    device["current_branch"] = resolved["current_branch"]
+    device["lineage_label"] = resolved["lineage_label"]
 
-    sources = list(wiki_device["provenance"]["data_sources"])
-    if "camera_enrichment_csv" not in sources:
-        sources.append("camera_enrichment_csv")
-    wiki_device["provenance"] = {
+
+def _refresh_camera_aggregates(device: dict) -> None:
+    cams = list(device.get("cameras") or [])
+    fill_sensor_sizes(cams)
+    device["cameras"] = cams
+    agg = dict(device.get("aggregates") or {})
+    main = next((c for c in cams if c.get("type") in {"main", "wide"}), None)
+    if main:
+        if main.get("sensor_size_mm") is not None:
+            agg["main_sensor_size"] = main["sensor_size_mm"]
+        if main.get("optical_format") is not None:
+            agg["main_optical_format"] = main["optical_format"]
+        if main.get("pixel_pitch_um") is not None:
+            agg["main_pixel_pitch"] = main["pixel_pitch_um"]
+    agg["camera_module_count"] = len(cams)
+    agg["rear_module_count"] = sum(1 for c in cams if c.get("type") != "front")
+    agg["has_front"] = any(c.get("type") == "front" for c in cams)
+    device["aggregates"] = agg
+
+
+def _finalize_cameras(device: dict, sensors_by_code: dict[str, list]) -> None:
+    """Promote selfie rows, attach sensor names/sizes, ensure front is in the stack."""
+    cams = list(device.get("cameras") or [])
+    promote_unlabeled_fronts(cams)
+    code = str(device.get("codename") or "").lower()
+    sensors = list(sensors_by_code.get(code) or [])
+    if sensors:
+        apply_sensors_to_cameras(cams, sensors)
+        ensure_front_from_sensors(cams, sensors)
+        sources = list((device.get("provenance") or {}).get("data_sources") or [])
+        if "lineage_proprietary_files" not in sources:
+            sources.append("lineage_proprietary_files")
+            prov = dict(device.get("provenance") or {})
+            prov["data_sources"] = sources
+            device["provenance"] = prov
+    device["cameras"] = cams
+    _refresh_camera_aggregates(device)
+
+
+def _apply_layer(device: dict, layer: dict, *, source: str, updated: str) -> None:
+    """Merge enrichment layer onto device (non-destructive fill + override when richer)."""
+    if not layer:
+        return
+
+    layer_cams = list(layer.get("cameras") or [])
+    if layer_cams:
+        # Prefer layer modules when they carry sensor geometry; else keep existing
+        existing = list(device.get("cameras") or [])
+        promote_unlabeled_fronts(existing)
+        promote_unlabeled_fronts(layer_cams)
+        layer_has_geo = any(c.get("sensor_size_mm") or c.get("optical_format") for c in layer_cams)
+        existing_has_geo = any(c.get("sensor_size_mm") or c.get("optical_format") for c in existing)
+        if layer_has_geo or not existing:
+            # Always keep selfie module(s) from wiki when enrichment CSV omits them
+            fronts = [c for c in existing if c.get("type") == "front"]
+            layer_fronts = [c for c in layer_cams if c.get("type") == "front"]
+            device["cameras"] = layer_cams + ([] if layer_fronts else fronts)
+        elif not existing_has_geo:
+            device["cameras"] = layer_cams
+
+    if layer.get("video"):
+        device["video"] = layer["video"]
+    if layer.get("camera_features"):
+        device["camera_features"] = {
+            **(device.get("camera_features") or {}),
+            **layer["camera_features"],
+        }
+    if layer.get("waterproofing"):
+        device["waterproofing"] = layer["waterproofing"]
+    if layer.get("release_year") and not device.get("release_year"):
+        device["release_year"] = layer["release_year"]
+        device["release_date"] = layer.get("release_date") or device.get("release_date")
+
+    agg = dict(device.get("aggregates") or {})
+    for k, v in (layer.get("aggregates") or {}).items():
+        if v is not None:
+            agg[k] = v
+    agg["camera_module_count"] = len(device.get("cameras") or [])
+    device["aggregates"] = agg
+
+    sources = list((device.get("provenance") or {}).get("data_sources") or [])
+    if source not in sources:
+        sources.append(source)
+
+    # quality is assigned later via enrichment_quality (completeness gate)
+    quality = (device.get("provenance") or {}).get("quality") or "wiki_only"
+    if source in {"camera_enrichment_csv", "gsmarena"} and quality == "wiki_only":
+        quality = "partial"
+
+    device["provenance"] = {
         "data_sources": sources,
-        "quality": "enriched",
+        "quality": quality,
         "last_updated": updated,
     }
-    apply_scores(wiki_device)
-    return wiki_device
+    if layer.get("gsmarena_url"):
+        device["gsmarena_url"] = layer["gsmarena_url"]
 
 
 def build(
@@ -66,18 +196,38 @@ def build(
     updated = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     devices_dir, wiki_ref = ensure_wiki_devices(cache_dir, force=force_fetch)
     enrichment = parse_enrichment_csv(csv_path)
+    gsm = _load_gsmarena_cache(cache_dir)
+    wiki_ip = load_ip_cache(cache_dir)
+    sensors_by_code = load_sensor_cache(
+        cache_dir, seed_path=ROOT / "data" / "raw" / "sensor_models_seed.json"
+    )
+    flagship_ov = load_flagship_overrides()
+    branches = fetch_download_builds(cache_dir / "lineage_download_devices.json")
+    branch_by_code = codename_branch_map(branches)
     wiki_devices = iter_wiki_devices(devices_dir, updated=updated)
 
     merged: list[dict] = []
-    matched = 0
+    csv_hits = 0
+    gsm_hits = 0
     for device in wiki_devices:
         key = device["codename"].lower()
-        enr = enrichment.get(key)
-        if enr is not None:
-            matched += 1
-        merged.append(_merge(device, enr, updated=updated))
+        if key in gsm:
+            _apply_layer(device, gsm[key], source="gsmarena", updated=updated)
+            gsm_hits += 1
+        if key in enrichment:
+            _apply_layer(device, enrichment[key], source="camera_enrichment_csv", updated=updated)
+            csv_hits += 1
+        _fill_waterproofing(device, wiki_ip)
+        _finalize_cameras(device, sensors_by_code)
+        apply_flagship_overrides(device, flagship_ov)
+        fill_camera_derived_fields(device.get("cameras") or [])
+        _refresh_camera_aggregates(device)
+        fill_structured_video_from_caps(device)
+        assign_provenance_quality(device)
+        _apply_lineage_status(device, branch_by_code)
+        apply_scores(device)
+        merged.append(device)
 
-    # CSV-only devices not found in wiki (still include for completeness)
     wiki_codes = {d["codename"].lower() for d in wiki_devices}
     for code, enr in enrichment.items():
         if code in wiki_codes:
@@ -97,9 +247,9 @@ def build(
             "current_branch": None,
             "maintainers": [],
             "first_supported_date": None,
-            "status": "unknown",
-            "wiki_url": None,
-            "download_url": None,
+            "status": "discontinued",
+            "wiki_url": f"https://wiki.lineageos.org/devices/{code}/",
+            "download_url": f"https://download.lineageos.org/devices/{code}",
             "soc": None,
             "cpu": None,
             "cpu_cores": None,
@@ -116,26 +266,49 @@ def build(
             "peripherals": None,
             "architecture": None,
             "waterproofing": enr.get("waterproofing"),
-            "cameras": enr.get("cameras") or [],
-            "video": enr.get("video"),
-            "aggregates": enr.get("aggregates") or {},
+            "cameras": [],
+            "video": None,
+            "aggregates": {},
             "scores": {},
+            "camera_features": {},
             "provenance": {
-                "data_sources": ["camera_enrichment_csv"],
+                "data_sources": [],
                 "quality": "partial",
                 "last_updated": updated,
             },
         }
+        if code in gsm:
+            _apply_layer(stub, gsm[code], source="gsmarena", updated=updated)
+        _apply_layer(stub, enr, source="camera_enrichment_csv", updated=updated)
+        _fill_waterproofing(stub, wiki_ip)
+        _finalize_cameras(stub, sensors_by_code)
+        apply_flagship_overrides(stub, flagship_ov)
+        fill_camera_derived_fields(stub.get("cameras") or [])
+        _refresh_camera_aggregates(stub)
+        fill_structured_video_from_caps(stub)
+        assign_provenance_quality(stub)
+        _apply_lineage_status(stub, branch_by_code)
         apply_scores(stub)
         merged.append(stub)
 
-    merged.sort(key=lambda d: ((d.get("aggregates") or {}).get("main_sensor_size") or 0), reverse=True)
+    merged.sort(
+        key=lambda d: (
+            (d.get("scores") or {}).get("camera_score")
+            or (d.get("aggregates") or {}).get("main_sensor_size")
+            or 0
+        ),
+        reverse=True,
+    )
 
-    enriched_count = sum(1 for d in merged if d["provenance"]["quality"] == "enriched")
+    complete_count = sum(1 for d in merged if d["provenance"]["quality"] == "complete")
+    enriched_count = sum(
+        1 for d in merged if d["provenance"]["quality"] in {"enriched", "complete"}
+    )
     payload = {
         "generated_at": updated,
         "source_wiki_ref": wiki_ref,
         "device_count": len(merged),
+        "complete_count": complete_count,
         "enriched_count": enriched_count,
         "devices": merged,
     }
@@ -148,9 +321,17 @@ def build(
     )
     print(f"Wrote {out_path}")
     print(f"  devices: {len(merged)}")
-    print(f"  enriched (csv join): {enriched_count} (matched wiki codenames: {matched})")
+    print(f"  complete quality: {complete_count}")
+    print(f"  enriched+complete: {enriched_count}")
+    print(f"  csv joins: {csv_hits}  gsmarena joins: {gsm_hits}")
+    print(f"  download API codenames: {len(branch_by_code)}")
+    with_sensors = sum(
+        1
+        for d in merged
+        if any(c.get("sensor_model") for c in (d.get("cameras") or []))
+    )
+    print(f"  devices with sensor names: {with_sensors}")
     print(f"  missing main_sensor_size: {missing_main} ({100 * missing_main / max(1, len(merged)):.1f}%)")
-    print(f"  csv rows: {len(enrichment)}")
 
     if schema_path and schema_path.is_file():
         try:

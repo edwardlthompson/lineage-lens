@@ -2,12 +2,16 @@
 
 from __future__ import annotations
 
+import math
 import re
 from typing import Optional
 
 
 _FRAC = re.compile(r"^\s*1\s*/\s*(\d+(?:\.\d+)?)\s*$")
 _PLAIN = re.compile(r"^\s*(\d+(?:\.\d+)?)\s*$")
+
+# Full-frame 36×24 mm diagonal (mm).
+FF_DIAGONAL_MM = math.hypot(36.0, 24.0)
 
 
 def optical_format_to_diagonal_mm(fmt: Optional[str]) -> Optional[float]:
@@ -21,12 +25,14 @@ def optical_format_to_diagonal_mm(fmt: Optional[str]) -> Optional[float]:
     s = str(fmt).strip()
     if not s:
         return None
+    # Phone "Type" inch: 1" ≈ 16 mm diagonal (not a literal 25.4 mm inch).
+    type1_mm = 16.0
     m = _FRAC.match(s)
     if m:
         denom = float(m.group(1))
         if denom <= 0:
             return None
-        return round(25.4 / denom, 4)
+        return round(type1_mm / denom, 4)
     m = _PLAIN.match(s)
     if m:
         val = float(m.group(1))
@@ -34,7 +40,7 @@ def optical_format_to_diagonal_mm(fmt: Optional[str]) -> Optional[float]:
             return None
         # Sheet "Size" column is typically the 1/x denominator (e.g. 1.31 → 1/1.31").
         if val <= 4.0:
-            return round(25.4 / val, 4)
+            return round(type1_mm / val, 4)
         return round(val, 4)
     return None
 
@@ -68,3 +74,39 @@ def sensor_area_mm2(diagonal_mm: Optional[float]) -> Optional[float]:
 
 def clamp(n: float, lo: float = 0.0, hi: float = 100.0) -> float:
     return max(lo, min(hi, n))
+
+
+def fov_deg_from_ff_equivalent(focal_ff_eq_mm: Optional[float]) -> Optional[float]:
+    """Diagonal FOV (degrees) from a 35mm-equivalent focal length."""
+    if focal_ff_eq_mm is None or focal_ff_eq_mm <= 0:
+        return None
+    # FOV = 2 * atan(diag / (2f)) on the reference format.
+    rad = 2.0 * math.atan(FF_DIAGONAL_MM / (2.0 * float(focal_ff_eq_mm)))
+    return round(math.degrees(rad), 1)
+
+
+def fill_camera_derived_fields(cameras: list[dict]) -> None:
+    """Fill FOV / info stubs from known FL + model (does not invent ois/flash)."""
+    for cam in cameras:
+        if not isinstance(cam, dict):
+            continue
+        fl = cam.get("focal_length_mm")
+        if cam.get("fov_deg") is None and fl is not None:
+            # Marketing FL >= 10 is treated as FF-equivalent (same as UI).
+            if float(fl) >= 10:
+                fov = fov_deg_from_ff_equivalent(float(fl))
+            else:
+                diag = cam.get("sensor_size_mm")
+                if diag:
+                    rad = 2.0 * math.atan(float(diag) / (2.0 * float(fl)))
+                    fov = round(math.degrees(rad), 1)
+                else:
+                    fov = None
+            if fov is not None:
+                cam["fov_deg"] = fov
+        if not str(cam.get("info") or "").strip():
+            typ = str(cam.get("type") or "camera")
+            model = cam.get("sensor_model")
+            cam["info"] = f"{typ} ({model})" if model else typ
+        if cam.get("type") == "front" and not str(cam.get("flash") or "").strip():
+            cam["flash"] = "None"

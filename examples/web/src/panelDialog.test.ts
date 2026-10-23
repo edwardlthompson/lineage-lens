@@ -32,12 +32,12 @@ describe("bindPanelDialog", () => {
     expect(document.activeElement?.id).toBe("first-btn");
   });
 
-  it("calls onClose when Escape is pressed", () => {
+  it("calls onClose when Escape is pressed on the document", () => {
     const panel = createPanel();
     const onClose = vi.fn();
     bindPanelDialog(panel, onClose);
 
-    panel.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true }));
+    document.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true }));
 
     expect(onClose).toHaveBeenCalledTimes(1);
   });

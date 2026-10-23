@@ -1,0 +1,102 @@
+{
+  "_comment": "Curated sensor part numbers by Lineage codename when proprietary-files omit them (esp. Google). Roles: main/ultrawide/telephoto/front/macro.",
+  "panther": [
+    { "type": "main", "sensor_model": "GN1" },
+    { "type": "ultrawide", "sensor_model": "IMX787" },
+    { "type": "front", "sensor_model": "IMX712" }
+  ],
+  "cheetah": [
+    { "type": "main", "sensor_model": "GN1" },
+    { "type": "telephoto", "sensor_model": "IMX787" },
+    { "type": "ultrawide", "sensor_model": "IMX712" },
+    { "type": "front", "sensor_model": "IMX712" }
+  ],
+  "felix": [
+    { "type": "main", "sensor_model": "GN1" },
+    { "type": "ultrawide", "sensor_model": "IMX787" },
+    { "type": "front", "sensor_model": "IMX712" }
+  ],
+  "lynx": [
+    { "type": "main", "sensor_model": "GN1" },
+    { "type": "ultrawide", "sensor_model": "IMX787" },
+    { "type": "front", "sensor_model": "IMX712" }
+  ],
+  "shiba": [
+    { "type": "main", "sensor_model": "GN2" },
+    { "type": "ultrawide", "sensor_model": "IMX564" },
+    { "type": "front", "sensor_model": "IMX355" }
+  ],
+  "husky": [
+    { "type": "main", "sensor_model": "GN2" },
+    { "type": "telephoto", "sensor_model": "IMX787" },
+    { "type": "ultrawide", "sensor_model": "IMX564" },
+    { "type": "front", "sensor_model": "IMX355" }
+  ],
+  "akita": [
+    { "type": "main", "sensor_model": "GN2" },
+    { "type": "ultrawide", "sensor_model": "IMX564" },
+    { "type": "front", "sensor_model": "IMX355" }
+  ],
+  "tokay": [
+    { "type": "main", "sensor_model": "GN3" },
+    { "type": "ultrawide", "sensor_model": "IMX858" },
+    { "type": "front", "sensor_model": "IMX355" }
+  ],
+  "caiman": [
+    { "type": "main", "sensor_model": "GN3" },
+    { "type": "telephoto", "sensor_model": "IMX858" },
+    { "type": "ultrawide", "sensor_model": "IMX858" },
+    { "type": "front", "sensor_model": "IMX355" }
+  ],
+  "komodo": [
+    { "type": "main", "sensor_model": "GN3" },
+    { "type": "telephoto", "sensor_model": "IMX858" },
+    { "type": "ultrawide", "sensor_model": "IMX858" },
+    { "type": "front", "sensor_model": "IMX355" }
+  ],
+  "oriole": [
+    { "type": "main", "sensor_model": "GN1" },
+    { "type": "ultrawide", "sensor_model": "IMX787" },
+    { "type": "front", "sensor_model": "IMX712" }
+  ],
+  "raven": [
+    { "type": "main", "sensor_model": "GN1" },
+    { "type": "telephoto", "sensor_model": "IMX787" },
+    { "type": "ultrawide", "sensor_model": "IMX787" },
+    { "type": "front", "sensor_model": "IMX712" }
+  ],
+  "bluejay": [
+    { "type": "main", "sensor_model": "GN1" },
+    { "type": "ultrawide", "sensor_model": "IMX355" },
+    { "type": "front", "sensor_model": "IMX712" }
+  ],
+  "barbet": [
+    { "type": "main", "sensor_model": "IMX363" },
+    { "type": "ultrawide", "sensor_model": "IMX355" },
+    { "type": "front", "sensor_model": "IMX355" }
+  ],
+  "redfin": [
+    { "type": "main", "sensor_model": "IMX363" },
+    { "type": "ultrawide", "sensor_model": "IMX355" },
+    { "type": "front", "sensor_model": "IMX355" }
+  ],
+  "bramble": [
+    { "type": "main", "sensor_model": "IMX363" },
+    { "type": "telephoto", "sensor_model": "IMX355" },
+    { "type": "ultrawide", "sensor_model": "IMX355" },
+    { "type": "front", "sensor_model": "IMX355" }
+  ],
+  "sunfish": [
+    { "type": "main", "sensor_model": "IMX363" },
+    { "type": "front", "sensor_model": "IMX355" }
+  ],
+  "coral": [
+    { "type": "main", "sensor_model": "IMX363" },
+    { "type": "telephoto", "sensor_model": "IMX355" },
+    { "type": "front", "sensor_model": "IMX355" }
+  ],
+  "flame": [
+    { "type": "main", "sensor_model": "IMX363" },
+    { "type": "front", "sensor_model": "IMX355" }
+  ]
+}

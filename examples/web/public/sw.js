@@ -24,8 +24,21 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
+  const url = new URL(event.request.url);
+  // Device catalog changes often during enrichment — never serve a stale copy.
+  const isDevicesJson = url.pathname.endsWith("/data/devices.json");
   event.respondWith(
     (async () => {
+      if (isDevicesJson) {
+        try {
+          return await fetch(event.request, { cache: "no-store" });
+        } catch {
+          const cache = await caches.open(CACHE_NAME);
+          const cached = await cache.match(event.request);
+          if (cached) return cached;
+          throw new Error("offline and no cache");
+        }
+      }
       const cache = await caches.open(CACHE_NAME);
       try {
         const response = await fetch(event.request);
