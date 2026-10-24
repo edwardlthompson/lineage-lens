@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.11.0](https://github.com/edwardlthompson/lineage-lens/compare/v1.10.0...v1.11.0) (2026-10-24)
+
+
+### Added
+
+* camera-first enrichment through 2020 and metric sort fix ([2b7b06f](https://github.com/edwardlthompson/lineage-lens/commit/2b7b06fb0b6916b62183e63bf2107ba61f90d50c))
+* enrich phone optics to ~310 complete and ship table UX slices ([37d1843](https://github.com/edwardlthompson/lineage-lens/commit/37d1843929f8e09a43f9a24a28b6459aa8089c21))
+* scaffold Lineage Lens Sprint 0–1 (React table + data pipeline) ([b5c00a3](https://github.com/edwardlthompson/lineage-lens/commit/b5c00a362171794c3f2681d21132ac36d79a28f8))
+
 ## [Unreleased]
 
 ## [1.10.0](https://github.com/edwardlthompson/agent-project-bootstrap/compare/v1.9.0...v1.10.0) (2026-10-16)
