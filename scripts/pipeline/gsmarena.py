@@ -137,20 +137,17 @@ def parse_video_caps(raw: str) -> tuple[dict[str, Any] | None, str]:
     text = re.sub(r"\s+", " ", text).strip()
     if not text:
         return None, ""
-    structured: dict[str, Any] = {"1080p": {}, "4k": {}}
+    structured: dict[str, Any] = {"1080p": {}, "4k": {}, "8k": {}}
     # e.g. 4K@30/60fps, 1080p@30/60/120/240fps, 8K@30fps
     for res, key in (("8K", "8k"), ("4K", "4k"), ("2160p", "4k"), ("1080p", "1080p"), ("720p", "720p")):
         for m in re.finditer(rf"{res}\s*@\s*([\d/]+)\s*fps", text, re.I):
             rates = m.group(1)
-            bucket = "4k" if key in {"8k", "4k"} else "1080p" if key == "1080p" else None
-            if bucket is None:
+            if key not in structured:
                 continue
             for part in rates.split("/"):
                 part = part.strip()
                 if part.isdigit():
-                    structured[bucket][part] = True
-            if key == "8k":
-                structured["4k"]["8K"] = True
+                    structured[key][part] = True
     low = text.lower()
     if "hdr10+" in low:
         structured["4k"]["HDR10+"] = True
@@ -160,7 +157,14 @@ def parse_video_caps(raw: str) -> tuple[dict[str, Any] | None, str]:
         structured["4k"]["Dolby"] = True
     if "10-bit" in low or "10 bit" in low:
         structured["4k"]["10 Bit"] = True
-    has_any = any(structured["1080p"].values()) or any(structured["4k"].values())
+    has_any = (
+        any(structured["1080p"].values())
+        or any(structured["4k"].values())
+        or any(structured["8k"].values())
+    )
+    # Drop empty 8k bucket so legacy clients stay lean.
+    if not structured["8k"]:
+        del structured["8k"]
     return (structured if has_any else None), text
 
 
@@ -238,6 +242,12 @@ def enrich_from_html(html: str, *, page_url: str) -> dict[str, Any]:
         "eis": "eis" in feat_l or "gyro-eis" in feat_l,
         "hdr10": "hdr10" in feat_l or "hdr" in video_text.lower(),
         "dolby_vision": "dolby" in feat_l,
+        "log_video": bool(re.search(r"\blog\b|cinelog", feat_l)),
+        "hlg": "hlg" in feat_l or "hybrid log-gamma" in feat_l,
+        "photo_10bit": bool(
+            re.search(r"10[\s-]?bit", feat_l)
+            and re.search(r"photo|still|heif|raw", feat_l)
+        ),
         "notes": re.sub(r"<[^>]+>", " ", features_raw).strip()[:400],
     }
 

@@ -2,10 +2,28 @@
 
 from __future__ import annotations
 
+import re
 from datetime import datetime, timezone
 from typing import Any, Optional
 
 from .optical import clamp
+
+
+def _max_enabled_fps(flags: dict[str, Any]) -> int:
+    rates: list[int] = []
+    for key, on in (flags or {}).items():
+        if on and str(key).isdigit():
+            rates.append(int(key))
+    return max(rates) if rates else 0
+
+
+def _text_has_4k120(caps: str) -> bool:
+    """True when free-text caps advertise 4K at 120fps or higher."""
+    compact = re.sub(r"\s+", "", caps.lower())
+    m = re.search(r"(?:4k|2160p?)@([\d/]+)fps", compact)
+    if m:
+        return any(int(x) >= 120 for x in m.group(1).split("/") if x.isdigit())
+    return bool(re.search(r"(?:4k|2160p?).{0,12}(?:120|240)\s*fps", caps.lower()))
 
 
 def _video_score(device: dict[str, Any]) -> Optional[float]:
@@ -27,6 +45,8 @@ def _video_score(device: dict[str, Any]) -> Optional[float]:
         for marker, pts in (("240", 12), ("120", 10), ("60", 8), ("30", 3)):
             if f"@{marker}" in low.replace(" ", "") or f"{marker}fps" in low.replace(" ", ""):
                 score += pts
+        if _text_has_4k120(caps):
+            score += 16.0
         if "raw" in low:
             score += 15.0
         if "hdr" in low:
@@ -36,6 +56,7 @@ def _video_score(device: dict[str, Any]) -> Optional[float]:
     score = 0.0
     f1080 = video.get("1080p") or {}
     f4k = video.get("4k") or {}
+    f8k = video.get("8k") or {}
 
     def fps_points(flags: dict, weight: float) -> float:
         pts = 0.0
@@ -53,9 +74,15 @@ def _video_score(device: dict[str, Any]) -> Optional[float]:
 
     score += fps_points(f1080, 0.35)
     score += fps_points(f4k, 0.65)
+    score += fps_points(f8k, 0.5)
     # presence of 4K at all
     if any(f4k.get(k) for k in f4k if str(k).isdigit()):
         score += 15.0
+    # Extra weight for high-speed 4K (120fps+).
+    if _max_enabled_fps(f4k) >= 120:
+        score += 16.0
+    if any(f8k.get(k) for k in f8k if str(k).isdigit()) or f4k.get("8K"):
+        score += 12.0
     if f4k.get("10 Bit") or f4k.get("HDR") or f4k.get("HDR10+") or f4k.get("Dolby"):
         score += 10.0
     return round(clamp(score), 2)

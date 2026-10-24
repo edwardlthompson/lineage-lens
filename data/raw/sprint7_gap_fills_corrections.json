@@ -1,0 +1,197 @@
+{
+  "_meta": {
+    "clear_none_ip": false,
+    "protocol": "Follow-up corrections from research agents after Sprint 7 archive",
+    "agents": ["9f49523f-7621-400d-a13b-9bb2e17f4724", "75f35771-ef7a-4a7c-8b85-4ad113dd8f8f"]
+  },
+  "pdx257": {
+    "charge": {"wired": 22, "wireless": null, "hasWireless": false},
+    "sensors": [
+      {"type": "main", "sensor_model": "IMX766", "optical_format": "1/1.56", "pixel_pitch_um": 1.0},
+      {"type": "ultrawide", "sensor_model": "SC1320CS", "optical_format": "1/3.0", "pixel_pitch_um": 1.12}
+    ],
+    "sources": [
+      "https://www.sony.de/smartphones/products/xperia-10m7",
+      "https://www.gsmarena.com/sony_xperia_10_vii-review-2879p5.php",
+      "Maker EU PD ceiling ~22W (reject GSMArena 30W)"
+    ]
+  },
+  "larry": {
+    "charge": {"wired": 67, "wireless": null, "hasWireless": false},
+    "refresh_rate": 120,
+    "sources": ["OnePlus Nord CE 3 Lite global SUPERVOOC 67W", "GSMArena"]
+  },
+  "genevn": {
+    "charge": {"wired": 20, "wireless": null, "hasWireless": false},
+    "sources": ["Motorola moto g stylus 5G 2023 TurboPower 20W"]
+  },
+  "ingot": {
+    "charge": {"wired": 20, "wireless": 15, "hasWireless": true, "qi": "Qi1"},
+    "waterproofing": "IP68",
+    "refresh_rate": 120,
+    "sources": ["FCC/user manual Solana Saga 20W + 15W Qi", "Solana Saga marketing"]
+  },
+  "rosemary": {
+    "charge": {"wired": 33, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "waterproofing": "IP53",
+    "sources": ["GSMArena POCO M5s 33W / 60Hz OLED / IP53"]
+  },
+  "FP4": {
+    "charge": {"wired": 20, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "waterproofing": "IP54",
+    "sources": ["Fairphone 4 FAQ 20W QC4.1 / 60Hz / IP54"]
+  },
+  "barbet": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "sources": ["Google Pixel 5a tech specs 18W USB-PD (no wireless)"]
+  },
+  "hawao": {
+    "refresh_rate": 60,
+    "sources": ["Motorola Moto G42 60Hz OLED"]
+  },
+  "gunnar": {
+    "refresh_rate": 60,
+    "sources": ["OnePlus Nord N20 60Hz"]
+  },
+  "rhode": {
+    "refresh_rate": 90,
+    "sources": ["Motorola Moto G52 90Hz"]
+  },
+  "earth": {
+    "charge": {"wired": 10, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "waterproofing": "IP52",
+    "sources": ["Xiaomi Redmi 12C specs 10W / 60Hz / IP52"]
+  },
+  "oscarc": {
+    "charge": {"wired": 60, "wireless": null, "hasWireless": false},
+    "refresh_rate": 120,
+    "sources": ["realme Q5 CN official 60W"]
+  },
+  "oscarru": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "refresh_rate": 120,
+    "sources": ["realme 9 5G global 18W"]
+  },
+  "denver": {
+    "charge": {"wired": 10, "wireless": null, "hasWireless": false},
+    "sources": ["Motorola Moto G Stylus 5G 2021 10W"]
+  },
+  "borneo": {
+    "charge": {"wired": 15, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["Moto G Power 2021 TurboPower 15W"]
+  },
+  "capri": {
+    "charge": {"wired": 10, "wireless": null, "hasWireless": false},
+    "sources": ["Moto G10 EU 10W"]
+  },
+  "ibiza": {
+    "charge": {"wired": 15, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "sources": ["Moto G50 15W / 90Hz"]
+  },
+  "miatoll": {
+    "charge": {"wired": 33, "wireless": null, "hasWireless": false},
+    "sources": ["Redmi Note 10 Lite / Note 9S family 33W"]
+  },
+  "monet": {
+    "charge": {"wired": 33, "wireless": null, "hasWireless": false},
+    "sources": ["Xiaomi Mi 10 Lite 5G 33W"]
+  },
+  "berlna": {
+    "charge": {"wired": 30, "wireless": null, "hasWireless": false},
+    "refresh_rate": 144,
+    "waterproofing": "IP52",
+    "sources": ["Motorola Edge 2021 TurboPower 30 / 144Hz / IP52"]
+  },
+  "m52xq": {
+    "charge": {"wired": 25, "wireless": null, "hasWireless": false},
+    "refresh_rate": 120,
+    "waterproofing": "IP67",
+    "sources": ["Galaxy M52 5G 25W / 120Hz"]
+  },
+  "surya": {
+    "charge": {"wired": 33, "wireless": null, "hasWireless": false},
+    "refresh_rate": 120,
+    "waterproofing": "IP53",
+    "sources": ["POCO X3 NFC 33W / 120Hz / IP53"]
+  },
+  "racer": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "sources": ["Motorola Edge 2020 18W / 90Hz"]
+  },
+  "nairo": {
+    "charge": {"wired": 20, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "sources": ["Moto G 5G Plus 20W / 90Hz"]
+  },
+  "kiev": {
+    "charge": {"wired": 20, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "sources": ["moto g 5G / One 5G Ace 20W / 90Hz"]
+  },
+  "lynx": {
+    "sensors": [
+      {"type": "main", "sensor_model": "IMX787", "optical_format": "1/1.73", "pixel_pitch_um": 0.8},
+      {"type": "ultrawide", "sensor_model": "IMX712", "optical_format": "1/3.1", "pixel_pitch_um": 1.12}
+    ],
+    "sources": ["Camera HAL (Kuba Wojciechowski)", "PetaPixel/GSMArena Pixel 7a"]
+  },
+  "bluejay": {
+    "sensors": [
+      {"type": "main", "sensor_model": "IMX363", "optical_format": "1/2.55", "pixel_pitch_um": 1.4},
+      {"type": "ultrawide", "sensor_model": "IMX386", "optical_format": "1/2.9", "pixel_pitch_um": 1.25},
+      {"type": "front", "sensor_model": "IMX355", "pixel_pitch_um": 1.12}
+    ],
+    "sources": ["9to5Google APK Insight", "GSMArena Pixel 6a"]
+  },
+  "oriole": {
+    "sensors": [
+      {"type": "main", "sensor_model": "GN1", "optical_format": "1/1.31", "pixel_pitch_um": 1.2},
+      {"type": "ultrawide", "sensor_model": "IMX386", "pixel_pitch_um": 1.25}
+    ],
+    "sources": ["GSMArena Pixel 6 GN1", "PhoneArena GN1 era"]
+  },
+  "raven": {
+    "sensors": [
+      {"type": "main", "sensor_model": "GN1", "optical_format": "1/1.31", "pixel_pitch_um": 1.2},
+      {"type": "ultrawide", "sensor_model": "IMX386", "pixel_pitch_um": 1.25},
+      {"type": "telephoto", "sensor_model": "IMX598", "optical_format": "1/2.0", "pixel_pitch_um": 0.8}
+    ],
+    "sources": ["GSMArena/XDA Pixel 6 Pro", "TechInsights Pixel 6 Pro IMX598"]
+  },
+  "bramble": {
+    "sensors": [
+      {"type": "main", "sensor_model": "IMX363", "optical_format": "1/2.55", "pixel_pitch_um": 1.4}
+    ],
+    "sources": ["Google Pixel 4a 5G / Pixel 5 camera briefings"]
+  },
+  "redfin": {
+    "sensors": [
+      {"type": "main", "sensor_model": "IMX363", "optical_format": "1/2.55", "pixel_pitch_um": 1.4}
+    ],
+    "waterproofing": "IP68",
+    "sources": ["Google Pixel 5 IMX363 continuity", "Google IP68"]
+  },
+  "husky": {
+    "sensors": [
+      {"type": "main", "sensor_model": "GNK", "optical_format": "1/1.31", "pixel_pitch_um": 1.2}
+    ],
+    "sources": ["Maeil Business / SamMobile Pixel 8 Pro GNK"]
+  },
+  "pro1x": {
+    "remove_charge": true,
+    "refresh_rate": 60,
+    "notes": "Remove invented peak watts — QC3.0/PD only, peak W unpublished",
+    "sources": ["F(x)tec Pro1 X specs"]
+  },
+  "pyrite": {
+    "remove_charge": true,
+    "notes": "Remove invented wired watts — USB-PD peak unpublished",
+    "sources": ["Lineage wiki OSOM OV1"]
+  }
+}

@@ -35,6 +35,7 @@ export interface CameraModule {
 export interface VideoCapabilities {
   "1080p"?: Record<string, boolean | null>;
   "4k"?: Record<string, boolean | null>;
+  "8k"?: Record<string, boolean | null>;
 }
 
 export interface DeviceAggregates {
@@ -63,6 +64,12 @@ export interface CameraFeatures {
   eis?: boolean;
   hdr10?: boolean;
   dolby_vision?: boolean;
+  /** OEM Log / CineLog style video. */
+  log_video?: boolean;
+  /** Hybrid Log-Gamma. */
+  hlg?: boolean;
+  /** 10-bit stills / HEIF when scraped. */
+  photo_10bit?: boolean;
   notes?: string | null;
 }
 
@@ -131,6 +138,8 @@ export interface DevicesFile {
   source_wiki_ref?: string | null;
   device_count: number;
   complete_count?: number;
+  /** Devices at enriched or complete (legacy rollup). Prefer qualityCounts in UI. */
   enriched_count: number;
+  partial_count?: number;
   devices: Device[];
 }

@@ -15,6 +15,9 @@ STATIC_GLOBS = (
     "*.vue",
     "*_view.*",
     "examples/web/src/components/*.ts",
+    # Charge watt tables are static Record data (not pure logic).
+    "examples/web/src/features/table/chargeCatalogModern.ts",
+    "examples/web/src/features/table/chargeCatalogLegacy.ts",
     "examples/android/app/src/main/java/*/ui/*/*.kt",
     "examples/android/app/src/main/java/*/ui/GoldenPath*.kt",
     "examples/*/locales/*.json",
@@ -58,6 +61,10 @@ def is_example_logic(rel: str) -> bool:
     if not rel.endswith((".ts", ".py", ".kt")):
         return False
     if ".test." in rel or ".spec." in rel:
+        return False
+    if ".generated." in rel:
+        return False
+    if is_static(rel):
         return False
     if rel == "examples/web/src/main.ts" or any(rel.startswith(p) for p in LOGIC_SKIP_PREFIX):
         return False

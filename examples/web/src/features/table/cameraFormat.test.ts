@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import type { CameraModule } from "../../types/device";
 import {
   cameraHasHardwareSpecs,
   cameraTypeLabel,
@@ -9,7 +10,6 @@ import {
   meaningfulCameras,
   summarizeVideo,
 } from "./cameraFormat";
-import type { CameraModule } from "../../types/device";
 
 describe("cameraFormat", () => {
   it("abbreviates ultrawide as UW", () => {
@@ -17,7 +17,7 @@ describe("cameraFormat", () => {
     expect(cameraTypeLabel("telephoto")).toBe("Tele");
   });
 
-  it("formats optical format denominators as 1/x\"", () => {
+  it('formats optical format denominators as 1/x"', () => {
     expect(formatOpticalFormat("1.31")).toBe('1/1.31"');
     expect(formatOpticalFormat("1/1.28")).toBe("1/1.28");
   });
@@ -78,10 +78,20 @@ describe("cameraFormat", () => {
     const s = summarizeVideo({
       "1080p": { "30": true, "60": true, "24": false },
       "4k": { "30": true, "60": true, HDR: false, "10 Bit": true },
+      "8k": { "30": true },
     });
     expect(s.p1080).toBe("1080p @ 30/60 fps");
     expect(s.p4k).toBe("4K @ 30/60 fps");
+    expect(s.p8k).toBe("8K @ 30 fps");
     expect(s.features).toContain("10 Bit");
     expect(enabledFrameRates({ "120": true, HDR: true })).toEqual([120]);
+  });
+
+  it("shows legacy 8K flag when fps bucket is missing", () => {
+    const s = summarizeVideo({
+      "4k": { "30": true, "8K": true },
+    });
+    expect(s.p8k).toBe("8K");
+    expect(s.features).not.toContain("8K");
   });
 });

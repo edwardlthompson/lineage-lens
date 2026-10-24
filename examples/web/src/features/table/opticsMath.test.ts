@@ -4,6 +4,7 @@ import {
   analyzeDeviceLenses,
   backgroundBlurIndex,
   fullFrameEquivalentMm,
+  lensVideoScore,
   sensorDiagonalMm,
 } from "./opticsMath";
 
@@ -135,8 +136,9 @@ describe("opticsMath", () => {
 
   it("ranks enriched berlin above incomplete tucana in live devices.json", async () => {
     const raw = await import("../../../public/data/devices.json");
-    const devices = (raw as { default?: { devices: Device[] } }).default?.devices
-      ?? (raw as { devices: Device[] }).devices;
+    const devices =
+      (raw as { default?: { devices: Device[] } }).default?.devices ??
+      (raw as { devices: Device[] }).devices;
     const tucana = devices.find((d) => d.codename === "tucana")!;
     const berlin = devices.find((d) => d.codename === "berlin")!;
     const t = analyzeDeviceLenses(tucana);
@@ -208,6 +210,19 @@ describe("opticsMath", () => {
     expect(a.overallScore).toBeNull();
     expect(b.overallScore).not.toBeNull();
     expect(b.overallScore!).toBeGreaterThan(0);
+  });
+
+  it("boosts video score when 4K reaches 120fps+", () => {
+    const at60 = lensVideoScore("main", {
+      "4k": { "30": true, "60": true },
+      "1080p": { "30": true, "60": true },
+    });
+    const at120 = lensVideoScore("main", {
+      "4k": { "30": true, "60": true, "120": true },
+      "1080p": { "30": true, "60": true },
+    });
+    expect(at120.score!).toBeGreaterThan(at60.score!);
+    expect(at120.score! - at60.score!).toBeGreaterThanOrEqual(10);
   });
 
   it("raises lens overall score when blur potential is higher", () => {

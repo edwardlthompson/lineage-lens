@@ -1,9 +1,5 @@
 import type { CameraModule } from "../../types/device";
-import {
-  cameraTypeLabel,
-  formatCameraHardwareLines,
-  meaningfulCameras,
-} from "./cameraFormat";
+import { cameraTypeLabel, formatCameraHardwareLines, meaningfulCameras } from "./cameraFormat";
 
 type Props = {
   cameras: CameraModule[];

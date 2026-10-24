@@ -1,6 +1,6 @@
 import type { Device } from "../../types/device";
-import { performanceTieBreakScore } from "./performanceTieBreak";
 import { analyzeDeviceLenses, type LensOptics } from "./opticsMath";
+import { performanceTieBreakScore } from "./performanceTieBreak";
 
 export type LensMetricKey =
   | "sensorDiagMm"

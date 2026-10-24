@@ -1,4 +1,4 @@
-import { createContext, useContext, type ReactNode } from "react";
+import { createContext, type ReactNode, useContext } from "react";
 import type { CategoryKey, CompareWins, LensMetricKey } from "./compareWins";
 
 export type CompareContextValue = {
@@ -27,19 +27,12 @@ export function useCompareHighlight(): CompareContextValue {
   return useContext(CompareContext);
 }
 
-export function categoryWin(
-  ctx: CompareContextValue,
-  key: CategoryKey,
-): boolean {
+export function categoryWin(ctx: CompareContextValue, key: CategoryKey): boolean {
   if (!ctx.comparing || !ctx.wins || !ctx.deviceId) return false;
   return ctx.wins.category[key]?.has(ctx.deviceId) ?? false;
 }
 
-export function lensWin(
-  ctx: CompareContextValue,
-  type: string,
-  metric: LensMetricKey,
-): boolean {
+export function lensWin(ctx: CompareContextValue, type: string, metric: LensMetricKey): boolean {
   if (!ctx.comparing || !ctx.wins || !ctx.deviceId) return false;
   return ctx.wins.lens[type]?.[metric]?.has(ctx.deviceId) ?? false;
 }

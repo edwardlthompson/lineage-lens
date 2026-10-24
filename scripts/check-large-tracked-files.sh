@@ -11,6 +11,18 @@ ERRORS=0
 MAX_REPORT=20
 reported=0
 
+# Intentional product/template binaries above the general budget (not LFS).
+# Keep this list short; prefer regenerating or compressing new large assets.
+is_large_allowlisted() {
+  case "$1" in
+    examples/web/public/data/devices.json) return 0 ;;
+    branding/template/logo-handshake-crop-source-guide.png) return 0 ;;
+    branding/template/readme-splash-handshake.png) return 0 ;;
+    branding/template/readme-splash.png) return 0 ;;
+    *) return 1 ;;
+  esac
+}
+
 # Single ls-tree; parse size without per-file git/awk (Windows Git Bash).
 tmp="$(mktemp)"
 trap 'rm -f "$tmp"' EXIT
@@ -27,6 +39,9 @@ while IFS= read -r line; do
     ''|*[!0-9]*) continue ;;
   esac
   if [ "$size" -gt "$MAX_BYTES" ]; then
+    if is_large_allowlisted "$path"; then
+      continue
+    fi
     kb=$((size / 1024))
     echo "LARGE TRACKED FILE: $path (${kb} KB > ${MAX_KB} KB)"
     ERRORS=$((ERRORS + 1))

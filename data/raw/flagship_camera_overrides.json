@@ -67,62 +67,85 @@
   },
   "nuwa": {
     "_sources": [
-      "Xiaomi 13 Pro OEM / GSMArena photography hardware table"
+      "GSMArena Xiaomi 13 Pro spec sheet",
+      "GSMArena review: UW and tele share Samsung JN1",
+      "Xiaomi FAQ: 120W, IP68, Snapdragon 8 Gen 2, 3200x1440 120Hz",
+      "GSMArena Xiaomi 13 Pro review",
+      "mi.com 13 Pro specs"
     ],
+    "storage": "128 GB UFS 3.1, 256/512 GB UFS 4.0",
+    "wifi": "802.11 a/b/g/n/ac/ax (Wi-Fi 6E)",
+    "screen": {
+      "technology": "LTPO AMOLED",
+      "refresh_rate": 120
+    },
     "cameras": [
       {
         "type": "main",
         "sensor_model": "IMX989",
         "mp": 50.3,
-        "optical_format": "1/1.0",
-        "sensor_size_mm": 15.86,
-        "pixel_pitch_um": 1.6,
         "focal_length_mm": 23,
         "aperture": 1.9,
         "ois": true,
-        "flash": "LED",
-        "info": "main (IMX989)"
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/1.0",
+        "pixel_pitch_um": 1.6,
+        "info": "50 MP 1\" (IMX989)"
       },
       {
         "type": "ultrawide",
         "sensor_model": "S5KJN1",
         "mp": 50,
-        "optical_format": "1/2.76",
-        "sensor_size_mm": 5.8,
-        "pixel_pitch_um": 0.64,
         "focal_length_mm": 14,
         "aperture": 2.2,
         "ois": false,
-        "flash": "LED",
-        "info": "ultrawide (S5KJN1)"
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/2.76",
+        "pixel_pitch_um": 0.64,
+        "fov_deg": 115,
+        "info": "50 MP ultrawide (JN1)"
       },
       {
         "type": "telephoto",
-        "sensor_model": "IMX858",
+        "sensor_model": "S5KJN1",
         "mp": 50,
-        "optical_format": "1/2.51",
-        "sensor_size_mm": 6.4,
-        "pixel_pitch_um": 0.64,
         "focal_length_mm": 75,
         "aperture": 2.0,
-        "zoom": 3.2,
         "ois": true,
-        "flash": "LED",
-        "info": "telephoto (IMX858)"
+        "zoom": 3.2,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/2.76",
+        "pixel_pitch_um": 0.64,
+        "info": "50 MP 3.2x tele (JN1)"
       },
       {
         "type": "front",
         "sensor_model": "OV32C",
         "mp": 32,
-        "optical_format": "1/2.8",
+        "focal_length_mm": 21,
         "aperture": 2.0,
-        "focal_length_mm": 24,
         "ois": false,
         "flash": "None",
-        "info": "front (OV32C)"
+        "optical_format": "1/3.14",
+        "pixel_pitch_um": 0.7,
+        "info": "32 MP selfie (OV32C)"
       }
     ],
-    "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60/120/240/960/1920fps"
+    "video_caps_text": "8K@24fps, 4K@24/30/60fps, 1080p@30/120/240/960/1920fps",
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "24": true,
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "120": true
+      }
+    }
   },
   "cheetah": {
     "_sources": [
@@ -228,12 +251,13 @@
   },
   "husky": {
     "_sources": [
-      "Pixel 8 Pro DevCheck / OEM"
+      "Pixel 8 Pro DevCheck / OEM",
+      "Maeil Business / SamMobile Pixel 8 Pro GNK"
     ],
     "cameras": [
       {
         "type": "main",
-        "sensor_model": "GNV",
+        "sensor_model": "GNK",
         "mp": 50,
         "optical_format": "1/1.31",
         "pixel_pitch_um": 1.2,
@@ -241,7 +265,7 @@
         "aperture": 1.68,
         "ois": true,
         "flash": "LED",
-        "info": "main (GNV)"
+        "info": "main (GNK)"
       },
       {
         "type": "ultrawide",
@@ -745,7 +769,9 @@
     "_sources": [
       "XDA Pixel 6 Pro sensor list",
       "TechInsights Pixel 6 Pro periscope (IMX598)",
-      "DevCheck raven"
+      "DevCheck raven",
+      "GSMArena/XDA Pixel 6 Pro",
+      "TechInsights Pixel 6 Pro IMX598"
     ],
     "cameras": [
       {
@@ -802,7 +828,8 @@
   },
   "pdx215": {
     "_sources": [
-      "Wikipedia / GSMArena Xperia 1 III"
+      "Wikipedia / GSMArena Xperia 1 III",
+      "https://www.gsmarena.com/sony_xperia_1_iii-10724.php"
     ],
     "cameras": [
       {
@@ -855,7 +882,10 @@
         "info": "front (S5K4H7)"
       }
     ],
-    "video_caps_text": "4K@24/25/30/60/120fps, 1080p@30/60/120fps"
+    "video_caps_text": "4K@24/25/30/60/120fps, 1080p@30/60/120fps",
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "pdx214": {
     "_sources": [
@@ -917,7 +947,9 @@
   "rtwo": {
     "_sources": [
       "GSMArena Edge 40 Pro review",
-      "LineageOS android_device_motorola_rtwo proprietary-files"
+      "LineageOS android_device_motorola_rtwo proprietary-files",
+      "motorola.com Edge+ 2023 NA 68W+15W Qi IP68",
+      "en-emea.support Edge 40 Pro 125W+15W Qi IP68"
     ],
     "cameras": [
       {
@@ -970,7 +1002,11 @@
         "info": "front (OV60A)"
       }
     ],
-    "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60/120fps"
+    "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60/120fps",
+    "waterproofing": "IP68",
+    "screen": {
+      "refresh_rate": 165
+    }
   },
   "salami": {
     "_sources": [
@@ -1149,7 +1185,9 @@
   "lynx": {
     "_sources": [
       "https://www.gsmarena.com/google_pixel_7a-12170.php",
-      "PetaPixel Pixel 7a review (IMX787 / IMX712)"
+      "PetaPixel Pixel 7a review (IMX787 / IMX712)",
+      "Camera HAL (Kuba Wojciechowski)",
+      "PetaPixel/GSMArena Pixel 7a"
     ],
     "waterproofing": "IP67",
     "cameras": [
@@ -1169,7 +1207,7 @@
         "type": "ultrawide",
         "sensor_model": "IMX712",
         "mp": 13,
-        "optical_format": "1/3.06",
+        "optical_format": "1/3.1",
         "pixel_pitch_um": 1.12,
         "focal_length_mm": 14,
         "fov_deg": 120,
@@ -1195,7 +1233,9 @@
   },
   "bluejay": {
     "_sources": [
-      "https://www.gsmarena.com/google_pixel_6a-11229.php"
+      "https://www.gsmarena.com/google_pixel_6a-11229.php",
+      "9to5Google APK Insight",
+      "GSMArena Pixel 6a"
     ],
     "waterproofing": "IP67",
     "cameras": [
@@ -1213,7 +1253,7 @@
       },
       {
         "type": "ultrawide",
-        "sensor_model": "IMX355",
+        "sensor_model": "IMX386",
         "mp": 12,
         "optical_format": "1/2.9",
         "pixel_pitch_um": 1.25,
@@ -1222,7 +1262,7 @@
         "aperture": 2.2,
         "ois": false,
         "flash": "LED",
-        "info": "ultrawide (IMX355)"
+        "info": "ultrawide (IMX386)"
       },
       {
         "type": "front",
@@ -1241,7 +1281,9 @@
   },
   "oriole": {
     "_sources": [
-      "https://www.gsmarena.com/google_pixel_6-11037.php"
+      "https://www.gsmarena.com/google_pixel_6-11037.php",
+      "GSMArena Pixel 6 GN1",
+      "PhoneArena GN1 era"
     ],
     "waterproofing": "IP68",
     "cameras": [
@@ -1334,7 +1376,8 @@
   },
   "coral": {
     "_sources": [
-      "https://www.gsmarena.com/google_pixel_4_xl-9896.php"
+      "https://www.gsmarena.com/google_pixel_4_xl-9896.php",
+      "GSMArena/maker published charging for coral"
     ],
     "waterproofing": "IP68",
     "cameras": [
@@ -1376,11 +1419,15 @@
         "info": "front (IMX355)"
       }
     ],
-    "video_caps_text": "4K@30fps, 1080p@30/60/120fps"
+    "video_caps_text": "4K@30fps, 1080p@30/60/120fps",
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "flame": {
     "_sources": [
-      "https://www.gsmarena.com/google_pixel_4-9893.php"
+      "https://www.gsmarena.com/google_pixel_4-9893.php",
+      "GSMArena/maker published charging for flame"
     ],
     "waterproofing": "IP68",
     "cameras": [
@@ -1422,7 +1469,10 @@
         "info": "front (IMX355)"
       }
     ],
-    "video_caps_text": "4K@30fps, 1080p@30/60/120fps"
+    "video_caps_text": "4K@30fps, 1080p@30/60/120fps",
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "shiba": {
     "_sources": [
@@ -1511,9 +1561,14 @@
   },
   "eqs": {
     "_sources": [
-      "GSMArena Edge 30 Ultra review (HP1 / JN1 / IMX663 / OV60A)",
-      "Motorola EU specs PDF — IP52"
+      "GSMArena Edge 30 Ultra spec sheet",
+      "Motorola EU specs PDF 2022-09-05 — IP52, pOLED 144 Hz, Wi-Fi 6E, tele f/2.6, 125W/50W"
     ],
+    "wifi": "802.11 a/b/g/n/ac/ax (Wi-Fi 6E)",
+    "screen": {
+      "technology": "P-OLED",
+      "refresh_rate": 144
+    },
     "waterproofing": "IP52",
     "cameras": [
       {
@@ -1525,7 +1580,7 @@
         "focal_length_mm": 23,
         "aperture": 1.9,
         "ois": true,
-        "flash": "LED",
+        "flash": "Dual-LED dual-tone",
         "info": "main (S5KHP1)"
       },
       {
@@ -1537,7 +1592,7 @@
         "focal_length_mm": 14,
         "aperture": 2.2,
         "ois": false,
-        "flash": "LED",
+        "flash": "Dual-LED dual-tone",
         "info": "ultrawide (S5KJN1)"
       },
       {
@@ -1547,10 +1602,10 @@
         "optical_format": "1/2.93",
         "pixel_pitch_um": 1.22,
         "focal_length_mm": 50,
-        "aperture": 1.6,
+        "aperture": 2.6,
         "zoom": 2,
         "ois": false,
-        "flash": "LED",
+        "flash": "Dual-LED dual-tone",
         "info": "telephoto (IMX663)"
       },
       {
@@ -1566,7 +1621,7 @@
         "info": "front (OV60A)"
       }
     ],
-    "video_caps_text": "8K@30fps, 4K@30/60fps, 1080p@30/60/120/240/960fps"
+    "video_caps_text": "8K@30fps, 4K@30/60fps, 1080p@30/60/120/320/960fps"
   },
   "cmi": {
     "_sources": [
@@ -1641,7 +1696,8 @@
   "pdx203": {
     "_sources": [
       "GSMArena / Wikipedia Xperia 1 II sensors",
-      "SoMainline PDX203 camera table"
+      "SoMainline PDX203 camera table",
+      "https://www.gsmarena.com/sony_xperia_1_ii-10041.php"
     ],
     "cameras": [
       {
@@ -1694,12 +1750,16 @@
         "info": "front (S5K4H7)"
       }
     ],
-    "video_caps_text": "4K@24/25/30/60/120fps, 1080p@30/60/120fps"
+    "video_caps_text": "4K@24/25/30/60/120fps, 1080p@30/60/120fps",
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "pdx206": {
     "_sources": [
       "Wikipedia Xperia 5 II",
-      "SoMainline PDX206 camera table"
+      "SoMainline PDX206 camera table",
+      "https://www.gsmarena.com/sony_xperia_5_ii-10456.php"
     ],
     "cameras": [
       {
@@ -1757,7 +1817,10 @@
   "berlin": {
     "_sources": [
       "GSMArena Edge 20 camera review (HM2 / OV08A10 / OV16A10 / OV32B40)",
-      "Three / PhoneArena — IP52"
+      "Three / PhoneArena — IP52",
+      "https://www.gsmarena.com/motorola_edge_20-10948.php",
+      "GSMArena Edge 20 30W wired only / IP52",
+      "GSMArena Edge 20 30W IP52"
     ],
     "waterproofing": "IP52",
     "cameras": [
@@ -1811,7 +1874,10 @@
         "info": "front (OV32B40)"
       }
     ],
-    "video_caps_text": "4K@30fps, 1080p@30/60fps"
+    "video_caps_text": "4K@30fps, 1080p@30/60fps",
+    "screen": {
+      "refresh_rate": 144
+    }
   },
   "avatrn": {
     "_sources": [
@@ -1863,13 +1929,16 @@
   "lexus": {
     "_sources": [
       "https://www.oneplus.com/global/nord-5/specs",
-      "PhoneArena OnePlus Nord 5 (IP65)"
+      "PhoneArena OnePlus Nord 5 (IP65)",
+      "https://www.oneplus.com/mt/nord-5/specs",
+      "https://www.gsmarena.com/oneplus_nord_5_5g-13992.php",
+      "OnePlus Nord 5 specs — no wireless"
     ],
     "waterproofing": "IP65",
     "cameras": [
       {
         "type": "main",
-        "sensor_model": "IMX906",
+        "sensor_model": "LYT-700",
         "mp": 50,
         "optical_format": "1/1.56",
         "pixel_pitch_um": 1.0,
@@ -1877,13 +1946,13 @@
         "aperture": 1.8,
         "ois": true,
         "flash": "LED",
-        "info": "main (IMX906)"
+        "info": "main (LYT-700)"
       },
       {
         "type": "ultrawide",
         "sensor_model": "OV08D10",
         "mp": 8,
-        "optical_format": "1/4",
+        "optical_format": "1/4.0",
         "pixel_pitch_um": 1.12,
         "focal_length_mm": 15,
         "fov_deg": 116,
@@ -1905,12 +1974,18 @@
         "info": "front (S5KJN5)"
       }
     ],
-    "video_caps_text": "4K@30/60fps, 1080p@30/60fps"
+    "video_caps_text": "4K@30/60fps, 1080p@30/60fps",
+    "screen": {
+      "refresh_rate": 144
+    }
   },
   "ingot": {
     "_sources": [
       "Android Authority / Gizmochina Solana Saga specs",
-      "Camera FV-5 saga_ingot (24.4mm f/1.9 main)"
+      "Camera FV-5 saga_ingot (24.4mm f/1.9 main)",
+      "https://www.gsmarena.com/solana_saga-12090.php",
+      "FCC/user manual Solana Saga 20W + 15W Qi",
+      "Solana Saga marketing"
     ],
     "waterproofing": "IP68",
     "cameras": [
@@ -1951,12 +2026,17 @@
         "info": "front (IMX471)"
       }
     ],
-    "video_caps_text": "4K@30fps, 1080p@30/60fps"
+    "video_caps_text": "4K@30fps, 1080p@30/60fps",
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "bangkk": {
     "_sources": [
       "https://www.gsmarena.com/motorola_moto_g84-12526.php",
-      "Motorola EU moto g84 5G tech specs (IP54)"
+      "Motorola EU moto g84 5G tech specs (IP54)",
+      "GSMArena moto g84 5G",
+      "en-us.support g84 30W IP54"
     ],
     "waterproofing": "IP54",
     "cameras": [
@@ -1998,11 +2078,18 @@
         "info": "front (OV16A1Q)"
       }
     ],
-    "video_caps_text": "1080p@30/60fps"
+    "video_caps_text": "1080p@30/60fps",
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "genevn": {
     "_sources": [
-      "https://www.gsmarena.com/motorola_moto_g_stylus_5g_(2023)-12212.php"
+      "https://www.gsmarena.com/motorola_moto_g_stylus_5g_(2023)-12212.php",
+      "https://www.gsmarena.com/motorola_moto_g_stylus_5g_(2023)-12213.php",
+      "Motorola moto g stylus 5G 2023 TurboPower 20W",
+      "GSMArena moto g stylus 5G 2023",
+      "GSMArena g stylus 5G 2023 20W"
     ],
     "waterproofing": "IP52",
     "cameras": [
@@ -2044,7 +2131,10 @@
         "info": "front (OV16A1Q)"
       }
     ],
-    "video_caps_text": "1080p@30/60fps"
+    "video_caps_text": "1080p@30/60fps",
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "guacamoleb": {
     "_sources": [
@@ -2093,7 +2183,8 @@
   },
   "equuleus": {
     "_sources": [
-      "https://www.gsmarena.com/xiaomi_mi_8_pro-9251.php"
+      "https://www.gsmarena.com/xiaomi_mi_8_pro-9251.php",
+      "GSMArena/maker published charging for equuleus"
     ],
     "waterproofing": "IP67",
     "video_caps_text": "4K@30fps, 1080p@30/60/120/240fps",
@@ -2132,11 +2223,16 @@
         "ois": false,
         "flash": "None"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "redfin": {
     "_sources": [
-      "https://www.gsmarena.com/google_pixel_5-10386.php"
+      "https://www.gsmarena.com/google_pixel_5-10386.php",
+      "Google Pixel 5 IMX363 continuity",
+      "Google IP68"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "4K@30/60fps, 1080p@30/60/120/240fps",
@@ -2150,7 +2246,8 @@
         "focal_length_mm": 27,
         "aperture": 1.7,
         "ois": true,
-        "flash": "LED"
+        "flash": "LED",
+        "info": "main (IMX363)"
       },
       {
         "type": "ultrawide",
@@ -2179,7 +2276,8 @@
   },
   "bramble": {
     "_sources": [
-      "https://www.gsmarena.com/google_pixel_4a_5g-10319.php"
+      "https://www.gsmarena.com/google_pixel_4a_5g-10319.php",
+      "Google Pixel 4a 5G / Pixel 5 camera briefings"
     ],
     "waterproofing": "None",
     "video_caps_text": "4K@30/60fps, 1080p@30/60/120/240fps",
@@ -2193,7 +2291,8 @@
         "focal_length_mm": 27,
         "aperture": 1.7,
         "ois": true,
-        "flash": "LED"
+        "flash": "LED",
+        "info": "main (IMX363)"
       },
       {
         "type": "ultrawide",
@@ -2222,9 +2321,10 @@
   },
   "mayfly": {
     "_sources": [
-      "https://www.gsmarena.com/xiaomi_12s-11645.php"
+      "https://www.gsmarena.com/xiaomi_12s-11645.php",
+      "https://www.gsmarena.com/xiaomi_12s-11614.php"
     ],
-    "waterproofing": "None",
+    "waterproofing": "IP68",
     "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60fps",
     "cameras": [
       {
@@ -2689,7 +2789,8 @@
       "https://www.gsmarena.com/google_pixel_9a-13478.php",
       "https://store.google.com/product/pixel_10a_specs",
       "Android Authority: Pixel 9a Samsung GN8 main",
-      "codename tegu = Pixel 9a"
+      "codename tegu = Pixel 9a",
+      "Google Pixel 9a / Pixel Stand table 7.5W wireless"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "4K@30/60fps, 1080p@30/60/120/240fps",
@@ -2738,14 +2839,15 @@
     "_sources": [
       "https://store.google.com/product/pixel_10a_specs",
       "https://support.google.com/pixelphone/answer/7158570",
-      "codename stallion = Pixel 10a (same dual stack class as 9a)"
+      "codename stallion = Pixel 10a (same dual stack class as 9a)",
+      "https://store.google.com/magazine/pixel-10a-vs-pixel-9a"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "4K@30/60fps, 1080p@30/60/120/240fps",
     "cameras": [
       {
         "type": "main",
-        "sensor_model": "GN8",
+        "sensor_model": null,
         "mp": 48,
         "optical_format": "1/2.0",
         "pixel_pitch_um": 0.8,
@@ -2754,11 +2856,11 @@
         "fov_deg": 82,
         "ois": true,
         "flash": "LED",
-        "info": "main (GN8)"
+        "info": "main"
       },
       {
         "type": "ultrawide",
-        "sensor_model": "IMX355",
+        "sensor_model": null,
         "mp": 13,
         "optical_format": "1/3.1",
         "pixel_pitch_um": 1.12,
@@ -2767,11 +2869,11 @@
         "fov_deg": 120,
         "ois": false,
         "flash": "LED",
-        "info": "ultrawide (IMX355)"
+        "info": "ultrawide"
       },
       {
         "type": "front",
-        "sensor_model": "IMX355",
+        "sensor_model": null,
         "mp": 13,
         "optical_format": "1/3.1",
         "pixel_pitch_um": 1.12,
@@ -2779,14 +2881,16 @@
         "aperture": 2.2,
         "ois": false,
         "flash": "None",
-        "info": "front (IMX355)"
+        "info": "front"
       }
     ]
   },
   "giulia": {
     "_sources": [
       "https://www.oneplus.com/global/13r/specs",
-      "https://www.gsmarena.com/oneplus_13r-review-2778p5.php"
+      "https://www.gsmarena.com/oneplus_13r-review-2778p5.php",
+      "GSMArena OnePlus 13R review",
+      "OnePlus 13R specs"
     ],
     "waterproofing": "IP65",
     "video_caps_text": "4K@30/60fps, 1080p@30/60/120/240fps",
@@ -2795,66 +2899,78 @@
         "type": "main",
         "sensor_model": "LYT-700",
         "mp": 50,
-        "optical_format": "1/1.56",
-        "pixel_pitch_um": 1.0,
         "focal_length_mm": 24,
         "aperture": 1.8,
-        "fov_deg": 84,
         "ois": true,
         "flash": "LED",
-        "info": "main (LYT-700 / IMX906)"
+        "optical_format": "1/1.56",
+        "pixel_pitch_um": 1.0,
+        "info": "50 MP wide (LYT-700)"
       },
       {
         "type": "telephoto",
         "sensor_model": "S5KJN5",
         "mp": 50,
-        "optical_format": "1/2.75",
-        "pixel_pitch_um": 0.64,
         "focal_length_mm": 47,
         "aperture": 2.0,
-        "zoom": 2,
         "ois": false,
+        "zoom": 2,
         "flash": "LED",
-        "info": "telephoto (S5KJN5)"
+        "optical_format": "1/2.75",
+        "pixel_pitch_um": 0.64,
+        "info": "50 MP 2x tele (JN5)"
       },
       {
         "type": "ultrawide",
         "sensor_model": "IMX355",
         "mp": 8,
-        "optical_format": "1/4.0",
-        "pixel_pitch_um": 1.12,
         "focal_length_mm": 16,
         "aperture": 2.2,
-        "fov_deg": 112,
         "ois": false,
         "flash": "LED",
-        "info": "ultrawide (IMX355)"
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "fov_deg": 112,
+        "info": "8 MP ultrawide (IMX355)"
       },
       {
         "type": "front",
         "sensor_model": "S5K3P9",
         "mp": 16,
-        "optical_format": "1/3.1",
-        "pixel_pitch_um": 1.0,
-        "focal_length_mm": 26,
+        "focal_length_mm": 24,
         "aperture": 2.4,
         "ois": false,
         "flash": "None",
-        "info": "front (S5K3P9)"
+        "optical_format": "1/3.0",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP selfie (S5K3P9)"
       }
-    ]
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true,
+        "120": true,
+        "240": true
+      }
+    }
   },
   "infiniti": {
     "_sources": [
+      "https://www.oneplus.com/global/15/specs",
       "https://www.gsmarena.com/oneplus_15_5g-14206.php",
-      "https://www.gsmarena.com/oneplus_15_vs_oneplus_13_photo_camera_comparison-news-70280.php"
+      "https://www.androidauthority.com/oneplus-15-teardown-3611210/"
     ],
-    "waterproofing": "IP69",
+    "waterproofing": "IP69K",
     "video_caps_text": "8K@30fps, 4K@30/60/120fps, 1080p@30/60/240fps",
     "cameras": [
       {
         "type": "main",
-        "sensor_model": "LYT-700",
+        "sensor_model": "IMX906",
         "mp": 50,
         "optical_format": "1/1.56",
         "pixel_pitch_um": 1.0,
@@ -2862,7 +2978,7 @@
         "aperture": 1.8,
         "ois": true,
         "flash": "LED",
-        "info": "main (LYT-700 / IMX906)"
+        "info": "main (IMX906)"
       },
       {
         "type": "telephoto",
@@ -2892,7 +3008,7 @@
       },
       {
         "type": "front",
-        "sensor_model": "IMX615",
+        "sensor_model": "IMX709",
         "mp": 32,
         "optical_format": "1/2.74",
         "pixel_pitch_um": 0.64,
@@ -2900,7 +3016,7 @@
         "aperture": 2.4,
         "ois": false,
         "flash": "None",
-        "info": "front (IMX615)"
+        "info": "front (IMX709)"
       }
     ]
   },
@@ -2908,14 +3024,17 @@
     "_sources": [
       "https://www.gsmarena.com/oneplus_15t_5g-14385.php",
       "https://www.oneplus.com/cn/15t/specs",
-      "https://www.gsmarena.com/oneplus_15ts_cameras_detailed_ahead_of_launch-news-72028.php"
+      "https://www.gsmarena.com/oneplus_15ts_cameras_detailed_ahead_of_launch-news-72028.php",
+      "https://gadgets.beebom.com/news/oneplus-15t-launched-in-china",
+      "Samsung ISOCELL JN5 datasheet 1/2.76 0.64um",
+      "Samsung ISOCELL JN5 1/2.76 0.64um"
     ],
-    "waterproofing": "IP68",
+    "waterproofing": "IP69K",
     "video_caps_text": "8K@30fps, 4K@30/60/120fps, 1080p@30/60/120/240fps",
     "cameras": [
       {
         "type": "main",
-        "sensor_model": "LYT-700",
+        "sensor_model": "IMX906",
         "mp": 50,
         "optical_format": "1/1.56",
         "pixel_pitch_um": 1.0,
@@ -2923,7 +3042,7 @@
         "aperture": 1.8,
         "ois": true,
         "flash": "LED",
-        "info": "main (LYT-700)"
+        "info": "main (IMX906)"
       },
       {
         "type": "telephoto",
@@ -2940,15 +3059,15 @@
       },
       {
         "type": "front",
-        "sensor_model": "S5K3P9",
+        "sensor_model": "IMX480",
         "mp": 16,
-        "optical_format": "1/3.1",
+        "optical_format": "1/3.09",
         "pixel_pitch_um": 1.0,
         "focal_length_mm": 23,
         "aperture": 2.4,
         "ois": false,
         "flash": "None",
-        "info": "front (S5K3P9)"
+        "info": "front (IMX480)"
       }
     ]
   },
@@ -2956,7 +3075,8 @@
     "_sources": [
       "https://support.fairphone.com/hc/en-us/articles/38046290703122",
       "https://support.fairphone.com/hc/en-us/articles/38163410726546",
-      "https://www.gsmarena.com/compare.php3?idPhone1=13955&idPhone2=13478"
+      "https://www.gsmarena.com/compare.php3?idPhone1=13955&idPhone2=13478",
+      "Fairphone 6 — no wireless"
     ],
     "waterproofing": "IP55",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -3839,9 +3959,12 @@
   "piloti": {
     "_sources": [
       "https://www.devicespecifications.com/en/comparison/94d4252708",
-      "GT7 Pro Racing Edition — dual rear (no tele)"
+      "GT7 Pro Racing Edition — dual rear (no tele)",
+      "https://www.realme.com/cn/realme-gt-7pro-jingsu/specs",
+      "https://www.gsmarena.com/realme_gt7_pro_racing-13664.php",
+      "realme GT7 Pro Racing — no wireless"
     ],
-    "waterproofing": "IP65",
+    "waterproofing": "IP68/IP69",
     "video_caps_text": "4K@30/60fps, 1080p@30/60fps",
     "cameras": [
       {
@@ -4155,7 +4278,13 @@
   "pdx257": {
     "_sources": [
       "https://www.gsmarena.com/sony_xperia_10_vii_5g-14137.php",
-      "https://www.sony.com.my/smartphones/products/xperia-10m7/spec"
+      "https://www.sony.com.my/smartphones/products/xperia-10m7/spec",
+      "https://www.gsmarena.com/sony_xperia_10_vii-review-2879.php",
+      "https://www.sony.com.my/electronics/support/mobile-phones-tablets-mobile-phones/xperia-10-vii/specifications",
+      "https://www.sony.de/smartphones/products/xperia-10m7",
+      "https://www.gsmarena.com/sony_xperia_10_vii-review-2879p5.php",
+      "Maker EU PD ceiling ~22W (reject GSMArena 30W)",
+      "Sony Xperia 10 VII — no wireless"
     ],
     "waterproofing": "IP65/IP68",
     "video_caps_text": "4K@30fps, 1080p@30/60/120fps",
@@ -4171,11 +4300,11 @@
         "fov_deg": 84,
         "ois": true,
         "flash": "LED",
-        "info": "main (IMX766 / Exmor RS)"
+        "info": "main (IMX766)"
       },
       {
         "type": "ultrawide",
-        "sensor_model": "13MP",
+        "sensor_model": "SC1320CS",
         "mp": 13,
         "optical_format": "1/3.0",
         "pixel_pitch_um": 1.12,
@@ -4184,7 +4313,7 @@
         "fov_deg": 123,
         "ois": false,
         "flash": "LED",
-        "info": "ultrawide (13MP 1/3)"
+        "info": "ultrawide (SC1320CS)"
       },
       {
         "type": "front",
@@ -4198,12 +4327,18 @@
         "flash": "None",
         "info": "front (8MP 1/4)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "lamu": {
     "_sources": [
       "https://www.gsmarena.com/motorola_moto_g15-13507.php",
-      "https://en-us.support.motorola.com/app/answers/detail/a_id/183973"
+      "https://en-us.support.motorola.com/app/answers/detail/a_id/183973",
+      "https://en-emea.support.motorola.com/app/answers/detail/a_id/183973",
+      "Motorola moto g15 support 18W; no wireless",
+      "en-us.support moto g15 18W"
     ],
     "waterproofing": "IP54",
     "video_caps_text": "1080p@30fps",
@@ -4244,11 +4379,17 @@
         "flash": "None",
         "info": "front (8MP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "fogos": {
     "_sources": [
-      "https://www.gsmarena.com/motorola_moto_g45-13267.php"
+      "https://www.gsmarena.com/motorola_moto_g45-13267.php",
+      "https://en-us.support.motorola.com/app/answers/detail/a_id/187379",
+      "Motorola moto g45 18W; no wireless",
+      "GSMArena moto g45 18W"
     ],
     "waterproofing": "IP52",
     "video_caps_text": "1080p@30fps",
@@ -4293,7 +4434,11 @@
   },
   "fogo": {
     "_sources": [
-      "Motorola moto g 5G 2024 — same class as g45"
+      "Motorola moto g 5G 2024 — same class as g45",
+      "https://www.gsmarena.com/motorola_moto_g_(2024)-12866.php",
+      "https://en-us.support.motorola.com/app/answers/detail/a_id/179364",
+      "Motorola moto g 5G 2024 18W; no wireless",
+      "cox moto g 5G 2024 18W"
     ],
     "waterproofing": "IP52",
     "video_caps_text": "1080p@30fps",
@@ -4334,7 +4479,10 @@
         "flash": "None",
         "info": "front (S5K4H7)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "gta4xlswifi": {
     "_sources": [
@@ -4453,7 +4601,8 @@
   },
   "r0s": {
     "_sources": [
-      "GSMArena Galaxy S22 / S22+"
+      "GSMArena Galaxy S22 / S22+",
+      "https://www.gsmarena.com/samsung_galaxy_s22_5g-11253.php"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60/240fps",
@@ -4508,11 +4657,15 @@
         "flash": "None",
         "info": "front"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "g0s": {
     "_sources": [
-      "GSMArena Galaxy S22+"
+      "GSMArena Galaxy S22+",
+      "https://www.gsmarena.com/samsung_galaxy_s22+_5g-11252.php"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60/240fps",
@@ -4567,11 +4720,15 @@
         "flash": "None",
         "info": "front"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "b0s": {
     "_sources": [
-      "GSMArena Galaxy S22 Ultra"
+      "GSMArena Galaxy S22 Ultra",
+      "https://www.gsmarena.com/samsung_galaxy_s22_ultra_5g-11251.php"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60/240fps",
@@ -4639,7 +4796,10 @@
         "flash": "None",
         "info": "front (GH1)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "dm1q": {
     "_sources": [
@@ -4864,7 +5024,8 @@
   },
   "fp5": {
     "_sources": [
-      "Fairphone 5 support camera specs"
+      "Fairphone 5 support camera specs",
+      "Fairphone 5 FAQ — no wireless"
     ],
     "waterproofing": "IP55",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -5009,7 +5170,9 @@
   },
   "pro1x": {
     "_sources": [
-      "F(x)tec Pro1X — IMX363 main class"
+      "F(x)tec Pro1X — IMX363 main class",
+      "https://www.gsmarena.com/fxtec_pro1x-11329.php",
+      "F(x)tec Pro1 X specs"
     ],
     "waterproofing": "None",
     "video_caps_text": "4K@30fps, 1080p@30fps",
@@ -5050,11 +5213,16 @@
         "flash": "None",
         "info": "front (IMX376)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "pyrite": {
     "_sources": [
-      "OSOM OV1 — IMX363 class"
+      "OSOM OV1 — IMX363 class",
+      "https://www.gsmarena.com/shift_ov1-11920.php",
+      "Lineage wiki OSOM OV1"
     ],
     "waterproofing": "IP52",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -5158,7 +5326,10 @@
   },
   "manaus": {
     "_sources": [
-      "GSMArena edge 40 neo"
+      "GSMArena edge 40 neo",
+      "Motorola edge 40 neo help: no wireless",
+      "GSMArena Edge 40 Neo 68W / IP68",
+      "motorola edge 40 neo 68W; help: no wireless"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -5200,11 +5371,17 @@
         "flash": "None",
         "info": "front (S5K3P9)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 144
+    }
   },
   "dubai": {
     "_sources": [
-      "GSMArena edge 30"
+      "GSMArena edge 30",
+      "https://www.gsmarena.com/motorola_edge_30-11475.php",
+      "GSMArena Edge 30 33W / IP52; no wireless",
+      "GSMArena Edge 30 33W; no wireless"
     ],
     "waterproofing": "IP52",
     "video_caps_text": "4K@30fps, 1080p@30/60/120fps",
@@ -5258,11 +5435,15 @@
         "flash": "None",
         "info": "front"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 144
+    }
   },
   "tundra": {
     "_sources": [
-      "GSMArena edge 30 fusion / S30 Pro"
+      "GSMArena edge 30 fusion / S30 Pro",
+      "https://www.gsmarena.com/motorola_edge_30_fusion-11621.php"
     ],
     "waterproofing": "IP52",
     "video_caps_text": "8K@30fps, 4K@30/60fps, 1080p@30/60/120fps",
@@ -5315,11 +5496,17 @@
         "flash": "None",
         "info": "front"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 144
+    }
   },
   "miami": {
     "_sources": [
-      "GSMArena edge 30 neo"
+      "GSMArena edge 30 neo",
+      "GSMArena Edge 30 neo 68W / IP52",
+      "motorola.com.br Edge 30 Neo 68W+5W Qi",
+      "help.motorola.com Qi"
     ],
     "waterproofing": "IP52",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -5361,11 +5548,16 @@
         "flash": "None",
         "info": "front (OV16A1Q)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "devon": {
     "_sources": [
-      "GSMArena moto g32"
+      "GSMArena moto g32",
+      "https://www.gsmarena.com/motorola_moto_g32-11717.php",
+      "GSMArena g32 30W"
     ],
     "waterproofing": "IP52",
     "video_caps_text": "1080p@30/60fps",
@@ -5419,11 +5611,17 @@
         "flash": "None",
         "info": "front (S5K3P9)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "hawao": {
     "_sources": [
-      "GSMArena moto g42"
+      "GSMArena moto g42",
+      "https://www.gsmarena.com/motorola_moto_g42-11605.php",
+      "Motorola Moto G42 60Hz OLED",
+      "GSMArena g42 18W"
     ],
     "waterproofing": "IP52",
     "video_caps_text": "1080p@30fps",
@@ -5477,11 +5675,17 @@
         "flash": "None",
         "info": "front (S5K3P9)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "rhode": {
     "_sources": [
-      "GSMArena moto g52"
+      "GSMArena moto g52",
+      "https://www.gsmarena.com/motorola_moto_g52-11425.php",
+      "Motorola Moto G52 90Hz",
+      "GSMArena g52 30W"
     ],
     "waterproofing": "IP52",
     "video_caps_text": "1080p@30/60fps",
@@ -5535,11 +5739,15 @@
         "flash": "None",
         "info": "front (S5K3P9)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "rhodep": {
     "_sources": [
-      "GSMArena moto g82 5G"
+      "GSMArena moto g82 5G",
+      "GSMArena g82 30W"
     ],
     "waterproofing": "IP52",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -5593,11 +5801,15 @@
         "flash": "None",
         "info": "front (S5K3P9)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "milanf": {
     "_sources": [
-      "GSMArena moto g stylus 5G 2022"
+      "GSMArena moto g stylus 5G 2022",
+      "en-us.support g stylus 5G 2022 TurboPower 10W"
     ],
     "waterproofing": "IP52",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -5650,7 +5862,10 @@
         "flash": "None",
         "info": "front (S5K3P9)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "xueying": {
     "_sources": [
@@ -5725,7 +5940,10 @@
   },
   "larry": {
     "_sources": [
-      "GSMArena Nord CE 3 Lite / N30"
+      "GSMArena Nord CE 3 Lite / N30",
+      "https://www.gsmarena.com/oneplus_nord_ce_3_lite-12127.php",
+      "OnePlus Nord CE 3 Lite global SUPERVOOC 67W",
+      "GSMArena"
     ],
     "waterproofing": "IP54",
     "video_caps_text": "1080p@30/60fps",
@@ -5778,11 +5996,16 @@
         "flash": "None",
         "info": "front (S5K3P9)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "gunnar": {
     "_sources": [
-      "GSMArena Nord N20"
+      "GSMArena Nord N20",
+      "https://www.gsmarena.com/oneplus_nord_n20_5g-11216.php",
+      "OnePlus Nord N20 60Hz"
     ],
     "waterproofing": "IP54",
     "video_caps_text": "1080p@30fps",
@@ -5835,13 +6058,17 @@
         "flash": "None",
         "info": "front (S5K3P9)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "oscaro": {
     "_sources": [
-      "GSMArena Nord CE 2 Lite"
+      "GSMArena Nord CE 2 Lite",
+      "https://www.gsmarena.com/oneplus_nord_ce_2_lite_5g-11344.php"
     ],
-    "waterproofing": "None",
+    "waterproofing": "IP54",
     "video_caps_text": "1080p@30fps",
     "cameras": [
       {
@@ -5999,7 +6226,9 @@
   },
   "oscarc": {
     "_sources": [
-      "GSMArena realme Q5"
+      "GSMArena realme Q5",
+      "https://www.gsmarena.com/tcl_q5-11815.php",
+      "realme Q5 CN official 60W"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30fps",
@@ -6052,11 +6281,16 @@
         "flash": "None",
         "info": "front (S5K3P9)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "oscarru": {
     "_sources": [
-      "GSMArena realme 9 5G"
+      "GSMArena realme 9 5G",
+      "https://www.gsmarena.com/tcl_9_5g-11814.php",
+      "realme 9 5G global 18W"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30fps",
@@ -6109,7 +6343,10 @@
         "flash": "None",
         "info": "front (S5K3P9)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "pdx223": {
     "_sources": [
@@ -6230,7 +6467,8 @@
   },
   "pdx225": {
     "_sources": [
-      "GSMArena Xperia 10 IV"
+      "GSMArena Xperia 10 IV",
+      "https://www.gsmarena.com/sony_xperia_10_iv-11494.php"
     ],
     "waterproofing": "IP65/IP68",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -6285,7 +6523,10 @@
         "flash": "None",
         "info": "front"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "pdx235": {
     "_sources": [
@@ -6626,7 +6867,8 @@
   },
   "socrates": {
     "_sources": [
-      "GSMArena Redmi K60 Pro"
+      "GSMArena Redmi K60 Pro",
+      "https://www.gsmarena.com/xiaomi_redmi_k60_pro-12049.php"
     ],
     "waterproofing": "IP53",
     "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60/120/240/960fps",
@@ -6680,7 +6922,10 @@
         "flash": "None",
         "info": "front (OV16A1Q)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "xaga": {
     "_sources": [
@@ -6742,9 +6987,10 @@
   },
   "zizhan": {
     "_sources": [
-      "GSMArena Xiaomi MIX Fold 2"
+      "GSMArena Xiaomi MIX Fold 2",
+      "https://www.gsmarena.com/xiaomi_mix_fold_2-11674.php"
     ],
-    "waterproofing": "None",
+    "waterproofing": "IPX8",
     "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60/120/240/960fps",
     "cameras": [
       {
@@ -6797,13 +7043,18 @@
         "flash": "None",
         "info": "front"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "earth": {
     "_sources": [
-      "GSMArena Redmi 12C / POCO C55"
+      "GSMArena Redmi 12C / POCO C55",
+      "https://www.gsmarena.com/xiaomi_redmi_12c-12069.php",
+      "Xiaomi Redmi 12C specs 10W / 60Hz / IP52"
     ],
-    "waterproofing": "None",
+    "waterproofing": "IP52",
     "video_caps_text": "1080p@30fps",
     "cameras": [
       {
@@ -6830,13 +7081,18 @@
         "flash": "None",
         "info": "front"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "rosemary": {
     "_sources": [
-      "GSMArena POCO M5s"
+      "GSMArena POCO M5s",
+      "https://www.gsmarena.com/xiaomi_poco_m5s-11748.php",
+      "GSMArena POCO M5s 33W / 60Hz OLED / IP53"
     ],
-    "waterproofing": "IP67",
+    "waterproofing": "IP53",
     "video_caps_text": "1080p@30/60fps",
     "cameras": [
       {
@@ -6900,7 +7156,10 @@
         "flash": "None",
         "info": "front"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "deadpool": {
     "waterproofing": "None",
@@ -7002,7 +7261,8 @@
   },
   "sunfish": {
     "_sources": [
-      "GSMArena Pixel 4a"
+      "GSMArena Pixel 4a",
+      "https://www.gsmarena.com/google_pixel_4a-10123.php"
     ],
     "waterproofing": "None",
     "video_caps_text": "4K@30fps, 1080p@30/60/120fps",
@@ -7035,7 +7295,9 @@
   },
   "barbet": {
     "_sources": [
-      "GSMArena Pixel 5a"
+      "GSMArena Pixel 5a",
+      "https://www.gsmarena.com/google_pixel_5a_5g-11059.php",
+      "Google Pixel 5a tech specs 18W USB-PD (no wireless)"
     ],
     "waterproofing": "IP67",
     "video_caps_text": "4K@30fps, 1080p@30/60/120fps",
@@ -7081,9 +7343,12 @@
   },
   "FP4": {
     "_sources": [
-      "GSMArena Fairphone 4"
+      "GSMArena Fairphone 4",
+      "https://www.gsmarena.com/fairphone_4-11066.php",
+      "https://shop.fairphone.com/",
+      "Fairphone 4 FAQ 20W QC4.1 / 60Hz / IP54"
     ],
-    "waterproofing": "None",
+    "waterproofing": "IP54",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
     "cameras": [
       {
@@ -7123,13 +7388,17 @@
         "flash": "None",
         "info": "front (S5KGD1)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "obiwan": {
     "_sources": [
-      "GSMArena ROG Phone 3"
+      "GSMArena ROG Phone 3",
+      "https://www.gsmarena.com/asus_rog_phone_3-10267.php"
     ],
-    "waterproofing": "None",
+    "waterproofing": "IP53",
     "video_caps_text": "8K@30fps, 4K@30/60fps, 1080p@30/60/240fps",
     "cameras": [
       {
@@ -7231,7 +7500,8 @@
   },
   "axolotl": {
     "_sources": [
-      "SHIFT6mq — IMX363 class"
+      "SHIFT6mq — IMX363 class",
+      "https://www.gsmarena.com/shiftphone_shift6mq-10321.php"
     ],
     "waterproofing": "None",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -7277,7 +7547,8 @@
   },
   "x1s": {
     "_sources": [
-      "GSMArena Galaxy S20"
+      "GSMArena Galaxy S20",
+      "https://www.gsmarena.com/samsung_galaxy_s20_5g-10081.php"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60/240fps",
@@ -7332,11 +7603,15 @@
         "flash": "None",
         "info": "front (S5K3J1)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "y2s": {
     "_sources": [
-      "GSMArena Galaxy S20+"
+      "GSMArena Galaxy S20+",
+      "https://www.gsmarena.com/samsung_galaxy_s20+_5g-10080.php"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60/240fps",
@@ -7403,11 +7678,15 @@
         "flash": "None",
         "info": "front (S5K3J1)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "z3s": {
     "_sources": [
-      "GSMArena Galaxy S20 Ultra"
+      "GSMArena Galaxy S20 Ultra",
+      "https://www.gsmarena.com/samsung_galaxy_s20_ultra_5g-10084.php"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60/240fps",
@@ -7474,11 +7753,15 @@
         "flash": "None",
         "info": "front (S5K3J1)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "c1s": {
     "_sources": [
-      "GSMArena Galaxy Note20"
+      "GSMArena Galaxy Note20",
+      "https://www.gsmarena.com/samsung_galaxy_note20_5g-10356.php"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60/240fps",
@@ -7533,11 +7816,15 @@
         "flash": "None",
         "info": "front (S5K3J1)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "c2s": {
     "_sources": [
-      "GSMArena Galaxy Note20 Ultra"
+      "GSMArena Galaxy Note20 Ultra",
+      "https://www.gsmarena.com/samsung_galaxy_note20_ultra_5g-10355.php"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60/240fps",
@@ -7604,11 +7891,15 @@
         "flash": "None",
         "info": "front (S5K3J1)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "r8q": {
     "_sources": [
-      "GSMArena Galaxy S20 FE Snapdragon"
+      "GSMArena Galaxy S20 FE Snapdragon",
+      "https://www.gsmarena.com/samsung_galaxy_s20_fe_5g-10377.php"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60/240fps",
@@ -7726,7 +8017,8 @@
   },
   "a21s": {
     "_sources": [
-      "GSMArena Galaxy A21s"
+      "GSMArena Galaxy A21s",
+      "https://www.gsmarena.com/samsung_galaxy_a21s-10170.php"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30fps",
@@ -7936,9 +8228,10 @@
   },
   "a71": {
     "_sources": [
-      "GSMArena Galaxy A71"
+      "GSMArena Galaxy A71",
+      "https://www.gsmarena.com/samsung_galaxy_a71-9995.php"
     ],
-    "waterproofing": "None",
+    "waterproofing": "IP67",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
     "cameras": [
       {
@@ -8002,7 +8295,10 @@
         "flash": "None",
         "info": "front (S5K3J1)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "a72q": {
     "_sources": [
@@ -8077,7 +8373,8 @@
   },
   "f62": {
     "_sources": [
-      "GSMArena Galaxy F62 / M62"
+      "GSMArena Galaxy F62 / M62",
+      "https://www.gsmarena.com/samsung_galaxy_f62-10749.php"
     ],
     "waterproofing": "None",
     "video_caps_text": "4K@30fps, 1080p@30fps",
@@ -8143,13 +8440,18 @@
         "flash": "None",
         "info": "front (S5K3J1)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "m52xq": {
     "_sources": [
-      "GSMArena Galaxy M52 5G"
+      "GSMArena Galaxy M52 5G",
+      "https://www.gsmarena.com/samsung_galaxy_m52_5g-11087.php",
+      "Galaxy M52 5G 25W / 120Hz"
     ],
-    "waterproofing": "None",
+    "waterproofing": "IP67",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
     "cameras": [
       {
@@ -8213,7 +8515,10 @@
         "flash": "None",
         "info": "front (S5K3J1)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "gta4l": {
     "_sources": [
@@ -8591,7 +8896,8 @@
   },
   "kebab": {
     "_sources": [
-      "GSMArena OnePlus 8T"
+      "GSMArena OnePlus 8T",
+      "https://www.gsmarena.com/oneplus_8t-10411.php"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "4K@30/60fps, 1080p@30/60/240fps",
@@ -8657,11 +8963,15 @@
         "flash": "None",
         "info": "front (IMX471)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "avicii": {
     "_sources": [
-      "GSMArena OnePlus Nord"
+      "GSMArena OnePlus Nord",
+      "https://www.gsmarena.com/oneplus_nord-10261.php"
     ],
     "waterproofing": "None",
     "video_caps_text": "4K@30fps, 1080p@30/60/240fps",
@@ -8727,11 +9037,15 @@
         "flash": "None",
         "info": "front (IMX471)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "billie": {
     "_sources": [
-      "GSMArena OnePlus Nord N10"
+      "GSMArena OnePlus Nord N10",
+      "https://www.gsmarena.com/oneplus_nord_n10_5g-10548.php"
     ],
     "waterproofing": "None",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -8797,11 +9111,15 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "dre": {
     "_sources": [
-      "GSMArena OnePlus Nord N200"
+      "GSMArena OnePlus Nord N200",
+      "https://www.gsmarena.com/oneplus_nord_n200_5g-10961.php"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30/60fps",
@@ -8855,7 +9173,10 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "lemonades": {
     "_sources": [
@@ -8987,7 +9308,8 @@
   },
   "timelm": {
     "_sources": [
-      "GSMArena LG V60 ThinQ"
+      "GSMArena LG V60 ThinQ",
+      "https://www.gsmarena.com/lg_v60_thinq_5g-9996.php"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "8K@24fps, 4K@30/60fps, 1080p@30/60fps",
@@ -9041,11 +9363,15 @@
         "flash": "None",
         "info": "front (IMX351)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "caymanlm": {
     "_sources": [
-      "GSMArena LG Velvet 5G"
+      "GSMArena LG Velvet 5G",
+      "https://www.gsmarena.com/lg_velvet_5g-10116.php"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -9099,11 +9425,15 @@
         "flash": "None",
         "info": "front (IMX351)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "caymanslm": {
     "_sources": [
-      "GSMArena LG Velvet 4G"
+      "GSMArena LG Velvet 4G",
+      "https://www.gsmarena.com/lg_velvet-10115.php"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -9157,11 +9487,15 @@
         "flash": "None",
         "info": "front (IMX351)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "winglm": {
     "_sources": [
-      "GSMArena LG Wing"
+      "GSMArena LG Wing",
+      "https://www.gsmarena.com/lg_wing_5g-10342.php"
     ],
     "waterproofing": "IP54",
     "video_caps_text": "4K@30/60fps, 1080p@30/60fps",
@@ -9215,11 +9549,15 @@
         "flash": "None",
         "info": "front (IMX351)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "style3lm": {
     "_sources": [
-      "GSMArena LG Style3"
+      "GSMArena LG Style3",
+      "https://www.gsmarena.com/lg_style3-10142.php"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30fps",
@@ -9265,7 +9603,10 @@
   },
   "cebu": {
     "_sources": [
-      "GSMArena moto g9 power / Lenovo K12 Pro"
+      "GSMArena moto g9 power / Lenovo K12 Pro",
+      "https://www.gsmarena.com/motorola_moto_g9_power-10458.php",
+      "Moto G9 Power 20W",
+      "GSMArena g9 power 20W"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30/60fps",
@@ -9318,11 +9659,17 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "guamp": {
     "_sources": [
-      "GSMArena moto g9 play"
+      "GSMArena moto g9 play",
+      "https://www.gsmarena.com/motorola_moto_g9_play-10393.php",
+      "Moto G9 Play 20W",
+      "en-us.support g9 play 15W capable"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30/60fps",
@@ -9375,11 +9722,17 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "guam": {
     "_sources": [
-      "GSMArena moto e7 plus / Lenovo K12"
+      "GSMArena moto e7 plus / Lenovo K12",
+      "https://www.gsmarena.com/motorola_moto_e7_plus-10391.php",
+      "Moto E7 Plus 10W",
+      "GSMArena e7 plus 10W"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30fps",
@@ -9420,11 +9773,18 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "kiev": {
     "_sources": [
-      "GSMArena moto g 5G / one 5G ace"
+      "GSMArena moto g 5G / one 5G ace",
+      "https://www.gsmarena.com/motorola_moto_g_5g-10454.php",
+      "moto g 5G / One 5G Ace 20W / 90Hz",
+      "moto g 5G 20W",
+      "GSMArena g 5G 20W"
     ],
     "waterproofing": "None",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -9478,11 +9838,18 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "nairo": {
     "_sources": [
-      "GSMArena moto g 5G plus / one 5G"
+      "GSMArena moto g 5G plus / one 5G",
+      "https://www.gsmarena.com/motorola_moto_g_5g_plus-10248.php",
+      "Moto G 5G Plus 20W / 90Hz",
+      "Moto G 5G Plus 20W",
+      "GSMArena g 5G plus 20W"
     ],
     "waterproofing": "None",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -9548,11 +9915,17 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "liber": {
     "_sources": [
-      "GSMArena Motorola one fusion+"
+      "GSMArena Motorola one fusion+",
+      "https://www.gsmarena.com/motorola_one_fusion+-10226.php",
+      "GSMArena one fusion+",
+      "GSMArena One Fusion+ 15W"
     ],
     "waterproofing": "IP52",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -9618,11 +9991,18 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "racer": {
     "_sources": [
-      "GSMArena Motorola edge"
+      "GSMArena Motorola edge",
+      "https://www.gsmarena.com/motorola_edge-10248.php",
+      "Motorola Edge 2020 18W / 90Hz",
+      "Motorola Edge 2020 18W",
+      "en-us.support motorola edge 18W"
     ],
     "waterproofing": "None",
     "video_caps_text": "4K@30/60fps, 1080p@30/60/120fps",
@@ -9677,11 +10057,17 @@
         "flash": "None",
         "info": "front (IMX471)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "bathena": {
     "_sources": [
-      "GSMArena Motorola defy 2021"
+      "GSMArena Motorola defy 2021",
+      "https://www.gsmarena.com/motorola_defy_(2021)-10915.php",
+      "GSMArena Defy 2021",
+      "motorolanews Defy 2021 20W IP68"
     ],
     "waterproofing": "IP68",
     "video_caps_text": "1080p@30fps",
@@ -9734,11 +10120,18 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "berlna": {
     "_sources": [
-      "GSMArena Motorola edge 2021"
+      "GSMArena Motorola edge 2021",
+      "https://www.gsmarena.com/motorola_edge_(2021)-10961.php",
+      "Motorola Edge 2021 TurboPower 30 / 144Hz / IP52",
+      "GSMArena Edge 2021",
+      "GSMArena Edge 2021 30W; no wireless"
     ],
     "waterproofing": "IP52",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -9792,11 +10185,18 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 144
+    }
   },
   "borneo": {
     "_sources": [
-      "GSMArena moto g power 2021"
+      "GSMArena moto g power 2021",
+      "https://www.gsmarena.com/motorola_moto_g_power_(2021)-10728.php",
+      "Moto G Power 2021 TurboPower 15W",
+      "Moto G Power 2021 15W",
+      "GSMArena g power 2021 15W"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30/60fps",
@@ -9849,11 +10249,17 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "capri": {
     "_sources": [
-      "GSMArena moto g10 / Lenovo K13 Note"
+      "GSMArena moto g10 / Lenovo K13 Note",
+      "https://www.gsmarena.com/motorola_moto_g10-10730.php",
+      "Moto G10 EU 10W",
+      "GSMArena g10 10W"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30/60fps",
@@ -9919,11 +10325,17 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "caprip": {
     "_sources": [
-      "GSMArena moto g30 / Lenovo K13 Pro"
+      "GSMArena moto g30 / Lenovo K13 Pro",
+      "https://www.gsmarena.com/motorola_moto_g30-10729.php",
+      "Moto G30 20W",
+      "GSMArena g30 15/20 market — wired blank"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30/60fps",
@@ -9989,11 +10401,18 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "denver": {
     "_sources": [
-      "GSMArena moto g stylus 5G"
+      "GSMArena moto g stylus 5G",
+      "https://www.gsmarena.com/motorola_moto_g_stylus_5g-10924.php",
+      "Motorola Moto G Stylus 5G 2021 10W",
+      "PhoneArena moto g stylus 5G 2021 10W",
+      "GSMArena g stylus 5G 2021 10W"
     ],
     "waterproofing": "None",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -10059,11 +10478,17 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "ellis": {
     "_sources": [
-      "GSMArena moto g pure"
+      "GSMArena moto g pure",
+      "https://www.gsmarena.com/motorola_moto_g_pure-11045.php",
+      "Moto G Pure 10W",
+      "en-us.support g pure 10W"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30fps",
@@ -10104,11 +10529,17 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "guamna": {
     "_sources": [
-      "GSMArena moto g play 2021"
+      "GSMArena moto g play 2021",
+      "https://www.gsmarena.com/motorola_moto_g_play_(2021)-10663.php",
+      "Moto G Play 2021 10W",
+      "GSMArena g play 2021 10W"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30fps",
@@ -10149,11 +10580,18 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "ibiza": {
     "_sources": [
-      "GSMArena moto g50"
+      "GSMArena moto g50",
+      "https://www.gsmarena.com/motorola_moto_g50-10810.php",
+      "Moto G50 15W / 90Hz",
+      "Moto G50 15W",
+      "GSMArena g50 15W"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30/60fps",
@@ -10194,11 +10632,17 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "nio": {
     "_sources": [
-      "GSMArena moto g100 / edge s"
+      "GSMArena moto g100 / edge s",
+      "https://www.gsmarena.com/motorola_edge_s-10773.php",
+      "GSMArena Edge S / g100 30W; no wireless",
+      "GSMArena Edge S 20W"
     ],
     "waterproofing": "None",
     "video_caps_text": "4K@30/60fps, 1080p@30/60/120fps",
@@ -10252,11 +10696,18 @@
         "flash": "None",
         "info": "front (IMX471)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 90
+    }
   },
   "pstar": {
     "_sources": [
-      "GSMArena Motorola edge 20 pro"
+      "GSMArena Motorola edge 20 pro",
+      "https://www.gsmarena.com/motorola_edge_20_pro-10947.php",
+      "The Verge / Three: no wireless, IP52, 30W",
+      "GSMArena Edge 20 Pro",
+      "GSMArena Edge 20 Pro 30W; The Verge no wireless"
     ],
     "waterproofing": "IP52",
     "video_caps_text": "8K@30fps, 4K@30/60fps, 1080p@30/60/120/240/960fps",
@@ -10311,13 +10762,19 @@
         "flash": "None",
         "info": "front (IMX615)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 144
+    }
   },
   "xpeng": {
     "_sources": [
-      "GSMArena moto g200 / Edge S30"
+      "GSMArena moto g200 / Edge S30",
+      "https://www.gsmarena.com/motorola_moto_g200_5g-11169.php",
+      "GSMArena moto g200 5G 68W; no wireless; no IP listed",
+      "en-us.support g200 5G 33W IP52"
     ],
-    "waterproofing": "None",
+    "waterproofing": "IP52",
     "video_caps_text": "8K@30fps, 4K@30/60fps, 1080p@30/60/120fps",
     "cameras": [
       {
@@ -10369,13 +10826,17 @@
         "flash": "None",
         "info": "front (IMX615)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 144
+    }
   },
   "nx659j": {
     "_sources": [
-      "GSMArena Red Magic 5G / 5S"
+      "GSMArena Red Magic 5G / 5S",
+      "https://www.gsmarena.com/zte_nubia_red_magic_5g-10156.php"
     ],
-    "waterproofing": "None",
+    "waterproofing": "IP53",
     "video_caps_text": "8K@30fps, 4K@30/60fps, 1080p@30/60/240fps",
     "cameras": [
       {
@@ -10431,7 +10892,8 @@
   },
   "nx651j": {
     "_sources": [
-      "GSMArena Nubia Play / Red Magic 5G Lite"
+      "GSMArena Nubia Play / Red Magic 5G Lite",
+      "https://www.gsmarena.com/zte_nubia_play-10235.php"
     ],
     "waterproofing": "None",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -10501,7 +10963,8 @@
   },
   "casuarina": {
     "_sources": [
-      "GSMArena Vsmart Joy 3"
+      "GSMArena Vsmart Joy 3",
+      "https://www.gsmarena.com/alcatel_joy_3-10512.php"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30fps",
@@ -10554,7 +11017,10 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "umi": {
     "_sources": [
@@ -10759,7 +11225,8 @@
   },
   "gauguin": {
     "_sources": [
-      "GSMArena Mi 10T Lite / 10i / Note 9 Pro 5G"
+      "GSMArena Mi 10T Lite / 10i / Note 9 Pro 5G",
+      "https://www.gsmarena.com/xiaomi_mi_10i-10662.php"
     ],
     "waterproofing": "IP53",
     "video_caps_text": "4K@30fps, 1080p@30/60/120fps",
@@ -10825,11 +11292,15 @@
         "flash": "None",
         "info": "front (S5K3T2)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "lmi": {
     "_sources": [
-      "GSMArena POCO F2 Pro / Redmi K30 Pro"
+      "GSMArena POCO F2 Pro / Redmi K30 Pro",
+      "https://www.gsmarena.com/xiaomi_redmi_k30_pro_zoom-10122.php"
     ],
     "waterproofing": "IP53",
     "video_caps_text": "8K@30fps, 4K@30/60fps, 1080p@30/60/120/240/960fps",
@@ -10896,11 +11367,16 @@
         "flash": "None",
         "info": "front (S5K3T2)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "monet": {
     "_sources": [
-      "GSMArena Mi 10 Lite 5G"
+      "GSMArena Mi 10 Lite 5G",
+      "https://www.gsmarena.com/xiaomi_mi_10_lite_5g-10180.php",
+      "Xiaomi Mi 10 Lite 5G 33W"
     ],
     "waterproofing": "None",
     "video_caps_text": "4K@30fps, 1080p@30/60fps",
@@ -10966,11 +11442,15 @@
         "flash": "None",
         "info": "front (S5K3T2)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "lancelot": {
     "_sources": [
-      "GSMArena Redmi 9"
+      "GSMArena Redmi 9",
+      "https://www.gsmarena.com/xiaomi_redmi_9-10278.php"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30fps",
@@ -11036,11 +11516,15 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "merlinx": {
     "_sources": [
-      "GSMArena Redmi Note 9"
+      "GSMArena Redmi Note 9",
+      "https://www.gsmarena.com/xiaomi_redmi_note_9-10120.php"
     ],
     "waterproofing": "None",
     "video_caps_text": "1080p@30/120fps",
@@ -11106,11 +11590,16 @@
         "flash": "None",
         "info": "front (S5K3P9SP)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "miatoll": {
     "_sources": [
-      "GSMArena Redmi Note 9S / 9 Pro / POCO M2 Pro"
+      "GSMArena Redmi Note 9S / 9 Pro / POCO M2 Pro",
+      "https://www.gsmarena.com/xiaomi_redmi_note_10_lite-11015.php",
+      "Redmi Note 10 Lite / Note 9S family 33W"
     ],
     "waterproofing": "IP53",
     "video_caps_text": "4K@30fps, 1080p@30/60/120fps",
@@ -11176,11 +11665,16 @@
         "flash": "None",
         "info": "front (S5K3T1)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
   },
   "surya": {
     "_sources": [
-      "GSMArena POCO X3 NFC"
+      "GSMArena POCO X3 NFC",
+      "https://www.gsmarena.com/xiaomi_poco_x3_nfc-10509.php",
+      "POCO X3 NFC 33W / 120Hz / IP53"
     ],
     "waterproofing": "IP53",
     "video_caps_text": "4K@30fps, 1080p@30/60/120fps",
@@ -11246,7 +11740,10 @@
         "flash": "None",
         "info": "front (S5K3T1)"
       }
-    ]
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
   },
   "thyme": {
     "_sources": [
@@ -11748,6 +12245,3220 @@
         "flash": "None",
         "info": "front (S5K3T1)"
       }
+    ]
+  },
+  "r5": {
+    "_sources": [
+      "GSMArena Oppo R5 / R5s — IMX214 class; no IP rating"
+    ],
+    "waterproofing": "None",
+    "video_caps_text": "1080p@30fps",
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX214",
+        "mp": 13,
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 28,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "LED",
+        "info": "main (IMX214)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "OV5670",
+        "mp": 5,
+        "optical_format": "1/5",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "None",
+        "info": "front"
+      }
+    ]
+  },
+  "r7sf": {
+    "_sources": [
+      "GSMArena Oppo R7s — IMX214 class; no IP rating"
+    ],
+    "waterproofing": "None",
+    "video_caps_text": "1080p@30fps",
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX214",
+        "mp": 13,
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 28,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "LED",
+        "info": "main (IMX214)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "OV8865",
+        "mp": 8,
+        "optical_format": "1/3.2",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "None",
+        "info": "front"
+      }
+    ]
+  },
+  "f1f": {
+    "_sources": [
+      "GSMArena Oppo F1 — selfie phone; no IP rating"
+    ],
+    "waterproofing": "None",
+    "video_caps_text": "1080p@30fps",
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX214",
+        "mp": 13,
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 28,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "LED",
+        "info": "main (IMX214)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "OV8865",
+        "mp": 8,
+        "optical_format": "1/3.2",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "front"
+      }
+    ]
+  },
+  "guacamole": {
+    "_sources": [
+      "GSMArena/maker published charging for guacamole",
+      "GSMArena OnePlus 7 Pro",
+      "XDA/Hardware Info S5K3M5 tele"
+    ],
+    "screen": {
+      "refresh_rate": 90
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8,
+        "info": "48 MP wide OIS (IMX586)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3M5",
+        "mp": 13,
+        "focal_length_mm": 57,
+        "aperture": 2.4,
+        "ois": true,
+        "zoom": 2.2,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.4",
+        "pixel_pitch_um": 1.0,
+        "info": "13 MP tele native (~2.2x; 8MP crop for 3x)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX481",
+        "mp": 16,
+        "focal_length_mm": 17,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP ultrawide (IMX481)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX471",
+        "mp": 16,
+        "focal_length_mm": 25,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP pop-up selfie (IMX471)"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true,
+        "240": true
+      }
+    }
+  },
+  "hotdog": {
+    "_sources": [
+      "GSMArena/maker published charging for hotdog",
+      "GSMArena OnePlus 7T Pro"
+    ],
+    "screen": {
+      "refresh_rate": 90
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8,
+        "info": "48 MP wide OIS (IMX586)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3M5",
+        "mp": 13,
+        "focal_length_mm": 57,
+        "aperture": 2.4,
+        "ois": true,
+        "zoom": 2.2,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.4",
+        "pixel_pitch_um": 1.0,
+        "info": "13 MP tele native (~2.2x; 8MP crop for 3x)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX481",
+        "mp": 16,
+        "focal_length_mm": 17,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP ultrawide (IMX481)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX471",
+        "mp": 16,
+        "focal_length_mm": 25,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP pop-up selfie (IMX471)"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true,
+        "240": true
+      }
+    }
+  },
+  "hotdogb": {
+    "_sources": [
+      "GSMArena/maker published charging for hotdogb",
+      "GSMArena OnePlus 7T"
+    ],
+    "screen": {
+      "refresh_rate": 90
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8,
+        "info": "48 MP wide OIS (IMX586)"
+      },
+      {
+        "type": "telephoto",
+        "mp": 12,
+        "focal_length_mm": 51,
+        "aperture": 2.2,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED",
+        "pixel_pitch_um": 1.0,
+        "info": "12 MP 2x tele (PN unpublished)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX481",
+        "mp": 16,
+        "focal_length_mm": 17,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP ultrawide (IMX481)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX471",
+        "mp": 16,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP selfie (IMX471)"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    }
+  },
+  "perseus": {
+    "_sources": [
+      "GSMArena/maker published charging for perseus"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "dipper": {
+    "_sources": [
+      "GSMArena/maker published charging for dipper"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "LED",
+        "info": "12 MP wide OIS"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3T1",
+        "mp": 12,
+        "focal_length_mm": 56,
+        "aperture": 2.4,
+        "ois": false,
+        "zoom": 2,
+        "flash": "LED",
+        "info": "12 MP tele 2x"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3M3SN03",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "120": true,
+        "240": true
+      }
+    },
+    "sources": [
+      "GSMArena Mi 8"
+    ]
+  },
+  "polaris": {
+    "_sources": [
+      "GSMArena/maker published charging for polaris"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "Dual-LED dual-tone",
+        "info": "12 MP wide OIS"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "IMX333",
+        "mp": 12,
+        "focal_length_mm": 52,
+        "aperture": 2.4,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED dual-tone",
+        "info": "12 MP tele 2x"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3M3SN03",
+        "mp": 5,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "5 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "120": true
+      }
+    },
+    "sources": [
+      "GSMArena Mi MIX 2S"
+    ]
+  },
+  "ursa": {
+    "_sources": [
+      "GSMArena/maker published charging for ursa"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "LED",
+        "info": "12 MP wide OIS"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3T1",
+        "mp": 12,
+        "focal_length_mm": 56,
+        "aperture": 2.4,
+        "ois": false,
+        "zoom": 2,
+        "flash": "LED",
+        "info": "12 MP tele 2x"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3M3SN03",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "120": true,
+        "240": true
+      }
+    },
+    "sources": [
+      "GSMArena Mi 8 Explorer (same optics as Mi 8)"
+    ]
+  },
+  "parker": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for parker",
+      "en-us.support one zoom 15W; no built-in Qi"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "davinci": {
+    "_sources": [
+      "GSMArena/maker published charging for davinci"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX582",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "48 MP wide (IMX582)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3L6",
+        "mp": 8,
+        "focal_length_mm": 53,
+        "aperture": 2.4,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED",
+        "info": "8 MP tele 2x"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "OV8856",
+        "mp": 13,
+        "focal_length_mm": 12,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "13 MP ultrawide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3T2",
+        "mp": 20,
+        "focal_length_mm": 24,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP pop-up selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "120": true,
+        "240": true
+      }
+    },
+    "sources": [
+      "GSMArena Mi 9T / Redmi K20"
+    ]
+  },
+  "ginkgo": {
+    "_sources": [
+      "GSMArena/maker published charging for ginkgo",
+      "https://www.gsmarena.com/xiaomi_redmi_note_8-9814.php"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "I001D": {
+    "_sources": [
+      "GSMArena/maker published charging for I001D",
+      "https://www.gsmarena.com/asus_rog_phone_ii_zs660kl-9770.php"
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
+  },
+  "B2N": {
+    "_sources": [
+      "GSMArena/maker published charging for B2N",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9178&idPhone2=9354&idPhone3=9058"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "alphaplus": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 27,
+        "aperture": 1.5,
+        "ois": true,
+        "flash": "LED",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "sensor_size_mm": 6.2745,
+        "info": "12 MP wide OIS"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX363N2",
+        "mp": 16,
+        "focal_length_mm": 16,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/3.1",
+        "pixel_pitch_um": 1.0,
+        "sensor_size_mm": 5.1613,
+        "info": "16 MP ultrawide"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "IMX363N",
+        "mp": 12,
+        "focal_length_mm": 52,
+        "aperture": 2.4,
+        "ois": true,
+        "zoom": 2,
+        "flash": "LED",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "sensor_size_mm": 6.2745,
+        "info": "12 MP tele 2x"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX520",
+        "mp": 8,
+        "focal_length_mm": 25,
+        "aperture": 1.7,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.4,
+        "sensor_size_mm": 4.0,
+        "info": "8 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena LG G8 ThinQ"
+    ]
+  },
+  "betalm": {
+    "_sources": [
+      "GSMArena/maker published charging for betalm",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9608&idPhone2=9530"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "focal_length_mm": 27,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "LED"
+      },
+      {
+        "type": "other",
+        "focal_length_mm": 52,
+        "aperture": 2.4,
+        "ois": false,
+        "zoom": 2,
+        "flash": "LED"
+      },
+      {
+        "type": "other",
+        "focal_length_mm": 13,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "LED",
+        "info": "ultrawide"
+      },
+      {
+        "type": "front",
+        "focal_length_mm": 25,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "None"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena LG G8s ThinQ"
+    ]
+  },
+  "troika": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for troika",
+      "GSMArena One Action 10W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "evert": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for evert",
+      "GSMArena g6 plus 15W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "kane": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for kane",
+      "GSMArena One Vision 15W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "lake": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for lake",
+      "Moto G7 Plus",
+      "GSMArena g7 plus 27W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "lavender": {
+    "_sources": [
+      "GSMArena/maker published charging for lavender",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9513&idPhone2=9140&idPhone3=9769"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX486",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "48 MP wide"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "OV02A10",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "5 MP depth"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5KGM1",
+        "mp": 13,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "13 MP selfie"
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true,
+        "60": true,
+        "120": true
+      }
+    },
+    "sources": [
+      "GSMArena Redmi Note 7"
+    ]
+  },
+  "Mi439": {
+    "_sources": [
+      "GSMArena/maker published charging for Mi439",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9498&idPhone2=9716"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "onclite": {
+    "_sources": [
+      "GSMArena/maker published charging for onclite",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9498&idPhone2=9513&idPhone3=9521"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX486",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP wide"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "S5K4H7",
+        "mp": 2,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "LED",
+        "info": "2 MP depth"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5KGD1SP",
+        "mp": 8,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie"
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "GSMArena Redmi 7"
+    ]
+  },
+  "river": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for river",
+      "Moto G7",
+      "GSMArena g7 15W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "violet": {
+    "_sources": [
+      "GSMArena/maker published charging for violet",
+      "https://www.gsmarena.com/xiaomi_redmi_note_7_pro-9521.php"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "aurora": {
+    "_sources": [
+      "GSMArena/maker published charging for aurora",
+      "https://www.gsmarena.com/sony_xperia_xz2_premium-9166.php"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "waterproofing": "IP65/68"
+  },
+  "beckham": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for beckham",
+      "Moto Z3 Play",
+      "en-us.support z3 play 15W; Qi via Mod only"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "chef": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for chef",
+      "GSMArena One Power 15W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "crownlte": {
+    "_sources": [
+      "GSMArena/maker published charging for crownlte"
+    ],
+    "waterproofing": "IP68",
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "enchilada": {
+    "_sources": [
+      "GSMArena/maker published charging for enchilada",
+      "OnePlus 6 official specs",
+      "GSMArena OnePlus 6 review"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX519",
+        "mp": 16,
+        "focal_length_mm": 25,
+        "aperture": 1.7,
+        "ois": true,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.6",
+        "pixel_pitch_um": 1.22,
+        "info": "16 MP wide OIS (IMX519)"
+      },
+      {
+        "type": "other",
+        "sensor_model": "IMX376K",
+        "mp": 20,
+        "focal_length_mm": 25,
+        "aperture": 1.7,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 1.0,
+        "info": "20 MP secondary (IMX376K)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX371",
+        "mp": 16,
+        "focal_length_mm": 25,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP selfie (IMX371)"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true,
+        "240": true
+      }
+    }
+  },
+  "fajita": {
+    "_sources": [
+      "GSMArena/maker published charging for fajita",
+      "GSMArena OnePlus 6T"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX519",
+        "mp": 16,
+        "focal_length_mm": 25,
+        "aperture": 1.7,
+        "ois": true,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.6",
+        "pixel_pitch_um": 1.22,
+        "info": "16 MP wide OIS (IMX519)"
+      },
+      {
+        "type": "other",
+        "sensor_model": "IMX376K",
+        "mp": 20,
+        "focal_length_mm": 25,
+        "aperture": 1.7,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 1.0,
+        "info": "20 MP secondary (IMX376K)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX371",
+        "mp": 16,
+        "focal_length_mm": 25,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP selfie (IMX371)"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true,
+        "240": true
+      }
+    }
+  },
+  "jasmine_sprout": {
+    "_sources": [
+      "GSMArena/maker published charging for jasmine_sprout",
+      "GSMArena Mi A2 18W QC",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9140&idPhone2=8893"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "messi": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for messi",
+      "Moto Z3",
+      "GSMArena z3 15W; Qi via Mod only"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "star2lte": {
+    "_sources": [
+      "GSMArena/maker published charging for star2lte"
+    ],
+    "waterproofing": "IP68",
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "wayne": {
+    "_sources": [
+      "GSMArena/maker published charging for wayne",
+      "GSMArena Mi 6X 18W",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9140&idPhone2=8893"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "whyred": {
+    "_sources": [
+      "GSMArena/maker published charging for whyred",
+      "Note 5 Pro",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8014&idPhone2=8893"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX376",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "12 MP wide (binned from 16MP listing)"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "S5K2L7",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "5 MP depth"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3L8",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena Redmi Note 5 Pro"
+    ]
+  },
+  "nash": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for nash",
+      "GSMArena z2 force 15W; Qi via Mod only"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "payton": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for payton",
+      "GSMArena x4 15W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "sagit": {
+    "_sources": [
+      "GSMArena/maker published charging for sagit",
+      "elecfans/teardown IMX386+S5K3M3+IMX268",
+      "GSMArena Mi 6"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX386",
+        "mp": 12,
+        "focal_length_mm": 27,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/2.9",
+        "pixel_pitch_um": 1.25,
+        "info": "12 MP wide OIS (IMX386)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3M3",
+        "mp": 12,
+        "focal_length_mm": 52,
+        "aperture": 2.6,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/3.4",
+        "pixel_pitch_um": 1.0,
+        "info": "12 MP 2x tele (S5K3M3)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX268",
+        "mp": 8,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.2",
+        "pixel_pitch_um": 1.4,
+        "info": "8 MP selfie (IMX268)"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      },
+      "720p": {
+        "120": true
+      }
+    }
+  },
+  "tissot": {
+    "_sources": [
+      "GSMArena/maker published charging for tissot",
+      "https://www.gsmarena.com/xiaomi_mi_a1_(mi_5x)-8776.php",
+      "GSMArena Mi A1"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "OV12A10",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/2.9",
+        "pixel_pitch_um": 1.25,
+        "info": "12 MP wide"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3M3",
+        "mp": 12,
+        "focal_length_mm": 50,
+        "aperture": 2.6,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/3.4",
+        "pixel_pitch_um": 1.0,
+        "info": "12 MP 2x tele"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K5E8",
+        "mp": 5,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "5 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      },
+      "720p": {
+        "120": true
+      }
+    }
+  },
+  "natrium": {
+    "_sources": [
+      "GSMArena/maker published charging for natrium",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8014&idPhone2=8350&idPhone3=8451"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "bonito": {
+    "_sources": [
+      "GSMArena/maker published charging for bonito",
+      "https://www.gsmarena.com/google_pixel_3a-9408.php"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "channel": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for channel",
+      "Moto G7 Play",
+      "GSMArena g7 play 10W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "FP3": {
+    "_sources": [
+      "GSMArena/maker published charging for FP3"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "I01WD": {
+    "_sources": [
+      "GSMArena/maker published charging for I01WD",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9410&idPhone2=9698"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "ocean": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for ocean",
+      "Moto G7 Power",
+      "G7 Power 15/18 market — wired blank"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "RMX1851": {
+    "_sources": [
+      "GSMArena/maker published charging for RMX1851",
+      "https://www.gsmarena.com/compare.php3?idPhone1=11908&idPhone2=9669"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "sargo": {
+    "_sources": [
+      "GSMArena/maker published charging for sargo",
+      "https://www.gsmarena.com/google_pixel_3a-9408.php"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "ahannah": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for ahannah",
+      "en-us.support e5 plus 15W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "akari": {
+    "_sources": [
+      "GSMArena/maker published charging for akari",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9166&idPhone2=9232"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "waterproofing": "IP65/68",
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "HI05BN1",
+        "mp": 19,
+        "focal_length_mm": 25,
+        "aperture": 2.0,
+        "ois": true,
+        "flash": "LED",
+        "info": "19 MP Motion Eye OIS"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX241",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "None",
+        "info": "5 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena Xperia XZ2"
+    ]
+  },
+  "akatsuki": {
+    "_sources": [
+      "GSMArena/maker published charging for akatsuki",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9353&idPhone2=9232"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "waterproofing": "IP65/68"
+  },
+  "blueline": {
+    "_sources": [
+      "GSMArena/maker published charging for blueline",
+      "https://www.gsmarena.com/google_pixel_3-9256.php",
+      "https://www.gsmarena.com/pixel_3_capped_at_5w_wireless_charging_on_nongoogleapproved_chargers-news-33877.php"
+    ],
+    "waterproofing": "IP68",
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "crosshatch": {
+    "_sources": [
+      "GSMArena/maker published charging for crosshatch",
+      "https://www.gsmarena.com/google_pixel_3-9256.php",
+      "https://www.gsmarena.com/pixel_3_capped_at_5w_wireless_charging_on_nongoogleapproved_chargers-news-33877.php"
+    ],
+    "waterproofing": "IP68",
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "hannah": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for hannah",
+      "en-us.support e5 plus 15W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "rhannah": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for rhannah",
+      "en-us.support e5 plus 15W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "starlte": {
+    "_sources": [
+      "GSMArena/maker published charging for starlte",
+      "https://www.gsmarena.com/samsung_galaxy_s9-8966.php"
+    ],
+    "waterproofing": "IP68",
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "xz2c": {
+    "_sources": [
+      "GSMArena/maker published charging for xz2c",
+      "https://www.gsmarena.com/sony_xperia_xz2_compact-9082.php"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    },
+    "waterproofing": "IP65/68",
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "HI05BN1",
+        "mp": 19,
+        "focal_length_mm": 25,
+        "aperture": 2.0,
+        "ois": true,
+        "flash": "LED",
+        "info": "19 MP Motion Eye OIS"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX241",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "None",
+        "info": "5 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena Xperia XZ2 Compact"
+    ]
+  },
+  "albus": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for albus",
+      "GSMArena z2 play 15W; Qi via Mod only"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "cedric": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for cedric",
+      "Moto G5",
+      "GSMArena g5s 15W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "chiron": {
+    "_sources": [
+      "GSMArena/maker published charging for chiron",
+      "https://www.gsmarena.com/xiaomi_mi_mix_2-8529.php"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "Mi8917": {
+    "_sources": [
+      "GSMArena/maker published charging for Mi8917"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "Mi8937": {
+    "_sources": [
+      "GSMArena/maker published charging for Mi8937"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "montana": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for montana",
+      "GSMArena g5s 15W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "taimen": {
+    "_sources": [
+      "GSMArena/maker published charging for taimen",
+      "https://www.gsmarena.com/google_pixel_2_xl-8720.php"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "walleye": {
+    "_sources": [
+      "GSMArena/maker published charging for walleye",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8346&idPhone2=8733&idPhone3=9256"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "addison": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for addison",
+      "GSMArena z play 15W; Qi via Mod only"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "capricorn": {
+    "_sources": [
+      "GSMArena/maker published charging for capricorn",
+      "https://www.gsmarena.com/compare.php3?idPhone1=6948&idPhone2=7260&idPhone3=6992"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "griffin": {
+    "_sources": [
+      "GSMArena / Motorola TurboPower published for griffin",
+      "Moto Z Qi",
+      "GSMArena Moto Z 15W; Qi via Mod only — no built-in"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "jasmine": {
+    "_sources": [
+      "GSMArena/maker published charging for jasmine",
+      "GSMArena Mi A2 18W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "marlin": {
+    "_sources": [
+      "GSMArena/maker published charging for marlin",
+      "https://www.gsmarena.com/google_pixel_xl-8345.php"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "oneplus3": {
+    "_sources": [
+      "GSMArena/maker published charging for oneplus3",
+      "OnePlus 3 Dash",
+      "https://www.gsmarena.com/oneplus_3-7995.php"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "sailfish": {
+    "_sources": [
+      "GSMArena/maker published charging for sailfish",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8346&idPhone2=8733&idPhone3=9256"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "tulip": {
+    "_sources": [
+      "GSMArena/maker published charging for tulip",
+      "Redmi Note 6 Pro"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "laurel_sprout": {
+    "_sources": [
+      "GSMArena Mi A3 18W",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9513&idPhone2=9140&idPhone3=9769",
+      "GSMArena Mi A3"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8,
+        "info": "48 MP wide"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX582",
+        "mp": 8,
+        "focal_length_mm": 13,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "8 MP ultrawide"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "OV02A10",
+        "mp": 2,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "2 MP depth"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5KGD1",
+        "mp": 32,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "32 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    }
+  },
+  "pyxis": {
+    "_sources": [
+      "GSMArena Mi 9 Lite wireless",
+      "https://www.gsmarena.com/xiaomi_mi_cc9-9749.php"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "48 MP wide (IMX586)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX582",
+        "mp": 8,
+        "focal_length_mm": 13,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "8 MP ultrawide"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "OV02A10",
+        "mp": 2,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "2 MP depth"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5KGD1",
+        "mp": 32,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "32 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena Mi 9 Lite / Mi CC9"
+    ]
+  },
+  "vela": {
+    "_sources": [
+      "Mi CC9 Meitu",
+      "https://www.gsmarena.com/xiaomi_mi_cc9-9749.php",
+      "GSMArena Mi CC9 / Meitu Edition"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8,
+        "info": "48 MP wide"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "OV8856",
+        "mp": 8,
+        "focal_length_mm": 13,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "info": "8 MP ultrawide"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "OV02A10",
+        "mp": 2,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "LED",
+        "info": "2 MP depth"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5KGD1",
+        "mp": 32,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "32 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true,
+        "120": true
+      }
+    }
+  },
+  "mh2lm": {
+    "_sources": [
+      "LG G8",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9300&idPhone2=9540&idPhone3=9844"
+    ],
+    "waterproofing": "IP68",
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 27,
+        "aperture": 1.5,
+        "ois": true,
+        "flash": "LED",
+        "info": "12 MP wide OIS"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX363N",
+        "mp": 13,
+        "focal_length_mm": 14,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "LED",
+        "info": "13 MP ultrawide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5KGD1",
+        "mp": 32,
+        "focal_length_mm": 26,
+        "aperture": 1.7,
+        "ois": false,
+        "flash": "None",
+        "info": "32 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena LG G8X / V50S ThinQ"
+    ]
+  },
+  "beryllium": {
+    "_sources": [
+      "GSMArena POCO F1 18W QC3"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 25,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "Dual-LED dual-tone",
+        "info": "12 MP wide (IMX363)"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "S5K5E8YX",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "Dual-LED dual-tone",
+        "info": "5 MP depth"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX333",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "240": true
+      }
+    },
+    "sources": [
+      "GSMArena POCO F1"
+    ]
+  },
+  "platina": {
+    "_sources": [
+      "GSMArena Mi 8 Lite",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9329&idPhone2=9513",
+      "mi.com Mi 8 Lite specs"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "info": "12 MP wide (IMX363)"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "S5K5E8",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "info": "5 MP depth (S5K5E8)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX576",
+        "mp": 24,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 0.9,
+        "info": "24 MP selfie (IMX576)"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true,
+        "120": true
+      }
+    }
+  },
+  "xmsirius": {
+    "_sources": [
+      "Mi 8 SE",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9333&idPhone2=9219",
+      "GSMArena Mi 8 SE (same depth stack as Lite)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "info": "12 MP wide (IMX363)"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "S5K5E8",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "info": "5 MP depth (S5K5E8)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX333",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "120": true
+      }
+    }
+  },
+  "judypn": {
+    "_sources": [
+      "LG V40",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9300&idPhone2=9540&idPhone3=9844"
+    ],
+    "waterproofing": "IP68"
+  },
+  "d1": {
+    "_sources": [
+      "Note 10"
+    ],
+    "waterproofing": "IP68"
+  },
+  "d2s": {
+    "_sources": [
+      "Note 10+"
+    ],
+    "waterproofing": "IP68"
+  },
+  "zippo": {
+    "_sources": [
+      "Mi 9 Pro CN 27W+",
+      "https://www.gsmarena.com/lenovo_z6_pro-review-1970.php"
+    ]
+  },
+  "m20lte": {
+    "_sources": [
+      "Galaxy M20 15W",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9506&idPhone2=7945"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "g710n": {
+    "screen": {
+      "refresh_rate": 60
+    },
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68",
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX351",
+        "mp": 16,
+        "focal_length_mm": 30,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "LED",
+        "info": "16 MP wide OIS"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX351W",
+        "mp": 16,
+        "focal_length_mm": 16,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP ultrawide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX351N",
+        "mp": 8,
+        "focal_length_mm": 25,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena LG G7 ThinQ"
+    ]
+  },
+  "g710ulm": {
+    "screen": {
+      "refresh_rate": 60
+    },
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68",
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX351",
+        "mp": 16,
+        "focal_length_mm": 30,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "LED",
+        "info": "16 MP wide OIS"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX351W",
+        "mp": 16,
+        "focal_length_mm": 16,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP ultrawide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX351N",
+        "mp": 8,
+        "focal_length_mm": 25,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena LG G7 ThinQ"
+    ]
+  },
+  "judyln": {
+    "_sources": [
+      "LG G7",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68",
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX351",
+        "mp": 16,
+        "focal_length_mm": 30,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "LED",
+        "info": "16 MP wide OIS"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX351W",
+        "mp": 16,
+        "focal_length_mm": 16,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP ultrawide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX351N",
+        "mp": 8,
+        "focal_length_mm": 25,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena LG G7 ThinQ"
+    ]
+  },
+  "judyp": {
+    "_sources": [
+      "LG V40",
+      "https://www.gsmarena.com/lg_v35_thinq-9191.php"
+    ],
+    "waterproofing": "IP68",
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX351",
+        "mp": 16,
+        "focal_length_mm": 30,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "LED",
+        "info": "16 MP wide OIS"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX351W",
+        "mp": 16,
+        "focal_length_mm": 16,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP ultrawide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX351N",
+        "mp": 8,
+        "focal_length_mm": 25,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true,
+        "60": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena LG V35 ThinQ (G7-class dual)"
+    ]
+  },
+  "flashlmdd": {
+    "_sources": [
+      "LG V50",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9540&idPhone2=9607"
+    ],
+    "waterproofing": "IP68"
+  },
+  "twolip": {
+    "_sources": [
+      "GSMArena Redmi 6 Pro / Mi A2 Lite 10W",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9333&idPhone2=9219"
+    ]
+  },
+  "pro1": {
+    "_sources": [
+      "F(x)tec Pro1 QC3/PD",
+      "F(x)tec Pro1"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "cheeseburger": {
+    "_sources": [
+      "GSMArena OnePlus 5 Dash 20W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "cheryl": {
+    "_sources": [
+      "Razer Phone QC",
+      "Razer Phone 120Hz QC"
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
+  },
+  "dumpling": {
+    "_sources": [
+      "OnePlus 5T Dash 5V4A / GSMArena 20W"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "h870": {
+    "_sources": [
+      "LG G6",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68"
+  },
+  "h870d": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68"
+  },
+  "h872": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68"
+  },
+  "h873": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68"
+  },
+  "h932": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/lg_v30-8712.php"
+    ],
+    "waterproofing": "IP68"
+  },
+  "jason": {
+    "_sources": [
+      "Mi Note 3",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8753&idPhone2=8707",
+      "mi.com Mi Note 3",
+      "XiaomiWiki jason"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX386",
+        "mp": 12,
+        "focal_length_mm": 27,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/2.9",
+        "pixel_pitch_um": 1.25,
+        "info": "12 MP wide OIS (IMX386)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3M3",
+        "mp": 12,
+        "focal_length_mm": 52,
+        "aperture": 2.6,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/3.4",
+        "pixel_pitch_um": 1.0,
+        "info": "12 MP 2x tele (S5K3M3)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3P3",
+        "mp": 16,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "16 MP selfie (S5K3P3)"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      },
+      "720p": {
+        "120": true
+      }
+    }
+  },
+  "joan": {
+    "_sources": [
+      "LG V30",
+      "https://www.gsmarena.com/lg_v30-8712.php"
+    ],
+    "waterproofing": "IP68"
+  },
+  "l01k": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/lg_v30-8712.php"
+    ],
+    "waterproofing": "IP68"
+  },
+  "mata": {
+    "_sources": [
+      "Essential PH-1 ~27W PD",
+      "https://www.gsmarena.com/compare.php3?idPhone1=9788&idPhone2=8710"
+    ]
+  },
+  "us997": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68"
+  },
+  "h830": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "h850": {
+    "_sources": [
+      "LG G5",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "h910": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "h918": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "h990": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "ls997": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "rs988": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "us996": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "us996d": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "vs995": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "mido": {
+    "_sources": [
+      "Note 4"
+    ]
+  },
+  "santoni": {
+    "_sources": [
+      "Redmi 4X",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8150&idPhone2=8776"
+    ]
+  },
+  "hydrogen": {
+    "_sources": [
+      "Mi Max",
+      "https://www.mi.com/mimax/specs"
+    ]
+  },
+  "kenzo": {
+    "_sources": [
+      "Note 3",
+      "https://www.gsmarena.com/xiaomi_redmi_note_3-7863.php"
+    ]
+  },
+  "land": {
+    "_sources": [
+      "Redmi 3S",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8150&idPhone2=8776"
+    ]
+  },
+  "a3xelte": {
+    "screen": {
+      "refresh_rate": 60
+    },
+    "_sources": [
+      "Galaxy A3 2016"
+    ]
+  },
+  "a5xelte": {
+    "screen": {
+      "refresh_rate": 60
+    },
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=7789&idPhone2=6506"
+    ]
+  },
+  "a7xelte": {
+    "screen": {
+      "refresh_rate": 60
+    },
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=7759&idPhone2=6849"
+    ]
+  },
+  "h811": {
+    "_sources": [
+      "GSMArena LG flagship era ~18W + Qi"
+    ]
+  },
+  "h815": {
+    "_sources": [
+      "LG G4"
+    ]
+  },
+  "ham": {
+    "_sources": [
+      "ZUK Z1"
+    ]
+  },
+  "sirius": {
+    "_sources": [
+      "GSMArena Mi 8 SE"
+    ]
+  },
+  "akershus": {
+    "_sources": [
+      "ZTE Axon 9 Pro",
+      "GSMArena ZTE Axon 9 Pro"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.75,
+        "ois": true,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "info": "12 MP wide OIS (IMX363)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "S5K3T1",
+        "mp": 20,
+        "focal_length_mm": 10,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED dual-tone",
+        "fov_deg": 130,
+        "info": "20 MP ultrawide 130°"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3T1SP",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 1.0,
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "trident": {
+    "_sources": [
+      "Smartisan R1",
+      "smartisan.com R1 specs",
+      "GSMArena Smartisan R1"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "info": "12 MP wide OIS (IMX363)"
+      },
+      {
+        "type": "other",
+        "sensor_model": "IMX350",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 1.75,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.0,
+        "info": "20 MP secondary (IMX350)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX376",
+        "mp": 24,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "24 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "120": true
+      }
+    }
+  },
+  "heart": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9757&idPhone2=9489"
+    ]
+  },
+  "kirin": {
+    "_sources": [
+      "Xperia 10"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "mermaid": {
+    "_sources": [
+      "Xperia 10 Plus"
+    ],
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "Amber": {
+    "_sources": [
+      "Yandex Phone"
+    ]
+  },
+  "anne": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8938&idPhone2=9098"
+    ]
+  },
+  "aura": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8522&idPhone2=9363"
+    ],
+    "screen": {
+      "refresh_rate": 120
+    }
+  },
+  "berkeley": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8938&idPhone2=9098"
+    ]
+  },
+  "charlotte": {
+    "_sources": [
+      "https://www.gsmarena.com/huawei_p20_pro-9106.php"
+    ]
+  },
+  "discovery": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8985&idPhone2=9591"
+    ]
+  },
+  "DRG": {
+    "_sources": [
+      "https://www.gsmarena.com/nokia_6_1_plus_(nokia_x6)-9178.php"
+    ]
+  },
+  "nx606j": {
+    "_sources": [
+      "https://www.gsmarena.com/zte_nubia_z18-9171.php"
+    ]
+  },
+  "nx611j": {
+    "_sources": [
+      "Nubia Z18 Mini"
+    ]
+  },
+  "nx616j": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9347&idPhone2=9363"
+    ]
+  },
+  "shark": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8893&idPhone2=9164",
+      "GSMArena Black Shark"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX376",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": false,
+        "flash": "Dual-LED dual-tone",
+        "info": "12 MP wide"
+      },
+      {
+        "type": "other",
+        "sensor_model": "IMX376OTP",
+        "mp": 20,
+        "focal_length_mm": 50,
+        "aperture": 1.8,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED dual-tone",
+        "info": "20 MP 2x"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX486VCM",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "X00P": {
+    "_sources": [
+      "Zenfone Max M1"
+    ]
+  },
+  "X00TD": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9096&idPhone2=9173"
+    ]
+  },
+  "X01AD": {
+    "_sources": [
+      "Zenfone Max M2"
+    ]
+  },
+  "X01BD": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9410&idPhone2=9698"
+    ]
+  },
+  "Z01R": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9096&idPhone2=9173"
+    ]
+  },
+  "zangya": {
+    "_sources": [
+      "BQ Aquaris X2"
+    ]
+  },
+  "zangyapro": {
+    "_sources": [
+      "BQ Aquaris X2 Pro"
+    ]
+  },
+  "figo": {
+    "_sources": [
+      "Huawei P Smart"
+    ]
+  },
+  "NB1": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8522&idPhone2=9363"
+    ]
+  },
+  "nx563j": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8677&idPhone2=8791"
+    ]
+  },
+  "TP1803": {
+    "_sources": [
+      "Nubia Mini 5G ~18W"
+    ]
+  },
+  "nx609j": {
+    "_sources": [
+      "Nubia Red Magic"
+    ]
+  },
+  "nx619j": {
+    "_sources": [
+      "https://www.gsmarena.com/zte_nubia_red_magic_mars-9433.php"
+    ]
+  },
+  "pioneer": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9232&idPhone2=8986&idPhone3=7948",
+      "Sony XA2 specs",
+      "kernel camss IMX219"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX300",
+        "mp": 23,
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.3",
+        "pixel_pitch_um": 1.12,
+        "info": "23 MP wide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX219",
+        "mp": 8,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "fov_deg": 120,
+        "info": "8 MP selfie (IMX219)"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "PL2": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8972&idPhone2=9178"
+    ]
+  },
+  "RMX1801": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9342&idPhone2=9345"
+    ]
+  },
+  "voyager": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9268&idPhone2=8986&idPhone3=8985",
+      "GSMArena Xperia XA2 Plus"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX300",
+        "mp": 23,
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.3",
+        "pixel_pitch_um": 1.12,
+        "info": "23 MP wide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX219",
+        "mp": 8,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "info": "8 MP selfie (IMX219)"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "a5y17lte": {
+    "_sources": [
+      "https://www.gsmarena.com/samsung_galaxy_a5_(2017)-8494.php"
+    ],
+    "waterproofing": "IP68",
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "a7y17lte": {
+    "_sources": [
+      "https://www.gsmarena.com/samsung_galaxy_a7_(2017)-8335.php"
+    ],
+    "waterproofing": "IP68",
+    "screen": {
+      "refresh_rate": 60
+    }
+  },
+  "bardock": {
+    "_sources": [
+      "BQ Aquaris X"
+    ]
+  },
+  "bardockpro": {
+    "_sources": [
+      "BQ Aquaris X Pro"
+    ]
+  },
+  "zl1": {
+    "_sources": [
+      "LeEco Le Pro3"
+    ]
+  },
+  "axon7": {
+    "_sources": [
+      "https://www.gsmarena.com/zte_axon_7-8067.php"
+    ]
+  },
+  "gemini": {
+    "_sources": [
+      "https://www.gsmarena.com/xiaomi_mi_5-6948.php"
+    ]
+  },
+  "hero2lte": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9506&idPhone2=7945"
+    ],
+    "waterproofing": "IP68"
+  },
+  "herolte": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8966&idPhone2=8161&idPhone3=7821",
+      "https://www.gsmarena.com/samsung_galaxy_s7_(usa)-7960.php"
+    ],
+    "waterproofing": "IP68"
+  },
+  "lithium": {
+    "_sources": [
+      "https://www.gsmarena.com/xiaomi_mi_mix-8400.php"
+    ]
+  },
+  "pme": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=7576&idPhone2=8346&idPhone3=7884"
+    ]
+  },
+  "scorpio": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8014&idPhone2=8350&idPhone3=8451"
+    ]
+  },
+  "suzu": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9232&idPhone2=8986&idPhone3=7948"
+    ]
+  },
+  "angler": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=7588&idPhone2=9256"
+    ]
+  },
+  "bullhead": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=7556&idPhone2=9408"
+    ]
+  },
+  "hiae": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=7576&idPhone2=8346&idPhone3=7884"
+    ]
+  },
+  "ivy": {
+    "_sources": [
+      "https://www.gsmarena.com/sony_xperia_z3+-6878.php"
+    ],
+    "waterproofing": "IP65/68"
+  },
+  "sumire": {
+    "_sources": [
+      "https://www.gsmarena.com/sony_xperia_z5-7534.php"
+    ],
+    "waterproofing": "IP65/68"
+  },
+  "suzuran": {
+    "_sources": [
+      "https://www.gsmarena.com/sony_xperia_z5_compact-7535.php"
+    ],
+    "waterproofing": "IP65/68"
+  },
+  "zerofltexx": {
+    "_sources": [
+      "https://www.gsmarena.com/samsung_galaxy_s6-6849.php"
+    ]
+  },
+  "zeroltexx": {
+    "_sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8335&idPhone2=7079&idPhone3=6543"
+    ]
+  },
+  "athene": {
+    "_sources": [
+      "GSMArena Moto G4 15W",
+      "GSMArena g4 15W"
+    ]
+  },
+  "ether": {
+    "_sources": [
+      "Nextbit Robin"
+    ]
+  },
+  "harpia": {
+    "_sources": [
+      "GSMArena Moto G4 Play",
+      "GSMArena g4 play — no published W"
+    ]
+  },
+  "ido": {
+    "_sources": [
+      "Redmi 3"
+    ]
+  },
+  "kugo": {
+    "_sources": [
+      "Xperia X Compact"
+    ]
+  },
+  "kuntao": {
+    "_sources": [
+      "Lenovo P2"
+    ]
+  },
+  "z2_plus": {
+    "_sources": [
+      "ZUK Z2"
+    ]
+  },
+  "zenfone3": {
+    "_sources": [
+      "Zenfone 3"
+    ]
+  },
+  "clark": {
+    "_sources": [
+      "Moto X Pure TurboPower ~15W",
+      "GSMArena X Style/Pure TurboPower 15W"
+    ]
+  },
+  "lux": {
+    "_sources": [
+      "Moto X Play",
+      "GSMArena x play 15W"
+    ]
+  },
+  "merlin": {
+    "_sources": [
+      "Moto G3 Turbo",
+      "GSMArena g turbo 15W IP67"
+    ],
+    "waterproofing": "IP67"
+  },
+  "osprey": {
+    "_sources": [
+      "Moto G 2015",
+      "GSMArena g3 — no W; IPX7"
+    ],
+    "waterproofing": "IPX7"
+  },
+  "surnia": {
+    "_sources": [
+      "Moto E 2015",
+      "GSMArena e LTE 2015 — no W"
+    ]
+  },
+  "otus": {
+    "_sources": [
+      "GSMArena e 2015 — no W"
+    ]
+  },
+  "thea": {
+    "_sources": [
+      "GSMArena g LTE 2014 — no W"
+    ]
+  },
+  "grus": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.75,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8,
+        "info": "48 MP wide (IMX586)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "OV8856",
+        "mp": 8,
+        "focal_length_mm": 50,
+        "aperture": 2.4,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "info": "8 MP 2x tele (OV8856)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "S5K3L6",
+        "mp": 13,
+        "focal_length_mm": 15,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.1",
+        "pixel_pitch_um": 1.12,
+        "fov_deg": 124.8,
+        "info": "13 MP ultrawide (S5K3L6)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3T1",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true,
+        "120": true
+      },
+      "720p": {
+        "960": true
+      }
+    },
+    "_sources": [
+      "mi.com Mi 9 SE specs OV8856+S5K3L6",
+      "GSMArena Mi 9 SE"
     ]
   }
 }

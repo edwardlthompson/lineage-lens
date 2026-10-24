@@ -2,6 +2,80 @@
 
 > Archive of finished BUILD_PLAN items.
 
+## Sprint 8 — Deep search remaining gaps (2026-10-24)
+
+- ✅ [AGENT][LOCAL] Publish Sprint 8 gap lists (2020+ and 2015–2019) — scope: `docs/features/phone-spec-gap-fill-s8.md`, `data/raw/sprint8_gap_inventory.json`
+- ✅ [AGENT][LOCAL] Motorola charge + wireless verify (2020+) — scope: `examples/web/src/features/table/chargeCatalog*.ts`, `examples/web/public/data/devices.json`
+- ✅ [AGENT][LOCAL] Fill remaining 2020+ IP / refresh / charge leftovers (non-Moto) — scope: `examples/web/public/data/devices.json`, `data/raw/sprint8_gap_fills.json`
+- ✅ [AGENT][LOCAL] 2020+ sensor gaps where dual-sourced (Pixels left blank) — scope: `data/raw/flagship_camera_overrides.json`
+- ✅ [AGENT][LOCAL] Deep-fill 2019–2018 charge (+ wireless) — scope: `examples/web/src/features/table/chargeCatalogLegacy.ts`
+- ✅ [AGENT][LOCAL] Deep-fill 2017–2016 charge (+ wireless) — scope: `examples/web/src/features/table/chargeCatalogLegacy.ts`
+- ✅ [AGENT][LOCAL] Deep-fill 2015 charge (+ wireless); Motorola 2015–2019 first — scope: `examples/web/src/features/table/chargeCatalogLegacy.ts`
+- ✅ [AGENT][LOCAL] 2015–2019 refresh + IP best-effort (published only) — scope: `examples/web/public/data/devices.json`
+- ✅ [AGENT][LOCAL] Recompute quality + refresh inventory; split charge catalog ≤300 lines — scope: `docs/features/phone-spec-gap-fill-s8.md`, `chargeCatalogModern.ts` / `Legacy`
+
+## Sprint 7 — Spec gap deep fill (2026-10-24)
+
+- ✅ [AGENT][LOCAL] Hide Data column by default; recompute truthful quality (`None` IP unknown) — scope: `examples/web/src/features/table/columnVisibility.ts`, `scripts/pipeline/enrichment_quality.py`, `examples/web/public/data/devices.json`
+- ✅ [AGENT][LOCAL] Publish missing-device inventory + protocol — scope: `docs/features/phone-spec-gap-fill.md`
+- ✅ [AGENT][LOCAL] Deep-fill 2026 phones (A→D) — scope: `examples/web/public/data/devices.json`, `data/raw/flagship_camera_overrides.json`, `examples/web/src/features/table/chargeCatalog.ts`
+- ✅ [AGENT][LOCAL] Deep-fill 2025 phones (A→D) — scope: `examples/web/public/data/devices.json`, `data/raw/flagship_camera_overrides.json`, `examples/web/src/features/table/chargeCatalog.ts`
+- ✅ [AGENT][LOCAL] Deep-fill 2024 phones (A→D) — scope: `examples/web/public/data/devices.json`, `data/raw/flagship_camera_overrides.json`, `examples/web/src/features/table/chargeCatalog.ts`
+- ✅ [AGENT][LOCAL] Deep-fill 2023 phones (A→D) — scope: `examples/web/public/data/devices.json`, `data/raw/flagship_camera_overrides.json`, `examples/web/src/features/table/chargeCatalog.ts`
+- ✅ [AGENT][LOCAL] Deep-fill 2022 phones (A→D) — scope: `examples/web/public/data/devices.json`, `data/raw/flagship_camera_overrides.json`, `examples/web/src/features/table/chargeCatalog.ts`
+- ✅ [AGENT][LOCAL] Deep-fill 2021 phones (A→D) — scope: `examples/web/public/data/devices.json`, `data/raw/flagship_camera_overrides.json`, `examples/web/src/features/table/chargeCatalog.ts`
+- ✅ [AGENT][LOCAL] Deep-fill 2020 phones (A→D) — scope: `examples/web/public/data/devices.json`, `data/raw/flagship_camera_overrides.json`, `examples/web/src/features/table/chargeCatalog.ts`
+- ✅ [AGENT][LOCAL] Pre-2020 best-effort gap fills (no year-complete requirement) — scope: `examples/web/public/data/devices.json`, `examples/web/src/features/table/chargeCatalog.ts`, `docs/features/phone-spec-gap-fill.md`
+
+## Sprint 6 — Phone spec audit (newest first) (2026-10-24)
+
+- ✅ [AGENT][LOCAL] Audit 2026–2025 phones (17) — scope: examples/web/public/data/devices.json
+- ✅ [AGENT][LOCAL] Audit 2024 phones (28) — scope: examples/web/public/data/devices.json
+- ✅ [AGENT][LOCAL] Audit 2023 phones (34) — scope: examples/web/public/data/devices.json
+- ✅ [AGENT][LOCAL] Audit 2022 phones (46) — scope: examples/web/public/data/devices.json
+- ✅ [AGENT][LOCAL] Audit 2021 phones (63) — scope: examples/web/public/data/devices.json
+- ✅ [AGENT][LOCAL] Audit 2020 phones (71) — scope: examples/web/public/data/devices.json
+- ✅ [AGENT][LOCAL] Audit 2019 phones (66) — scope: examples/web/public/data/devices.json
+- ✅ [AGENT][LOCAL] Audit 2018 phones (64) — scope: examples/web/public/data/devices.json
+- ✅ [AGENT][LOCAL] Audit 2017 phones (44) — scope: examples/web/public/data/devices.json
+- ✅ [AGENT][LOCAL] Audit 2016 phones (52) — scope: examples/web/public/data/devices.json
+- ✅ [AGENT][LOCAL] Audit 2015–2014 phones (105) — scope: examples/web/public/data/devices.json
+- ✅ [AGENT][LOCAL] Audit 2013–2011 phones (55) — scope: examples/web/public/data/devices.json
+
+## Sprint 0–1 foundation (2026-10-23)
+
+- ✅ [AGENT][LOCAL] Write `AGENT.md` product brief; run `init-project.ps1` (web, prune) — scope: AGENT.md, scripts/
+- ✅ [AGENT][LOCAL] Add React + TanStack Table + Recharts to `examples/web/` — scope: examples/web/
+- ✅ [AGENT][LOCAL] Define Device TypeScript types + `schemas/device.schema.json` — scope: examples/web/src/types/, schemas/
+- ✅ [HUMAN] Create GitHub repo + Pages (Actions); `setup-github-repo` when ready — scope: scripts/
+- ✅ [AGENT][LOCAL] Python pipeline: fetch/parse lineage_wiki YAMLs — scope: scripts/pipeline/
+- ✅ [AGENT][LOCAL] Ingest `data/raw/camera_enrichment.csv`; merge on codename; emit `devices.json` — scope: scripts/pipeline/, examples/web/public/data/
+- ✅ [AGENT][LOCAL] Minimal React table proving wiki↔CSV join — scope: examples/web/src/features/table/
+- ✅ [AUTO] Validate devices.json against JSON Schema in CI/local — scope: schemas/, scripts/pipeline/
+
+## Sprint 5 — Polish & deploy (2026-10-23)
+
+- ✅ [AGENT][LOCAL] Device detail + About/methodology; GitHub Action data refresh — scope: examples/web/, .github/, docs/features/device-detail-about-refresh.md
+- ✅ [HUMAN] Enable GitHub Pages (Actions source); smoke on phone — scope: repo settings
+
+## Sprint 4 — Comparison & scoring (2026-10-23)
+
+- ✅ [AGENT][LOCAL] Top RAM + UX score; lens row zebra/align — scope: examples/web/src/features/table/
+- ✅ [AGENT][LOCAL] Buying signals Phase 1 (main/zoom/slow-mo/pro/worth/gaps) — scope: examples/web/src/features/table/, docs/features/buying-signals-phase1.md
+- ✅ [AGENT][LOCAL] Camera capabilities Phase 2 (stab/Log/HLG/flash + schema) — scope: examples/web/, schemas/, scripts/pipeline/gsmarena.py, docs/features/camera-capabilities-phase2.md
+- ✅ [AGENT][LOCAL] Buyer presets (Portrait/Travel/Creator/Night) — scope: examples/web/src/features/table/, docs/features/buyer-presets.md
+- ✅ [AGENT][LOCAL] Market signals Phase 4 (used/battery/audio/maturity) — scope: examples/web/src/features/table/, docs/features/market-signals-phase4.md
+- ✅ [AGENT][LOCAL] Multi-select comparison polish + similar devices — scope: examples/web/, docs/features/compare-similar-devices.md
+
+## Sprint 3 — Charts (2026-10-23)
+
+- ✅ [AGENT][LOCAL] Sensor size distribution + year scatter; chart click to table filter — scope: examples/web/src/features/charts/
+
+## Sprint 2 — Core table UX (2026-10-23)
+
+- ✅ [AGENT][LOCAL] Multi-sort, column visibility, faceted filters, fuzzy search — scope: examples/web/src/features/table/
+- ✅ [AGENT][LOCAL] Shareable filter URLs + mobile responsive table — scope: examples/web/
+
 ## M66 — Shape ecosystem, commercial GP, coverage, deep upgrade (2026-10-16)
 
 - ✅ [AGENT][LOCAL] Ship /shape workflow (command + specs template + tour/cheat sheet) — scope: .cursor/commands/, docs/help/, docs/specs/, docs/PREFERENCES.md

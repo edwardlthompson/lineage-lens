@@ -101,6 +101,24 @@
           "items": { "$ref": "#/$defs/cameraModule" }
         },
         "video": { "type": ["object", "null"] },
+        "camera_features": {
+          "type": ["object", "null"],
+          "additionalProperties": true,
+          "properties": {
+            "dcg": { "type": "boolean" },
+            "raw_video": { "type": "boolean" },
+            "raw_photo": { "type": "boolean" },
+            "pdaf": { "type": "boolean" },
+            "laser_af": { "type": "boolean" },
+            "eis": { "type": "boolean" },
+            "hdr10": { "type": "boolean" },
+            "dolby_vision": { "type": "boolean" },
+            "log_video": { "type": "boolean" },
+            "hlg": { "type": "boolean" },
+            "photo_10bit": { "type": "boolean" },
+            "notes": { "type": ["string", "null"] }
+          }
+        },
         "aggregates": {
           "type": "object",
           "additionalProperties": true,
@@ -110,9 +128,15 @@
             "main_pixel_pitch": { "type": ["number", "null"] },
             "has_ois_main": { "type": ["boolean", "null"] },
             "has_telephoto": { "type": ["boolean", "null"] },
+            "has_ultrawide": { "type": ["boolean", "null"] },
             "max_optical_zoom": { "type": ["number", "null"] },
             "camera_module_count": { "type": ["number", "null"] },
-            "combined_mp": { "type": ["number", "null"] }
+            "combined_mp": { "type": ["number", "null"] },
+            "video_caps_text": { "type": ["string", "null"] },
+            "camera_features_text": { "type": ["string", "null"] },
+            "has_dcg": { "type": ["boolean", "null"] },
+            "has_raw_video": { "type": ["boolean", "null"] },
+            "has_pdaf": { "type": ["boolean", "null"] }
           }
         },
         "scores": {
@@ -121,7 +145,10 @@
           "properties": {
             "camera_score": { "type": ["number", "null"] },
             "longevity_score": { "type": ["number", "null"] },
-            "worth_buying_score": { "type": ["number", "null"] }
+            "worth_buying_score": { "type": ["number", "null"] },
+            "video_score": { "type": ["number", "null"] },
+            "optics_score": { "type": ["number", "null"] },
+            "feature_score": { "type": ["number", "null"] }
           }
         },
         "provenance": {

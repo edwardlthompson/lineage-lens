@@ -12,7 +12,7 @@ import { hasWaitingWorker, watchWaitingWorker } from "./about/swUpdatePrompt";
 import { markUpdateChecked, markVersionSeen } from "./about/updatePrefs";
 import { assetUrl } from "./assetUrl";
 import { installCrashHandler } from "./crash-capture/installHandler";
-import { readPendingCrash } from "./crash-capture/pendingCrash";
+import { clearPendingCrash, readPendingCrash } from "./crash-capture/pendingCrash";
 import { mountDevicesApp } from "./features/table/mountDevicesApp";
 import { getSaveCrashes } from "./feedback/saveCrashes";
 import { t } from "./i18n";
@@ -20,7 +20,9 @@ import {
   applyFeedbackIntents,
   createHistoryNav,
   feedbackPrefillOf,
+  homeNav,
   loadNav,
+  saveNav,
   syncHistoryToNav,
 } from "./nav";
 import { runNavTransition } from "./nav/viewTransitions";
@@ -35,9 +37,20 @@ export function bootstrapApp(appRoot: HTMLDivElement): void {
   popAbort = new AbortController();
   initTheme();
   installCrashHandler(() => getSaveCrashes());
-  const shared = shareTargetDescription(new URLSearchParams(window.location.search));
+  const params = new URLSearchParams(window.location.search);
+  // Escape hatch for embedded browsers stuck on Report a bug: ?home=1
+  const forceHome = params.get("home") === "1";
+  if (forceHome) {
+    clearPendingCrash();
+    saveNav(homeNav());
+    params.delete("home");
+    const qs = params.toString();
+    const next = `${window.location.pathname}${qs ? `?${qs}` : ""}${window.location.hash}`;
+    window.history.replaceState(history.state, "", next);
+  }
+  const shared = forceHome ? "" : shareTargetDescription(params);
   const intent = applyFeedbackIntents(loadNav(), {
-    crash: Boolean(readPendingCrash()),
+    crash: forceHome ? false : Boolean(readPendingCrash()),
     share: shared,
   });
   syncHistoryToNav(history, intent.nav);
@@ -74,7 +87,10 @@ export function bootstrapApp(appRoot: HTMLDivElement): void {
           const next = navCtl.pushRoute(route, kind);
           if (next) applyNav(next);
         },
-        onPop: () => navCtl.popFromUi(),
+        onPop: () => {
+          const forced = navCtl.popFromUi();
+          if (forced) applyNav(forced);
+        },
         onApplyUpdate: () => {
           void handleApplyUpdate();
         },

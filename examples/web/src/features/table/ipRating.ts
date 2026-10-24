@@ -37,3 +37,19 @@ export function meetsIpMin(raw: string | null | undefined, minCode: number): boo
   }
   return parsed.dust >= minDust && parsed.water >= minWater;
 }
+
+/**
+ * Points relative to IP68. Higher than 68 awards, lower deducts.
+ * Null when the rating is missing.
+ */
+export function ipUxDelta(raw: string | null | undefined): number | null {
+  const parsed = parseIpDigits(raw);
+  if (!parsed) return null;
+  const code = (parsed.dust ?? 6) * 10 + parsed.water;
+  if (code >= 69) return 12;
+  if (code >= 68) return 0;
+  if (code >= 67) return -8;
+  if (code >= 65) return -14;
+  if (code >= 54) return -20;
+  return -28;
+}

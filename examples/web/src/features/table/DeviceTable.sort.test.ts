@@ -8,6 +8,8 @@ describe("SORT_DESC_FIRST_IDS", () => {
     expect(SORT_DESC_FIRST_IDS.has("blur_score")).toBe(true);
     expect(SORT_DESC_FIRST_IDS.has("total_sensor")).toBe(true);
     expect(SORT_DESC_FIRST_IDS.has("release_year")).toBe(true);
+    expect(SORT_DESC_FIRST_IDS.has("ux_score")).toBe(true);
+    expect(SORT_DESC_FIRST_IDS.has("storage")).toBe(false);
   });
 
   it("leaves text identity columns on default asc-first", () => {

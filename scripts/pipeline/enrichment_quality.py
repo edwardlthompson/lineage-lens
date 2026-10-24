@@ -176,6 +176,14 @@ def is_camera_less_form_factor(device: dict[str, Any]) -> bool:
     )
 
 
+def waterproofing_is_known(device: dict[str, Any]) -> bool:
+    """True when a real rating is stored — empty and wiki sentinel 'None' do not count."""
+    w = str(device.get("waterproofing") or "").strip()
+    if not w:
+        return False
+    return w.lower() != "none"
+
+
 def device_is_camera_less_complete(device: dict[str, Any]) -> bool:
     """
     Complete for devices with no camera hardware: waterproofing + SoC filled,
@@ -185,7 +193,7 @@ def device_is_camera_less_complete(device: dict[str, Any]) -> bool:
         return False
     if meaningful_cameras(device.get("cameras")):
         return False
-    if not str(device.get("waterproofing") or "").strip():
+    if not waterproofing_is_known(device):
         return False
     if not str(device.get("soc") or "").strip():
         return False
@@ -194,8 +202,10 @@ def device_is_camera_less_complete(device: dict[str, Any]) -> bool:
 
 def device_is_fully_enriched(device: dict[str, Any]) -> bool:
     """
-    Enriched = every meaningful camera has core optics AND waterproofing is set.
+    Enriched = every meaningful camera has core optics (sensor + FL + aperture + pitch).
 
+    Camera-first: IP rating is tracked separately (Gaps / buying signals) and does
+    not block camera enrichment — many midrange phones never publish an IP code.
     Requires at least one rear (non-front) module so empty selfie-only stubs
     cannot count as enriched.
     """
@@ -205,8 +215,6 @@ def device_is_fully_enriched(device: dict[str, Any]) -> bool:
     if not any(str(c.get("type") or "") != "front" for c in cams):
         return False
     if not all(camera_is_complete(c) for c in cams):
-        return False
-    if not str(device.get("waterproofing") or "").strip():
         return False
     return True
 

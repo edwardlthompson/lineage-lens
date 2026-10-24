@@ -1,8 +1,7 @@
 import { APP_VERSION } from "./about/aboutSession";
-import { createLaunchPromptDialog } from "./about/launchPrompt";
 import type { LaunchPrompt } from "./about/runAppUpdates";
-import { createSwUpdatePrompt } from "./about/swUpdatePrompt";
 import type { DonationConfig } from "./about/types";
+import { mountAppShellPrompts } from "./appShellPrompts";
 import { createAboutPanel } from "./components/AboutPanel";
 import { createFeedbackPanel } from "./components/FeedbackPanel";
 import { createSettingsPanel } from "./components/SettingsPanel";
@@ -42,7 +41,6 @@ export function createAppShell(
   const route = current(state.nav);
   const atHome = route === "home";
 
-  // Preserve React host across shell re-renders so the device table stays mounted.
   const existingReact = root.querySelector("#ll-react-root");
   if (existingReact) existingReact.remove();
 
@@ -87,24 +85,8 @@ export function createAppShell(
   dialogCleanup = undefined;
   mount.innerHTML = "";
 
-  if (state.nav.promptOpen && state.launchPrompt) {
-    const promptDialog = createLaunchPromptDialog(state.launchPrompt, (accepted) => {
-      callbacks.onLaunchPrompt?.(accepted);
-    });
-    mount.appendChild(promptDialog);
+  if (mountAppShellPrompts(mount, state, callbacks, atHome)) {
     return;
-  }
-
-  if (atHome && state.showSwUpdatePrompt) {
-    mount.appendChild(
-      createSwUpdatePrompt(
-        () => {
-          callbacks.onApplyUpdate?.();
-          callbacks.onState({ showSwUpdatePrompt: false, canApplyUpdate: true });
-        },
-        () => callbacks.onState({ showSwUpdatePrompt: false }),
-      ),
-    );
   }
 
   if (route === "feedback") {
@@ -118,7 +100,6 @@ export function createAppShell(
       description: state.feedbackPrefill,
     });
     mount.appendChild(panel);
-    // Escape / Back must clear pending crash the same as × / Discard.
     dialogCleanup = bindPanelDialog(panel, leaveFeedback);
     applyPanelScroll(root, state.nav);
     return;

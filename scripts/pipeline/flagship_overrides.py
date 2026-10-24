@@ -71,7 +71,11 @@ def apply_flagship_overrides(device: dict[str, Any], overrides: dict[str, dict[s
                 candidates = by_type.get(typ) or []
                 base = (candidates[i] if i < len(candidates) else {}).copy()
                 for key in _FILL_KEYS:
-                    if ov.get(key) is not None:
+                    if key not in ov:
+                        continue
+                    if ov[key] is None:
+                        base.pop(key, None)
+                    else:
                         base[key] = ov[key]
                 base["type"] = typ
                 if ov.get("info"):
@@ -102,6 +106,18 @@ def apply_flagship_overrides(device: dict[str, Any], overrides: dict[str, dict[s
             structured, _ = parse_video_caps(str(block["video_caps_text"]))
             if structured and not device.get("video"):
                 device["video"] = structured
+        touched = True
+
+    if block.get("storage"):
+        device["storage"] = block["storage"]
+        touched = True
+    if block.get("wifi"):
+        device["wifi"] = block["wifi"]
+        touched = True
+    if isinstance(block.get("screen"), dict):
+        screen = dict(device.get("screen") or {})
+        screen.update(block["screen"])
+        device["screen"] = screen
         touched = True
 
     if not touched:

@@ -301,15 +301,15 @@ def build(
     )
 
     complete_count = sum(1 for d in merged if d["provenance"]["quality"] == "complete")
-    enriched_count = sum(
-        1 for d in merged if d["provenance"]["quality"] in {"enriched", "complete"}
-    )
+    enriched_count = sum(1 for d in merged if d["provenance"]["quality"] == "enriched")
+    partial_count = sum(1 for d in merged if d["provenance"]["quality"] == "partial")
     payload = {
         "generated_at": updated,
         "source_wiki_ref": wiki_ref,
         "device_count": len(merged),
         "complete_count": complete_count,
         "enriched_count": enriched_count,
+        "partial_count": partial_count,
         "devices": merged,
     }
 
@@ -322,7 +322,8 @@ def build(
     print(f"Wrote {out_path}")
     print(f"  devices: {len(merged)}")
     print(f"  complete quality: {complete_count}")
-    print(f"  enriched+complete: {enriched_count}")
+    print(f"  enriched quality: {enriched_count}")
+    print(f"  partial quality: {partial_count}")
     print(f"  csv joins: {csv_hits}  gsmarena joins: {gsm_hits}")
     print(f"  download API codenames: {len(branch_by_code)}")
     with_sensors = sum(

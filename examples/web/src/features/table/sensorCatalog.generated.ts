@@ -5,6 +5,9 @@ export type SensorCatalogEntry = {
   pixel_pitch_um?: number;
   mp?: number;
   role_hint?: string;
+  dcg?: boolean;
+  max_readout_mbps?: number;
+  feature_notes?: string;
 };
 
 export const TYPE1_MM = 16.0;
@@ -14,19 +17,26 @@ export const SENSOR_CATALOG: Record<string, SensorCatalogEntry> = {
     "optical_format": "1/1.0",
     "diag_mm": 15.86,
     "pixel_pitch_um": 1.6,
-    "mp": 50.3
+    "mp": 50.3,
+    "dcg": true,
+    "max_readout_mbps": 2400,
+    "feature_notes": "1\" Quad Bayer; dual conversion gain"
   },
   "IMX766": {
     "optical_format": "1/1.56",
     "diag_mm": 10.24,
     "pixel_pitch_um": 1.0,
-    "mp": 50.3
+    "mp": 50.3,
+    "dcg": true,
+    "feature_notes": "DCG capable"
   },
   "IMX890": {
     "optical_format": "1/1.56",
     "diag_mm": 10.2564,
     "pixel_pitch_um": 1.0,
-    "mp": 50.0
+    "mp": 50.0,
+    "dcg": true,
+    "feature_notes": "DCG capable"
   },
   "IMX686": {
     "optical_format": "1/1.73",
@@ -187,13 +197,17 @@ export const SENSOR_CATALOG: Record<string, SensorCatalogEntry> = {
     "optical_format": "1/2.51",
     "diag_mm": 6.3745,
     "pixel_pitch_um": 0.7,
-    "mp": 50.0
+    "mp": 50.0,
+    "dcg": true,
+    "feature_notes": "DCG capable"
   },
   "IMX789": {
     "optical_format": "1/1.43",
     "diag_mm": 11.1888,
     "pixel_pitch_um": 1.12,
-    "mp": 48.0
+    "mp": 48.0,
+    "dcg": true,
+    "feature_notes": "DCG capable"
   },
   "IMX709": {
     "optical_format": "1/3.5",
@@ -235,13 +249,16 @@ export const SENSOR_CATALOG: Record<string, SensorCatalogEntry> = {
     "optical_format": "1/1.3",
     "diag_mm": 12.31,
     "pixel_pitch_um": 0.6,
-    "mp": 200.0
+    "mp": 200.0,
+    "dcg": true,
+    "feature_notes": "Dual Tetra / DCG class"
   },
   "S5KHP2": {
     "optical_format": "1/1.3",
     "diag_mm": 12.31,
     "pixel_pitch_um": 0.6,
-    "mp": 200.0
+    "mp": 200.0,
+    "dcg": true
   },
   "HPX": {
     "optical_format": "1/1.4",
@@ -259,13 +276,16 @@ export const SENSOR_CATALOG: Record<string, SensorCatalogEntry> = {
     "optical_format": "1/1.4",
     "diag_mm": 11.43,
     "pixel_pitch_um": 0.56,
-    "mp": 200.0
+    "mp": 200.0,
+    "dcg": true,
+    "feature_notes": "Dual Tetra / DCG class"
   },
   "S5KHP3": {
     "optical_format": "1/1.4",
     "diag_mm": 11.43,
     "pixel_pitch_um": 0.56,
-    "mp": 200.0
+    "mp": 200.0,
+    "dcg": true
   },
   "HP1": {
     "optical_format": "1/1.22",
@@ -391,13 +411,17 @@ export const SENSOR_CATALOG: Record<string, SensorCatalogEntry> = {
     "optical_format": "1/1.57",
     "diag_mm": 10.19,
     "pixel_pitch_um": 1.0,
-    "mp": 50.0
+    "mp": 50.0,
+    "dcg": true,
+    "feature_notes": "Smart-ISO / DCG"
   },
   "S5KGN5": {
     "optical_format": "1/1.57",
     "diag_mm": 10.19,
     "pixel_pitch_um": 1.0,
-    "mp": 50.0
+    "mp": 50.0,
+    "dcg": true,
+    "feature_notes": "alias GN5"
   },
   "GN3": {
     "optical_format": "1/1.57",
@@ -415,25 +439,34 @@ export const SENSOR_CATALOG: Record<string, SensorCatalogEntry> = {
     "optical_format": "1/1.12",
     "diag_mm": 14.28,
     "pixel_pitch_um": 1.4,
-    "mp": 50.0
+    "mp": 50.0,
+    "dcg": true,
+    "max_readout_mbps": 2200,
+    "feature_notes": "Smart-ISO Pro / DCG"
   },
   "S5KGN2": {
     "optical_format": "1/1.12",
     "diag_mm": 14.28,
     "pixel_pitch_um": 1.4,
-    "mp": 50.0
+    "mp": 50.0,
+    "dcg": true,
+    "feature_notes": "alias GN2"
   },
   "GN1": {
     "optical_format": "1/1.31",
     "diag_mm": 12.21,
     "pixel_pitch_um": 1.2,
-    "mp": 50.0
+    "mp": 50.0,
+    "dcg": true,
+    "feature_notes": "Smart-ISO / DCG"
   },
   "S5KGN1": {
     "optical_format": "1/1.31",
     "diag_mm": 12.21,
     "pixel_pitch_um": 1.2,
-    "mp": 50.0
+    "mp": 50.0,
+    "dcg": true,
+    "feature_notes": "alias GN1"
   },
   "JN1": {
     "optical_format": "1/2.76",
@@ -809,6 +842,246 @@ export const SENSOR_CATALOG: Record<string, SensorCatalogEntry> = {
     "pixel_pitch_um": 1.12,
     "mp": 3.7,
     "role_hint": "front"
+  },
+  "IMX906": {
+    "optical_format": "1/1.56",
+    "diag_mm": 10.26,
+    "pixel_pitch_um": 1.0,
+    "mp": 50.0,
+    "dcg": true,
+    "feature_notes": "LYT-700 twin; DCG"
+  },
+  "LYT700": {
+    "optical_format": "1/1.56",
+    "diag_mm": 10.26,
+    "pixel_pitch_um": 1.0,
+    "mp": 50.0,
+    "dcg": true,
+    "feature_notes": "Sony LYTIA; DCG"
+  },
+  "LYT808": {
+    "optical_format": "1/1.4",
+    "diag_mm": 11.43,
+    "pixel_pitch_um": 1.12,
+    "mp": 50.0,
+    "dcg": true,
+    "max_readout_mbps": 2800,
+    "feature_notes": "Large LYTIA; DCG"
+  },
+  "LYT600": {
+    "optical_format": "1/1.95",
+    "diag_mm": 8.21,
+    "pixel_pitch_um": 0.8,
+    "mp": 50.0,
+    "dcg": true,
+    "feature_notes": "Tele LYTIA; DCG"
+  },
+  "IMX700": {
+    "optical_format": "1/1.31",
+    "diag_mm": 12.2,
+    "pixel_pitch_um": 1.2,
+    "mp": 50.0,
+    "dcg": true,
+    "feature_notes": "GN1-class; DCG"
+  },
+  "OV50E": {
+    "optical_format": "1/1.55",
+    "diag_mm": 10.3,
+    "pixel_pitch_um": 1.0,
+    "mp": 50.0,
+    "dcg": true,
+    "feature_notes": "LOFIC / DCG-class"
+  },
+  "OV50H": {
+    "optical_format": "1/1.3",
+    "diag_mm": 12.3,
+    "pixel_pitch_um": 1.2,
+    "mp": 50.0,
+    "dcg": true,
+    "feature_notes": "TheiaCel / DCG-class"
+  },
+  "OV02B10": {
+    "optical_format": "1/5.0",
+    "diag_mm": 3.2,
+    "pixel_pitch_um": 1.75,
+    "mp": 2.0,
+    "role_hint": "macro"
+  },
+  "GC02M1": {
+    "optical_format": "1/5.0",
+    "diag_mm": 3.2,
+    "pixel_pitch_um": 1.75,
+    "mp": 2.0,
+    "role_hint": "macro"
+  },
+  "OV8856": {
+    "optical_format": "1/4.0",
+    "diag_mm": 4.0,
+    "pixel_pitch_um": 1.12,
+    "mp": 8.0,
+    "role_hint": "ultrawide"
+  },
+  "OV02A10": {
+    "optical_format": "1/5.0",
+    "diag_mm": 3.2,
+    "pixel_pitch_um": 1.75,
+    "mp": 2.0,
+    "role_hint": "macro"
+  },
+  "OV08A10": {
+    "optical_format": "1/4.0",
+    "diag_mm": 4.0,
+    "pixel_pitch_um": 1.12,
+    "mp": 8.0,
+    "role_hint": "ultrawide"
+  },
+  "IMX582": {
+    "optical_format": "1/2.0",
+    "diag_mm": 8.0,
+    "pixel_pitch_um": 0.8,
+    "mp": 48.0
+  },
+  "IMX351": {
+    "optical_format": "1/2.8",
+    "diag_mm": 5.7143,
+    "pixel_pitch_um": 1.12,
+    "mp": 16.0
+  },
+  "IMX351W": {
+    "optical_format": "1/2.8",
+    "diag_mm": 5.7143,
+    "pixel_pitch_um": 1.12,
+    "mp": 16.0
+  },
+  "IMX351N": {
+    "optical_format": "1/2.8",
+    "diag_mm": 5.7143,
+    "pixel_pitch_um": 1.12,
+    "mp": 16.0
+  },
+  "IMX682": {
+    "optical_format": "1/1.73",
+    "diag_mm": 9.2486,
+    "pixel_pitch_um": 0.8,
+    "mp": 64.0
+  },
+  "IMX663": {
+    "optical_format": "1/2.74",
+    "diag_mm": 5.8394,
+    "pixel_pitch_um": 0.8,
+    "mp": 32.0,
+    "role_hint": "telephoto"
+  },
+  "IMX615": {
+    "optical_format": "1/2.74",
+    "diag_mm": 5.8394,
+    "pixel_pitch_um": 0.8,
+    "mp": 32.0,
+    "role_hint": "front"
+  },
+  "IMX486": {
+    "optical_format": "1/2.9",
+    "diag_mm": 5.5172,
+    "pixel_pitch_um": 1.25,
+    "mp": 12.0
+  },
+  "IMX376": {
+    "optical_format": "1/2.78",
+    "diag_mm": 5.7554,
+    "pixel_pitch_um": 1.0,
+    "mp": 20.0,
+    "role_hint": "front"
+  },
+  "IMX376K": {
+    "optical_format": "1/2.78",
+    "diag_mm": 5.7554,
+    "pixel_pitch_um": 1.0,
+    "mp": 20.0,
+    "role_hint": "front"
+  },
+  "IMX350": {
+    "optical_format": "1/2.55",
+    "diag_mm": 6.2745,
+    "pixel_pitch_um": 1.22,
+    "mp": 20.0
+  },
+  "S5K3M5": {
+    "optical_format": "1/3.4",
+    "diag_mm": 4.7059,
+    "pixel_pitch_um": 1.0,
+    "mp": 12.0,
+    "role_hint": "telephoto"
+  },
+  "S5K3L6": {
+    "optical_format": "1/3.1",
+    "diag_mm": 5.1613,
+    "pixel_pitch_um": 1.12,
+    "mp": 13.0
+  },
+  "S5K3P9SP": {
+    "optical_format": "1/3.1",
+    "diag_mm": 5.1613,
+    "pixel_pitch_um": 1.0,
+    "mp": 16.0,
+    "role_hint": "front"
+  },
+  "OV13B10": {
+    "optical_format": "1/3.06",
+    "diag_mm": 5.2288,
+    "pixel_pitch_um": 1.12,
+    "mp": 13.0
+  },
+  "IMX333": {
+    "optical_format": "1/2.78",
+    "diag_mm": 5.7554,
+    "pixel_pitch_um": 1.0,
+    "mp": 20.0
+  },
+  "IMX241": {
+    "optical_format": "1/5.0",
+    "diag_mm": 3.2,
+    "pixel_pitch_um": 1.12,
+    "mp": 5.0,
+    "role_hint": "front"
+  },
+  "IMX520": {
+    "optical_format": "1/4.0",
+    "diag_mm": 4.0,
+    "pixel_pitch_um": 1.4,
+    "mp": 8.0,
+    "role_hint": "front"
+  },
+  "S5K3M3": {
+    "optical_format": "1/3.4",
+    "diag_mm": 4.7059,
+    "pixel_pitch_um": 1.0,
+    "mp": 12.0
+  },
+  "S5K5E8": {
+    "optical_format": "1/5.0",
+    "diag_mm": 3.2,
+    "pixel_pitch_um": 1.12,
+    "mp": 5.0,
+    "role_hint": "depth"
+  },
+  "HI05BN1": {
+    "optical_format": "1/2.3",
+    "diag_mm": 6.9565,
+    "pixel_pitch_um": 1.22,
+    "mp": 19.0
+  },
+  "IMX363N": {
+    "optical_format": "1/2.55",
+    "diag_mm": 6.2745,
+    "pixel_pitch_um": 1.4,
+    "mp": 12.0
+  },
+  "IMX363N2": {
+    "optical_format": "1/3.1",
+    "diag_mm": 5.1613,
+    "pixel_pitch_um": 1.0,
+    "mp": 16.0,
+    "role_hint": "ultrawide"
   }
 };
 
@@ -914,5 +1187,27 @@ export const SENSOR_ALIASES: Record<string, string> = {
   "4H7": "S5K4H7",
   "S5K4H7": "S5K4H7",
   "I": "S5KI",
-  "S5KI": "S5KI"
+  "S5KI": "S5KI",
+  "LYT-700": "LYT700",
+  "LYT-808": "LYT808",
+  "LYT-600": "LYT600",
+  "OV02B10": "OV02B10",
+  "GC02M1": "GC02M1",
+  "S5K3P9SP": "S5K3P9SP",
+  "IMX351W": "IMX351W",
+  "IMX351N": "IMX351N",
+  "IMX376K": "IMX376K",
+  "IMX333": "IMX333",
+  "IMX241": "IMX241",
+  "IMX520": "IMX520",
+  "S5K3M3": "S5K3M3",
+  "S5K5E8": "S5K5E8",
+  "HI05BN1": "HI05BN1",
+  "IMX363N": "IMX363N",
+  "IMX363N2": "IMX363N2",
+  "S5K3M3SN03": "S5K3M3",
+  "S5K5E8YX": "S5K5E8",
+  "S5KGD1SP": "S5KGD1",
+  "S5K3M5T": "S5K3M5",
+  "S5K3M5TB": "S5K3M5"
 };

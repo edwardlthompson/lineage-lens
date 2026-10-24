@@ -1,0 +1,663 @@
+{
+  "_meta": {
+    "from": "moto wireless+IP research"
+  },
+  "rtwo": {
+    "charge": {
+      "wired": null,
+      "wireless": 15,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "waterproofing": "IP68",
+    "refresh_rate": 165,
+    "sources": [
+      "motorola.com Edge+ 2023 NA 68W+15W Qi IP68",
+      "en-emea.support Edge 40 Pro 125W+15W Qi IP68"
+    ],
+    "notes": "wired blank — NA 68W vs EU 125W conflict"
+  },
+  "lamu": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support moto g15 18W"
+    ]
+  },
+  "fogo": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 120,
+    "sources": [
+      "cox moto g 5G 2024 18W"
+    ]
+  },
+  "fogos": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena moto g45 18W"
+    ]
+  },
+  "manaus": {
+    "charge": {
+      "wired": 68,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP68",
+    "refresh_rate": 144,
+    "sources": [
+      "motorola edge 40 neo 68W; help: no wireless"
+    ]
+  },
+  "genevn": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 120,
+    "sources": [
+      "GSMArena g stylus 5G 2023 20W"
+    ]
+  },
+  "bangkk": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP54",
+    "refresh_rate": 120,
+    "sources": [
+      "en-us.support g84 30W IP54"
+    ]
+  },
+  "dubai": {
+    "charge": {
+      "wired": 33,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP52",
+    "refresh_rate": 144,
+    "sources": [
+      "GSMArena Edge 30 33W; no wireless"
+    ]
+  },
+  "miami": {
+    "charge": {
+      "wired": 68,
+      "wireless": 5,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "waterproofing": "IP52",
+    "refresh_rate": 120,
+    "sources": [
+      "motorola.com.br Edge 30 Neo 68W+5W Qi",
+      "help.motorola.com Qi"
+    ]
+  },
+  "milanf": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 120,
+    "sources": [
+      "en-us.support g stylus 5G 2022 TurboPower 10W"
+    ]
+  },
+  "rhodep": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 120,
+    "sources": [
+      "GSMArena g82 30W"
+    ]
+  },
+  "rhode": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena g52 30W"
+    ]
+  },
+  "devon": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena g32 30W"
+    ]
+  },
+  "hawao": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g42 18W"
+    ]
+  },
+  "pstar": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP52",
+    "refresh_rate": 144,
+    "sources": [
+      "GSMArena Edge 20 Pro 30W; The Verge no wireless"
+    ]
+  },
+  "berlin": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP52",
+    "refresh_rate": 144,
+    "sources": [
+      "GSMArena Edge 20 30W IP52"
+    ]
+  },
+  "xpeng": {
+    "charge": {
+      "wired": 33,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP52",
+    "refresh_rate": 144,
+    "sources": [
+      "en-us.support g200 5G 33W IP52"
+    ]
+  },
+  "nio": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena Edge S 20W"
+    ]
+  },
+  "berlna": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP52",
+    "refresh_rate": 144,
+    "sources": [
+      "GSMArena Edge 2021 30W; no wireless"
+    ]
+  },
+  "denver": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g stylus 5G 2021 10W"
+    ]
+  },
+  "capri": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g10 10W"
+    ]
+  },
+  "caprip": {
+    "charge": {
+      "wired": null,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "remove_charge": true,
+    "sources": [
+      "GSMArena g30 15/20 market — wired blank"
+    ]
+  },
+  "borneo": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g power 2021 15W"
+    ]
+  },
+  "ibiza": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena g50 15W"
+    ]
+  },
+  "bathena": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP68",
+    "sources": [
+      "motorolanews Defy 2021 20W IP68"
+    ]
+  },
+  "ellis": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support g pure 10W"
+    ]
+  },
+  "guamna": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g play 2021 10W"
+    ]
+  },
+  "racer": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "en-us.support motorola edge 18W"
+    ]
+  },
+  "nairo": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena g 5G plus 20W"
+    ]
+  },
+  "liber": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena One Fusion+ 15W"
+    ]
+  },
+  "kiev": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g 5G 20W"
+    ]
+  },
+  "cebu": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g9 power 20W"
+    ]
+  },
+  "guamp": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support g9 play 15W capable"
+    ]
+  },
+  "guam": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena e7 plus 10W"
+    ]
+  },
+  "channel": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g7 play 10W"
+    ]
+  },
+  "kane": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena One Vision 15W"
+    ]
+  },
+  "lake": {
+    "charge": {
+      "wired": 27,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g7 plus 27W"
+    ]
+  },
+  "ocean": {
+    "charge": {
+      "wired": null,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "remove_charge": true,
+    "sources": [
+      "G7 Power 15/18 market — wired blank"
+    ]
+  },
+  "parker": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support one zoom 15W; no built-in Qi"
+    ]
+  },
+  "river": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g7 15W"
+    ]
+  },
+  "troika": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena One Action 10W"
+    ]
+  },
+  "ahannah": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support e5 plus 15W"
+    ]
+  },
+  "beckham": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support z3 play 15W; Qi via Mod only"
+    ]
+  },
+  "chef": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena One Power 15W"
+    ]
+  },
+  "evert": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g6 plus 15W"
+    ]
+  },
+  "hannah": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support e5 plus 15W"
+    ]
+  },
+  "messi": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena z3 15W; Qi via Mod only"
+    ]
+  },
+  "rhannah": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support e5 plus 15W"
+    ]
+  },
+  "albus": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena z2 play 15W; Qi via Mod only"
+    ]
+  },
+  "cedric": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g5s 15W"
+    ]
+  },
+  "montana": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g5s 15W"
+    ]
+  },
+  "nash": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena z2 force 15W; Qi via Mod only"
+    ]
+  },
+  "payton": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena x4 15W"
+    ]
+  },
+  "addison": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena z play 15W; Qi via Mod only"
+    ]
+  },
+  "athene": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g4 15W"
+    ]
+  },
+  "griffin": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena Moto Z 15W; Qi via Mod only — no built-in"
+    ]
+  },
+  "harpia": {
+    "remove_charge": true,
+    "sources": [
+      "GSMArena g4 play — no published W"
+    ]
+  },
+  "clark": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena X Style/Pure TurboPower 15W"
+    ]
+  },
+  "lux": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena x play 15W"
+    ]
+  },
+  "merlin": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP67",
+    "sources": [
+      "GSMArena g turbo 15W IP67"
+    ]
+  },
+  "osprey": {
+    "remove_charge": true,
+    "waterproofing": "IPX7",
+    "sources": [
+      "GSMArena g3 — no W; IPX7"
+    ]
+  },
+  "otus": {
+    "remove_charge": true,
+    "sources": [
+      "GSMArena e 2015 — no W"
+    ]
+  },
+  "surnia": {
+    "remove_charge": true,
+    "sources": [
+      "GSMArena e LTE 2015 — no W"
+    ]
+  },
+  "thea": {
+    "remove_charge": true,
+    "sources": [
+      "GSMArena g LTE 2014 — no W"
+    ]
+  }
+}

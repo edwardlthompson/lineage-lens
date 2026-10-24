@@ -4,6 +4,7 @@ import { t } from "../i18n";
 import { applySettingsBundle, parseSettings, snapshotSettings } from "../settings/export";
 import { applySettingsThemeMode, getSettingsThemeMode } from "../settings/preferences";
 import { applySettingsSearch } from "../settings/search";
+import { SOURCE_RANKS } from "../settings/sourceRanks";
 import type { ThemeMode } from "../theme";
 
 export type SettingsPanelCallbacks = {
@@ -60,6 +61,12 @@ export function createSettingsPanel(callbacks: SettingsPanelCallbacks): HTMLElem
         <p class="gp-settings-faq-title">${t("settings.faq.optics.title")}</p>
         <p class="gp-settings-faq-body">${t("settings.faq.optics.body")}</p>
       </div>
+    </section>
+    <section class="gp-settings-group" data-settings-haystack="${t("settings.section.sources")} ${SOURCE_RANKS.map((row) => `${t(row.labelKey)} ${t(row.ruleKey)}`).join(" ")}">
+      <h3>${t("settings.section.sources")}</h3>
+      <ol class="gp-settings-sources" data-testid="settings-sources">
+        ${SOURCE_RANKS.map((row) => `<li><span>${row.rank}. ${t(row.labelKey)}</span> <span class="gp-settings-hint">${t(row.ruleKey)}</span></li>`).join("")}
+      </ol>
     </section>
     <section class="gp-settings-group" data-settings-haystack="${t("settings.section.about")} ${t("settings.about")} ${t("settings.about_hint")}">
       <h3>${t("settings.section.about")}</h3>

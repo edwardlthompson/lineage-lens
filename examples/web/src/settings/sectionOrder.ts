@@ -1,4 +1,11 @@
 /** Locked Settings IA order for chrome tests. */
-export const SETTINGS_SECTION_ORDER = ["appearance", "privacy", "data", "faq", "about"] as const;
+export const SETTINGS_SECTION_ORDER = [
+  "appearance",
+  "privacy",
+  "data",
+  "faq",
+  "sources",
+  "about",
+] as const;
 
 export type SettingsSectionId = (typeof SETTINGS_SECTION_ORDER)[number];

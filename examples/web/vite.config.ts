@@ -48,12 +48,27 @@ export default defineConfig({
   },
   plugins: [react(), stampServiceWorkerCache(pkg.version), injectCspMeta()],
   base: process.env.VITE_BASE_PATH || "/",
+  // coverage/ HTML from vitest was triggering endless full reloads (stuck Loading / unclosable panels).
+  server: {
+    watch: {
+      ignored: ["**/coverage/**", "**/dist/**", "**/.vitest-cache/**"],
+    },
+  },
   preview: { headers: SECURITY_HEADERS },
   build: {
     rollupOptions: {
       input: {
         main: "index.html",
       },
+      output: {
+        manualChunks(id) {
+          if (id.includes("node_modules/react-dom") || id.includes("node_modules/react/")) {
+            return "react";
+          }
+          return undefined;
+        },
+      },
     },
   },
 });
+

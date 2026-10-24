@@ -1,19 +1,28 @@
 import { describe, expect, it } from "vitest";
 import {
   abbreviateSoc,
+  capacityOptionMatches,
+  formatCapacityStack,
   formatTopSpecLine,
+  parseCapacityOptionsGb,
   topCapacityGb,
 } from "./hardwareSpec";
-import {
-  compareOpticsThenPerformance,
-  performanceTieBreakScore,
-} from "./performanceTieBreak";
+import { compareOpticsThenPerformance, performanceTieBreakScore } from "./performanceTieBreak";
 
 describe("hardwareSpec", () => {
   it("picks top RAM and storage from ranges", () => {
     expect(topCapacityGb("8/12 GB LPDDR5")).toBe(12);
     expect(topCapacityGb("128/256/512 GB UFS3.1")).toBe(512);
     expect(topCapacityGb("1 TB")).toBe(1024);
+  });
+
+  it("parses slash capacity options for filters", () => {
+    expect(parseCapacityOptionsGb("8/12 GB LPDDR5")).toEqual([8, 12]);
+    expect(parseCapacityOptionsGb("128/256/512 GB")).toEqual([128, 256, 512]);
+    expect(parseCapacityOptionsGb("1 TB")).toEqual([1024]);
+    expect(formatCapacityStack("8/12 GB")).toEqual(["8GB", "12GB"]);
+    expect(capacityOptionMatches("8/12 GB", 8)).toBe(true);
+    expect(capacityOptionMatches("8/12 GB", 16)).toBe(false);
   });
 
   it("abbreviates common SoCs", () => {

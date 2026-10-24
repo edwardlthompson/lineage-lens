@@ -18,6 +18,7 @@ python -m scripts.pipeline.build
 
 # Force re-download of wiki ZIP into data/cache/
 python -m scripts.pipeline.build --force-fetch
+
 ```
 
 Outputs:
@@ -26,6 +27,10 @@ Outputs:
 - Validates against [`schemas/device.schema.json`](../schemas/device.schema.json)
 
 `data/cache/` is gitignored (wiki extract). Commit updated `devices.json` when you intentionally refresh production data.
+
+## CI refresh
+
+GitHub Actions workflow [`.github/workflows/data-refresh.yml`](../.github/workflows/data-refresh.yml) runs weekly (and via **Actions → Data refresh → Run workflow**). It rebuilds `devices.json` and opens a PR when the file changes.
 
 ## Enrichment CSV
 

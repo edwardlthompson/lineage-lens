@@ -27,6 +27,40 @@ def _get_json(params: dict[str, str]) -> dict[str, Any]:
         return json.loads(resp.read().decode("utf-8", errors="replace"))
 
 
+_VENDOR_NOISE = re.compile(
+    r"\b(oppo|oneplus|xiaomi|redmi|poco|samsung|google|motorola|sony|lg|"
+    r"asus|nothing|fairphone|international|global|china|india)\b",
+    re.I,
+)
+
+
+def _query_key_tokens(query: str) -> list[str]:
+    """Distinctive model tokens from a search query (vendor noise stripped)."""
+    q = re.sub(r"\([^)]*\)", "", query)
+    q = _VENDOR_NOISE.sub(" ", q)
+    tokens = [t for t in re.split(r"[^a-z0-9]+", q.lower()) if len(t) >= 2]
+    # Prefer longer tokens (model codes) over lone digits.
+    tokens.sort(key=lambda t: (len(t), t), reverse=True)
+    return tokens
+
+
+def title_matches_query(title: str, query: str) -> bool:
+    """
+    Reject loose Wikipedia hits (e.g. query 'F1' matching Oppo Reno14).
+
+    Requires the longest distinctive query token to appear in the title.
+    """
+    tokens = _query_key_tokens(query)
+    if not tokens:
+        return True
+    tlow = title.lower()
+    key = tokens[0]
+    if len(key) <= 2:
+        # Short keys (f1, r5): require word-ish boundary, not substring of Reno14.
+        return bool(re.search(rf"(?<![a-z0-9]){re.escape(key)}(?![a-z0-9])", tlow))
+    return key in tlow
+
+
 def search_title(query: str) -> Optional[str]:
     data = _get_json(
         {
@@ -44,11 +78,19 @@ def search_title(query: str) -> Optional[str]:
     q_low = query.lower()
     for h in hits:
         title = str(h.get("title") or "")
+        if not title_matches_query(title, query):
+            continue
         if title.lower() in q_low or any(
             part and part in title.lower() for part in q_low.split() if len(part) > 2
         ):
             return title
-    return str(hits[0].get("title") or "") or None
+        if title_matches_query(title, query):
+            return title
+    for h in hits:
+        title = str(h.get("title") or "")
+        if title and title_matches_query(title, query):
+            return title
+    return None
 
 
 def parse_ip_from_wikitext(wikitext: str) -> Optional[str]:

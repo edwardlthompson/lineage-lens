@@ -1,0 +1,413 @@
+{
+  "_meta": {
+    "clear_none_ip": true,
+    "protocol": "docs/features/phone-spec-gap-fill.md"
+  },
+  "fairlady": {
+    "sensors": [
+      {"type": "main", "sensor_model": "IMX906", "optical_format": "1/1.56", "pixel_pitch_um": 1.0},
+      {"type": "telephoto", "sensor_model": "S5KJN5", "optical_format": "1/2.76", "pixel_pitch_um": 0.64},
+      {"type": "front", "sensor_model": "IMX480", "optical_format": "1/3.09", "pixel_pitch_um": 1.0}
+    ],
+    "sources": [
+      "https://gadgets.beebom.com/news/oneplus-15t-launched-in-china",
+      "https://www.gsmarena.com/oneplus_15t_5g-14385.php",
+      "https://www.oneplus.com/cn/15t/specs",
+      "Samsung ISOCELL JN5 1/2.76 0.64um"
+    ]
+  },
+  "stallion": {
+    "charge": {"wired": 30, "wireless": 10, "hasWireless": true, "qi": "Qi1"},
+    "sources": [
+      "https://store.google.com/magazine/pixel-10a-vs-pixel-9a",
+      "https://store.google.com/product/pixel_10a_specs"
+    ],
+    "notes": "No published sensor part numbers from Google; leave blank"
+  },
+  "lexus": {
+    "sensors": [
+      {"type": "main", "sensor_model": "LYT-700", "optical_format": "1/1.56", "pixel_pitch_um": 1.0},
+      {"type": "ultrawide", "sensor_model": "OV08D10", "optical_format": "1/4.0", "pixel_pitch_um": 1.12},
+      {"type": "front", "sensor_model": "S5KJN5", "optical_format": "1/2.75", "pixel_pitch_um": 0.64}
+    ],
+    "waterproofing": "IP65",
+    "battery_mah": 5200,
+    "refresh_rate": 144,
+    "sources": [
+      "https://www.oneplus.com/mt/nord-5/specs",
+      "https://www.gsmarena.com/oneplus_nord_5_5g-13992.php"
+    ],
+    "notes": "EU/global battery 5200 mAh preferred over India 6800"
+  },
+  "piloti": {
+    "sensors": [
+      {"type": "main", "sensor_model": "IMX896", "optical_format": "1/1.56", "pixel_pitch_um": 1.0}
+    ],
+    "waterproofing": "IP68/IP69",
+    "sources": [
+      "https://www.realme.com/cn/realme-gt-7pro-jingsu/specs",
+      "https://www.gsmarena.com/realme_gt7_pro_racing-13664.php"
+    ]
+  },
+  "pdx257": {
+    "charge": {"wired": 30, "wireless": null, "hasWireless": false},
+    "waterproofing": "IP65/IP68",
+    "refresh_rate": 120,
+    "sources": [
+      "https://www.gsmarena.com/sony_xperia_10_vii_5g-14137.php",
+      "https://www.gsmarena.com/sony_xperia_10_vii-review-2879.php",
+      "https://www.sony.com.my/electronics/support/mobile-phones-tablets-mobile-phones/xperia-10-vii/specifications"
+    ],
+    "notes": "Sony does not publish sensor part numbers"
+  },
+  "giulia": {
+    "notes": "Maker names LYT-700 + S5KJN5 already in overrides; UW/front unnamed — leave blank"
+  },
+  "lamu": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "waterproofing": "IP54",
+    "refresh_rate": 60,
+    "sources": [
+      "https://www.gsmarena.com/motorola_moto_g15-13507.php",
+      "https://en-emea.support.motorola.com/app/answers/detail/a_id/183973"
+    ],
+    "notes": "No published sensor part numbers"
+  },
+  "fogo": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "sources": [
+      "https://www.gsmarena.com/motorola_moto_g_(2024)-12866.php",
+      "https://en-us.support.motorola.com/app/answers/detail/a_id/179364"
+    ]
+  },
+  "fogos": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "sources": [
+      "https://www.gsmarena.com/motorola_moto_g45-13267.php",
+      "https://en-us.support.motorola.com/app/answers/detail/a_id/187379"
+    ]
+  },
+  "earth": {
+    "charge": {"wired": 10, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/xiaomi_redmi_12c-12069.php"],
+    "notes": "No official IP rating published"
+  },
+  "genevn": {
+    "charge": {"wired": 30, "wireless": null, "hasWireless": false},
+    "sources": ["https://www.gsmarena.com/motorola_moto_g_stylus_5g_(2023)-12213.php"]
+  },
+  "larry": {
+    "charge": {"wired": 33, "wireless": null, "hasWireless": false},
+    "sources": ["https://www.gsmarena.com/oneplus_nord_ce_3_lite-12127.php"]
+  },
+  "ingot": {
+    "charge": {"wired": 30, "wireless": null, "hasWireless": false},
+    "sources": ["https://www.gsmarena.com/solana_saga-12090.php"]
+  },
+  "rtwo": {
+    "notes": "edge 40 pro regional watt conflict — leave charge blank"
+  },
+  "b0s": {"refresh_rate": 120, "sources": ["https://www.gsmarena.com/samsung_galaxy_s22_ultra_5g-11251.php"]},
+  "g0s": {"refresh_rate": 120, "sources": ["https://www.gsmarena.com/samsung_galaxy_s22+_5g-11252.php"]},
+  "r0s": {"refresh_rate": 120, "sources": ["https://www.gsmarena.com/samsung_galaxy_s22_5g-11253.php"]},
+  "socrates": {"refresh_rate": 120, "sources": ["https://www.gsmarena.com/xiaomi_redmi_k60_pro-12049.php"]},
+  "zizhan": {
+    "refresh_rate": 120,
+    "waterproofing": "IPX8",
+    "sources": ["https://www.gsmarena.com/xiaomi_mix_fold_2-11674.php"]
+  },
+  "tundra": {"refresh_rate": 144, "sources": ["https://www.gsmarena.com/motorola_edge_30_fusion-11621.php"]},
+  "dubai": {"refresh_rate": 144, "sources": ["https://www.gsmarena.com/motorola_edge_30-11475.php"]},
+  "pdx225": {"refresh_rate": 60, "sources": ["https://www.gsmarena.com/sony_xperia_10_iv-11494.php"]},
+  "rhode": {"refresh_rate": 120, "sources": ["https://www.gsmarena.com/motorola_moto_g52-11425.php"]},
+  "devon": {"refresh_rate": 90, "sources": ["https://www.gsmarena.com/motorola_moto_g32-11717.php"]},
+  "hawao": {"refresh_rate": 90, "sources": ["https://www.gsmarena.com/motorola_moto_g42-11605.php"]},
+  "gunnar": {"refresh_rate": 90, "sources": ["https://www.gsmarena.com/oneplus_nord_n20_5g-11216.php"]},
+  "rosemary": {
+    "charge": {"wired": 33, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "sources": ["https://www.gsmarena.com/xiaomi_poco_m5s-11748.php"]
+  },
+  "pro1x": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "refresh_rate": 120,
+    "sources": ["https://www.gsmarena.com/fxtec_pro1x-11329.php"]
+  },
+  "oscarru": {
+    "charge": {"wired": 33, "wireless": null, "hasWireless": false},
+    "sources": ["https://www.gsmarena.com/tcl_9_5g-11814.php"]
+  },
+  "oscarc": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "sources": ["https://www.gsmarena.com/tcl_q5-11815.php"]
+  },
+  "pyrite": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "sources": ["https://www.gsmarena.com/shift_ov1-11920.php"],
+    "notes": "SHIFT OV1; watts from maker if listed as 18W USB-PD class"
+  },
+  "mayfly": {
+    "waterproofing": "IP68",
+    "sources": ["https://www.gsmarena.com/xiaomi_12s-11614.php"]
+  },
+  "oscaro": {
+    "waterproofing": "IP54",
+    "sources": ["https://www.gsmarena.com/oneplus_nord_ce_2_lite_5g-11344.php"]
+  },
+  "nuwa": {
+    "notes": "Front sensor unnamed on Xiaomi/GSMArena; rear already overridden"
+  },
+  "FP4": {
+    "charge": {"wired": 30, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "waterproofing": "IP54",
+    "sources": ["https://www.gsmarena.com/fairphone_4-11066.php", "https://shop.fairphone.com/"]
+  },
+  "barbet": {
+    "charge": {"wired": 18, "wireless": 12, "hasWireless": true, "qi": "Qi1"},
+    "sources": ["https://www.gsmarena.com/google_pixel_5a_5g-11059.php"]
+  },
+  "bathena": {
+    "charge": {"wired": 10, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/motorola_defy_(2021)-10915.php"]
+  },
+  "berlna": {
+    "charge": {"wired": 30, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "sources": ["https://www.gsmarena.com/motorola_edge_(2021)-10961.php"]
+  },
+  "borneo": {
+    "charge": {"wired": 20, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "sources": ["https://www.gsmarena.com/motorola_moto_g_power_(2021)-10728.php"]
+  },
+  "capri": {
+    "charge": {"wired": 20, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/motorola_moto_g10-10730.php"]
+  },
+  "caprip": {
+    "charge": {"wired": 20, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "sources": ["https://www.gsmarena.com/motorola_moto_g30-10729.php"]
+  },
+  "denver": {
+    "charge": {"wired": 20, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "sources": ["https://www.gsmarena.com/motorola_moto_g_stylus_5g-10924.php"]
+  },
+  "dre": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "sources": ["https://www.gsmarena.com/oneplus_nord_n200_5g-10961.php"]
+  },
+  "ellis": {
+    "charge": {"wired": 10, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/motorola_moto_g_pure-11045.php"]
+  },
+  "f62": {
+    "charge": {"wired": 25, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/samsung_galaxy_f62-10749.php"]
+  },
+  "guamna": {
+    "charge": {"wired": 10, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "sources": ["https://www.gsmarena.com/motorola_moto_g_play_(2021)-10663.php"]
+  },
+  "ibiza": {
+    "charge": {"wired": 20, "wireless": null, "hasWireless": false},
+    "sources": ["https://www.gsmarena.com/motorola_moto_g50-10810.php"]
+  },
+  "m52xq": {
+    "charge": {"wired": 25, "wireless": null, "hasWireless": false},
+    "waterproofing": "IP67",
+    "sources": ["https://www.gsmarena.com/samsung_galaxy_m52_5g-11087.php"]
+  },
+  "miatoll": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/xiaomi_redmi_note_10_lite-11015.php"]
+  },
+  "r8q": {
+    "charge": {"wired": 25, "wireless": 15, "hasWireless": true, "qi": "Qi1"},
+    "sources": ["https://www.gsmarena.com/samsung_galaxy_s20_fe_5g-10377.php"]
+  },
+  "pdx215": {"refresh_rate": 120, "sources": ["https://www.gsmarena.com/sony_xperia_1_iii-10724.php"]},
+  "pstar": {"refresh_rate": 144, "sources": ["https://www.gsmarena.com/motorola_edge_20_pro-10947.php"]},
+  "berlin": {"refresh_rate": 144, "sources": ["https://www.gsmarena.com/motorola_edge_20-10948.php"]},
+  "xpeng": {
+    "refresh_rate": 144,
+    "sources": ["https://www.gsmarena.com/motorola_moto_g200_5g-11169.php"]
+  },
+  "nio": {"refresh_rate": 90, "sources": ["https://www.gsmarena.com/motorola_edge_s-10773.php"]},
+  "gauguin": {"refresh_rate": 120, "sources": ["https://www.gsmarena.com/xiaomi_mi_10i-10662.php"]},
+  "pdx206": {
+    "charge": {"wired": 21, "wireless": null, "hasWireless": false},
+    "sources": ["https://www.gsmarena.com/sony_xperia_5_ii-10456.php"]
+  },
+  "pdx203": {
+    "charge": {"wired": 21, "wireless": null, "hasWireless": false},
+    "refresh_rate": 120,
+    "sources": ["https://www.gsmarena.com/sony_xperia_1_ii-10041.php"]
+  },
+  "nx659j": {
+    "charge": {"wired": 55, "wireless": null, "hasWireless": false},
+    "waterproofing": "IP53",
+    "sources": ["https://www.gsmarena.com/zte_nubia_red_magic_5g-10156.php"]
+  },
+  "nairo": {
+    "charge": {"wired": 20, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "sources": ["https://www.gsmarena.com/motorola_moto_g_5g_plus-10248.php"]
+  },
+  "nx651j": {
+    "charge": {"wired": 30, "wireless": null, "hasWireless": false},
+    "sources": ["https://www.gsmarena.com/zte_nubia_play-10235.php"]
+  },
+  "a71": {
+    "charge": {"wired": 25, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "waterproofing": "IP67",
+    "sources": ["https://www.gsmarena.com/samsung_galaxy_a71-9995.php"]
+  },
+  "liber": {
+    "charge": {"wired": 15, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/motorola_one_fusion+-10226.php"]
+  },
+  "winglm": {
+    "charge": {"wired": 25, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/lg_wing_5g-10342.php"]
+  },
+  "timelm": {
+    "charge": {"wired": 25, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/lg_v60_thinq_5g-9996.php"]
+  },
+  "billie": {
+    "charge": {"wired": 30, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "sources": ["https://www.gsmarena.com/oneplus_nord_n10_5g-10548.php"]
+  },
+  "kiev": {
+    "charge": {"wired": 20, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/motorola_moto_g_5g-10454.php"]
+  },
+  "caymanlm": {
+    "charge": {"wired": 25, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/lg_velvet_5g-10116.php"]
+  },
+  "caymanslm": {
+    "charge": {"wired": 15, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/lg_velvet-10115.php"]
+  },
+  "surya": {
+    "charge": {"wired": 33, "wireless": null, "hasWireless": false},
+    "refresh_rate": 120,
+    "sources": ["https://www.gsmarena.com/xiaomi_poco_x3_nfc-10509.php"]
+  },
+  "monet": {
+    "charge": {"wired": 20, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/xiaomi_mi_10_lite_5g-10180.php"]
+  },
+  "sunfish": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "sources": ["https://www.gsmarena.com/google_pixel_4a-10123.php"]
+  },
+  "axolotl": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "sources": ["https://www.gsmarena.com/shiftphone_shift6mq-10321.php"]
+  },
+  "style3lm": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "sources": ["https://www.gsmarena.com/lg_style3-10142.php"]
+  },
+  "merlinx": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/xiaomi_redmi_note_9-10120.php"]
+  },
+  "lancelot": {
+    "charge": {"wired": 18, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/xiaomi_redmi_9-10278.php"]
+  },
+  "a21s": {
+    "charge": {"wired": 15, "wireless": null, "hasWireless": false},
+    "sources": ["https://www.gsmarena.com/samsung_galaxy_a21s-10170.php"]
+  },
+  "casuarina": {
+    "charge": {"wired": 10, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/alcatel_joy_3-10512.php"]
+  },
+  "cebu": {
+    "charge": {"wired": 20, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/motorola_moto_g9_power-10458.php"]
+  },
+  "guamp": {
+    "charge": {"wired": 20, "wireless": null, "hasWireless": false},
+    "refresh_rate": 90,
+    "sources": ["https://www.gsmarena.com/motorola_moto_g9_play-10393.php"]
+  },
+  "guam": {
+    "charge": {"wired": 10, "wireless": null, "hasWireless": false},
+    "refresh_rate": 60,
+    "sources": ["https://www.gsmarena.com/motorola_moto_e7_plus-10391.php"]
+  },
+  "y2s": {"refresh_rate": 120, "sources": ["https://www.gsmarena.com/samsung_galaxy_s20+_5g-10080.php"]},
+  "c2s": {"refresh_rate": 120, "sources": ["https://www.gsmarena.com/samsung_galaxy_note20_ultra_5g-10355.php"]},
+  "z3s": {"refresh_rate": 120, "sources": ["https://www.gsmarena.com/samsung_galaxy_s20_ultra_5g-10084.php"]},
+  "c1s": {"refresh_rate": 60, "sources": ["https://www.gsmarena.com/samsung_galaxy_note20_5g-10356.php"]},
+  "x1s": {"refresh_rate": 120, "sources": ["https://www.gsmarena.com/samsung_galaxy_s20_5g-10081.php"]},
+  "lmi": {"refresh_rate": 120, "sources": ["https://www.gsmarena.com/xiaomi_redmi_k30_pro_zoom-10122.php"]},
+  "racer": {
+    "refresh_rate": 90,
+    "sources": ["https://www.gsmarena.com/motorola_edge-10248.php"]
+  },
+  "kebab": {"refresh_rate": 120, "sources": ["https://www.gsmarena.com/oneplus_8t-10411.php"]},
+  "avicii": {
+    "refresh_rate": 90,
+    "sources": ["https://www.gsmarena.com/oneplus_nord-10261.php"]
+  },
+  "obiwan": {
+    "waterproofing": "IP53",
+    "sources": ["https://www.gsmarena.com/asus_rog_phone_3-10267.php"]
+  },
+  "bramble": {
+    "notes": "Pixel 4a 5G — no published sensor part numbers; IP none on many units"
+  },
+  "redfin": {
+    "notes": "Pixel 5 — no published sensor part numbers"
+  },
+  "husky": {"notes": "Pixel 8 Pro — no published sensor part numbers"},
+  "shiba": {"notes": "Pixel 8 — no published sensor part numbers"},
+  "felix": {"notes": "Pixel Fold — no published sensor part numbers"},
+  "lynx": {"notes": "Pixel 7a — no published sensor part numbers"},
+  "bluejay": {"notes": "Pixel 6a — no published sensor part numbers"},
+  "oriole": {"notes": "Pixel 6 — no published sensor part numbers"},
+  "raven": {"notes": "Pixel 6 Pro — no published sensor part numbers"},
+  "blazer": {"notes": "Pixel 10 Pro — no published sensor part numbers"},
+  "mustang": {"notes": "Pixel 10 Pro XL — no published sensor part numbers"},
+  "frankel": {"notes": "Pixel 10 — no published sensor part numbers"},
+  "rango": {"notes": "Pixel 10 Pro Fold — no published sensor part numbers"},
+  "tegu": {"notes": "Pixel 9a — no published sensor part numbers"},
+  "caiman": {"notes": "Pixel 9 Pro — no published sensor part numbers"},
+  "komodo": {"notes": "Pixel 9 Pro XL — no published sensor part numbers"},
+  "tokay": {"notes": "Pixel 9 — no published sensor part numbers"},
+  "comet": {"notes": "Pixel 9 Pro Fold — no published sensor part numbers"},
+  "akita": {"notes": "Pixel 8a — no published sensor part numbers"},
+  "Q25": {
+    "notes": "Q25 Pro — insufficient rank 1–4 sources for charge/refresh/IP; leave blank"
+  }
+}

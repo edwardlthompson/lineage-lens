@@ -1,0 +1,491 @@
+{
+  "_meta": {
+    "note": "Near-complete stacks: missing module PN / FL+ap from GSMArena+maker/teardown",
+    "protocol": "maker/GSMArena ranks; OP7 Pro tele = S5K3M5 13MP native (XDA/Hardware Info)"
+  },
+  "giulia": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "LYT-700",
+        "mp": 50,
+        "focal_length_mm": 24,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "LED",
+        "optical_format": "1/1.56",
+        "pixel_pitch_um": 1.0,
+        "info": "50 MP wide (LYT-700)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5KJN5",
+        "mp": 50,
+        "focal_length_mm": 47,
+        "aperture": 2.0,
+        "ois": false,
+        "zoom": 2,
+        "flash": "LED",
+        "optical_format": "1/2.75",
+        "pixel_pitch_um": 0.64,
+        "info": "50 MP 2x tele (JN5)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX355",
+        "mp": 8,
+        "focal_length_mm": 16,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "fov_deg": 112,
+        "info": "8 MP ultrawide (IMX355)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3P9",
+        "mp": 16,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.0",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP selfie (S5K3P9)"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "60": true, "120": true, "240": true } },
+    "sources": ["GSMArena OnePlus 13R review", "OnePlus 13R specs"]
+  },
+  "nuwa": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX989",
+        "mp": 50.3,
+        "focal_length_mm": 23,
+        "aperture": 1.9,
+        "ois": true,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/1.0",
+        "pixel_pitch_um": 1.6,
+        "info": "50 MP 1\" (IMX989)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "S5KJN1",
+        "mp": 50,
+        "focal_length_mm": 14,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/2.76",
+        "pixel_pitch_um": 0.64,
+        "fov_deg": 115,
+        "info": "50 MP ultrawide (JN1)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5KJN1",
+        "mp": 50,
+        "focal_length_mm": 75,
+        "aperture": 2.0,
+        "ois": true,
+        "zoom": 3.2,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/2.76",
+        "pixel_pitch_um": 0.64,
+        "info": "50 MP 3.2x tele (JN1)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "OV32C",
+        "mp": 32,
+        "focal_length_mm": 21,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.14",
+        "pixel_pitch_um": 0.7,
+        "info": "32 MP selfie (OV32C)"
+      }
+    ],
+    "video": { "8k": { "24": true }, "4k": { "24": true, "30": true, "60": true }, "1080p": { "30": true, "120": true } },
+    "sources": ["GSMArena Xiaomi 13 Pro review", "mi.com 13 Pro specs"]
+  },
+  "enchilada": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX519",
+        "mp": 16,
+        "focal_length_mm": 25,
+        "aperture": 1.7,
+        "ois": true,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.6",
+        "pixel_pitch_um": 1.22,
+        "info": "16 MP wide OIS (IMX519)"
+      },
+      {
+        "type": "other",
+        "sensor_model": "IMX376K",
+        "mp": 20,
+        "focal_length_mm": 25,
+        "aperture": 1.7,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 1.0,
+        "info": "20 MP secondary (IMX376K)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX371",
+        "mp": 16,
+        "focal_length_mm": 25,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP selfie (IMX371)"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "60": true, "240": true } },
+    "sources": ["OnePlus 6 official specs", "GSMArena OnePlus 6 review"]
+  },
+  "fajita": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX519",
+        "mp": 16,
+        "focal_length_mm": 25,
+        "aperture": 1.7,
+        "ois": true,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.6",
+        "pixel_pitch_um": 1.22,
+        "info": "16 MP wide OIS (IMX519)"
+      },
+      {
+        "type": "other",
+        "sensor_model": "IMX376K",
+        "mp": 20,
+        "focal_length_mm": 25,
+        "aperture": 1.7,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 1.0,
+        "info": "20 MP secondary (IMX376K)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX371",
+        "mp": 16,
+        "focal_length_mm": 25,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP selfie (IMX371)"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "60": true, "240": true } },
+    "sources": ["GSMArena OnePlus 6T"]
+  },
+  "guacamole": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8,
+        "info": "48 MP wide OIS (IMX586)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3M5",
+        "mp": 13,
+        "focal_length_mm": 57,
+        "aperture": 2.4,
+        "ois": true,
+        "zoom": 2.2,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.4",
+        "pixel_pitch_um": 1.0,
+        "info": "13 MP tele native (~2.2x; 8MP crop for 3x)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX481",
+        "mp": 16,
+        "focal_length_mm": 17,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP ultrawide (IMX481)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX471",
+        "mp": 16,
+        "focal_length_mm": 25,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP pop-up selfie (IMX471)"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "60": true, "240": true } },
+    "sources": ["GSMArena OnePlus 7 Pro", "XDA/Hardware Info S5K3M5 tele"]
+  },
+  "hotdog": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8,
+        "info": "48 MP wide OIS (IMX586)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3M5",
+        "mp": 13,
+        "focal_length_mm": 57,
+        "aperture": 2.4,
+        "ois": true,
+        "zoom": 2.2,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.4",
+        "pixel_pitch_um": 1.0,
+        "info": "13 MP tele native (~2.2x; 8MP crop for 3x)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX481",
+        "mp": 16,
+        "focal_length_mm": 17,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP ultrawide (IMX481)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX471",
+        "mp": 16,
+        "focal_length_mm": 25,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP pop-up selfie (IMX471)"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "60": true, "240": true } },
+    "sources": ["GSMArena OnePlus 7T Pro"]
+  },
+  "hotdogb": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8,
+        "info": "48 MP wide OIS (IMX586)"
+      },
+      {
+        "type": "telephoto",
+        "mp": 12,
+        "focal_length_mm": 51,
+        "aperture": 2.2,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED",
+        "pixel_pitch_um": 1.0,
+        "info": "12 MP 2x tele (PN unpublished)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX481",
+        "mp": 16,
+        "focal_length_mm": 17,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP ultrawide (IMX481)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX471",
+        "mp": 16,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP selfie (IMX471)"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "60": true } },
+    "sources": ["GSMArena OnePlus 7T"]
+  },
+  "akershus": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.75,
+        "ois": true,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "info": "12 MP wide OIS (IMX363)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "S5K3T1",
+        "mp": 20,
+        "focal_length_mm": 10,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED dual-tone",
+        "fov_deg": 130,
+        "info": "20 MP ultrawide 130°"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3T1SP",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 1.0,
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true } },
+    "sources": ["GSMArena ZTE Axon 9 Pro"]
+  },
+  "shark": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX376",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": false,
+        "flash": "Dual-LED dual-tone",
+        "info": "12 MP wide"
+      },
+      {
+        "type": "other",
+        "sensor_model": "IMX376OTP",
+        "mp": 20,
+        "focal_length_mm": 50,
+        "aperture": 1.8,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED dual-tone",
+        "info": "20 MP 2x"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX486VCM",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true } },
+    "sources": ["GSMArena Black Shark"]
+  },
+  "laurel_sprout": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8,
+        "info": "48 MP wide"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX582",
+        "mp": 8,
+        "focal_length_mm": 13,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "8 MP ultrawide"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "OV02A10",
+        "mp": 2,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "2 MP depth"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5KGD1",
+        "mp": 32,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "32 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "60": true } },
+    "sources": ["GSMArena Mi A3"]
+  }
+}

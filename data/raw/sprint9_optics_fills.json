@@ -1,0 +1,633 @@
+{
+  "_meta": {
+    "sprint": "9-optics-fl-aperture",
+    "protocol": "GSMArena / maker ranks 1–4; FF-eq focal lengths"
+  },
+  "davinci": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX582",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "48 MP wide (IMX582)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3L6",
+        "mp": 8,
+        "focal_length_mm": 53,
+        "aperture": 2.4,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED",
+        "info": "8 MP tele 2x"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "OV8856",
+        "mp": 13,
+        "focal_length_mm": 12,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "13 MP ultrawide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3T2",
+        "mp": 20,
+        "focal_length_mm": 24,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP pop-up selfie"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "120": true, "240": true } },
+    "sources": ["GSMArena Mi 9T / Redmi K20"]
+  },
+  "pyxis": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "48 MP wide (IMX586)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX582",
+        "mp": 8,
+        "focal_length_mm": 13,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "8 MP ultrawide"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "OV02A10",
+        "mp": 2,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "2 MP depth"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5KGD1",
+        "mp": 32,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "32 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "60": true } },
+    "sources": ["GSMArena Mi 9 Lite / Mi CC9"]
+  },
+  "lavender": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX486",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "48 MP wide"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "OV02A10",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "5 MP depth"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5KGM1",
+        "mp": 13,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "13 MP selfie"
+      }
+    ],
+    "video": { "1080p": { "30": true, "60": true, "120": true } },
+    "sources": ["GSMArena Redmi Note 7"]
+  },
+  "beryllium": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 25,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "Dual-LED dual-tone",
+        "info": "12 MP wide (IMX363)"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "S5K5E8YX",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "Dual-LED dual-tone",
+        "info": "5 MP depth"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX333",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "240": true } },
+    "sources": ["GSMArena POCO F1"]
+  },
+  "dipper": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "LED",
+        "info": "12 MP wide OIS"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3T1",
+        "mp": 12,
+        "focal_length_mm": 56,
+        "aperture": 2.4,
+        "ois": false,
+        "zoom": 2,
+        "flash": "LED",
+        "info": "12 MP tele 2x"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3M3SN03",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "120": true, "240": true } },
+    "sources": ["GSMArena Mi 8"]
+  },
+  "ursa": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "LED",
+        "info": "12 MP wide OIS"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3T1",
+        "mp": 12,
+        "focal_length_mm": 56,
+        "aperture": 2.4,
+        "ois": false,
+        "zoom": 2,
+        "flash": "LED",
+        "info": "12 MP tele 2x"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3M3SN03",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "120": true, "240": true } },
+    "sources": ["GSMArena Mi 8 Explorer (same optics as Mi 8)"]
+  },
+  "polaris": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "Dual-LED dual-tone",
+        "info": "12 MP wide OIS"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "IMX333",
+        "mp": 12,
+        "focal_length_mm": 52,
+        "aperture": 2.4,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED dual-tone",
+        "info": "12 MP tele 2x"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3M3SN03",
+        "mp": 5,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "5 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "120": true } },
+    "sources": ["GSMArena Mi MIX 2S"]
+  },
+  "judyln": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX351",
+        "mp": 16,
+        "focal_length_mm": 30,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "LED",
+        "info": "16 MP wide OIS"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX351W",
+        "mp": 16,
+        "focal_length_mm": 16,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP ultrawide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX351N",
+        "mp": 8,
+        "focal_length_mm": 25,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "60": true } },
+    "sources": ["GSMArena LG G7 ThinQ"]
+  },
+  "g710n": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX351",
+        "mp": 16,
+        "focal_length_mm": 30,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "LED",
+        "info": "16 MP wide OIS"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX351W",
+        "mp": 16,
+        "focal_length_mm": 16,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP ultrawide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX351N",
+        "mp": 8,
+        "focal_length_mm": 25,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "60": true } },
+    "sources": ["GSMArena LG G7 ThinQ"]
+  },
+  "g710ulm": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX351",
+        "mp": 16,
+        "focal_length_mm": 30,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "LED",
+        "info": "16 MP wide OIS"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX351W",
+        "mp": 16,
+        "focal_length_mm": 16,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP ultrawide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX351N",
+        "mp": 8,
+        "focal_length_mm": 25,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "60": true } },
+    "sources": ["GSMArena LG G7 ThinQ"]
+  },
+  "judyp": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX351",
+        "mp": 16,
+        "focal_length_mm": 30,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "LED",
+        "info": "16 MP wide OIS"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX351W",
+        "mp": 16,
+        "focal_length_mm": 16,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP ultrawide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX351N",
+        "mp": 8,
+        "focal_length_mm": 25,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "60": true } },
+    "sources": ["GSMArena LG V35 ThinQ (G7-class dual)"]
+  },
+  "alphaplus": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX351W",
+        "mp": 12,
+        "focal_length_mm": 27,
+        "aperture": 1.5,
+        "ois": true,
+        "flash": "LED",
+        "info": "12 MP wide OIS"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX363N2",
+        "mp": 16,
+        "focal_length_mm": 16,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP ultrawide"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "IMX363N",
+        "mp": 12,
+        "focal_length_mm": 52,
+        "aperture": 2.4,
+        "ois": true,
+        "zoom": 2,
+        "flash": "LED",
+        "info": "12 MP tele 2x OIS"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX520",
+        "mp": 8,
+        "focal_length_mm": 25,
+        "aperture": 1.7,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie AF"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "60": true } },
+    "sources": ["GSMArena LG G8 ThinQ"]
+  },
+  "mh2lm": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 27,
+        "aperture": 1.5,
+        "ois": true,
+        "flash": "LED",
+        "info": "12 MP wide OIS"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX363N",
+        "mp": 13,
+        "focal_length_mm": 14,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "LED",
+        "info": "13 MP ultrawide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5KGD1",
+        "mp": 32,
+        "focal_length_mm": 26,
+        "aperture": 1.7,
+        "ois": false,
+        "flash": "None",
+        "info": "32 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "60": true } },
+    "sources": ["GSMArena LG G8X / V50S ThinQ"]
+  },
+  "onclite": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX486",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP wide"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "S5K4H7",
+        "mp": 2,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "LED",
+        "info": "2 MP depth"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5KGD1SP",
+        "mp": 8,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie"
+      }
+    ],
+    "video": { "1080p": { "30": true } },
+    "sources": ["GSMArena Redmi 7"]
+  },
+  "whyred": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX376",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "12 MP wide (binned from 16MP listing)"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "S5K2L7",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "5 MP depth"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3L8",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": { "1080p": { "30": true, "60": true } },
+    "sources": ["GSMArena Redmi Note 5 Pro"]
+  },
+  "akari": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "HI05BN1",
+        "mp": 19,
+        "focal_length_mm": 25,
+        "aperture": 2.0,
+        "ois": true,
+        "flash": "LED",
+        "info": "19 MP Motion Eye OIS"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX241",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "None",
+        "info": "5 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "60": true } },
+    "sources": ["GSMArena Xperia XZ2"]
+  },
+  "xz2c": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "HI05BN1",
+        "mp": 19,
+        "focal_length_mm": 25,
+        "aperture": 2.0,
+        "ois": true,
+        "flash": "LED",
+        "info": "19 MP Motion Eye OIS"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX241",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "None",
+        "info": "5 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "60": true } },
+    "sources": ["GSMArena Xperia XZ2 Compact"]
+  }
+}

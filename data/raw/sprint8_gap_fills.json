@@ -1,0 +1,2918 @@
+{
+  "_meta": {
+    "sprint": 8,
+    "protocol": "phone-spec-audit ranks 1-4"
+  },
+  "manaus": {
+    "charge": {
+      "wired": 68,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP68",
+    "refresh_rate": 144,
+    "sources": [
+      "motorola edge 40 neo 68W; help: no wireless"
+    ]
+  },
+  "pstar": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP52",
+    "refresh_rate": 144,
+    "sources": [
+      "GSMArena Edge 20 Pro 30W; The Verge no wireless"
+    ]
+  },
+  "berlin": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP52",
+    "refresh_rate": 144,
+    "sources": [
+      "GSMArena Edge 20 30W IP52"
+    ]
+  },
+  "dubai": {
+    "charge": {
+      "wired": 33,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP52",
+    "refresh_rate": 144,
+    "sources": [
+      "GSMArena Edge 30 33W; no wireless"
+    ]
+  },
+  "miami": {
+    "charge": {
+      "wired": 68,
+      "wireless": 5,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "waterproofing": "IP52",
+    "refresh_rate": 120,
+    "sources": [
+      "motorola.com.br Edge 30 Neo 68W+5W Qi",
+      "help.motorola.com Qi"
+    ]
+  },
+  "lamu": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support moto g15 18W"
+    ]
+  },
+  "fogo": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 120,
+    "sources": [
+      "cox moto g 5G 2024 18W"
+    ]
+  },
+  "fogos": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena moto g45 18W"
+    ]
+  },
+  "genevn": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 120,
+    "sources": [
+      "GSMArena g stylus 5G 2023 20W"
+    ]
+  },
+  "bangkk": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP54",
+    "refresh_rate": 120,
+    "sources": [
+      "en-us.support g84 30W IP54"
+    ]
+  },
+  "milanf": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 120,
+    "sources": [
+      "en-us.support g stylus 5G 2022 TurboPower 10W"
+    ]
+  },
+  "rhodep": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 120,
+    "sources": [
+      "GSMArena g82 30W"
+    ]
+  },
+  "rhode": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena g52 30W"
+    ]
+  },
+  "devon": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena g32 30W"
+    ]
+  },
+  "hawao": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g42 18W"
+    ]
+  },
+  "berlna": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP52",
+    "refresh_rate": 144,
+    "sources": [
+      "GSMArena Edge 2021 30W; no wireless"
+    ]
+  },
+  "bathena": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP68",
+    "sources": [
+      "motorolanews Defy 2021 20W IP68"
+    ]
+  },
+  "liber": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena One Fusion+ 15W"
+    ]
+  },
+  "rtwo": {
+    "charge": {
+      "wired": null,
+      "wireless": 15,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "waterproofing": "IP68",
+    "refresh_rate": 165,
+    "sources": [
+      "motorola.com Edge+ 2023 NA 68W+15W Qi IP68",
+      "en-emea.support Edge 40 Pro 125W+15W Qi IP68"
+    ],
+    "notes": "wired blank — NA 68W vs EU 125W conflict"
+  },
+  "tegu": {
+    "charge": {
+      "wired": 23,
+      "wireless": 7.5,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "Google Pixel 9a / Pixel Stand table 7.5W wireless"
+    ]
+  },
+  "xpeng": {
+    "charge": {
+      "wired": 33,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP52",
+    "refresh_rate": 144,
+    "sources": [
+      "en-us.support g200 5G 33W IP52"
+    ]
+  },
+  "nio": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena Edge S 20W"
+    ]
+  },
+  "denver": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g stylus 5G 2021 10W"
+    ]
+  },
+  "capri": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g10 10W"
+    ]
+  },
+  "caprip": {
+    "charge": {
+      "wired": null,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "remove_charge": true,
+    "sources": [
+      "GSMArena g30 15/20 market — wired blank"
+    ]
+  },
+  "borneo": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g power 2021 15W"
+    ]
+  },
+  "ibiza": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena g50 15W"
+    ]
+  },
+  "ellis": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support g pure 10W"
+    ]
+  },
+  "guamna": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g play 2021 10W"
+    ]
+  },
+  "racer": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "en-us.support motorola edge 18W"
+    ]
+  },
+  "nairo": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena g 5G plus 20W"
+    ]
+  },
+  "kiev": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g 5G 20W"
+    ]
+  },
+  "cebu": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g9 power 20W"
+    ]
+  },
+  "guamp": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support g9 play 15W capable"
+    ]
+  },
+  "guam": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena e7 plus 10W"
+    ]
+  },
+  "channel": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g7 play 10W"
+    ]
+  },
+  "kane": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena One Vision 15W"
+    ]
+  },
+  "lake": {
+    "charge": {
+      "wired": 27,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g7 plus 27W"
+    ]
+  },
+  "ocean": {
+    "charge": {
+      "wired": null,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "remove_charge": true,
+    "sources": [
+      "G7 Power 15/18 market — wired blank"
+    ]
+  },
+  "parker": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support one zoom 15W; no built-in Qi"
+    ]
+  },
+  "river": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g7 15W"
+    ]
+  },
+  "troika": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena One Action 10W"
+    ]
+  },
+  "beckham": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support z3 play 15W; Qi via Mod only"
+    ]
+  },
+  "chef": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena One Power 15W"
+    ]
+  },
+  "evert": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g6 plus 15W"
+    ]
+  },
+  "messi": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena z3 15W; Qi via Mod only"
+    ]
+  },
+  "albus": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena z2 play 15W; Qi via Mod only"
+    ]
+  },
+  "cedric": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g5s 15W"
+    ]
+  },
+  "montana": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g5s 15W"
+    ]
+  },
+  "nash": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena z2 force 15W; Qi via Mod only"
+    ]
+  },
+  "payton": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena x4 15W"
+    ]
+  },
+  "addison": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena z play 15W; Qi via Mod only"
+    ]
+  },
+  "griffin": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena Moto Z 15W; Qi via Mod only — no built-in"
+    ]
+  },
+  "ahannah": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support e5 plus 15W"
+    ]
+  },
+  "hannah": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support e5 plus 15W"
+    ]
+  },
+  "rhannah": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "en-us.support e5 plus 15W"
+    ]
+  },
+  "crosshatch": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/google_pixel_3-9256.php",
+      "https://www.gsmarena.com/pixel_3_capped_at_5w_wireless_charging_on_nongoogleapproved_chargers-news-33877.php"
+    ],
+    "waterproofing": "IP68",
+    "refresh_rate": 60
+  },
+  "blueline": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/google_pixel_3-9256.php",
+      "https://www.gsmarena.com/pixel_3_capped_at_5w_wireless_charging_on_nongoogleapproved_chargers-news-33877.php"
+    ],
+    "waterproofing": "IP68",
+    "refresh_rate": 60
+  },
+  "bonito": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/google_pixel_3a-9408.php"
+    ],
+    "refresh_rate": 60
+  },
+  "sargo": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/google_pixel_3a-9408.php"
+    ],
+    "refresh_rate": 60
+  },
+  "flame": {
+    "charge": {
+      "wired": 18,
+      "wireless": 11,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena/maker published charging for flame"
+    ],
+    "waterproofing": "IP68"
+  },
+  "coral": {
+    "charge": {
+      "wired": 18,
+      "wireless": 11,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena/maker published charging for coral"
+    ],
+    "waterproofing": "IP68"
+  },
+  "walleye": {
+    "charge": {
+      "wired": 10.5,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8346&idPhone2=8733&idPhone3=9256"
+    ]
+  },
+  "taimen": {
+    "charge": {
+      "wired": 10.5,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/google_pixel_2_xl-8720.php"
+    ]
+  },
+  "marlin": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/google_pixel_xl-8345.php"
+    ]
+  },
+  "sailfish": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8346&idPhone2=8733&idPhone3=9256"
+    ]
+  },
+  "guacamole": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena/maker published charging for guacamole"
+    ]
+  },
+  "hotdog": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena/maker published charging for hotdog"
+    ]
+  },
+  "hotdogb": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena/maker published charging for hotdogb"
+    ]
+  },
+  "enchilada": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for enchilada"
+    ]
+  },
+  "fajita": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for fajita"
+    ]
+  },
+  "oneplus3": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/oneplus_3-7995.php"
+    ]
+  },
+  "oneplus3t": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "OnePlus 3T Dash"
+    ]
+  },
+  "raphael": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 90,
+    "sources": [
+      "GSMArena/maker published charging for raphael"
+    ]
+  },
+  "davinci": {
+    "charge": {
+      "wired": 27,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for davinci"
+    ]
+  },
+  "cepheus": {
+    "charge": {
+      "wired": 27,
+      "wireless": 20,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for cepheus"
+    ]
+  },
+  "equuleus": {
+    "charge": {
+      "wired": 27,
+      "wireless": 20,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for equuleus"
+    ]
+  },
+  "perseus": {
+    "charge": {
+      "wired": 27,
+      "wireless": 20,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for perseus"
+    ]
+  },
+  "dipper": {
+    "charge": {
+      "wired": 27,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for dipper"
+    ]
+  },
+  "ursa": {
+    "charge": {
+      "wired": 27,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for ursa"
+    ]
+  },
+  "polaris": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for polaris"
+    ]
+  },
+  "chiron": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/xiaomi_mi_mix_2-8529.php"
+    ]
+  },
+  "sagit": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for sagit"
+    ]
+  },
+  "capricorn": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=6948&idPhone2=7260&idPhone3=6992"
+    ]
+  },
+  "natrium": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8014&idPhone2=8350&idPhone3=8451"
+    ]
+  },
+  "whyred": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8014&idPhone2=8893"
+    ]
+  },
+  "tulip": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Redmi Note 6 Pro"
+    ]
+  },
+  "wayne": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9140&idPhone2=8893"
+    ]
+  },
+  "jasmine": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena Mi A2 18W"
+    ]
+  },
+  "lavender": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9513&idPhone2=9140&idPhone3=9769"
+    ]
+  },
+  "violet": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/xiaomi_redmi_note_7_pro-9521.php"
+    ]
+  },
+  "ginkgo": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/xiaomi_redmi_note_8-9814.php"
+    ]
+  },
+  "willow": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for willow"
+    ]
+  },
+  "pine": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for pine"
+    ]
+  },
+  "olive": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for olive"
+    ]
+  },
+  "olivelite": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for olivelite"
+    ]
+  },
+  "olivewood": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for olivewood"
+    ]
+  },
+  "onc": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for onc"
+    ]
+  },
+  "onclite": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9498&idPhone2=9513&idPhone3=9521"
+    ]
+  },
+  "rosy": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for rosy"
+    ]
+  },
+  "tissot": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/xiaomi_mi_a1_(mi_5x)-8776.php"
+    ]
+  },
+  "jasmine_sprout": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9140&idPhone2=8893"
+    ]
+  },
+  "daisy": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Mi A2 Lite"
+    ]
+  },
+  "sakura": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for sakura"
+    ]
+  },
+  "cactus": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for cactus"
+    ]
+  },
+  "cereus": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for cereus"
+    ]
+  },
+  "Mi439": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9498&idPhone2=9716"
+    ]
+  },
+  "Mi8917": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for Mi8917"
+    ]
+  },
+  "Mi8937": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for Mi8937"
+    ]
+  },
+  "jackpotlte": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for jackpotlte"
+    ]
+  },
+  "starlte": {
+    "charge": {
+      "wired": 15,
+      "wireless": 5,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/samsung_galaxy_s9-8966.php"
+    ],
+    "waterproofing": "IP68",
+    "refresh_rate": 60
+  },
+  "star2lte": {
+    "charge": {
+      "wired": 15,
+      "wireless": 15,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for star2lte"
+    ],
+    "waterproofing": "IP68"
+  },
+  "crownlte": {
+    "charge": {
+      "wired": 15,
+      "wireless": 15,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for crownlte"
+    ],
+    "waterproofing": "IP68"
+  },
+  "dreamlte": {
+    "charge": {
+      "wired": 15,
+      "wireless": 15,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for dreamlte"
+    ],
+    "waterproofing": "IP68"
+  },
+  "dream2lte": {
+    "charge": {
+      "wired": 15,
+      "wireless": 15,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for dream2lte"
+    ],
+    "waterproofing": "IP68"
+  },
+  "greatlte": {
+    "charge": {
+      "wired": 15,
+      "wireless": 15,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for greatlte"
+    ],
+    "waterproofing": "IP68"
+  },
+  "akari": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9166&idPhone2=9232"
+    ],
+    "waterproofing": "IP65/68"
+  },
+  "aurora": {
+    "charge": {
+      "wired": 18,
+      "wireless": 5,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/sony_xperia_xz2_premium-9166.php"
+    ],
+    "waterproofing": "IP65/68"
+  },
+  "xz2c": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/sony_xperia_xz2_compact-9082.php"
+    ],
+    "waterproofing": "IP65/68"
+  },
+  "akatsuki": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9353&idPhone2=9232"
+    ],
+    "waterproofing": "IP65/68"
+  },
+  "FP3": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "GSMArena/maker published charging for FP3"
+    ]
+  },
+  "I001D": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/asus_rog_phone_ii_zs660kl-9770.php"
+    ],
+    "refresh_rate": 120
+  },
+  "I01WD": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9410&idPhone2=9698"
+    ]
+  },
+  "RMX1851": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=11908&idPhone2=9669"
+    ]
+  },
+  "B2N": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9178&idPhone2=9354&idPhone3=9058"
+    ]
+  },
+  "alphaplus": {
+    "charge": {
+      "wired": 21,
+      "wireless": 9,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9540&idPhone2=9607"
+    ],
+    "waterproofing": "IP68"
+  },
+  "betalm": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9608&idPhone2=9530"
+    ]
+  },
+  "FP5": {
+    "charge": {
+      "wired": 30,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Fairphone 5 FAQ — no wireless"
+    ]
+  },
+  "FP6": {
+    "charge": {
+      "wired": 27,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Fairphone 6 — no wireless"
+    ]
+  },
+  "lexus": {
+    "charge": {
+      "wired": 80,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "OnePlus Nord 5 specs — no wireless"
+    ]
+  },
+  "piloti": {
+    "charge": {
+      "wired": 120,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "realme GT7 Pro Racing — no wireless"
+    ]
+  },
+  "pdx257": {
+    "charge": {
+      "wired": 22,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Sony Xperia 10 VII — no wireless"
+    ]
+  },
+  "beryllium": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena POCO F1 18W QC3"
+    ]
+  },
+  "cheeseburger": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena OnePlus 5 Dash 20W"
+    ],
+    "refresh_rate": 60
+  },
+  "dumpling": {
+    "charge": {
+      "wired": 20,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "OnePlus 5T Dash 5V4A / GSMArena 20W"
+    ],
+    "refresh_rate": 60
+  },
+  "platina": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9329&idPhone2=9513"
+    ]
+  },
+  "sirius": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena Mi 8 SE"
+    ]
+  },
+  "xmsirius": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9333&idPhone2=9219"
+    ]
+  },
+  "twolip": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9333&idPhone2=9219"
+    ]
+  },
+  "laurel_sprout": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9513&idPhone2=9140&idPhone3=9769"
+    ]
+  },
+  "pyxis": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "GSMArena Mi 9 Lite wireless",
+      "https://www.gsmarena.com/xiaomi_mi_cc9-9749.php"
+    ]
+  },
+  "vela": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true
+    },
+    "sources": [
+      "Mi CC9 Meitu",
+      "https://www.gsmarena.com/xiaomi_mi_cc9-9749.php"
+    ]
+  },
+  "zippo": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/lenovo_z6_pro-review-1970.php"
+    ]
+  },
+  "cheryl": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 120,
+    "sources": [
+      "Razer Phone 120Hz QC"
+    ]
+  },
+  "cheryl2": {
+    "charge": {
+      "wired": 18,
+      "wireless": 15,
+      "hasWireless": true
+    },
+    "refresh_rate": 120,
+    "sources": [
+      "Razer Phone 2"
+    ]
+  },
+  "mata": {
+    "charge": {
+      "wired": 27,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9788&idPhone2=8710"
+    ]
+  },
+  "pro1": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "F(x)tec Pro1"
+    ]
+  },
+  "m20lte": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9506&idPhone2=7945"
+    ],
+    "refresh_rate": 60
+  },
+  "beyond0": {
+    "charge": {
+      "wired": 25,
+      "wireless": 12,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "waterproofing": "IP68",
+    "refresh_rate": 60,
+    "sources": [
+      "Galaxy S10e"
+    ]
+  },
+  "beyond1": {
+    "charge": {
+      "wired": 25,
+      "wireless": 15,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "waterproofing": "IP68",
+    "sources": [
+      "Galaxy S10"
+    ],
+    "refresh_rate": 60
+  },
+  "beyond2": {
+    "charge": {
+      "wired": 25,
+      "wireless": 15,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "waterproofing": "IP68",
+    "sources": [
+      "Galaxy S10+"
+    ],
+    "refresh_rate": 60
+  },
+  "d1": {
+    "charge": {
+      "wired": 25,
+      "wireless": 12,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "waterproofing": "IP68",
+    "sources": [
+      "Note 10"
+    ]
+  },
+  "d2s": {
+    "charge": {
+      "wired": 45,
+      "wireless": 15,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "waterproofing": "IP68",
+    "sources": [
+      "Note 10+"
+    ]
+  },
+  "ham": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "ZUK Z1"
+    ]
+  },
+  "jason": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8753&idPhone2=8707"
+    ]
+  },
+  "h850": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "LG G5",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "h815": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "LG G4"
+    ]
+  },
+  "h870": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "LG G6",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68"
+  },
+  "joan": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/lg_v30-8712.php"
+    ],
+    "waterproofing": "IP68"
+  },
+  "flashlmdd": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9540&idPhone2=9607"
+    ],
+    "waterproofing": "IP68"
+  },
+  "mh2lm": {
+    "charge": {
+      "wired": 21,
+      "wireless": 9,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9300&idPhone2=9540&idPhone3=9844"
+    ],
+    "waterproofing": "IP68"
+  },
+  "judyln": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "LG G7",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68"
+  },
+  "judyp": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/lg_v35_thinq-9191.php"
+    ],
+    "waterproofing": "IP68"
+  },
+  "judypn": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9300&idPhone2=9540&idPhone3=9844"
+    ],
+    "waterproofing": "IP68"
+  },
+  "vince": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Redmi 5 Plus"
+    ]
+  },
+  "santoni": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8150&idPhone2=8776"
+    ]
+  },
+  "land": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8150&idPhone2=8776"
+    ]
+  },
+  "mido": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Note 4"
+    ]
+  },
+  "kenzo": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/xiaomi_redmi_note_3-7863.php"
+    ]
+  },
+  "hydrogen": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.mi.com/mimax/specs"
+    ]
+  },
+  "helium": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Mi Max Prime"
+    ]
+  },
+  "oxygen": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Mi Max 2"
+    ]
+  },
+  "nitrogen": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Mi Max 3"
+    ]
+  },
+  "ugg": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Redmi Note 5A"
+    ]
+  },
+  "ugglite": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Note 5A"
+    ]
+  },
+  "rolex": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Redmi 4A"
+    ]
+  },
+  "riva": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Redmi 5A"
+    ]
+  },
+  "prada": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Redmi 4"
+    ]
+  },
+  "markw": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Redmi 4 Prime"
+    ]
+  },
+  "kate": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Redmi Note 3 SE"
+    ]
+  },
+  "nikel": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Redmi Note 4 MTK"
+    ]
+  },
+  "h830": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "h910": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "h918": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "ls997": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "us996": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "vs995": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "h990": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "rs988": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "us997": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68"
+  },
+  "h870d": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68"
+  },
+  "h872": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68"
+  },
+  "h873": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68"
+  },
+  "h932": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/lg_v30-8712.php"
+    ],
+    "waterproofing": "IP68"
+  },
+  "l01k": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/lg_v30-8712.php"
+    ],
+    "waterproofing": "IP68"
+  },
+  "us996d": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "GSMArena LG flagship era ~18W + Qi",
+      "https://www.gsmarena.com/compare.php3?idPhone1=7815&idPhone2=8238&idPhone3=8466"
+    ]
+  },
+  "h811": {
+    "charge": {
+      "wired": 18,
+      "wireless": 10,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "GSMArena LG flagship era ~18W + Qi"
+    ]
+  },
+  "a3xelte": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "Galaxy A3 2016"
+    ]
+  },
+  "a5xelte": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=7789&idPhone2=6506"
+    ]
+  },
+  "a7xelte": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=7759&idPhone2=6849"
+    ]
+  },
+  "g710n": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68"
+  },
+  "g710ulm": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8466&idPhone2=8712&idPhone3=9115"
+    ],
+    "waterproofing": "IP68"
+  },
+  "shark": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8893&idPhone2=9164"
+    ]
+  },
+  "gemini": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/xiaomi_mi_5-6948.php"
+    ]
+  },
+  "lithium": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/xiaomi_mi_mix-8400.php"
+    ]
+  },
+  "scorpio": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8014&idPhone2=8350&idPhone3=8451"
+    ]
+  },
+  "bullhead": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=7556&idPhone2=9408"
+    ]
+  },
+  "angler": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=7588&idPhone2=9256"
+    ]
+  },
+  "a5y17lte": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/samsung_galaxy_a5_(2017)-8494.php"
+    ],
+    "waterproofing": "IP68",
+    "refresh_rate": 60
+  },
+  "a7y17lte": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/samsung_galaxy_a7_(2017)-8335.php"
+    ],
+    "waterproofing": "IP68",
+    "refresh_rate": 60
+  },
+  "herolte": {
+    "charge": {
+      "wired": 15,
+      "wireless": 5,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8966&idPhone2=8161&idPhone3=7821",
+      "https://www.gsmarena.com/samsung_galaxy_s7_(usa)-7960.php"
+    ],
+    "waterproofing": "IP68"
+  },
+  "hero2lte": {
+    "charge": {
+      "wired": 15,
+      "wireless": 5,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9506&idPhone2=7945"
+    ],
+    "waterproofing": "IP68"
+  },
+  "zerofltexx": {
+    "charge": {
+      "wired": 15,
+      "wireless": 5,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/samsung_galaxy_s6-6849.php"
+    ]
+  },
+  "zeroltexx": {
+    "charge": {
+      "wired": 15,
+      "wireless": 5,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8335&idPhone2=7079&idPhone3=6543"
+    ]
+  },
+  "kirin": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "Xperia 10"
+    ]
+  },
+  "mermaid": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "refresh_rate": 60,
+    "sources": [
+      "Xperia 10 Plus"
+    ]
+  },
+  "pioneer": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9232&idPhone2=8986&idPhone3=7948"
+    ]
+  },
+  "voyager": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9268&idPhone2=8986&idPhone3=8985"
+    ]
+  },
+  "discovery": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8985&idPhone2=9591"
+    ]
+  },
+  "suzu": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9232&idPhone2=8986&idPhone3=7948"
+    ]
+  },
+  "sumire": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/sony_xperia_z5-7534.php"
+    ],
+    "waterproofing": "IP65/68"
+  },
+  "suzuran": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/sony_xperia_z5_compact-7535.php"
+    ],
+    "waterproofing": "IP65/68"
+  },
+  "Z01R": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9096&idPhone2=9173"
+    ]
+  },
+  "X00TD": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9096&idPhone2=9173"
+    ]
+  },
+  "X01BD": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9410&idPhone2=9698"
+    ]
+  },
+  "RMX1801": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9342&idPhone2=9345"
+    ]
+  },
+  "heart": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9757&idPhone2=9489"
+    ]
+  },
+  "PL2": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8972&idPhone2=9178"
+    ]
+  },
+  "DRG": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/nokia_6_1_plus_(nokia_x6)-9178.php"
+    ]
+  },
+  "berkeley": {
+    "charge": {
+      "wired": 22.5,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8938&idPhone2=9098"
+    ]
+  },
+  "anne": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8938&idPhone2=9098"
+    ]
+  },
+  "charlotte": {
+    "charge": {
+      "wired": 22.5,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/huawei_p20_pro-9106.php"
+    ]
+  },
+  "aura": {
+    "charge": {
+      "wired": 18,
+      "wireless": 15,
+      "hasWireless": true,
+      "qi": "Qi1"
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8522&idPhone2=9363"
+    ],
+    "refresh_rate": 120
+  },
+  "nx619j": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/zte_nubia_red_magic_mars-9433.php"
+    ]
+  },
+  "nx606j": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/zte_nubia_z18-9171.php"
+    ]
+  },
+  "NB1": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8522&idPhone2=9363"
+    ]
+  },
+  "nx563j": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=8677&idPhone2=8791"
+    ]
+  },
+  "pme": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=7576&idPhone2=8346&idPhone3=7884"
+    ]
+  },
+  "axon7": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/zte_axon_7-8067.php"
+    ]
+  },
+  "hiae": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=7576&idPhone2=8346&idPhone3=7884"
+    ]
+  },
+  "ivy": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/sony_xperia_z3+-6878.php"
+    ],
+    "waterproofing": "IP65/68"
+  },
+  "nx616j": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "https://www.gsmarena.com/compare.php3?idPhone1=9347&idPhone2=9363"
+    ]
+  },
+  "TP1803": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Nubia Mini 5G ~18W"
+    ]
+  },
+  "trident": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Smartisan R1"
+    ]
+  },
+  "akershus": {
+    "charge": {
+      "wired": 27,
+      "wireless": 15,
+      "hasWireless": true
+    },
+    "sources": [
+      "ZTE Axon 9 Pro"
+    ]
+  },
+  "Amber": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Yandex Phone"
+    ]
+  },
+  "figo": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Huawei P Smart"
+    ]
+  },
+  "bardock": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "BQ Aquaris X"
+    ]
+  },
+  "bardockpro": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "BQ Aquaris X Pro"
+    ]
+  },
+  "zangya": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "BQ Aquaris X2"
+    ]
+  },
+  "zangyapro": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "BQ Aquaris X2 Pro"
+    ]
+  },
+  "zl1": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "LeEco Le Pro3"
+    ]
+  },
+  "X00P": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Zenfone Max M1"
+    ]
+  },
+  "X01AD": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Zenfone Max M2"
+    ]
+  },
+  "nx611j": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Nubia Z18 Mini"
+    ]
+  },
+  "nx609j": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Nubia Red Magic"
+    ]
+  },
+  "athene": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena g4 15W"
+    ]
+  },
+  "harpia": {
+    "remove_charge": true,
+    "sources": [
+      "GSMArena g4 play — no published W"
+    ]
+  },
+  "clark": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena X Style/Pure TurboPower 15W"
+    ]
+  },
+  "osprey": {
+    "remove_charge": true,
+    "waterproofing": "IPX7",
+    "sources": [
+      "GSMArena g3 — no W; IPX7"
+    ]
+  },
+  "surnia": {
+    "remove_charge": true,
+    "sources": [
+      "GSMArena e LTE 2015 — no W"
+    ]
+  },
+  "lux": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "GSMArena x play 15W"
+    ]
+  },
+  "merlin": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "waterproofing": "IP67",
+    "sources": [
+      "GSMArena g turbo 15W IP67"
+    ]
+  },
+  "potter": {
+    "charge": {
+      "wired": 15,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Moto G5 Plus 15W"
+    ]
+  },
+  "ido": {
+    "charge": {
+      "wired": 10,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Redmi 3"
+    ]
+  },
+  "kugo": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Xperia X Compact"
+    ]
+  },
+  "kuntao": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Lenovo P2"
+    ]
+  },
+  "zenfone3": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Zenfone 3"
+    ]
+  },
+  "z2_plus": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "ZUK Z2"
+    ]
+  },
+  "ether": {
+    "charge": {
+      "wired": 18,
+      "wireless": null,
+      "hasWireless": false
+    },
+    "sources": [
+      "Nextbit Robin"
+    ]
+  },
+  "otus": {
+    "remove_charge": true,
+    "sources": [
+      "GSMArena e 2015 — no W"
+    ]
+  },
+  "thea": {
+    "remove_charge": true,
+    "sources": [
+      "GSMArena g LTE 2014 — no W"
+    ]
+  }
+}

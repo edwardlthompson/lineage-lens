@@ -16,8 +16,8 @@ self.addEventListener("install", (event) => {
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches.keys().then((keys) =>
-      Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k)))
-    )
+      Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k))),
+    ),
   );
   self.clients.claim();
 });
@@ -25,26 +25,26 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
-  // Device catalog changes often during enrichment — never serve a stale copy.
   const isDevicesJson = url.pathname.endsWith("/data/devices.json");
   event.respondWith(
     (async () => {
+      const cache = await caches.open(CACHE_NAME);
       if (isDevicesJson) {
+        // Network-first, allow HTTP cache (no cache: "no-store"). Cache for offline.
         try {
-          return await fetch(event.request, { cache: "no-store" });
+          const response = await fetch(event.request);
+          if (response.ok) await cache.put(event.request, response.clone());
+          return response;
         } catch {
-          const cache = await caches.open(CACHE_NAME);
           const cached = await cache.match(event.request);
           if (cached) return cached;
           throw new Error("offline and no cache");
         }
       }
-      const cache = await caches.open(CACHE_NAME);
       try {
         const response = await fetch(event.request);
         if (response.ok) {
-          const copy = response.clone();
-          await cache.put(event.request, copy);
+          await cache.put(event.request, response.clone());
         }
         return response;
       } catch {
@@ -52,7 +52,7 @@ self.addEventListener("fetch", (event) => {
         if (cached) return cached;
         throw new Error("offline and no cache");
       }
-    })()
+    })(),
   );
 });
 

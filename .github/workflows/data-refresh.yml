@@ -1,0 +1,81 @@
+# Weekly (and manual) rebuild of devices.json from LineageOS wiki + camera CSV.
+# Opens a PR when the artifact changes — does not push to main directly.
+
+name: Data refresh
+
+on:
+  schedule:
+    # Mondays 06:15 UTC
+    - cron: "15 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      force_fetch:
+        description: "Re-download wiki ZIP into data/cache"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    name: Rebuild devices.json
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-pipeline.txt
+
+      - name: Install pipeline deps
+        run: pip install -r requirements-pipeline.txt
+
+      - name: Build devices.json
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force_fetch }}" = "false" ]; then
+            python -m scripts.pipeline.build
+          else
+            python -m scripts.pipeline.build --force-fetch
+          fi
+
+      - name: Detect changes
+        id: diff
+        run: |
+          if git diff --quiet -- examples/web/public/data/devices.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open pull request
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="chore/data-refresh-${{ github.run_id }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add examples/web/public/data/devices.json
+          git commit -m "chore(data): refresh devices.json from wiki"
+          git push -u origin "$BRANCH"
+          gh pr create \
+            --title "chore(data): refresh devices.json" \
+            --body "$(cat <<'EOF'
+          ## Summary
+          - Automated pipeline rebuild (`python -m scripts.pipeline.build --force-fetch`)
+          - Updates committed `examples/web/public/data/devices.json` for GitHub Pages
+
+          ## Test plan
+          - [ ] Schema validation already ran inside the pipeline build
+          - [ ] Spot-check a few devices in the table after Pages deploy
+          EOF
+          )"

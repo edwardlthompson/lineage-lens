@@ -1,7 +1,7 @@
 # Build Plan
 
 <!-- remaining-tally -->
-**Remaining:** AGENT 5 · LOCAL 5 · CLOUD 0 · AUTO 0 · HUMAN 1 · ADB 0 · **6 open**
+**Remaining:** AGENT 0 · LOCAL 0 · CLOUD 0 · AUTO 0 · HUMAN 1 · ADB 0 · **1 open**
 <!-- /remaining-tally -->
 
 Live board for a product repo. Finished work: [`COMPLETED_TASKS.md`](COMPLETED_TASKS.md).
@@ -56,40 +56,27 @@ Copy this shape when you add sprints: `### Sprint N — title`, then numbered ro
 
 ### Sprint 0 — Bootstrap & React foundation
 
-1. ✅ [AGENT][LOCAL] Write `AGENT.md` product brief; run `init-project.ps1` (web, prune) — scope: AGENT.md, scripts/
-2. ✅ [AGENT][LOCAL] Add React + TanStack Table + Recharts to `examples/web/` — scope: examples/web/
-3. ✅ [AGENT][LOCAL] Define Device TypeScript types + `schemas/device.schema.json` — scope: examples/web/src/types/, schemas/
-4. ✅ [HUMAN] Create GitHub repo + Pages (Actions); `setup-github-repo` when ready — scope: scripts/
-5. 🔲 [HUMAN] Optional: `/brand` product branding pass — scope: branding/
+> **Sprint 0–1 foundation** (done AGENT/AUTO/HUMAN setup) archived in COMPLETED_TASKS.md @ `2b7b06f`.
 
-### Sprint 1 — Data pipeline
+1. 🔲 [HUMAN] Optional: `/brand` product branding pass — scope: branding/
 
-1. ✅ [AGENT][LOCAL] Python pipeline: fetch/parse lineage_wiki YAMLs — scope: scripts/pipeline/
-2. ✅ [AGENT][LOCAL] Ingest `data/raw/camera_enrichment.csv`; merge on codename; emit `devices.json` — scope: scripts/pipeline/, examples/web/public/data/
-3. ✅ [AGENT][LOCAL] Minimal React table proving wiki↔CSV join — scope: examples/web/src/features/table/
-4. ✅ [AUTO] Validate devices.json against JSON Schema in CI/local — scope: schemas/, scripts/pipeline/
+> **Sprint 2 — Core table UX** archived in COMPLETED_TASKS.md @ `2b7b06f`.
 
-### Sprint 2 — Core table UX
+> **Sprint 3 — Charts** archived in COMPLETED_TASKS.md @ `2b7b06f`.
 
-1. 🔲 [AGENT][LOCAL] Multi-sort, column visibility, faceted filters, fuzzy search — scope: examples/web/src/features/table/
-2. 🔲 [AGENT][LOCAL] Shareable filter URLs + mobile responsive table — scope: examples/web/
+> **Sprint 4 — Comparison & scoring** archived in COMPLETED_TASKS.md @ `2b7b06f`.
 
-### Sprint 3 — Charts
+> **Sprint 5 — Polish & deploy** archived in COMPLETED_TASKS.md @ `2b7b06f`.
 
-1. 🔲 [AGENT][LOCAL] Sensor size distribution + year scatter; chart click → table filter — scope: examples/web/src/features/charts/
+> **Sprint 6 — Phone spec audit** archived in COMPLETED_TASKS.md @ `2b7b06f`.
 
-### Sprint 4 — Comparison & scoring
+> **Sprint 7 — Spec gap deep fill** archived in COMPLETED_TASKS.md @ `2b7b06f`.
 
-1. 🔲 [AGENT][LOCAL] Multi-select comparison + worth-buying signals + similar devices — scope: examples/web/
-
-### Sprint 5 — Polish & deploy
-
-1. 🔲 [AGENT][LOCAL] Device detail + About/methodology; GitHub Action data refresh — scope: examples/web/, .github/
-2. ✅ [HUMAN] Enable GitHub Pages (Actions source); smoke on phone — scope: repo settings
+> **Sprint 8 — Deep search remaining gaps** archived in COMPLETED_TASKS.md.
 
 ### Waiting on a person
 
-1. ✅ [HUMAN] Push first remote + enable Pages when ready
+_No items waiting on a person._
 
 ### Open PRs (synced)
 

@@ -337,7 +337,7 @@ describe("bootstrapApp", () => {
     expect(lastState().nav.stack).toEqual(["home", "about"]);
   });
 
-  it("in-app Close only history.back so popstate is the single pop", async () => {
+  it("in-app Close sync-pops nav and ignores the matching popstate", async () => {
     const root = document.createElement("div");
     bootstrapApp(root);
     await vi.waitFor(() => expect(handlers).toBeDefined());
@@ -346,7 +346,7 @@ describe("bootstrapApp", () => {
     const back = vi.spyOn(history, "back").mockImplementation(() => {});
     requireHandlers().onPop();
     expect(back).toHaveBeenCalledTimes(1);
-    expect(current(lastState().nav)).toBe("feedback");
+    expect(current(lastState().nav)).toBe("about");
     window.dispatchEvent(new PopStateEvent("popstate", { state: { gp: true, depth: 1 } }));
     expect(current(lastState().nav)).toBe("about");
   });

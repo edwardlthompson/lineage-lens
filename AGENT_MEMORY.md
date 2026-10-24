@@ -158,3 +158,32 @@ Golden Path Settings/About/Feedback are a route stack, not three booleans. Web H
 ### Retrospective — 2026-10-16 (v1.10.0 /ship)
 
 - M66 shape/preferences/commercial GP shipped; upd must not rewrite CodeQL `@v4` to `vcodeql-bundle-*`; About keyword echo only when `branding/product.json` mode is `product`; axe 4.14 needs accessible name ⊆ visible text on settings nav.
+
+### Retrospective — 2026-10-23 (Lineage Lens Sprint 2–3)
+
+- Table: multi-sort, column visibility, fuzzy search, shareable `?` URL state, mobile sticky cols; UX score + lens zebra sync; buying/market columns + presets; Recharts sensor/year charts filter the table. Prefer Git Bash over WSL1 for `feature-gate` npm. Large-file allowlist for `devices.json` + template splash PNGs.
+
+### Retrospective — 2026-10-23 (Lineage Lens Sprint 4)
+
+- CompareBar multi-select polish + `findSimilarDevices` (sensor diag / optics / zoom / year). File-limit splits for DeviceTable; skip `*.generated.ts` in file-limits. S4 smoked + archived; next is Sprint 5 device detail + About + data-refresh Action.
+
+### Retrospective — 2026-10-23 (Lineage Lens Sprint 5)
+
+- Device detail dialog + `?device=` (preserved across table URL sync); About methodology keywords; weekly `data-refresh.yml` PR workflow. AGENT board empty except optional HUMAN `/brand`.
+
+### Retrospective — 2026-10-24 (Lineage Lens Sprint 6)
+
+- Phone spec audit for all 645 phones under ranked sources (Settings → Sources). Maker wins; GSMArena can sole-fill gaps; global/NA/EU battery preferred. Charge catalog expanded; placeholder sensor labels cleared. Sprint smoked and archived.
+
+### Retrospective — 2026-10-24 (Lineage Lens Sprint 7)
+
+- Data column hidden by default; quality treats wiki `None` IP as unknown and was recomputed (`complete` ~208). Gap inventory in `docs/features/phone-spec-gap-fill.md`; fills via `sprint7_gap_fills.json` + apply script for 2026→2020 charge/refresh/IP/sensors. Pixels keep unnamed sensors; intentional blanks for `Q25`, `rtwo` charge, unpublished Motos IP. Sprint smoked and archived.
+
+### Retrospective — 2026-10-24 (Lineage Lens Sprint 8)
+
+- Verified Moto wired/wireless from maker/GSMArena; deep-filled 2015–2019 charge (~270 fill keys in `sprint8_gap_fills.json`). Split charge catalog into Modern/Legacy/Types (≤300 lines). Post-fill inventory: 2020+ gaps mostly unpublished IP + Pixel sensors; intentional charge blanks `Q25`/`pro1x`/`pyrite`. `hasWireless: false` = verified absent (no longer flagged unverified). Late research pass corrected miami 5W Qi, milanf 10W, xpeng 33W, nio 20W, bathena 20W, rtwo wireless 15W (wired blank NA/EU), griffin/parker no built-in Qi; removed unpublished-W Motos from catalog.
+
+### Retrospective — 2026-10-24 (partial→complete optics pass)
+
+- Camera enriched/complete no longer requires IP (camera-first; IP stays in Gaps). Expanded `sensor_catalog.json` for high-frequency part numbers; re-ran catalog + derived fills. Phone rows: ~213→**263 complete**, **381 partial** (of 645). Data column/stats show Complete/Partial from the filtered set.
+- Next pass: GSMArena FL/aperture/OIS overrides for model-complete stacks (`sprint9_optics_fills.json`) + catalog aliases → **288 complete / 356 partial** of 645.

@@ -1,3 +1,4 @@
+import { createMethodologySection } from "../about/methodologySection";
 import type { DonationConfig } from "../about/types";
 import { t } from "../i18n";
 
@@ -58,6 +59,7 @@ export function createAboutPanel(
     appGroup.append(applyBtn);
   }
   panel.append(appGroup);
+  panel.append(createMethodologySection());
 
   if (state.donations.enabled && state.donations.links.length > 0) {
     panel.append(supportGroup(state.donations));

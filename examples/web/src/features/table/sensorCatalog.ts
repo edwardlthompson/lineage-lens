@@ -5,12 +5,12 @@
 import {
   SENSOR_ALIASES,
   SENSOR_CATALOG,
-  TYPE1_MM,
   type SensorCatalogEntry,
+  TYPE1_MM,
 } from "./sensorCatalog.generated";
 
-export { TYPE1_MM };
 export type { SensorCatalogEntry };
+export { TYPE1_MM };
 
 function norm(model: string): string {
   return model.trim().toUpperCase().replace(/[\s-]/g, "");
@@ -51,6 +51,27 @@ export function pitchFromSensorModel(model: string | null | undefined): number |
 
 export function formatFromSensorModel(model: string | null | undefined): string | null {
   return lookupSensor(model)?.optical_format ?? null;
+}
+
+/** True when a displayed figure is the sensor-catalog value, not a phone-specific measurement. */
+export function valueMatchesSensorCatalog(
+  model: string | null | undefined,
+  kind: "pitch" | "diag" | "format",
+  value: number | string | null | undefined,
+): boolean {
+  if (value == null || value === "") return false;
+  const entry = lookupSensor(model);
+  if (!entry) return false;
+  if (kind === "pitch") {
+    return entry.pixel_pitch_um != null && Math.abs(Number(value) - entry.pixel_pitch_um) < 0.02;
+  }
+  if (kind === "format") {
+    const a = String(entry.optical_format ?? "").replace(/["\s]/g, "");
+    const b = String(value).replace(/["\s]/g, "");
+    return a !== "" && a === b;
+  }
+  const catalog = diagFromSensorModel(model);
+  return catalog != null && Math.abs(Number(value) - catalog) < 0.25;
 }
 
 /** Typical selfie optical format when only MP is known. */

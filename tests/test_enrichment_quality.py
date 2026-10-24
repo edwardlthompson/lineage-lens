@@ -88,9 +88,14 @@ def test_device_enriched_vs_complete():
     assert device_is_fully_complete(device)
     assert infer_quality(device) == "complete"
 
+    # IP is not required for camera enriched/complete (still shown in Gaps).
     device["waterproofing"] = None
-    assert not device_is_fully_enriched(device)
-    assert infer_quality(device) == "partial"
+    assert device_is_fully_enriched(device)
+    assert infer_quality(device) == "complete"
+
+    device["waterproofing"] = "None"
+    assert device_is_fully_enriched(device)
+    assert infer_quality(device) == "complete"
 
     device["waterproofing"] = "IP68"
     device["cameras"][0]["aperture"] = None
@@ -98,18 +103,32 @@ def test_device_enriched_vs_complete():
     assert "aperture" in camera_gap_fields(device["cameras"][0])
 
 
+def test_purged_sensor_model_is_not_complete():
+    """Sprint 6 cleared placeholder sensor names — stored complete must not stick."""
+    device = {
+        "cameras": [_cam(sensor_model=""), _cam(type="front", sensor_model="", ois=False, flash="None")],
+        "waterproofing": "IP68",
+        "video": {"4k": {"30": True}},
+        "provenance": {"quality": "complete"},
+    }
+    assert assign_provenance_quality(device) == "partial"
+    assert device["provenance"]["quality"] == "partial"
+
+
 def test_camera_less_handheld_can_be_complete():
     device = {
         "type": "handheld game console",
         "cameras": [],
         "soc": "Qualcomm QCS8550",
-        "waterproofing": "None",
+        "waterproofing": "IPX4",
         "provenance": {"quality": "wiki_only"},
     }
     assert infer_quality(device) == "complete"
     device["waterproofing"] = None
     assert infer_quality(device) == "wiki_only"
     device["waterproofing"] = "None"
+    assert infer_quality(device) == "wiki_only"
+    device["waterproofing"] = "IPX4"
     device["soc"] = None
     assert infer_quality(device) == "wiki_only"
 
@@ -119,7 +138,7 @@ def test_camera_less_stb_can_be_complete():
         "type": "set top box",
         "cameras": [],
         "soc": "Amlogic S905X4",
-        "waterproofing": "None",
+        "waterproofing": "IPX0",
         "provenance": {"quality": "wiki_only"},
     }
     assert infer_quality(device) == "complete"

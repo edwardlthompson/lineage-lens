@@ -1,4 +1,11 @@
-import type { CameraModule, VideoCapabilities } from "../../types/device";
+import type { CameraModule } from "../../types/device";
+
+export {
+  enabledFrameRates,
+  formatFpsList,
+  summarizeVideo,
+  videoFeatureFlags,
+} from "./videoCapsFormat";
 
 const TYPE_LABEL: Record<string, string> = {
   main: "Main",
@@ -95,7 +102,6 @@ export function formatCameraHardwareLine(cam: CameraModule): string {
   const flash = usableFlash(cam.flash);
   if (flash) parts.push(`${flash} flash`);
 
-  // Wiki rows: surface lens role when we lack deep geometry
   const role = lensRoleFromInfo(cam.info);
   if (role && cam.sensor_size_mm == null && !opt) {
     parts.unshift(role);
@@ -114,50 +120,4 @@ export function formatCameraHardwareLines(cam: CameraModule): string[] {
     .split(" · ")
     .map((s) => s.trim())
     .filter(Boolean);
-}
-
-/** fps keys that are numeric frame rates (ignore HDR flags). */
-export function enabledFrameRates(flags: Record<string, boolean | null> | undefined): number[] {
-  if (!flags) return [];
-  const rates: number[] = [];
-  for (const [key, on] of Object.entries(flags)) {
-    if (!on) continue;
-    if (!/^\d+$/.test(key)) continue;
-    rates.push(Number(key));
-  }
-  return rates.sort((a, b) => a - b);
-}
-
-export function videoFeatureFlags(flags: Record<string, boolean | null> | undefined): string[] {
-  if (!flags) return [];
-  const out: string[] = [];
-  for (const [key, on] of Object.entries(flags)) {
-    if (!on) continue;
-    if (/^\d+$/.test(key)) continue;
-    out.push(key);
-  }
-  return out;
-}
-
-export function formatFpsList(rates: number[]): string {
-  if (rates.length === 0) return "—";
-  return rates.map((r) => `${r}`).join("/") + " fps";
-}
-
-export function summarizeVideo(video: VideoCapabilities | null | undefined): {
-  p1080: string;
-  p4k: string;
-  features: string[];
-} {
-  if (!video) {
-    return { p1080: "—", p4k: "—", features: [] };
-  }
-  const f1080 = enabledFrameRates(video["1080p"]);
-  const f4k = enabledFrameRates(video["4k"]);
-  const features = [...videoFeatureFlags(video["1080p"]), ...videoFeatureFlags(video["4k"])];
-  return {
-    p1080: f1080.length ? `1080p @ ${formatFpsList(f1080)}` : "1080p —",
-    p4k: f4k.length ? `4K @ ${formatFpsList(f4k)}` : "4K —",
-    features,
-  };
 }

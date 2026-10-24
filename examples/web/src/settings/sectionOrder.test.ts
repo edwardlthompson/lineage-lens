@@ -9,12 +9,13 @@ describe("settings section order", () => {
     localStorage.clear();
   });
 
-  it("locks appearance → privacy → data → faq → about", () => {
+  it("locks appearance → privacy → data → faq → sources → about", () => {
     expect([...SETTINGS_SECTION_ORDER]).toEqual([
       "appearance",
       "privacy",
       "data",
       "faq",
+      "sources",
       "about",
     ]);
     const panel = createSettingsPanel({ onClose: () => undefined });
@@ -27,11 +28,13 @@ describe("settings section order", () => {
     const privacyAt = joined.indexOf("Privacy");
     const dataAt = joined.indexOf("Data");
     const faqAt = joined.indexOf("FAQ");
+    const sourcesAt = joined.indexOf("Sources");
     const aboutAt = joined.indexOf("About");
     expect(appearanceAt).toBeGreaterThanOrEqual(0);
     expect(privacyAt).toBeGreaterThan(appearanceAt);
     expect(dataAt).toBeGreaterThan(privacyAt);
     expect(faqAt).toBeGreaterThan(dataAt);
-    expect(aboutAt).toBeGreaterThan(faqAt);
+    expect(sourcesAt).toBeGreaterThan(faqAt);
+    expect(aboutAt).toBeGreaterThan(sourcesAt);
   });
 });

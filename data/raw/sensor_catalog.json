@@ -8,11 +8,14 @@
       "diag_mm": 15.86,
       "pixel_pitch_um": 1.6,
       "mp": 50.3,
-      "notes": "1\" type; 0.8\u00b5m native / 1.6\u00b5m Quad Bayer binned",
+      "notes": "1\" type; 0.8µm native / 1.6µm Quad Bayer binned",
       "sources": [
         "sony-module-listings",
         "press"
-      ]
+      ],
+      "dcg": true,
+      "max_readout_mbps": 2400,
+      "feature_notes": "1\" Quad Bayer; dual conversion gain"
     },
     "IMX766": {
       "vendor": "Sony",
@@ -22,7 +25,9 @@
       "mp": 50.3,
       "sources": [
         "https://commonlands.com/pages/image-sensors/imx766"
-      ]
+      ],
+      "dcg": true,
+      "feature_notes": "DCG capable"
     },
     "IMX890": {
       "vendor": "Sony",
@@ -32,7 +37,9 @@
       "mp": 50.0,
       "sources": [
         "oem-listings"
-      ]
+      ],
+      "dcg": true,
+      "feature_notes": "DCG capable"
     },
     "IMX686": {
       "vendor": "Sony",
@@ -304,7 +311,9 @@
       "mp": 50.0,
       "sources": [
         "pixel9-oem"
-      ]
+      ],
+      "dcg": true,
+      "feature_notes": "DCG capable"
     },
     "IMX789": {
       "vendor": "Sony",
@@ -314,7 +323,9 @@
       "mp": 48.0,
       "sources": [
         "oneplus9pro"
-      ]
+      ],
+      "dcg": true,
+      "feature_notes": "DCG capable"
     },
     "IMX709": {
       "vendor": "Sony",
@@ -404,7 +415,9 @@
       ],
       "sources": [
         "https://en.wikipedia.org/wiki/ISOCELL"
-      ]
+      ],
+      "dcg": true,
+      "feature_notes": "Dual Tetra / DCG class"
     },
     "S5KHP2": {
       "vendor": "Samsung",
@@ -418,7 +431,8 @@
       ],
       "sources": [
         "https://en.wikipedia.org/wiki/ISOCELL"
-      ]
+      ],
+      "dcg": true
     },
     "HPX": {
       "vendor": "Samsung",
@@ -460,7 +474,9 @@
       ],
       "sources": [
         "https://en.wikipedia.org/wiki/ISOCELL"
-      ]
+      ],
+      "dcg": true,
+      "feature_notes": "Dual Tetra / DCG class"
     },
     "S5KHP3": {
       "vendor": "Samsung",
@@ -474,7 +490,8 @@
       ],
       "sources": [
         "https://en.wikipedia.org/wiki/ISOCELL"
-      ]
+      ],
+      "dcg": true
     },
     "HP1": {
       "vendor": "Samsung",
@@ -768,7 +785,9 @@
       ],
       "sources": [
         "https://en.wikipedia.org/wiki/ISOCELL"
-      ]
+      ],
+      "dcg": true,
+      "feature_notes": "Smart-ISO / DCG"
     },
     "S5KGN5": {
       "vendor": "Samsung",
@@ -782,7 +801,9 @@
       ],
       "sources": [
         "https://en.wikipedia.org/wiki/ISOCELL"
-      ]
+      ],
+      "dcg": true,
+      "feature_notes": "alias GN5"
     },
     "GN3": {
       "vendor": "Samsung",
@@ -824,7 +845,10 @@
       ],
       "sources": [
         "https://en.wikipedia.org/wiki/ISOCELL"
-      ]
+      ],
+      "dcg": true,
+      "max_readout_mbps": 2200,
+      "feature_notes": "Smart-ISO Pro / DCG"
     },
     "S5KGN2": {
       "vendor": "Samsung",
@@ -838,7 +862,9 @@
       ],
       "sources": [
         "https://en.wikipedia.org/wiki/ISOCELL"
-      ]
+      ],
+      "dcg": true,
+      "feature_notes": "alias GN2"
     },
     "GN1": {
       "vendor": "Samsung",
@@ -852,7 +878,9 @@
       ],
       "sources": [
         "https://en.wikipedia.org/wiki/ISOCELL"
-      ]
+      ],
+      "dcg": true,
+      "feature_notes": "Smart-ISO / DCG"
     },
     "S5KGN1": {
       "vendor": "Samsung",
@@ -866,7 +894,9 @@
       ],
       "sources": [
         "https://en.wikipedia.org/wiki/ISOCELL"
-      ]
+      ],
+      "dcg": true,
+      "feature_notes": "alias GN1"
     },
     "JN1": {
       "vendor": "Samsung",
@@ -1722,6 +1752,489 @@
         "https://en.wikipedia.org/wiki/ISOCELL"
       ],
       "role_hint": "front"
+    },
+    "IMX906": {
+      "vendor": "Sony",
+      "optical_format": "1/1.56",
+      "diag_mm": 10.26,
+      "pixel_pitch_um": 1.0,
+      "mp": 50.0,
+      "dcg": true,
+      "feature_notes": "LYT-700 twin; DCG",
+      "sources": [
+        "press"
+      ]
+    },
+    "LYT700": {
+      "vendor": "Sony",
+      "optical_format": "1/1.56",
+      "diag_mm": 10.26,
+      "pixel_pitch_um": 1.0,
+      "mp": 50.0,
+      "dcg": true,
+      "feature_notes": "Sony LYTIA; DCG",
+      "sources": [
+        "press"
+      ]
+    },
+    "LYT808": {
+      "vendor": "Sony",
+      "optical_format": "1/1.4",
+      "diag_mm": 11.43,
+      "pixel_pitch_um": 1.12,
+      "mp": 50.0,
+      "dcg": true,
+      "max_readout_mbps": 2800,
+      "feature_notes": "Large LYTIA; DCG",
+      "sources": [
+        "press"
+      ]
+    },
+    "LYT600": {
+      "vendor": "Sony",
+      "optical_format": "1/1.95",
+      "diag_mm": 8.21,
+      "pixel_pitch_um": 0.8,
+      "mp": 50.0,
+      "dcg": true,
+      "feature_notes": "Tele LYTIA; DCG",
+      "sources": [
+        "press"
+      ]
+    },
+    "IMX700": {
+      "vendor": "Sony",
+      "optical_format": "1/1.31",
+      "diag_mm": 12.2,
+      "pixel_pitch_um": 1.2,
+      "mp": 50.0,
+      "dcg": true,
+      "feature_notes": "GN1-class; DCG",
+      "sources": [
+        "press"
+      ]
+    },
+    "OV50E": {
+      "vendor": "OmniVision",
+      "optical_format": "1/1.55",
+      "diag_mm": 10.3,
+      "pixel_pitch_um": 1.0,
+      "mp": 50.0,
+      "dcg": true,
+      "feature_notes": "LOFIC / DCG-class",
+      "sources": [
+        "press"
+      ]
+    },
+    "OV50H": {
+      "vendor": "OmniVision",
+      "optical_format": "1/1.3",
+      "diag_mm": 12.3,
+      "pixel_pitch_um": 1.2,
+      "mp": 50.0,
+      "dcg": true,
+      "feature_notes": "TheiaCel / DCG-class",
+      "sources": [
+        "press"
+      ]
+    },
+    "OV02B10": {
+      "vendor": "OmniVision",
+      "optical_format": "1/5.0",
+      "diag_mm": 3.2,
+      "pixel_pitch_um": 1.75,
+      "mp": 2.0,
+      "role_hint": "macro",
+      "sources": [
+        "https://www.omnivision-group.com/files/pd/file/OV02B-PB-v1.2-WEB.pdf"
+      ]
+    },
+    "GC02M1": {
+      "vendor": "GalaxyCore",
+      "optical_format": "1/5.0",
+      "diag_mm": 3.2,
+      "pixel_pitch_um": 1.75,
+      "mp": 2.0,
+      "role_hint": "macro",
+      "sources": [
+        "https://en.gcoreinc.com/products"
+      ]
+    },
+    "OV8856": {
+      "vendor": "OmniVision",
+      "optical_format": "1/4.0",
+      "diag_mm": 4.0,
+      "pixel_pitch_um": 1.12,
+      "mp": 8.0,
+      "role_hint": "ultrawide",
+      "sources": [
+        "oem-listings",
+        "GSMArena module strings"
+      ]
+    },
+    "OV02A10": {
+      "vendor": "OmniVision",
+      "optical_format": "1/5.0",
+      "diag_mm": 3.2,
+      "pixel_pitch_um": 1.75,
+      "mp": 2.0,
+      "role_hint": "macro",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "OV08A10": {
+      "vendor": "OmniVision",
+      "optical_format": "1/4.0",
+      "diag_mm": 4.0,
+      "pixel_pitch_um": 1.12,
+      "mp": 8.0,
+      "role_hint": "ultrawide",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX582": {
+      "vendor": "Sony",
+      "optical_format": "1/2.0",
+      "diag_mm": 8.0,
+      "pixel_pitch_um": 0.8,
+      "mp": 48.0,
+      "sources": [
+        "sony-module-listings"
+      ]
+    },
+    "IMX351": {
+      "vendor": "Sony",
+      "optical_format": "1/2.8",
+      "diag_mm": 5.7143,
+      "pixel_pitch_um": 1.12,
+      "mp": 16.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX351W": {
+      "vendor": "Sony",
+      "optical_format": "1/2.8",
+      "diag_mm": 5.7143,
+      "pixel_pitch_um": 1.12,
+      "mp": 16.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX351N": {
+      "vendor": "Sony",
+      "optical_format": "1/2.8",
+      "diag_mm": 5.7143,
+      "pixel_pitch_um": 1.12,
+      "mp": 16.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX682": {
+      "vendor": "Sony",
+      "optical_format": "1/1.73",
+      "diag_mm": 9.2486,
+      "pixel_pitch_um": 0.8,
+      "mp": 64.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX663": {
+      "vendor": "Sony",
+      "optical_format": "1/2.74",
+      "diag_mm": 5.8394,
+      "pixel_pitch_um": 0.8,
+      "mp": 32.0,
+      "role_hint": "telephoto",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX615": {
+      "vendor": "Sony",
+      "optical_format": "1/2.74",
+      "diag_mm": 5.8394,
+      "pixel_pitch_um": 0.8,
+      "mp": 32.0,
+      "role_hint": "front",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX486": {
+      "vendor": "Sony",
+      "optical_format": "1/2.9",
+      "diag_mm": 5.5172,
+      "pixel_pitch_um": 1.25,
+      "mp": 12.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX376": {
+      "vendor": "Sony",
+      "optical_format": "1/2.78",
+      "diag_mm": 5.7554,
+      "pixel_pitch_um": 1.0,
+      "mp": 20.0,
+      "role_hint": "front",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX376K": {
+      "vendor": "Sony",
+      "optical_format": "1/2.78",
+      "diag_mm": 5.7554,
+      "pixel_pitch_um": 1.0,
+      "mp": 20.0,
+      "role_hint": "front",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX350": {
+      "vendor": "Sony",
+      "optical_format": "1/2.55",
+      "diag_mm": 6.2745,
+      "pixel_pitch_um": 1.22,
+      "mp": 20.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "S5K3M5": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.4",
+      "diag_mm": 4.7059,
+      "pixel_pitch_um": 1.0,
+      "mp": 12.0,
+      "role_hint": "telephoto",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "S5K3L6": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.1",
+      "diag_mm": 5.1613,
+      "pixel_pitch_um": 1.12,
+      "mp": 13.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "S5K3P9SP": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.1",
+      "diag_mm": 5.1613,
+      "pixel_pitch_um": 1.0,
+      "mp": 16.0,
+      "role_hint": "front",
+      "sources": [
+        "oem-listings",
+        "alias of S5K3P9 family"
+      ]
+    },
+    "OV13B10": {
+      "vendor": "OmniVision",
+      "optical_format": "1/3.06",
+      "diag_mm": 5.2288,
+      "pixel_pitch_um": 1.12,
+      "mp": 13.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX333": {
+      "vendor": "Sony",
+      "optical_format": "1/2.78",
+      "diag_mm": 5.7554,
+      "pixel_pitch_um": 1.0,
+      "mp": 20.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX241": {
+      "vendor": "Sony",
+      "optical_format": "1/5.0",
+      "diag_mm": 3.2,
+      "pixel_pitch_um": 1.12,
+      "mp": 5.0,
+      "role_hint": "front",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX520": {
+      "vendor": "Sony",
+      "optical_format": "1/4.0",
+      "diag_mm": 4.0,
+      "pixel_pitch_um": 1.4,
+      "mp": 8.0,
+      "role_hint": "front",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "S5K3M3": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.4",
+      "diag_mm": 4.7059,
+      "pixel_pitch_um": 1.0,
+      "mp": 12.0,
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "S5K5E8": {
+      "vendor": "Samsung",
+      "optical_format": "1/5.0",
+      "diag_mm": 3.2,
+      "pixel_pitch_um": 1.12,
+      "mp": 5.0,
+      "role_hint": "depth",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "HI05BN1": {
+      "vendor": "Sony",
+      "optical_format": "1/2.3",
+      "diag_mm": 6.9565,
+      "pixel_pitch_um": 1.22,
+      "mp": 19.0,
+      "notes": "XZ2 Motion Eye IMX400-class",
+      "sources": [
+        "GSMArena Xperia XZ2"
+      ]
+    },
+    "IMX363N": {
+      "vendor": "Sony",
+      "optical_format": "1/2.55",
+      "diag_mm": 6.2745,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.0,
+      "sources": [
+        "oem-listings",
+        "IMX363 family"
+      ]
+    },
+    "IMX363N2": {
+      "vendor": "Sony",
+      "optical_format": "1/3.1",
+      "diag_mm": 5.1613,
+      "pixel_pitch_um": 1.0,
+      "mp": 16.0,
+      "role_hint": "ultrawide",
+      "sources": [
+        "oem-listings"
+      ]
+    },
+    "IMX519": {
+      "vendor": "Sony",
+      "optical_format": "1/2.6",
+      "diag_mm": 6.1538,
+      "pixel_pitch_um": 1.22,
+      "mp": 16.0,
+      "sources": [
+        "OnePlus 6 official specs",
+        "GSMArena"
+      ]
+    },
+    "IMX371": {
+      "vendor": "Sony",
+      "optical_format": "1/3.06",
+      "diag_mm": 5.2288,
+      "pixel_pitch_um": 1.0,
+      "mp": 16.0,
+      "role_hint": "front",
+      "sources": [
+        "OnePlus 6 official specs"
+      ]
+    },
+    "S5KJN5": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.76",
+      "diag_mm": 5.7971,
+      "pixel_pitch_um": 0.64,
+      "mp": 50.0,
+      "aliases": [
+        "JN5",
+        "S5KJN5"
+      ],
+      "sources": [
+        "GSMArena OnePlus 13R review"
+      ]
+    },
+    "IMX386": {
+      "vendor": "Sony",
+      "optical_format": "1/2.9",
+      "diag_mm": 5.5172,
+      "pixel_pitch_um": 1.25,
+      "mp": 12.0,
+      "sources": [
+        "Sony / Xiaomi Mi 6 listings"
+      ]
+    },
+    "IMX268": {
+      "vendor": "Sony",
+      "optical_format": "1/3.2",
+      "diag_mm": 5.0,
+      "pixel_pitch_um": 1.4,
+      "mp": 8.0,
+      "role_hint": "front",
+      "sources": [
+        "Xiaomi Mi 6 front listings"
+      ]
+    },
+    "IMX576": {
+      "vendor": "Sony",
+      "optical_format": "1/2.8",
+      "diag_mm": 5.7143,
+      "pixel_pitch_um": 0.9,
+      "mp": 24.0,
+      "role_hint": "front",
+      "sources": [
+        "mi.com Mi 8 Lite"
+      ]
+    },
+    "IMX219": {
+      "vendor": "Sony",
+      "optical_format": "1/4.0",
+      "diag_mm": 4.0,
+      "pixel_pitch_um": 1.12,
+      "mp": 8.0,
+      "role_hint": "front",
+      "sources": [
+        "Sony XA2 / kernel camss"
+      ]
+    },
+    "IMX300": {
+      "vendor": "Sony",
+      "optical_format": "1/2.3",
+      "diag_mm": 6.9565,
+      "pixel_pitch_um": 1.12,
+      "mp": 23.0,
+      "sources": [
+        "Sony Motion Eye / XA2"
+      ]
+    },
+    "OV12A10": {
+      "vendor": "OmniVision",
+      "optical_format": "1/2.9",
+      "diag_mm": 5.5172,
+      "pixel_pitch_um": 1.25,
+      "mp": 12.0,
+      "sources": [
+        "Mi A1 / OEM listings"
+      ]
     }
   },
   "aliases": {
@@ -1826,6 +2339,44 @@
     "4H7": "S5K4H7",
     "S5K4H7": "S5K4H7",
     "I": "S5KI",
-    "S5KI": "S5KI"
+    "S5KI": "S5KI",
+    "LYT-700": "LYT700",
+    "LYT-808": "LYT808",
+    "LYT-600": "LYT600",
+    "OV02B10": "OV02B10",
+    "GC02M1": "GC02M1",
+    "S5K3P9SP": "S5K3P9SP",
+    "IMX351W": "IMX351W",
+    "IMX351N": "IMX351N",
+    "IMX376K": "IMX376K",
+    "IMX333": "IMX333",
+    "IMX241": "IMX241",
+    "IMX520": "IMX520",
+    "S5K3M3": "S5K3M3",
+    "S5K5E8": "S5K5E8",
+    "HI05BN1": "HI05BN1",
+    "IMX363N": "IMX363N",
+    "IMX363N2": "IMX363N2",
+    "S5K3M3SN03": "S5K3M3",
+    "S5K5E8YX": "S5K5E8",
+    "S5KGD1SP": "S5KGD1",
+    "S5K3M5T": "S5K3M5",
+    "S5K3M5TB": "S5K3M5",
+    "JN5": "S5KJN5",
+    "S5KJN5": "S5KJN5",
+    "IMX519": "IMX519",
+    "IMX371": "IMX371",
+    "S5K3T1SP": "S5K3T1",
+    "IMX376OTP": "IMX376",
+    "IMX486VCM": "IMX486",
+    "IMX386": "IMX386",
+    "IMX268": "IMX268",
+    "IMX576": "IMX576",
+    "IMX219": "IMX219",
+    "IMX300": "IMX300",
+    "OV12A10": "OV12A10",
+    "S5K2M8SX": "S5K2M8",
+    "IMX258TUNED": "IMX258",
+    "IMX519FRONT": "IMX519"
   }
 }

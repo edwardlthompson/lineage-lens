@@ -1,0 +1,418 @@
+{
+  "_meta": {
+    "note": "One-hole / mislabeled stacks → complete; maker+GSMArena; include structured video",
+    "skip": "Pixels unnamed fronts; hotdogb tele PN; Nubia IMX000; depth-only without PN"
+  },
+  "sagit": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX386",
+        "mp": 12,
+        "focal_length_mm": 27,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/2.9",
+        "pixel_pitch_um": 1.25,
+        "info": "12 MP wide OIS (IMX386)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3M3",
+        "mp": 12,
+        "focal_length_mm": 52,
+        "aperture": 2.6,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/3.4",
+        "pixel_pitch_um": 1.0,
+        "info": "12 MP 2x tele (S5K3M3)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX268",
+        "mp": 8,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.2",
+        "pixel_pitch_um": 1.4,
+        "info": "8 MP selfie (IMX268)"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true }, "720p": { "120": true } },
+    "sources": ["elecfans/teardown IMX386+S5K3M3+IMX268", "GSMArena Mi 6"]
+  },
+  "tissot": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "OV12A10",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/2.9",
+        "pixel_pitch_um": 1.25,
+        "info": "12 MP wide"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3M3",
+        "mp": 12,
+        "focal_length_mm": 50,
+        "aperture": 2.6,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/3.4",
+        "pixel_pitch_um": 1.0,
+        "info": "12 MP 2x tele"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K5E8",
+        "mp": 5,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "5 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true }, "720p": { "120": true } },
+    "sources": ["GSMArena Mi A1"]
+  },
+  "jason": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX386",
+        "mp": 12,
+        "focal_length_mm": 27,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/2.9",
+        "pixel_pitch_um": 1.25,
+        "info": "12 MP wide OIS (IMX386)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3M3",
+        "mp": 12,
+        "focal_length_mm": 52,
+        "aperture": 2.6,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED dual-tone",
+        "optical_format": "1/3.4",
+        "pixel_pitch_um": 1.0,
+        "info": "12 MP 2x tele (S5K3M3)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3P3",
+        "mp": 16,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "16 MP selfie (S5K3P3)"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true }, "720p": { "120": true } },
+    "sources": ["mi.com Mi Note 3", "XiaomiWiki jason"]
+  },
+  "platina": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "info": "12 MP wide (IMX363)"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "S5K5E8",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "info": "5 MP depth (S5K5E8)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX576",
+        "mp": 24,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 0.9,
+        "info": "24 MP selfie (IMX576)"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "60": true, "120": true } },
+    "sources": ["mi.com Mi 8 Lite specs", "GSMArena Mi 8 Lite"]
+  },
+  "xmsirius": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.9,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "info": "12 MP wide (IMX363)"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "S5K5E8",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "info": "5 MP depth (S5K5E8)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX333",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "120": true } },
+    "sources": ["GSMArena Mi 8 SE (same depth stack as Lite)"]
+  },
+  "trident": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "info": "12 MP wide OIS (IMX363)"
+      },
+      {
+        "type": "other",
+        "sensor_model": "IMX350",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 1.75,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.0,
+        "info": "20 MP secondary (IMX350)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX376",
+        "mp": 24,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "24 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "120": true } },
+    "sources": ["smartisan.com R1 specs", "GSMArena Smartisan R1"]
+  },
+  "pioneer": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX300",
+        "mp": 23,
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.3",
+        "pixel_pitch_um": 1.12,
+        "info": "23 MP wide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX219",
+        "mp": 8,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "fov_deg": 120,
+        "info": "8 MP selfie (IMX219)"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true } },
+    "sources": ["Sony XA2 specs", "kernel camss IMX219"]
+  },
+  "voyager": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX300",
+        "mp": 23,
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.3",
+        "pixel_pitch_um": 1.12,
+        "info": "23 MP wide"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX219",
+        "mp": 8,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "info": "8 MP selfie (IMX219)"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true } },
+    "sources": ["GSMArena Xperia XA2 Plus"]
+  },
+  "grus": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.75,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8,
+        "info": "48 MP wide (IMX586)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "OV8856",
+        "mp": 8,
+        "focal_length_mm": 50,
+        "aperture": 2.4,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "info": "8 MP 2x tele (OV8856)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "S5K3L6",
+        "mp": 13,
+        "focal_length_mm": 15,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.1",
+        "pixel_pitch_um": 1.12,
+        "fov_deg": 124.8,
+        "info": "13 MP ultrawide (S5K3L6)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5K3T1",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "60": true, "120": true }, "720p": { "960": true } },
+    "sources": ["mi.com Mi 9 SE specs OV8856+S5K3L6", "GSMArena Mi 9 SE"]
+  },
+  "vela": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8,
+        "info": "48 MP wide"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "OV8856",
+        "mp": 8,
+        "focal_length_mm": 13,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "info": "8 MP ultrawide"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "OV02A10",
+        "mp": 2,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "LED",
+        "info": "2 MP depth"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5KGD1",
+        "mp": 32,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "32 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "60": true, "120": true } },
+    "sources": ["GSMArena Mi CC9 / Meitu Edition"]
+  }
+}

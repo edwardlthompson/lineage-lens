@@ -19,7 +19,16 @@ def main() -> int:
     for key, entry in sensors.items():
         compact[key] = {
             k: entry[k]
-            for k in ("optical_format", "diag_mm", "pixel_pitch_um", "mp", "role_hint")
+            for k in (
+                "optical_format",
+                "diag_mm",
+                "pixel_pitch_um",
+                "mp",
+                "role_hint",
+                "dcg",
+                "max_readout_mbps",
+                "feature_notes",
+            )
             if entry.get(k) is not None
         }
     aliases = data.get("aliases") or {}
@@ -31,6 +40,9 @@ def main() -> int:
         "  pixel_pitch_um?: number;\n"
         "  mp?: number;\n"
         "  role_hint?: string;\n"
+        "  dcg?: boolean;\n"
+        "  max_readout_mbps?: number;\n"
+        "  feature_notes?: string;\n"
         "};\n\n"
         f"export const TYPE1_MM = {data.get('type1_mm', 16)};\n\n"
         f"export const SENSOR_CATALOG: Record<string, SensorCatalogEntry> = {json.dumps(compact, indent=2)};\n\n"

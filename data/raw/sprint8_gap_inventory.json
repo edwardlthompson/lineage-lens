@@ -1,0 +1,4836 @@
+{
+  "protocol": "docs/features/phone-spec-audit.md ranks 1-4; global/NA/EU battery; no invented watts",
+  "counts": {
+    "2020_plus_unique_with_gaps": 38,
+    "2015_2019_unique_with_gaps": 240,
+    "2020_plus_by_flag": {
+      "sensor": 4,
+      "quality": 36,
+      "any": 38,
+      "charge_missing": 4,
+      "refresh": 1,
+      "ip": 32,
+      "charge_wired_null": 1,
+      "motorola": 15
+    },
+    "2015_2019_by_flag": {
+      "ip": 161,
+      "sensor": 236,
+      "quality": 240,
+      "any": 240,
+      "refresh": 151,
+      "wireless_watts_missing": 7,
+      "motorola": 30,
+      "charge_missing": 45
+    }
+  },
+  "2020_plus": [
+    {
+      "codename": "stallion",
+      "name": "Pixel 10a",
+      "vendor": "Google",
+      "year": 2026,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model; ultrawide:sensor_model; front:sensor_model",
+      "charge_now": {
+        "wired": 30.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "Q25",
+      "name": "Q25 Pro",
+      "vendor": "Zinwa",
+      "year": 2025,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "quality"
+      ],
+      "quality": "partial"
+    },
+    {
+      "codename": "giulia",
+      "name": "13R",
+      "vendor": "OnePlus",
+      "year": 2025,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "ultrawide:sensor_model; front:sensor_model",
+      "charge_now": {
+        "wired": 80.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "akita",
+      "name": "Pixel 8a",
+      "vendor": "Google",
+      "year": 2024,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model; ultrawide:sensor_model; front:sensor_model",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 7.5,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "rtwo",
+      "name": "edge 40 pro",
+      "vendor": "Motorola",
+      "year": 2023,
+      "gaps": [
+        "charge_wired_null"
+      ],
+      "quality": "complete",
+      "charge_now": {
+        "wired": null,
+        "wireless": 15.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "nuwa",
+      "name": "13 Pro",
+      "vendor": "Xiaomi",
+      "year": 2022,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "front:sensor_model",
+      "charge_now": {
+        "wired": 120.0,
+        "wireless": 50.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "oscarc",
+      "name": "Q5",
+      "vendor": "Realme",
+      "year": 2022,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 60.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "oscarru",
+      "name": "9 5G",
+      "vendor": "Realme",
+      "year": 2022,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "pro1x",
+      "name": "Pro¹ X",
+      "vendor": "F(x)tec",
+      "year": 2022,
+      "gaps": [
+        "charge_missing",
+        "ip",
+        "quality"
+      ],
+      "quality": "partial"
+    },
+    {
+      "codename": "pyrite",
+      "name": "OV1",
+      "vendor": "OSOM",
+      "year": 2022,
+      "gaps": [
+        "charge_missing"
+      ],
+      "quality": "complete"
+    },
+    {
+      "codename": "borneo",
+      "name": "moto g power 2021",
+      "vendor": "Motorola",
+      "year": 2021,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "capri",
+      "name": "moto g10",
+      "vendor": "Motorola",
+      "year": 2021,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "caprip",
+      "name": "moto g30",
+      "vendor": "Motorola",
+      "year": 2021,
+      "gaps": [
+        "charge_missing",
+        "ip",
+        "quality"
+      ],
+      "quality": "partial"
+    },
+    {
+      "codename": "denver",
+      "name": "moto g stylus 5G",
+      "vendor": "Motorola",
+      "year": 2021,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "dre",
+      "name": "Nord N200",
+      "vendor": "OnePlus",
+      "year": 2021,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "ellis",
+      "name": "moto g pure",
+      "vendor": "Motorola",
+      "year": 2021,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "f62",
+      "name": "Galaxy F62",
+      "vendor": "Samsung",
+      "year": 2021,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 25.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "guamna",
+      "name": "moto g play (2021)",
+      "vendor": "Motorola",
+      "year": 2021,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "ibiza",
+      "name": "moto g50",
+      "vendor": "Motorola",
+      "year": 2021,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "nio",
+      "name": "edge s",
+      "vendor": "Motorola",
+      "year": 2021,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 20.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "a21s",
+      "name": "Galaxy A21s",
+      "vendor": "Samsung",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "avicii",
+      "name": "Nord",
+      "vendor": "OnePlus",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 30.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "axolotl",
+      "name": "SHIFT6mq",
+      "vendor": "SHIFT",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "billie",
+      "name": "Nord N10",
+      "vendor": "OnePlus",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 30.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "bramble",
+      "name": "Pixel 4a 5G",
+      "vendor": "Google",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "casuarina",
+      "name": "Joy 3",
+      "vendor": "Vsmart",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "cebu",
+      "name": "moto g9 power",
+      "vendor": "Motorola",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 20.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "guam",
+      "name": "moto e7 plus",
+      "vendor": "Motorola",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "guamp",
+      "name": "moto g9 play",
+      "vendor": "Motorola",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "kiev",
+      "name": "moto g 5G",
+      "vendor": "Motorola",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 20.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "lancelot",
+      "name": "Redmi 9",
+      "vendor": "Xiaomi",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "merlinx",
+      "name": "Redmi Note 9",
+      "vendor": "Xiaomi",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "monet",
+      "name": "Mi 10 Lite 5G",
+      "vendor": "Xiaomi",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 33.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "nairo",
+      "name": "moto g 5G plus",
+      "vendor": "Motorola",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 20.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "nx651j",
+      "name": "Play 5G",
+      "vendor": "Nubia",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 30.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "racer",
+      "name": "edge",
+      "vendor": "Motorola",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "style3lm",
+      "name": "Style3",
+      "vendor": "LG",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "sunfish",
+      "name": "Pixel 4a",
+      "vendor": "Google",
+      "year": 2020,
+      "gaps": [
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    }
+  ],
+  "2015_2019": [
+    {
+      "codename": "FP3",
+      "name": "3",
+      "vendor": "Fairphone",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "I001D",
+      "name": "ROG Phone 2 (ZS660KL)",
+      "vendor": "ASUS",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 30.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "I01WD",
+      "name": "Zenfone 6 (ZS630KL)",
+      "vendor": "ASUS",
+      "year": 2019,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "Mi439",
+      "name": "Redmi 7A",
+      "vendor": "Xiaomi",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "RMX1851",
+      "name": "3 Pro",
+      "vendor": "Realme",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 20.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "TP1803",
+      "name": "Mini 5G",
+      "vendor": "Nubia",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "alphaplus",
+      "name": "G8 ThinQ (Korea)",
+      "vendor": "LG",
+      "year": 2019,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:size,focal_length_mm,aperture,pixel_pitch_um; other:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 21.0,
+        "wireless": 9.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "betalm",
+      "name": "G8s ThinQ",
+      "vendor": "LG",
+      "year": 2019,
+      "gaps": [
+        "wireless_watts_missing",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:size,focal_length_mm,aperture,pixel_pitch_um; other:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "beyond0lte",
+      "name": "Galaxy S10e",
+      "vendor": "Samsung",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": 15.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "beyond1lte",
+      "name": "Galaxy S10",
+      "vendor": "Samsung",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; telephoto:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": 15.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "beyond2lte",
+      "name": "Galaxy S10+",
+      "vendor": "Samsung",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; telephoto:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um; depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": 15.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "beyondx",
+      "name": "Galaxy S10 5G",
+      "vendor": "Samsung",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; telephoto:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 25.0,
+        "wireless": 15.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "bonito",
+      "name": "Pixel 3a XL",
+      "vendor": "Google",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "channel",
+      "name": "moto g7 play",
+      "vendor": "Motorola",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "d1",
+      "name": "Galaxy Note10",
+      "vendor": "Samsung",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; telephoto:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 25.0,
+        "wireless": 12.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "d1x",
+      "name": "Galaxy Note10 5G",
+      "vendor": "Samsung",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; telephoto:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 25.0,
+        "wireless": 12.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "d2s",
+      "name": "Galaxy Note10+",
+      "vendor": "Samsung",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; telephoto:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 45.0,
+        "wireless": 15.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "d2x",
+      "name": "Galaxy Note10+ 5G",
+      "vendor": "Samsung",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; telephoto:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 45.0,
+        "wireless": 15.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "davinci",
+      "name": "Mi 9T",
+      "vendor": "Xiaomi",
+      "year": 2019,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; telephoto:size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 27.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "flashlmdd",
+      "name": "V50 ThinQ",
+      "vendor": "LG",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:size,focal_length_mm,aperture,pixel_pitch_um; other:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "ginkgo",
+      "name": "Redmi Note 8",
+      "vendor": "Xiaomi",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:size,focal_length_mm,aperture,pixel_pitch_um; macro:size,focal_length_mm,aperture,pixel_pitch_um; depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "grus",
+      "name": "Mi 9 SE",
+      "vendor": "Xiaomi",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; telephoto:size,focal_length_mm,aperture,pixel_pitch_um; main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "guacamole",
+      "name": "7 Pro",
+      "vendor": "OnePlus",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; telephoto:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:focal_length_mm,aperture; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 30.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "guacamoleb",
+      "name": "7",
+      "vendor": "OnePlus",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "ip",
+        "quality"
+      ],
+      "quality": "partial",
+      "charge_now": {
+        "wired": 30.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "heart",
+      "name": "Z5 Pro GT",
+      "vendor": "Lenovo",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "hotdog",
+      "name": "7T Pro",
+      "vendor": "OnePlus",
+      "year": 2019,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; telephoto:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:focal_length_mm,aperture; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 30.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "hotdogb",
+      "name": "7T",
+      "vendor": "OnePlus",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; telephoto:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:focal_length_mm,aperture; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 30.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "kane",
+      "name": "one vision",
+      "vendor": "Motorola",
+      "year": 2019,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "kirin",
+      "name": "Xperia 10",
+      "vendor": "Sony",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "lake",
+      "name": "moto g7 plus",
+      "vendor": "Motorola",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 27.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "laurel_sprout",
+      "name": "Mi A3",
+      "vendor": "Xiaomi",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; ultrawide:size,focal_length_mm,aperture,pixel_pitch_um; depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "lavender",
+      "name": "Redmi Note 7",
+      "vendor": "Xiaomi",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; depth:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "m20lte",
+      "name": "Galaxy M20",
+      "vendor": "Samsung",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "mermaid",
+      "name": "Xperia 10 Plus",
+      "vendor": "Sony",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "mh2lm",
+      "name": "G8X ThinQ (G850EM/EMW)",
+      "vendor": "LG",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; other:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 21.0,
+        "wireless": 9.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "ocean",
+      "name": "moto g7 power",
+      "vendor": "Motorola",
+      "year": 2019,
+      "gaps": [
+        "charge_missing",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "onclite",
+      "name": "Redmi 7",
+      "vendor": "Xiaomi",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:focal_length_mm,aperture; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "parker",
+      "name": "one zoom",
+      "vendor": "Motorola",
+      "year": 2019,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; telephoto:size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:size,focal_length_mm,aperture,pixel_pitch_um; depth:size,focal_length_mm,aperture,pixel_pitch_um; main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "pro1",
+      "name": "Pro¹",
+      "vendor": "F(x)tec",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "pyxis",
+      "name": "Mi CC9",
+      "vendor": "Xiaomi",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; main:size,focal_length_mm,aperture,pixel_pitch_um; depth:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "river",
+      "name": "moto g7",
+      "vendor": "Motorola",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "sargo",
+      "name": "Pixel 3a",
+      "vendor": "Google",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "troika",
+      "name": "one action",
+      "vendor": "Motorola",
+      "year": 2019,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "tucana",
+      "name": "Mi Note 10",
+      "vendor": "Xiaomi",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; telephoto:size,focal_length_mm,aperture,pixel_pitch_um; telephoto:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; macro:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 30.0,
+        "wireless": 30.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "vela",
+      "name": "Mi CC9 Meitu Edition",
+      "vendor": "Xiaomi",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; depth:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "violet",
+      "name": "Redmi Note 7 Pro",
+      "vendor": "Xiaomi",
+      "year": 2019,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "zippo",
+      "name": "Z6 Pro",
+      "vendor": "Lenovo",
+      "year": 2019,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; telephoto:size,focal_length_mm,aperture,pixel_pitch_um; main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:focal_length_mm,aperture; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "Amber",
+      "name": "Phone",
+      "vendor": "Yandex",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "B2N",
+      "name": "7 plus",
+      "vendor": "Nokia",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; telephoto:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "DRG",
+      "name": "6.1 Plus",
+      "vendor": "Nokia",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "PL2",
+      "name": "6.1 (2018)",
+      "vendor": "Nokia",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "RMX1801",
+      "name": "2 Pro",
+      "vendor": "Realme",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "X00P",
+      "name": "Zenfone Max M1",
+      "vendor": "ASUS",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "X00TD",
+      "name": "Zenfone Max Pro M1",
+      "vendor": "ASUS",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "X01AD",
+      "name": "Zenfone Max M2",
+      "vendor": "ASUS",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "X01BD",
+      "name": "Zenfone Max Pro M2",
+      "vendor": "ASUS",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "Z01R",
+      "name": "Zenfone 5Z (ZS620KL)",
+      "vendor": "ASUS",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "ahannah",
+      "name": "moto e5 plus (XT1924-3/9)",
+      "vendor": "Motorola",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "akari",
+      "name": "Xperia XZ2",
+      "vendor": "Sony",
+      "year": 2018,
+      "gaps": [
+        "wireless_watts_missing",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "akatsuki",
+      "name": "Xperia XZ3",
+      "vendor": "Sony",
+      "year": 2018,
+      "gaps": [
+        "wireless_watts_missing",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "akershus",
+      "name": "Axon 9 Pro",
+      "vendor": "ZTE",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; ultrawide:focal_length_mm,aperture; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 27.0,
+        "wireless": 15.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "anne",
+      "name": "P20 Lite",
+      "vendor": "Huawei",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "aura",
+      "name": "Phone 2",
+      "vendor": "Razer",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 15.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "aurora",
+      "name": "Xperia XZ2 Premium",
+      "vendor": "Sony",
+      "year": 2018,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 5.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "beckham",
+      "name": "moto z3 play",
+      "vendor": "Motorola",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "berkeley",
+      "name": "Honor View 10",
+      "vendor": "Huawei",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 22.5,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "beryllium",
+      "name": "POCO F1",
+      "vendor": "Xiaomi",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; other:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "blueline",
+      "name": "Pixel 3",
+      "vendor": "Google",
+      "year": 2018,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "charlotte",
+      "name": "P20 Pro",
+      "vendor": "Huawei",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 22.5,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "chef",
+      "name": "one power",
+      "vendor": "Motorola",
+      "year": 2018,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "crosshatch",
+      "name": "Pixel 3 XL",
+      "vendor": "Google",
+      "year": 2018,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "crownlte",
+      "name": "Galaxy Note 9",
+      "vendor": "Samsung",
+      "year": 2018,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": 15.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "dipper",
+      "name": "Mi 8",
+      "vendor": "Xiaomi",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; other:focal_length_mm,aperture; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 27.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "discovery",
+      "name": "Xperia XA2 Ultra",
+      "vendor": "Sony",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "enchilada",
+      "name": "6",
+      "vendor": "OnePlus",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 20.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "evert",
+      "name": "moto g6 plus",
+      "vendor": "Motorola",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "fajita",
+      "name": "6T",
+      "vendor": "OnePlus",
+      "year": 2018,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 20.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "g710n",
+      "name": "G7 ThinQ (G710N)",
+      "vendor": "LG",
+      "year": 2018,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "g710ulm",
+      "name": "G7 ThinQ (G710ULM/VMX)",
+      "vendor": "LG",
+      "year": 2018,
+      "gaps": [
+        "wireless_watts_missing",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "hannah",
+      "name": "moto e5 plus (XT1924-6/7/8)",
+      "vendor": "Motorola",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "jasmine_sprout",
+      "name": "Mi A2",
+      "vendor": "Xiaomi",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "judyln",
+      "name": "G7 ThinQ (G710AWM/EM/EMW)",
+      "vendor": "LG",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "judyp",
+      "name": "V35 ThinQ",
+      "vendor": "LG",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "judypn",
+      "name": "V40 ThinQ",
+      "vendor": "LG",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; ultrawide:focal_length_mm,aperture; telephoto:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "messi",
+      "name": "moto z3",
+      "vendor": "Motorola",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "nx606j",
+      "name": "Z18",
+      "vendor": "Nubia",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "nx609j",
+      "name": "Red Magic",
+      "vendor": "Nubia",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "nx611j",
+      "name": "Z18 Mini",
+      "vendor": "Nubia",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "nx616j",
+      "name": "X",
+      "vendor": "Nubia",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:size,focal_length_mm,aperture,pixel_pitch_um; front:size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "nx619j",
+      "name": "Red Magic Mars",
+      "vendor": "Nubia",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "perseus",
+      "name": "Mi MIX 3",
+      "vendor": "Xiaomi",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; other:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 27.0,
+        "wireless": 20.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "pioneer",
+      "name": "Xperia XA2",
+      "vendor": "Sony",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "platina",
+      "name": "Mi 8 Lite",
+      "vendor": "Xiaomi",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "polaris",
+      "name": "Mi MIX 2S",
+      "vendor": "Xiaomi",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; other:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "rhannah",
+      "name": "moto e5 plus (XT1924-1/2/4/5)",
+      "vendor": "Motorola",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "shark",
+      "name": "Black Shark",
+      "vendor": "Xiaomi",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "star2lte",
+      "name": "Galaxy S9+",
+      "vendor": "Samsung",
+      "year": 2018,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": 15.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "starlte",
+      "name": "Galaxy S9",
+      "vendor": "Samsung",
+      "year": 2018,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": 5.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "trident",
+      "name": "R1",
+      "vendor": "Smartisan",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; other:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "twolip",
+      "name": "Redmi Note 6 Pro",
+      "vendor": "Xiaomi",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "ursa",
+      "name": "Mi 8 Explorer Edition",
+      "vendor": "Xiaomi",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; other:focal_length_mm,aperture; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 27.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "voyager",
+      "name": "Xperia XA2 Plus",
+      "vendor": "Sony",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "wayne",
+      "name": "Mi 6X",
+      "vendor": "Xiaomi",
+      "year": 2018,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "whyred",
+      "name": "Redmi Note 5 Pro",
+      "vendor": "Xiaomi",
+      "year": 2018,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:focal_length_mm,aperture; other:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "xmsirius",
+      "name": "Mi 8 SE",
+      "vendor": "Xiaomi",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:focal_length_mm,aperture; depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "xz2c",
+      "name": "Xperia XZ2 Compact",
+      "vendor": "Sony",
+      "year": 2018,
+      "gaps": [
+        "wireless_watts_missing",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "zangya",
+      "name": "Aquaris X2",
+      "vendor": "BQ",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "zangyapro",
+      "name": "Aquaris X2 Pro",
+      "vendor": "BQ",
+      "year": 2018,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; depth:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "G",
+      "name": "G",
+      "vendor": "10.or",
+      "year": 2017,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "Mi8917",
+      "name": "Redmi 5A",
+      "vendor": "Xiaomi",
+      "year": 2017,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "Mi8937",
+      "name": "Redmi 4 (India)",
+      "vendor": "Xiaomi",
+      "year": 2017,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "NB1",
+      "name": "8",
+      "vendor": "Nokia",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "a5y17lte",
+      "name": "Galaxy A5 (2017)",
+      "vendor": "Samsung",
+      "year": 2017,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "a7y17lte",
+      "name": "Galaxy A7 (2017)",
+      "vendor": "Samsung",
+      "year": 2017,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "albus",
+      "name": "moto z2 play",
+      "vendor": "Motorola",
+      "year": 2017,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "bardock",
+      "name": "Aquaris X",
+      "vendor": "BQ",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "bardockpro",
+      "name": "Aquaris X Pro",
+      "vendor": "BQ",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "cedric",
+      "name": "moto g5",
+      "vendor": "Motorola",
+      "year": 2017,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "cheeseburger",
+      "name": "5",
+      "vendor": "OnePlus",
+      "year": 2017,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 20.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "cheryl",
+      "name": "Phone",
+      "vendor": "Razer",
+      "year": 2017,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "chiron",
+      "name": "Mi MIX 2",
+      "vendor": "Xiaomi",
+      "year": 2017,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "dumpling",
+      "name": "5T",
+      "vendor": "OnePlus",
+      "year": 2017,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 20.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "figo",
+      "name": "P Smart",
+      "vendor": "Huawei",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "h870",
+      "name": "G6 (EU Unlocked)",
+      "vendor": "LG",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "h870d",
+      "name": "G6 (EU Unlocked - ENG BL)",
+      "vendor": "LG",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "h872",
+      "name": "G6 (T-Mobile)",
+      "vendor": "LG",
+      "year": 2017,
+      "gaps": [
+        "wireless_watts_missing",
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "h873",
+      "name": "G6 (Canada - ENG BL)",
+      "vendor": "LG",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "h932",
+      "name": "V30 (T-Mobile)",
+      "vendor": "LG",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "jason",
+      "name": "Mi Note 3",
+      "vendor": "Xiaomi",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "joan",
+      "name": "V30 (Unlocked)",
+      "vendor": "LG",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "l01k",
+      "name": "V30 (Japan)",
+      "vendor": "LG",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "mata",
+      "name": "PH-1",
+      "vendor": "Essential",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 27.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "mido",
+      "name": "Redmi Note 4",
+      "vendor": "Xiaomi",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "montana",
+      "name": "moto g5s",
+      "vendor": "Motorola",
+      "year": 2017,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "nash",
+      "name": "moto z2 force",
+      "vendor": "Motorola",
+      "year": 2017,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "nx563j",
+      "name": "Z17",
+      "vendor": "Nubia",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "payton",
+      "name": "moto x4",
+      "vendor": "Motorola",
+      "year": 2017,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "sagit",
+      "name": "Mi 6",
+      "vendor": "Xiaomi",
+      "year": 2017,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "santoni",
+      "name": "Redmi 4(X)",
+      "vendor": "Xiaomi",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "taimen",
+      "name": "Pixel 2 XL",
+      "vendor": "Google",
+      "year": 2017,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.5,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "tissot",
+      "name": "Mi A1",
+      "vendor": "Xiaomi",
+      "year": 2017,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "us997",
+      "name": "G6 (US Unlocked)",
+      "vendor": "LG",
+      "year": 2017,
+      "gaps": [
+        "wireless_watts_missing",
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "walleye",
+      "name": "Pixel 2",
+      "vendor": "Google",
+      "year": 2017,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.5,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "zl1",
+      "name": "Le Pro3 Elite",
+      "vendor": "LeEco",
+      "year": 2017,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "A6020",
+      "name": "Vibe K5",
+      "vendor": "Lenovo",
+      "year": 2016,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "addison",
+      "name": "moto z play",
+      "vendor": "Motorola",
+      "year": 2016,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "athene",
+      "name": "moto g4",
+      "vendor": "Motorola",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "axon7",
+      "name": "Axon 7",
+      "vendor": "ZTE",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "capricorn",
+      "name": "Mi 5s",
+      "vendor": "Xiaomi",
+      "year": 2016,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "chaozu",
+      "name": "Aquaris U",
+      "vendor": "BQ",
+      "year": 2016,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "ether",
+      "name": "Robin",
+      "vendor": "Nextbit",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "f1f",
+      "name": "F1 (International)",
+      "vendor": "OPPO",
+      "year": 2016,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "quality"
+      ],
+      "quality": "partial"
+    },
+    {
+      "codename": "gemini",
+      "name": "Mi 5",
+      "vendor": "Xiaomi",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "gohan",
+      "name": "Aquaris X5 Plus",
+      "vendor": "BQ",
+      "year": 2016,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "griffin",
+      "name": "moto z",
+      "vendor": "Motorola",
+      "year": 2016,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "h830",
+      "name": "G5 (T-Mobile)",
+      "vendor": "LG",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "h850",
+      "name": "G5 (International)",
+      "vendor": "LG",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "h910",
+      "name": "V20 (AT&T)",
+      "vendor": "LG",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "h918",
+      "name": "V20 (T-Mobile)",
+      "vendor": "LG",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "h990",
+      "name": "V20 (Global)",
+      "vendor": "LG",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "harpia",
+      "name": "moto g4 play",
+      "vendor": "Motorola",
+      "year": 2016,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "hero2lte",
+      "name": "Galaxy S7 Edge",
+      "vendor": "Samsung",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": 5.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "herolte",
+      "name": "Galaxy S7",
+      "vendor": "Samsung",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": 5.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "hydrogen",
+      "name": "Mi Max",
+      "vendor": "Xiaomi",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "ido",
+      "name": "Redmi 3",
+      "vendor": "Xiaomi",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "kenzo",
+      "name": "Redmi Note 3",
+      "vendor": "Xiaomi",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "kugo",
+      "name": "Xperia X Compact",
+      "vendor": "Sony",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "kuntao",
+      "name": "P2",
+      "vendor": "Lenovo",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "land",
+      "name": "Redmi 3S / 3X",
+      "vendor": "Xiaomi",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 10.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "lithium",
+      "name": "Mi MIX",
+      "vendor": "Xiaomi",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "ls997",
+      "name": "V20 (Sprint)",
+      "vendor": "LG",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "m216",
+      "name": "K10",
+      "vendor": "LG",
+      "year": 2016,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "marlin",
+      "name": "Pixel XL",
+      "vendor": "Google",
+      "year": 2016,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "natrium",
+      "name": "Mi 5s Plus",
+      "vendor": "Xiaomi",
+      "year": 2016,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "oneplus3",
+      "name": "3",
+      "vendor": "OnePlus",
+      "year": 2016,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 20.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "pme",
+      "name": "10",
+      "vendor": "HTC",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "rs988",
+      "name": "G5 (US Unlocked)",
+      "vendor": "LG",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "s2",
+      "name": "Le 2",
+      "vendor": "LeEco",
+      "year": 2016,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "sailfish",
+      "name": "Pixel",
+      "vendor": "Google",
+      "year": 2016,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "scorpio",
+      "name": "Mi Note 2",
+      "vendor": "Xiaomi",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "suzu",
+      "name": "Xperia X",
+      "vendor": "Sony",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "tenshi",
+      "name": "Aquaris U Plus",
+      "vendor": "BQ",
+      "year": 2016,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "tulip",
+      "name": "Axon 7 Mini",
+      "vendor": "ZTE",
+      "year": 2016,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "us996",
+      "name": "V20 (GSM Unlocked)",
+      "vendor": "LG",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "us996d",
+      "name": "V20 (GSM Unlocked - DirtySanta)",
+      "vendor": "LG",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "vs995",
+      "name": "V20 (Verizon)",
+      "vendor": "LG",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "x2",
+      "name": "Le Max2",
+      "vendor": "LeEco",
+      "year": 2016,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "z2_plus",
+      "name": "Z2 Plus",
+      "vendor": "ZUK",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "zenfone3",
+      "name": "Zenfone 3",
+      "vendor": "ASUS",
+      "year": 2016,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "FP2",
+      "name": "2",
+      "vendor": "Fairphone",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "Z008",
+      "name": "Zenfone 2 (720p)",
+      "vendor": "ASUS",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "Z00A",
+      "name": "Zenfone 2 (1080p)",
+      "vendor": "ASUS",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "Z00D",
+      "name": "Zenfone 2 (ZE500CL)",
+      "vendor": "ASUS",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "Z00L",
+      "name": "Zenfone 2 Laser (720p)",
+      "vendor": "ASUS",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "Z00T",
+      "name": "Zenfone 2 Laser (1080p)",
+      "vendor": "ASUS",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "a3xelte",
+      "name": "Galaxy A3 (2016)",
+      "vendor": "Samsung",
+      "year": 2015,
+      "gaps": [
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "a5xelte",
+      "name": "Galaxy A5 (2016)",
+      "vendor": "Samsung",
+      "year": 2015,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "a7xelte",
+      "name": "Galaxy A7 (2016)",
+      "vendor": "Samsung",
+      "year": 2015,
+      "gaps": [
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "angler",
+      "name": "Nexus 6P",
+      "vendor": "Google",
+      "year": 2015,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "bullhead",
+      "name": "Nexus 5X",
+      "vendor": "Google",
+      "year": 2015,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "clark",
+      "name": "moto x pure edition (2015)",
+      "vendor": "Motorola",
+      "year": 2015,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "crackling",
+      "name": "Swift",
+      "vendor": "Wileyfox",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "h811",
+      "name": "G4 (T-Mobile)",
+      "vendor": "LG",
+      "year": 2015,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "h815",
+      "name": "G4 (International)",
+      "vendor": "LG",
+      "year": 2015,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": 10.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "ham",
+      "name": "Z1",
+      "vendor": "ZUK",
+      "year": 2015,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "hiae",
+      "name": "One A9",
+      "vendor": "HTC",
+      "year": 2015,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "himaul",
+      "name": "One M9 (GSM)",
+      "vendor": "HTC",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "himawl",
+      "name": "One M9 (Verizon)",
+      "vendor": "HTC",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "ivy",
+      "name": "Xperia Z3+",
+      "vendor": "Sony",
+      "year": 2015,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "j7elte",
+      "name": "Galaxy J7 (2015)",
+      "vendor": "Samsung",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "jalebi",
+      "name": "Yunique",
+      "vendor": "YU",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "kipper",
+      "name": "Storm",
+      "vendor": "Wileyfox",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "kiwi",
+      "name": "Honor 5X",
+      "vendor": "Huawei",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "lettuce",
+      "name": "Yuphoria",
+      "vendor": "YU",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "libra",
+      "name": "Mi 4c",
+      "vendor": "Xiaomi",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "lux",
+      "name": "moto x play",
+      "vendor": "Motorola",
+      "year": 2015,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "merlin",
+      "name": "moto g3 turbo",
+      "vendor": "Motorola",
+      "year": 2015,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "n3",
+      "name": "N3",
+      "vendor": "OPPO",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "nx512j",
+      "name": "Z9 Max",
+      "vendor": "Nubia",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "oneplus2",
+      "name": "2",
+      "vendor": "OnePlus",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "onyx",
+      "name": "X",
+      "vendor": "OnePlus",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "osprey",
+      "name": "moto g (2015)",
+      "vendor": "Motorola",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "otus",
+      "name": "moto e (2015)",
+      "vendor": "Motorola",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "paella",
+      "name": "Aquaris X5",
+      "vendor": "BQ",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; other:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "peach",
+      "name": "Benefit A3",
+      "vendor": "ARK",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "piccolo",
+      "name": "Aquaris M5",
+      "vendor": "BQ",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "r5",
+      "name": "R5s (International)",
+      "vendor": "OPPO",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "quality"
+      ],
+      "quality": "partial"
+    },
+    {
+      "codename": "r7plus",
+      "name": "R7 Plus (International)",
+      "vendor": "OPPO",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "r7sf",
+      "name": "R7s (International)",
+      "vendor": "OPPO",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "quality"
+      ],
+      "quality": "partial"
+    },
+    {
+      "codename": "s5neolte",
+      "name": "Galaxy S5 Neo",
+      "vendor": "Samsung",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "seed",
+      "name": "Android One 2nd Gen",
+      "vendor": "Google",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "sumire",
+      "name": "Xperia Z5",
+      "vendor": "Sony",
+      "year": 2015,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "surnia",
+      "name": "moto e LTE (2015)",
+      "vendor": "Motorola",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "suzuran",
+      "name": "Xperia Z5 Compact",
+      "vendor": "Sony",
+      "year": 2015,
+      "gaps": [
+        "refresh",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 18.0,
+        "wireless": null,
+        "hasWireless": false
+      }
+    },
+    {
+      "codename": "thea",
+      "name": "moto g LTE (2014)",
+      "vendor": "Motorola",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "tomato",
+      "name": "Yureka Plus",
+      "vendor": "YU",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "vegetalte",
+      "name": "Aquaris E5s",
+      "vendor": "BQ",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "wt88047",
+      "name": "Redmi 2",
+      "vendor": "Wingtech",
+      "year": 2015,
+      "gaps": [
+        "charge_missing",
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um"
+    },
+    {
+      "codename": "zerofltexx",
+      "name": "Galaxy S6",
+      "vendor": "Samsung",
+      "year": 2015,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": 5.0,
+        "hasWireless": true
+      }
+    },
+    {
+      "codename": "zeroltexx",
+      "name": "Galaxy S6 Edge",
+      "vendor": "Samsung",
+      "year": 2015,
+      "gaps": [
+        "refresh",
+        "ip",
+        "sensor",
+        "quality"
+      ],
+      "quality": "partial",
+      "sensor_gaps": "main:sensor_model,size,focal_length_mm,aperture,pixel_pitch_um; front:sensor_model,focal_length_mm,aperture,pixel_pitch_um",
+      "charge_now": {
+        "wired": 15.0,
+        "wireless": 5.0,
+        "hasWireless": true
+      }
+    }
+  ]
+}
