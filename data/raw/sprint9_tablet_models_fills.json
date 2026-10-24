@@ -1,0 +1,290 @@
+{
+  "_meta": {
+    "note": "Tablet retail model / network fills. Match codename+name when duplicates share a codename. * = single-source/unsure.",
+    "protocol": "do not invent Lineage devices; fix part numbers on existing rows"
+  },
+  "rows": [
+    {
+      "codename": "espresso3g",
+      "name_contains": "7.0",
+      "models": ["P3100"],
+      "network": ["2G GSM", "3G UMTS"],
+      "sources": ["* Tab 2 7.0 GSM P3100 (split from shared list)"]
+    },
+    {
+      "codename": "espresso3g",
+      "name_contains": "10.1",
+      "models": ["P5100"],
+      "network": ["2G GSM", "3G UMTS"],
+      "sources": ["* Tab 2 10.1 GSM P5100 (split from shared list)"]
+    },
+    {
+      "codename": "espressowifi",
+      "name_contains": "7.0",
+      "models": ["P3110", "P3113"],
+      "network": ["None"],
+      "sources": ["* Tab 2 7.0 Wi-Fi (split from shared list)"]
+    },
+    {
+      "codename": "espressowifi",
+      "name_contains": "10.1",
+      "models": ["P5110", "P5113"],
+      "network": ["None"],
+      "sources": ["* Tab 2 10.1 Wi-Fi (split from shared list)"]
+    },
+    {
+      "codename": "manta",
+      "models": ["Galaxy Nexus 10"],
+      "network": ["None"],
+      "sources": ["* Nexus 10 retail name (no SM SKU)"]
+    },
+    {
+      "codename": "deb",
+      "models": ["ME571KL"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE"],
+      "sources": ["* Nexus 7 2013 LTE"]
+    },
+    {
+      "codename": "debx",
+      "models": ["ME571KL"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE"],
+      "sources": ["* Nexus 7 2013 LTE repartitioned"]
+    },
+    {
+      "codename": "flo",
+      "models": ["ME571K"],
+      "network": ["None"],
+      "sources": ["* Nexus 7 2013 Wi-Fi"]
+    },
+    {
+      "codename": "flox",
+      "models": ["ME571K"],
+      "network": ["None"],
+      "sources": ["* Nexus 7 2013 Wi-Fi repartitioned"]
+    },
+    {
+      "codename": "lt03lte",
+      "models": ["SM-P605"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE"],
+      "sources": ["* Note 10.1 2014 LTE"]
+    },
+    {
+      "codename": "n5110",
+      "models": ["GT-N5110"],
+      "network": ["None"],
+      "sources": ["* Note 8.0 Wi-Fi"]
+    },
+    {
+      "codename": "n5120",
+      "models": ["GT-N5120"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE"],
+      "sources": ["* Note 8.0 LTE"]
+    },
+    {
+      "codename": "pollux",
+      "models": ["SGP321", "SGP341", "SGP351"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE"],
+      "sources": ["* Xperia Tablet Z LTE"]
+    },
+    {
+      "codename": "pollux_windy",
+      "models": ["SGP311", "SGP312"],
+      "network": ["None"],
+      "sources": ["* Xperia Tablet Z Wi-Fi"]
+    },
+    {
+      "codename": "v500",
+      "models": ["V500"],
+      "network": ["None"],
+      "sources": ["* LG G Pad 8.3 Wi-Fi"]
+    },
+    {
+      "codename": "flounder",
+      "models": ["HTC Nexus 9"],
+      "network": ["None"],
+      "sources": ["* Nexus 9 Wi-Fi"]
+    },
+    {
+      "codename": "flounder_lte",
+      "models": ["HTC Nexus 9 LTE"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE"],
+      "sources": ["* Nexus 9 LTE"]
+    },
+    {
+      "codename": "mondrianwifi",
+      "models": ["SM-T320"],
+      "network": ["None"],
+      "sources": ["* Tab Pro 8.4 Wi-Fi"]
+    },
+    {
+      "codename": "shieldtablet",
+      "models": ["P1761W", "P1761E"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE"],
+      "sources": ["* Shield Tablet Wi-Fi+LTE SKUs *"]
+    },
+    {
+      "codename": "v400",
+      "models": ["V400"],
+      "network": ["None"],
+      "sources": ["* LG G Pad 7.0 WiFi"]
+    },
+    {
+      "codename": "v410",
+      "models": ["V410"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE"],
+      "sources": ["* LG G Pad 7.0 LTE"]
+    },
+    {
+      "codename": "v480",
+      "models": ["V480"],
+      "network": ["None"],
+      "sources": ["* LG G Pad 8.0 Wi-Fi"]
+    },
+    {
+      "codename": "P024",
+      "models": ["Z380KL"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE"],
+      "sources": ["* ZenPad 8.0 Z380KL"]
+    },
+    {
+      "codename": "dragon",
+      "models": ["G1AY4"],
+      "network": ["None"],
+      "sources": ["* Pixel C"]
+    },
+    {
+      "codename": "karin",
+      "models": ["SGP771"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE"],
+      "sources": ["* Xperia Z4 Tablet LTE"]
+    },
+    {
+      "codename": "karin_windy",
+      "models": ["SGP712"],
+      "network": ["None"],
+      "sources": ["* Xperia Z4 Tablet WiFi"]
+    },
+    {
+      "codename": "jasmine",
+      "models": ["K88"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE"],
+      "sources": ["* AT&T Trek 2 HD"]
+    },
+    {
+      "codename": "v521",
+      "models": ["VK810"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE"],
+      "sources": ["* LG G Pad X T-Mobile *"]
+    },
+    {
+      "codename": "tangorpro",
+      "models": ["G0DZQ"],
+      "network": ["None"],
+      "sources": ["* Pixel Tablet"]
+    },
+    {
+      "codename": "gts7l",
+      "models": ["SM-T875", "SM-T875N"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE"],
+      "sources": ["Tab S7 LTE (not 5G SKU)"]
+    },
+    {
+      "codename": "gts7lwifi",
+      "models": ["SM-T870"],
+      "network": ["None"],
+      "sources": ["Tab S7 Wi-Fi"]
+    },
+    {
+      "codename": "gts7xl",
+      "models": ["SM-T975", "SM-T976B", "SM-T976N"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE", "5G NR"],
+      "sources": ["Tab S7+ LTE/5G"]
+    },
+    {
+      "codename": "gts7xlwifi",
+      "models": ["SM-T970"],
+      "network": ["None"],
+      "sources": ["Tab S7+ Wi-Fi"]
+    },
+    {
+      "codename": "nicole",
+      "name_contains": "5G",
+      "models": ["RZ80-0460"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE", "5G NR"],
+      "sources": ["Razer Edge 5G"]
+    },
+    {
+      "codename": "nicole",
+      "name_contains": "WiFi",
+      "models": ["RZ80-0461"],
+      "network": ["None"],
+      "sources": ["Razer Edge WiFi"]
+    },
+    {
+      "codename": "caihong",
+      "name_contains": "Pad 2",
+      "models": ["OPD2403"],
+      "network": ["None"],
+      "sources": ["OnePlus Pad 2"]
+    },
+    {
+      "codename": "caihong",
+      "name_contains": "Pad Pro",
+      "models": ["OPD2404"],
+      "network": ["None"],
+      "sources": ["OnePlus Pad Pro"]
+    },
+    {
+      "codename": "erhai",
+      "name_contains": "Pad 2 Pro",
+      "models": ["OPD2413"],
+      "network": ["None"],
+      "sources": ["OnePlus Pad 2 Pro"]
+    },
+    {
+      "codename": "erhai",
+      "name_contains": "Pad 3",
+      "models": ["OPD2415"],
+      "network": ["None"],
+      "sources": ["* OnePlus Pad 3"]
+    },
+    {
+      "codename": "iceland",
+      "name_contains": "Pad 3 Pro",
+      "models": ["OPD2513"],
+      "network": ["None"],
+      "sources": ["* OnePlus Pad 3 Pro"]
+    },
+    {
+      "codename": "iceland",
+      "name_contains": "Pad 4",
+      "models": ["OPD2514"],
+      "network": ["None"],
+      "sources": ["* OnePlus Pad 4"]
+    },
+    {
+      "codename": "gta4xl",
+      "models": ["SM-P615", "SM-P617"],
+      "network": ["2G GSM", "3G UMTS", "4G LTE"],
+      "sources": ["* Tab S6 Lite LTE"]
+    },
+    {
+      "codename": "gta4xlwifi",
+      "models": ["SM-P610", "SM-P613"],
+      "network": ["None"],
+      "sources": ["Tab S6 Lite Wi-Fi"]
+    },
+    {
+      "codename": "gta4xlswifi",
+      "models": ["SM-P620"],
+      "network": ["None"],
+      "sources": ["Tab S6 Lite 2024 Wi-Fi"]
+    },
+    {
+      "codename": "gtowifi",
+      "models": ["SM-T290"],
+      "network": ["None"],
+      "sources": ["Tab A 8.0 2019 Wi-Fi"]
+    }
+  ]
+}

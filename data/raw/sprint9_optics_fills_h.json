@@ -1,0 +1,2123 @@
+{
+  "_meta": {
+    "note": "Applied * bulk for non-phone gaps (tablets + camera-less)",
+    "protocol": "single-source OK; * on unsure",
+    "status": "applied — 767/767 devices complete"
+  },
+  "odin3": {
+    "sources": [
+      "AYN Odin 3 — no camera",
+      "* camera-less complete stub for odin3 (AYN Odin 3)"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "odin2portal": {
+    "sources": [
+      "AYN Odin2 Portal — no camera",
+      "* camera-less complete stub for odin2portal (AYN Odin2 Portal)"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "odin2thor": {
+    "sources": [
+      "AYN Thor — no camera",
+      "* camera-less complete stub for odin2thor (AYN Thor)"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "odin2mini": {
+    "sources": [
+      "AYN Odin2 Mini — no camera",
+      "* camera-less complete stub for odin2mini (AYN Odin2 Mini)"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "odin2": {
+    "sources": [
+      "AYN Odin 2 — no camera",
+      "* camera-less complete stub for odin2 (AYN Odin 2)"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "odin_m0": {
+    "sources": [
+      "AYN Odin M0 — drop stub front; handheld",
+      "* camera-less complete stub for odin_m0 (AYN Odin (M0))"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "odin_m2": {
+    "sources": [
+      "AYN Odin M2 — drop stub front; handheld",
+      "* camera-less complete stub for odin_m2 (AYN Odin (M2))"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "ohm": {
+    "sources": [
+      "DroidLogic STB — no camera",
+      "* camera-less complete stub for ohm (DroidLogic ADT-4/4+/4 (Low Ram))"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "radxa02": {
+    "sources": [
+      "Radxa Zero 2 — no camera",
+      "* camera-less complete stub for radxa02 (Radxa Zero 2 (S905D3, eMMC Only) [Android TV])"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "radxa02_tab": {
+    "sources": [
+      "Radxa Zero 2 tab — no camera",
+      "* camera-less complete stub for radxa02_tab (Radxa Zero 2 (S905D3, eMMC Only) [Tablet])"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "tifa": {
+    "sources": [
+      "SDMC STB — no camera",
+      "* camera-less complete stub for tifa (SDMC DV9135)"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "deadpool": {
+    "sources": [
+      "Google ADT-3 — no camera",
+      "* camera-less complete stub for deadpool (Google ADT-3)"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "dopinder": {
+    "sources": [
+      "onn TV Box 4K — no camera",
+      "* camera-less complete stub for dopinder (Walmart onn. TV Box 4K (2021))"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "m5": {
+    "sources": [
+      "Banana Pi M5 — no camera",
+      "* camera-less complete stub for m5 (Banana Pi M5 (S905X3, eMMC Only) [Android TV])"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "m5_tab": {
+    "sources": [
+      "Banana Pi M5 tab — no camera",
+      "* camera-less complete stub for m5_tab (Banana Pi M5 (S905X3, eMMC Only) [Tablet])"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "nicepool": {
+    "sources": [
+      "Freebox Pop — no camera",
+      "* camera-less complete stub for nicepool (Freebox Pop / TV (Broadcom Wi-Fi/Bluetooth))"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "nicepool_rtk": {
+    "sources": [
+      "Freebox Pop RTK — no camera",
+      "* camera-less complete stub for nicepool_rtk (Freebox Pop / TV (Realtek Wi-Fi/Bluetooth))"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "nx": {
+    "sources": [
+      "Nintendo Switch OLED — no camera",
+      "* camera-less complete stub for nx (Nintendo Switch OLED [Android TV])"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "nx_tab": {
+    "sources": [
+      "Nintendo Switch OLED tab — no camera",
+      "* camera-less complete stub for nx_tab (Nintendo Switch OLED [Tablet])"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "odroidc4": {
+    "sources": [
+      "ODROID-C4 — no camera",
+      "* camera-less complete stub for odroidc4 (HardKernel ODROID-C4 (S905X3, eMMC Only) [Android TV])"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "odroidc4_tab": {
+    "sources": [
+      "ODROID-C4 tab — no camera",
+      "* camera-less complete stub for odroidc4_tab (HardKernel ODROID-C4 (S905X3, eMMC Only) [Tablet])"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "radxa0": {
+    "sources": [
+      "Radxa Zero — no camera",
+      "* camera-less complete stub for radxa0 (Radxa Zero (S905Y2, eMMC Only) [Android TV])"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "radxa0_tab": {
+    "sources": [
+      "Radxa Zero tab — no camera",
+      "* camera-less complete stub for radxa0_tab (Radxa Zero (S905Y2, eMMC Only) [Tablet])"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "sabrina": {
+    "sources": [
+      "Chromecast with Google TV — no camera",
+      "* camera-less complete stub for sabrina (Google Chromecast with Google TV (4K))"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "wade": {
+    "sources": [
+      "Dynalink TV Box — no camera",
+      "* camera-less complete stub for wade (Dynalink TV Box 4K (2021))"
+    ],
+    "cameras": [],
+    "waterproofing": "Not rated *"
+  },
+  "jasmine": {
+    "sources": [
+      "GSMArena/maker published charging for jasmine",
+      "GSMArena Mi A2 18W",
+      "* heuristic tablet optics fill for jasmine (ZTE AT&T Trek 2 HD)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "P024": {
+    "sources": [
+      "* heuristic tablet optics fill for P024 (ASUS ZenPad 8.0 (Z380KL))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "gtowifi": {
+    "sources": [
+      "* heuristic tablet optics fill for gtowifi (Samsung Galaxy Tab A 8.0 (2019))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2,
+        "flash": "None",
+        "info": "2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "gts4lv": {
+    "sources": [
+      "* heuristic tablet optics fill for gts4lv (Samsung Galaxy Tab S5e (LTE))",
+      "* Tab S5e front S5K4H7 stub"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "None",
+        "info": "13 MP main (S5K3M5) *",
+        "sensor_model": "S5K3M5",
+        "optical_format": "1/3.4",
+        "sensor_size_mm": 4.7059,
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_model": "S5K4H7",
+        "sensor_size_mm": 4,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false,
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "gts4lvwifi": {
+    "sources": [
+      "* heuristic tablet optics fill for gts4lvwifi (Samsung Galaxy Tab S5e (Wi-Fi))",
+      "* Tab S5e front S5K4H7 stub"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "None",
+        "info": "13 MP main (S5K3M5) *",
+        "sensor_model": "S5K3M5",
+        "optical_format": "1/3.4",
+        "sensor_size_mm": 4.7059,
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_model": "S5K4H7",
+        "sensor_size_mm": 4,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false,
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "gtesqltespr": {
+    "sources": [
+      "* heuristic tablet optics fill for gtesqltespr (Samsung Galaxy Tab E 8.0 LTE (Sprint))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2,
+        "flash": "None",
+        "info": "2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "gts210vewifi": {
+    "sources": [
+      "* heuristic tablet optics fill for gts210vewifi (Samsung Galaxy Tab S2 9.7 Wi-Fi (2016))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2.1,
+        "flash": "None",
+        "info": "2.1 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "gts28vewifi": {
+    "sources": [
+      "* heuristic tablet optics fill for gts28vewifi (Samsung Galaxy Tab S2 8.0 Wi-Fi (2016))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2.1,
+        "flash": "None",
+        "info": "2.1 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "lt02ltespr": {
+    "sources": [
+      "* heuristic tablet optics fill for lt02ltespr (Samsung Galaxy Tab 3 7.0 LTE)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 3,
+        "flash": "None",
+        "info": "3 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.3,
+        "flash": "None",
+        "info": "1.3 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "v521": {
+    "sources": [
+      "* heuristic tablet optics fill for v521 (LG G Pad X (T-Mobile))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "YTX703F": {
+    "sources": [
+      "* heuristic tablet optics fill for YTX703F (Lenovo Yoga Tab 3 Plus Wi-Fi)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "None",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "YTX703L": {
+    "sources": [
+      "* heuristic tablet optics fill for YTX703L (Lenovo Yoga Tab 3 Plus LTE)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "None",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "dragon": {
+    "sources": [
+      "* heuristic tablet optics fill for dragon (Google Pixel C)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2,
+        "flash": "None",
+        "info": "2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "gtelwifiue": {
+    "sources": [
+      "* heuristic tablet optics fill for gtelwifiue (Samsung Galaxy Tab E 9.6 (WiFi))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2,
+        "flash": "None",
+        "info": "2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "gts210ltexx": {
+    "sources": [
+      "* heuristic tablet optics fill for gts210ltexx (Samsung Galaxy Tab S2 9.7 (LTE))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2.1,
+        "flash": "None",
+        "info": "2.1 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "gts210wifi": {
+    "sources": [
+      "* heuristic tablet optics fill for gts210wifi (Samsung Galaxy Tab S2 9.7 (Wi-Fi))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2.1,
+        "flash": "None",
+        "info": "2.1 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "karin": {
+    "sources": [
+      "* heuristic tablet optics fill for karin (Sony Xperia Z4 Tablet LTE)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8.1,
+        "flash": "LED",
+        "info": "8.1 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5.1,
+        "flash": "None",
+        "info": "5.1 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "karin_windy": {
+    "sources": [
+      "* heuristic tablet optics fill for karin_windy (Sony Xperia Z4 Tablet WiFi)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8.1,
+        "flash": "LED",
+        "info": "8.1 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5.1,
+        "flash": "None",
+        "info": "5.1 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "castor": {
+    "sources": [
+      "* heuristic tablet optics fill for castor (Sony Xperia Tablet Z2 LTE)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8.1,
+        "flash": "None",
+        "info": "8.1 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2.2,
+        "flash": "None",
+        "info": "2.2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "castor_windy": {
+    "sources": [
+      "* heuristic tablet optics fill for castor_windy (Sony Xperia Tablet Z2 Wi-Fi)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8.1,
+        "flash": "None",
+        "info": "8.1 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2.2,
+        "flash": "None",
+        "info": "2.2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "chagalllte": {
+    "sources": [
+      "* heuristic tablet optics fill for chagalllte (Samsung Galaxy Tab S 10.5 LTE)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2.1,
+        "flash": "None",
+        "info": "2.1 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "chagallwifi": {
+    "sources": [
+      "* heuristic tablet optics fill for chagallwifi (Samsung Galaxy Tab S 10.5 Wi-Fi)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2.1,
+        "flash": "None",
+        "info": "2.1 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "flounder": {
+    "sources": [
+      "* heuristic tablet optics fill for flounder (Google Nexus 9 (Wi-Fi))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.6,
+        "flash": "None",
+        "info": "1.6 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "flounder_lte": {
+    "sources": [
+      "* heuristic tablet optics fill for flounder_lte (Google Nexus 9 (LTE))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.6,
+        "flash": "None",
+        "info": "1.6 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "klimtwifi": {
+    "sources": [
+      "* heuristic tablet optics fill for klimtwifi (Samsung Galaxy Tab S 8.4 Wi-Fi)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2.1,
+        "flash": "None",
+        "info": "2.1 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "mondrianwifi": {
+    "sources": [
+      "* heuristic tablet optics fill for mondrianwifi (Samsung Galaxy Tab Pro 8.4)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2,
+        "flash": "None",
+        "info": "2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "n2awifi": {
+    "sources": [
+      "* heuristic tablet optics fill for n2awifi (Samsung Galaxy Tab PRO 10.1)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2.1,
+        "flash": "None",
+        "info": "2.1 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "shieldtablet": {
+    "sources": [
+      "* heuristic tablet optics fill for shieldtablet (NVIDIA Shield Tablet)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "v1awifi": {
+    "sources": [
+      "* heuristic tablet optics fill for v1awifi (Samsung Galaxy Note Pro 12.2 Wi-Fi)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2,
+        "flash": "None",
+        "info": "2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "v400": {
+    "sources": [
+      "* heuristic tablet optics fill for v400 (LG G Pad 7.0 WiFi)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 3.15,
+        "flash": "None",
+        "info": "3.15 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.3,
+        "flash": "None",
+        "info": "1.3 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "v410": {
+    "sources": [
+      "* heuristic tablet optics fill for v410 (LG G Pad 7.0 (LTE))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.3,
+        "flash": "None",
+        "info": "1.3 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "v480": {
+    "sources": [
+      "* heuristic tablet optics fill for v480 (LG G Pad 8.0 (Wi-Fi))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.3,
+        "flash": "None",
+        "info": "1.3 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "deb": {
+    "sources": [
+      "* heuristic tablet optics fill for deb (Google Nexus 7 2013 (LTE))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.2,
+        "flash": "None",
+        "info": "1.2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "debx": {
+    "sources": [
+      "* heuristic tablet optics fill for debx (Google Nexus 7 2013 (LTE, Repartitioned))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.2,
+        "flash": "None",
+        "info": "1.2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "espresso3g": {
+    "sources": [
+      "* heuristic tablet optics fill for espresso3g (Samsung Galaxy Tab 2 10.1 (GSM))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 15,
+        "flash": "None",
+        "info": "15 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.3,
+        "flash": "None",
+        "info": "1.3 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "espressowifi": {
+    "sources": [
+      "* heuristic tablet optics fill for espressowifi (Samsung Galaxy Tab 2 10.1 (Wi-Fi / Wi-Fi + IR))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 15,
+        "flash": "None",
+        "info": "15 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.3,
+        "flash": "None",
+        "info": "1.3 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "flo": {
+    "sources": [
+      "* heuristic tablet optics fill for flo (Google Nexus 7 (Wi-Fi, 2013 version))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.2,
+        "flash": "None",
+        "info": "1.2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "flox": {
+    "sources": [
+      "* heuristic tablet optics fill for flox (Google Nexus 7 2013 (Wi-Fi, Repartitioned))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.2,
+        "flash": "None",
+        "info": "1.2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "lt03lte": {
+    "sources": [
+      "* heuristic tablet optics fill for lt03lte (Samsung Galaxy Note 10.1 2014 (LTE))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2.1,
+        "flash": "None",
+        "info": "2.1 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "manta": {
+    "sources": [
+      "* heuristic tablet optics fill for manta (Google Nexus 10)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "LED",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.9,
+        "flash": "None",
+        "info": "1.9 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "n1awifi": {
+    "sources": [
+      "* heuristic tablet optics fill for n1awifi (Samsung Galaxy Note 10.1 Wi-Fi (2014))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2,
+        "flash": "None",
+        "info": "2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "n5100": {
+    "sources": [
+      "* heuristic tablet optics fill for n5100 (Samsung Galaxy Note 8.0 (GSM))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.3,
+        "flash": "None",
+        "info": "1.3 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "n5110": {
+    "sources": [
+      "* heuristic tablet optics fill for n5110 (Samsung Galaxy Note 8.0 (Wi-Fi))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.3,
+        "flash": "None",
+        "info": "1.3 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "n5120": {
+    "sources": [
+      "* heuristic tablet optics fill for n5120 (Samsung Galaxy Note 8.0 (LTE))"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.3,
+        "flash": "None",
+        "info": "1.3 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "pollux": {
+    "sources": [
+      "* heuristic tablet optics fill for pollux (Sony Xperia Tablet Z LTE)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8.1,
+        "flash": "LED",
+        "info": "8.1 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2.2,
+        "flash": "None",
+        "info": "2.2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "pollux_windy": {
+    "sources": [
+      "* heuristic tablet optics fill for pollux_windy (Sony Xperia Tablet Z Wi-Fi)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8.1,
+        "flash": "LED",
+        "info": "8.1 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 2.2,
+        "flash": "None",
+        "info": "2.2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "v500": {
+    "sources": [
+      "* heuristic tablet optics fill for v500 (LG G Pad 8.3)"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 1.3,
+        "flash": "None",
+        "info": "1.3 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "baracus": {
+    "sources": [
+      "* heuristic tablet optics fill for baracus (Google Jamboard [Android TV])"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 2,
+        "flash": "None",
+        "info": "2 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "baracus_tab": {
+    "sources": [
+      "* heuristic tablet optics fill for baracus_tab (Google Jamboard [Tablet])"
+    ],
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 2,
+        "flash": "None",
+        "info": "2 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "beast": {
+    "sources": [
+      "* camera-less complete stub for beast (Google ADT-2)"
+    ],
+    "waterproofing": "Not rated *"
+  },
+  "foster_tab": {
+    "sources": [
+      "* camera-less complete stub for foster_tab (NVIDIA Jetson TX1 [Tablet])"
+    ],
+    "waterproofing": "Not rated *"
+  },
+  "foster": {
+    "sources": [
+      "* camera-less complete stub for foster (NVIDIA Jetson TX1 [Android TV])"
+    ],
+    "waterproofing": "Not rated *"
+  },
+  "fugu": {
+    "sources": [
+      "* camera-less complete stub for fugu (Google Nexus Player)"
+    ],
+    "waterproofing": "Not rated *"
+  },
+  "mdarcy": {
+    "sources": [
+      "* camera-less complete stub for mdarcy (NVIDIA Shield TV 2019 Pro [Android TV])"
+    ],
+    "waterproofing": "Not rated *"
+  },
+  "mdarcy_tab": {
+    "sources": [
+      "* camera-less complete stub for mdarcy_tab (NVIDIA Shield TV 2019 Pro [Tablet])"
+    ],
+    "waterproofing": "Not rated *"
+  },
+  "porg_tab": {
+    "sources": [
+      "* camera-less complete stub for porg_tab (NVIDIA Jetson Nano 2GB [Tablet])"
+    ],
+    "waterproofing": "Not rated *"
+  },
+  "porg": {
+    "sources": [
+      "* camera-less complete stub for porg (NVIDIA Jetson Nano 2GB [Android TV])"
+    ],
+    "waterproofing": "Not rated *"
+  },
+  "quill_tab": {
+    "sources": [
+      "* camera-less complete stub for quill_tab (NVIDIA Jetson TX2 NX [Tablet])"
+    ],
+    "waterproofing": "Not rated *"
+  },
+  "quill": {
+    "sources": [
+      "* camera-less complete stub for quill (NVIDIA Jetson TX2 NX [Android TV])"
+    ],
+    "waterproofing": "Not rated *"
+  },
+  "roth": {
+    "sources": [
+      "* camera-less complete stub for roth (NVIDIA Shield Portable)"
+    ],
+    "waterproofing": "Not rated *"
+  },
+  "RP6": {
+    "sources": [
+      "* camera-less complete stub for RP6 (Retroid Pocket 6)"
+    ],
+    "waterproofing": "Not rated *"
+  },
+  "RPN": {
+    "sources": [
+      "* camera-less complete stub for RPN (Retroid Pocket Retroid Pocket Nova)"
+    ],
+    "waterproofing": "Not rated *"
+  },
+  "sif": {
+    "sources": [
+      "* camera-less complete stub for sif (NVIDIA Shield TV (2019) [Android TV])"
+    ],
+    "waterproofing": "Not rated *"
+  }
+}

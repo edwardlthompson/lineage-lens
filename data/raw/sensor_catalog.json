@@ -2235,6 +2235,249 @@
       "sources": [
         "Mi A1 / OEM listings"
       ]
+    },
+    "IMX362": {
+      "vendor": "Sony",
+      "optical_format": "1/2.55",
+      "diag_mm": 6.2745,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.2,
+      "sources": [
+        "* Pixel 2 / Dual Pixel era listings"
+      ]
+    },
+    "OV5675": {
+      "vendor": "OmniVision",
+      "optical_format": "1/5.0",
+      "diag_mm": 3.2,
+      "pixel_pitch_um": 1.12,
+      "mp": 5.0,
+      "role_hint": "depth",
+      "sources": [
+        "* common depth module"
+      ]
+    },
+    "S5K2X7": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.8",
+      "diag_mm": 5.7143,
+      "pixel_pitch_um": 0.9,
+      "mp": 25.0,
+      "role_hint": "front",
+      "sources": [
+        "* 25MP selfie class"
+      ]
+    },
+    "S5K2X7SP": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.8",
+      "diag_mm": 5.7143,
+      "pixel_pitch_um": 0.9,
+      "mp": 25.0,
+      "role_hint": "front",
+      "sources": [
+        "* 25MP selfie class"
+      ]
+    },
+    "S5K2X5SP": {
+      "vendor": "Samsung",
+      "optical_format": "1/5.0",
+      "diag_mm": 3.2,
+      "pixel_pitch_um": 1.12,
+      "mp": 5.0,
+      "role_hint": "depth",
+      "sources": [
+        "* depth class"
+      ]
+    },
+    "HI846": {
+      "vendor": "HiMax",
+      "optical_format": "1/2.8",
+      "diag_mm": 5.7143,
+      "pixel_pitch_um": 1.0,
+      "mp": 24.0,
+      "sources": [
+        "* Nubia Red Magic listings"
+      ]
+    },
+    "S5K4H8": {
+      "vendor": "Samsung",
+      "optical_format": "1/4.0",
+      "diag_mm": 4.0,
+      "pixel_pitch_um": 1.12,
+      "mp": 8.0,
+      "role_hint": "front",
+      "sources": [
+        "* 8MP front class"
+      ]
+    },
+    "S5K5E9": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.0",
+      "diag_mm": 5.333,
+      "pixel_pitch_um": 1.12,
+      "mp": 12.0,
+      "role_hint": "front",
+      "sources": [
+        "* 12MP front class"
+      ]
+    },
+    "GC2375H": {
+      "vendor": "GalaxyCore",
+      "optical_format": "1/4.0",
+      "diag_mm": 4.0,
+      "pixel_pitch_um": 1.12,
+      "mp": 8.0,
+      "role_hint": "ultrawide",
+      "sources": [
+        "* Note 8 UW"
+      ]
+    },
+    "GC5025": {
+      "vendor": "GalaxyCore",
+      "optical_format": "1/2.9",
+      "diag_mm": 5.5172,
+      "pixel_pitch_um": 1.25,
+      "mp": 12.0,
+      "sources": [
+        "* F(x)tec Pro1"
+      ]
+    },
+    "IMX377": {
+      "vendor": "Sony",
+      "optical_format": "1/2.3",
+      "diag_mm": 6.9565,
+      "pixel_pitch_um": 1.55,
+      "mp": 12.0,
+      "sources": [
+        "*"
+      ]
+    },
+    "OV16885": {
+      "vendor": "OmniVision",
+      "optical_format": "1/3.1",
+      "diag_mm": 5.1613,
+      "pixel_pitch_um": 1.0,
+      "mp": 16.0,
+      "role_hint": "telephoto",
+      "sources": [
+        "* one zoom tele"
+      ]
+    },
+    "S5K3P9SX": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.1",
+      "diag_mm": 5.1613,
+      "pixel_pitch_um": 1.0,
+      "mp": 16.0,
+      "role_hint": "front",
+      "sources": [
+        "*"
+      ]
+    },
+    "S5K2L7SA": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.6",
+      "diag_mm": 6.1538,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.0,
+      "sources": [
+        "*"
+      ]
+    },
+    "S5K2L7SA05": {
+      "vendor": "Samsung",
+      "optical_format": "1/2.6",
+      "diag_mm": 6.1538,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.0,
+      "sources": [
+        "*"
+      ]
+    },
+    "S5K4H7YX": {
+      "vendor": "Samsung",
+      "optical_format": "1/4.0",
+      "diag_mm": 4.0,
+      "pixel_pitch_um": 1.12,
+      "mp": 8.0,
+      "role_hint": "front",
+      "sources": [
+        "*"
+      ]
+    },
+    "IMX577": {
+      "vendor": "Sony",
+      "optical_format": "1/2.6",
+      "diag_mm": 6.1538,
+      "pixel_pitch_um": 1.4,
+      "mp": 12.0,
+      "role_hint": "front",
+      "sources": [
+        "*"
+      ]
+    },
+    "IMX400": {
+      "vendor": "Sony",
+      "optical_format": "1/2.3",
+      "diag_mm": 6.9565,
+      "pixel_pitch_um": 1.22,
+      "mp": 19.0,
+      "sources": [
+        "* Motion Eye"
+      ]
+    },
+    "S5K3H7": {
+      "vendor": "Samsung",
+      "optical_format": "1/3.2",
+      "diag_mm": 5.0,
+      "pixel_pitch_um": 1.4,
+      "mp": 8.0,
+      "role_hint": "front",
+      "sources": [
+        "*"
+      ]
+    },
+    "IMX318": {
+      "vendor": "Sony",
+      "optical_format": "1/2.6",
+      "diag_mm": 6.1538,
+      "pixel_pitch_um": 1.22,
+      "mp": 23.0,
+      "sources": [
+        "*"
+      ]
+    },
+    "IMX258": {
+      "vendor": "Sony",
+      "optical_format": "1/3.06",
+      "diag_mm": 5.2288,
+      "pixel_pitch_um": 1.12,
+      "mp": 16.0,
+      "sources": [
+        "*"
+      ]
+    },
+    "IMX179": {
+      "vendor": "Sony",
+      "optical_format": "1/3.2",
+      "diag_mm": 5.0,
+      "pixel_pitch_um": 1.4,
+      "mp": 8.0,
+      "role_hint": "front",
+      "sources": [
+        "*"
+      ]
+    },
+    "IMX298": {
+      "vendor": "Sony",
+      "optical_format": "1/2.8",
+      "diag_mm": 5.7143,
+      "pixel_pitch_um": 1.12,
+      "mp": 16.0,
+      "sources": [
+        "* 16MP class heuristic"
+      ]
     }
   },
   "aliases": {
@@ -2377,6 +2620,28 @@
     "OV12A10": "OV12A10",
     "S5K2M8SX": "S5K2M8",
     "IMX258TUNED": "IMX258",
-    "IMX519FRONT": "IMX519"
+    "IMX519FRONT": "IMX519",
+    "S5KGM1SP": "S5KGM1",
+    "S5K2X7SP": "S5K2X7",
+    "S5K2X5SP": "S5K2X5SP",
+    "S5K2L7SA": "S5K2L7SA",
+    "S5K2L7SA05": "S5K2L7SA05",
+    "S5K4H7YX": "S5K4H7",
+    "S5K3P9SX": "S5K3P9SX",
+    "OV5675": "OV5675",
+    "IMX362": "IMX362",
+    "HI846": "HI846",
+    "GC2375H": "GC2375H",
+    "GC5025": "GC5025",
+    "OV16885": "OV16885",
+    "IMX577": "IMX577",
+    "IMX400": "IMX400",
+    "S5K3H7": "S5K3H7",
+    "IMX318": "IMX318",
+    "IMX258": "IMX258",
+    "IMX179": "IMX179",
+    "IMX298": "IMX298",
+    "S5K4HATUNED": "S5K4H7",
+    "S5K4HA": "S5K4H7"
   }
 }

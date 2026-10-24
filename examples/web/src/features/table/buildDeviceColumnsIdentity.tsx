@@ -1,5 +1,6 @@
 import { t } from "../../i18n";
 import { BatteryCell } from "./BuyingMetaCells";
+import { cellularTier, cellularTierRank, meetsCellularFilter } from "./cellularTier";
 import { deviceCol } from "./deviceColumnHelper";
 import {
   capacityEqualsFilter,
@@ -91,6 +92,17 @@ export function buildIdentityDeviceColumns({
         if (d.codename.toLowerCase().includes(q)) return true;
         return (d.models ?? []).some((m) => m.toLowerCase().includes(q));
       },
+    }),
+    col.accessor((r) => cellularTier(r.network), {
+      id: "cellular",
+      header: () => t("table.col.cellular"),
+      cell: ({ getValue }) => getValue(),
+      sortingFn: (a, b) =>
+        cellularTierRank(cellularTier(a.original.network)) -
+        cellularTierRank(cellularTier(b.original.network)),
+      sortDescFirst: true,
+      filterFn: (row, _id, filterValue: string) =>
+        meetsCellularFilter(cellularTier(row.original.network), filterValue),
     }),
     col.accessor((r) => formatSocOnly(r) ?? "", {
       id: "soc",

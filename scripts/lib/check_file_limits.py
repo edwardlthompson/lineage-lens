@@ -18,6 +18,7 @@ STATIC_GLOBS = (
     # Charge watt tables are static Record data (not pure logic).
     "examples/web/src/features/table/chargeCatalogModern.ts",
     "examples/web/src/features/table/chargeCatalogLegacy.ts",
+    "examples/web/src/features/table/chargeCatalogTablets.ts",
     "examples/android/app/src/main/java/*/ui/*/*.kt",
     "examples/android/app/src/main/java/*/ui/GoldenPath*.kt",
     "examples/*/locales/*.json",

@@ -119,6 +119,24 @@ def apply_flagship_overrides(device: dict[str, Any], overrides: dict[str, dict[s
         screen.update(block["screen"])
         device["screen"] = screen
         touched = True
+    if block.get("dimensions") is not None:
+        device["dimensions"] = block["dimensions"]
+        touched = True
+    if block.get("refresh_rate") is not None:
+        screen = dict(device.get("screen") or {})
+        screen["refresh_rate"] = block["refresh_rate"]
+        if isinstance(screen.get("screen"), dict):
+            inner = dict(screen["screen"])
+            inner["refresh_rate"] = block["refresh_rate"]
+            screen["screen"] = inner
+        device["screen"] = screen
+        touched = True
+    if isinstance(block.get("models"), list):
+        device["models"] = [str(m) for m in block["models"] if m]
+        touched = True
+    if isinstance(block.get("network"), list):
+        device["network"] = [str(n) for n in block["network"] if n]
+        touched = True
 
     if not touched:
         return

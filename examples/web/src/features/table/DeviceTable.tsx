@@ -17,7 +17,7 @@ import { buildDeviceColumns } from "./buildDeviceColumns";
 import type { BuyerPresetId } from "./buyerPresets";
 import { CompareBar } from "./CompareBar";
 import { meaningfulCameras } from "./cameraFormat";
-import { DEFAULT_HIDDEN_COLUMNS } from "./columnVisibility";
+import { DEFAULT_HIDDEN_COLUMNS, TABLET_COLUMN_VISIBILITY } from "./columnVisibility";
 import { type CompareWins, computeCompareWins } from "./compareWins";
 import { DeviceDataGrid } from "./DeviceDataGrid";
 import { DeviceDetailPanel } from "./DeviceDetailPanel";
@@ -57,7 +57,13 @@ export function DeviceTable() {
   const [comparing, setComparing] = useState(false);
   const [buyerPreset, setBuyerPreset] = useState<BuyerPresetId | "">("");
   const [globalFilter, setGlobalFilter] = useState("");
-  const [columnVisibility, setColumnVisibility] = useState<VisibilityState>(DEFAULT_HIDDEN_COLUMNS);
+  const [columnVisibility, setColumnVisibility] = useState<VisibilityState>(() => {
+    const cat =
+      typeof window !== "undefined" ? parseDeviceCategory(window.location.search) : "phone";
+    return cat === "tablet"
+      ? { ...DEFAULT_HIDDEN_COLUMNS, ...TABLET_COLUMN_VISIBILITY }
+      : { ...DEFAULT_HIDDEN_COLUMNS };
+  });
   const [columnsOpen, setColumnsOpen] = useState(false);
   const [similarHints, setSimilarHints] = useState<SimilarHit[]>([]);
   const [detailId, setDetailId] = useState<string | null>(() =>
@@ -233,6 +239,11 @@ export function DeviceTable() {
         onCategory={(cat) => {
           setCategory(cat);
           writeDeviceCategory(cat);
+          setColumnVisibility((prev) =>
+            cat === "tablet"
+              ? { ...prev, ...TABLET_COLUMN_VISIBILITY }
+              : { ...prev, cellular: false },
+          );
         }}
         onOpenCharts={goCharts}
         table={data ? table : null}

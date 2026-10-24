@@ -1,5 +1,6 @@
 import type { Column } from "@tanstack/react-table";
 import type { Device } from "../../types/device";
+import { CELLULAR_FILTER_TIERS } from "./cellularTier";
 import { NARROW_ID_COLS } from "./deviceTableMeta";
 import { capacityOptionMatches, parseCapacityOptionsGb } from "./hardwareSpec";
 import { IP_FILTER_TIERS, meetsIpMin } from "./ipRating";
@@ -60,6 +61,25 @@ export function ColumnFilter({ column }: { column: Column<Device, unknown> }) {
       >
         <option value="">Any</option>
         {IP_FILTER_TIERS.map((tier) => (
+          <option key={tier.value} value={tier.value}>
+            {tier.label}
+          </option>
+        ))}
+      </select>
+    );
+  }
+
+  if (id === "cellular") {
+    const selected = (column.getFilterValue() as string | undefined) ?? "";
+    return (
+      <select
+        className="ll-col-filter ll-col-filter-narrow ll-col-filter-cellular"
+        value={selected}
+        aria-label={`${id} filter`}
+        onChange={(e) => column.setFilterValue(e.target.value || undefined)}
+      >
+        <option value="">Any</option>
+        {CELLULAR_FILTER_TIERS.map((tier) => (
           <option key={tier.value} value={tier.value}>
             {tier.label}
           </option>

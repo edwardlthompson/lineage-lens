@@ -1,0 +1,6923 @@
+{
+  "_meta": {
+    "note": "Merge-fill missing models/geometry on partials 2015+; * = uncertain",
+    "protocol": "single-source OK per user 2026-10-24"
+  },
+  "akita": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 64,
+        "flash": "LED",
+        "info": "64 MP main (S5KGM1) *",
+        "optical_format": "1/1.73",
+        "sensor_size_mm": 14.28,
+        "pixel_pitch_um": 0.8,
+        "focal_length_mm": 25,
+        "aperture": 1.89,
+        "ois": true,
+        "fov_deg": 81.7,
+        "sensor_model": "S5KGM1"
+      },
+      {
+        "type": "ultrawide",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP ultrawide (OV8856) *",
+        "optical_format": "1/2.73",
+        "sensor_size_mm": 8,
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 14,
+        "aperture": 2.2,
+        "ois": false,
+        "fov_deg": 114.2,
+        "sensor_model": "OV8856"
+      },
+      {
+        "type": "front",
+        "mp": 13,
+        "flash": "None",
+        "info": "13 MP front (S5K3P9) *",
+        "optical_format": "1/2.74",
+        "sensor_size_mm": 5.7143,
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 20,
+        "aperture": 2.2,
+        "ois": false,
+        "fov_deg": 94.5,
+        "sensor_model": "S5K3P9"
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for akita (Google Pixel 8a)"
+    ]
+  },
+  "stallion": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 48,
+        "flash": "LED",
+        "info": "48 MP main (S5KGM1) *",
+        "optical_format": "1/2.0",
+        "fov_deg": 82,
+        "aperture": 1.7,
+        "ois": true,
+        "sensor_size_mm": 8.19,
+        "pixel_pitch_um": 0.8,
+        "focal_length_mm": 25,
+        "sensor_model": "S5KGM1"
+      },
+      {
+        "type": "ultrawide",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP ultrawide (OV8856) *",
+        "optical_format": "1/3.1",
+        "fov_deg": 120,
+        "aperture": 2.2,
+        "ois": false,
+        "sensor_size_mm": 5.7143,
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 14,
+        "sensor_model": "OV8856"
+      },
+      {
+        "type": "front",
+        "mp": 13,
+        "flash": "None",
+        "info": "13 MP front (S5K3P9) *",
+        "sensor_size_mm": 4.7059,
+        "optical_format": "1/3.1",
+        "aperture": 2.2,
+        "ois": false,
+        "fov_deg": 94.5,
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 20,
+        "sensor_model": "S5K3P9"
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for stallion (Google Pixel 10a)"
+    ]
+  },
+  "beyond2lte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "telephoto",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP telephoto (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 52.0,
+        "aperture": 2.4,
+        "zoom": 2.0,
+        "ois": false
+      },
+      {
+        "type": "ultrawide",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP ultrawide (IMX350) *",
+        "sensor_model": "IMX350",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 13.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 10,
+        "flash": "None",
+        "info": "10 MP front (S5K4H7) *",
+        "sensor_size_mm": 4.7059,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "depth",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP depth (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 24.0,
+        "aperture": 2.4,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for beyond2lte (Samsung Galaxy S10+)",
+      "* heuristic video caps for beyond2lte"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "beyondx": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "telephoto",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP telephoto (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 52.0,
+        "aperture": 2.4,
+        "zoom": 2.0,
+        "ois": false
+      },
+      {
+        "type": "ultrawide",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP ultrawide (IMX350) *",
+        "sensor_model": "IMX350",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 13.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 0.3,
+        "flash": "None",
+        "info": "0.3 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 10,
+        "flash": "None",
+        "info": "10 MP front (S5K4H7) *",
+        "sensor_size_mm": 4.7059,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for beyondx (Samsung Galaxy S10 5G)",
+      "* heuristic video caps for beyondx"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "beyond1lte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "telephoto",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP telephoto (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 52.0,
+        "aperture": 2.4,
+        "zoom": 2.0,
+        "ois": false
+      },
+      {
+        "type": "ultrawide",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP ultrawide (IMX350) *",
+        "sensor_model": "IMX350",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 13.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 10,
+        "flash": "None",
+        "info": "10 MP front (S5K4H7) *",
+        "sensor_size_mm": 4.7059,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for beyond1lte (Samsung Galaxy S10)",
+      "* heuristic video caps for beyond1lte"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "d1": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "telephoto",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP telephoto (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 52.0,
+        "aperture": 2.4,
+        "zoom": 2.0,
+        "ois": false
+      },
+      {
+        "type": "ultrawide",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP ultrawide (IMX350) *",
+        "sensor_model": "IMX350",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 13.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 10,
+        "flash": "None",
+        "info": "10 MP front (S5K4H7) *",
+        "sensor_size_mm": 4.7059,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for d1 (Samsung Galaxy Note10)",
+      "* heuristic video caps for d1"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "d1x": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "telephoto",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP telephoto (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 52.0,
+        "aperture": 2.4,
+        "zoom": 2.0,
+        "ois": false
+      },
+      {
+        "type": "ultrawide",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP ultrawide (IMX350) *",
+        "sensor_model": "IMX350",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 13.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 10,
+        "flash": "None",
+        "info": "10 MP front (S5K4H7) *",
+        "sensor_size_mm": 4.7059,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for d1x (Samsung Galaxy Note10 5G)",
+      "* heuristic video caps for d1x"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "d2s": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "telephoto",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP telephoto (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 52.0,
+        "aperture": 2.4,
+        "zoom": 2.0,
+        "ois": false
+      },
+      {
+        "type": "other",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "depth",
+        "mp": 0.3,
+        "flash": "None",
+        "info": "0.3 MP depth (OV02A10) *",
+        "sensor_model": "OV02A10",
+        "pixel_pitch_um": 1.75,
+        "focal_length_mm": 24.0,
+        "aperture": 2.4,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 10,
+        "flash": "None",
+        "info": "10 MP front (S5K4H7) *",
+        "sensor_size_mm": 4.7059,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for d2s (Samsung Galaxy Note10+)",
+      "* heuristic video caps for d2s"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "d2x": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "telephoto",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP telephoto (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 52.0,
+        "aperture": 2.4,
+        "zoom": 2.0,
+        "ois": false
+      },
+      {
+        "type": "other",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "depth",
+        "mp": 0.3,
+        "flash": "None",
+        "info": "0.3 MP depth (OV02A10) *",
+        "sensor_model": "OV02A10",
+        "pixel_pitch_um": 1.75,
+        "focal_length_mm": 24.0,
+        "aperture": 2.4,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 10,
+        "flash": "None",
+        "info": "10 MP front (S5K4H7) *",
+        "sensor_size_mm": 4.7059,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for d2x (Samsung Galaxy Note10+ 5G)",
+      "* heuristic video caps for d2x"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "beyond0lte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "ultrawide",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP ultrawide (IMX350) *",
+        "sensor_model": "IMX350",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 13.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 10,
+        "flash": "None",
+        "info": "10 MP front (S5K4H7) *",
+        "sensor_size_mm": 4.7059,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for beyond0lte (Samsung Galaxy S10e)",
+      "* heuristic video caps for beyond0lte"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "I001D": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 48,
+        "flash": "LED",
+        "info": "48 MP main (S5KGM1) *",
+        "sensor_model": "S5KGM1",
+        "pixel_pitch_um": 0.8,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "ultrawide",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP ultrawide (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 13.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 24,
+        "flash": "None",
+        "info": "24 MP front (S5KGD1) *",
+        "sensor_size_mm": 5.7143,
+        "sensor_model": "S5KGD1",
+        "pixel_pitch_um": 0.8,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for I001D (ASUS ROG Phone 2 (ZS660KL))",
+      "* heuristic video caps for I001D"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "m20lte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "ultrawide",
+        "mp": 5,
+        "flash": "LED",
+        "info": "5 MP ultrawide (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 13.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for m20lte (Samsung Galaxy M20)",
+      "* heuristic video caps for m20lte"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "B2N": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "Dual LED (dual tone)",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "telephoto",
+        "mp": 13,
+        "flash": "Dual LED (dual tone)",
+        "info": "13 MP telephoto (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 52.0,
+        "aperture": 2.4,
+        "zoom": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "flash": "None",
+        "info": "16 MP front (IMX376) *",
+        "sensor_size_mm": 5.3333,
+        "sensor_model": "IMX376",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for B2N (Nokia 7 plus)",
+      "* heuristic video caps for B2N"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "m216": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for m216 (LG K10)",
+      "* heuristic video caps for m216"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "Mi439": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for Mi439 (Xiaomi Redmi 7A)",
+      "* heuristic video caps for Mi439"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "Amber": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "Dual LED",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "LED",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for Amber (Yandex Phone)",
+      "* heuristic video caps for Amber"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "anne": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 2,
+        "flash": "LED",
+        "info": "2 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "flash": "None",
+        "info": "16 MP front (IMX376) *",
+        "sensor_size_mm": 5.3333,
+        "sensor_model": "IMX376",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for anne (Huawei P20 Lite)",
+      "* heuristic video caps for anne"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "berkeley": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 13,
+        "flash": "None",
+        "info": "13 MP front (S5K3P9) *",
+        "sensor_size_mm": 4.7059,
+        "sensor_model": "S5K3P9",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for berkeley (Huawei Honor View 10)",
+      "* heuristic video caps for berkeley"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "charlotte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 40,
+        "flash": "LED",
+        "info": "40 MP main (IMX318) *",
+        "sensor_model": "IMX318",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 20,
+        "flash": "LED",
+        "info": "20 MP other (IMX376) *",
+        "sensor_model": "IMX376",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for charlotte (Huawei P20 Pro)",
+      "* heuristic video caps for charlotte"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "crownlte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for crownlte (Samsung Galaxy Note 9)",
+      "* heuristic video caps for crownlte"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "DRG": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED (dual tone)",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "Dual LED (dual tone)",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "flash": "None",
+        "info": "16 MP front (IMX376) *",
+        "sensor_size_mm": 5.3333,
+        "sensor_model": "IMX376",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for DRG (Nokia 6.1 Plus)",
+      "* heuristic video caps for DRG"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "messi": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "Dual LED (dual tone)",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 12,
+        "flash": "Dual LED (dual tone)",
+        "info": "12 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "Dual LED (dual tone)",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for messi (Motorola moto z3)",
+      "* heuristic video caps for messi"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "nx611j": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 24,
+        "flash": "LED",
+        "info": "24 MP main (IMX318) *",
+        "sensor_model": "IMX318",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "LED",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for nx611j (Nubia Z18 Mini)",
+      "* heuristic video caps for nx611j"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "star2lte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for star2lte (Samsung Galaxy S9+)",
+      "* heuristic video caps for star2lte"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "X00P": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for X00P (ASUS Zenfone Max M1)",
+      "* heuristic video caps for X00P"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "X00TD": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "LED",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for X00TD (ASUS Zenfone Max Pro M1)",
+      "* heuristic video caps for X00TD"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "X01AD": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 2,
+        "flash": "LED",
+        "info": "2 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for X01AD (ASUS Zenfone Max M2)",
+      "* heuristic video caps for X01AD"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "X01BD": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "LED",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "other",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for X01BD (ASUS Zenfone Max Pro M2)",
+      "* heuristic video caps for X01BD"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "Z01R": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "Dual LED (dual tone)",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "Dual LED (dual tone)",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for Z01R (ASUS Zenfone 5Z (ZS620KL))",
+      "* heuristic video caps for Z01R"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "zangya": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "Dual LED (dual tone)",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "depth",
+        "mp": 5,
+        "flash": "Dual LED (dual tone)",
+        "info": "5 MP depth (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 24.0,
+        "aperture": 2.4,
+        "ois": false
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for zangya (BQ Aquaris X2)",
+      "* heuristic video caps for zangya"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "zangyapro": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "Dual LED (dual tone)",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "depth",
+        "mp": 5,
+        "flash": "Dual LED (dual tone)",
+        "info": "5 MP depth (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 24.0,
+        "aperture": 2.4,
+        "ois": false
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for zangyapro (BQ Aquaris X2 Pro)",
+      "* heuristic video caps for zangyapro"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "figo": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 2,
+        "flash": "LED",
+        "info": "2 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for figo (Huawei P Smart)",
+      "* heuristic video caps for figo"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "G": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED (dual tone)",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 13,
+        "flash": "None",
+        "info": "13 MP front (S5K3P9) *",
+        "sensor_size_mm": 4.7059,
+        "sensor_model": "S5K3P9",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP front (IMX376) *",
+        "sensor_size_mm": 5.3333,
+        "sensor_model": "IMX376",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for G (10.or G)",
+      "* heuristic video caps for G"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "h870": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for h870 (LG G6 (EU Unlocked))",
+      "* heuristic video caps for h870"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "h870d": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for h870d (LG G6 (EU Unlocked - ENG BL))",
+      "* heuristic video caps for h870d"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "h872": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for h872 (LG G6 (T-Mobile))",
+      "* heuristic video caps for h872"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "h873": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for h873 (LG G6 (Canada - ENG BL))",
+      "* heuristic video caps for h873"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "h932": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for h932 (LG V30 (T-Mobile))",
+      "* heuristic video caps for h932"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "joan": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for joan (LG V30 (Unlocked))",
+      "* heuristic video caps for joan"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "l01k": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for l01k (LG V30 (Japan))",
+      "* heuristic video caps for l01k"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "mata": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED (dual tone)",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 13,
+        "flash": "Dual LED (dual tone)",
+        "info": "13 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for mata (Essential PH-1)",
+      "* heuristic video caps for mata"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "nash": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "Dual LED (dual tone)",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 12,
+        "flash": "Dual LED (dual tone)",
+        "info": "12 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "Dual LED (dual tone)",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for nash (Motorola moto z2 force)",
+      "* heuristic video caps for nash"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "NB1": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED (dual tone)",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 13,
+        "flash": "Dual LED (dual tone)",
+        "info": "13 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 13,
+        "flash": "None",
+        "info": "13 MP front (S5K3P9) *",
+        "sensor_size_mm": 4.7059,
+        "sensor_model": "S5K3P9",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for NB1 (Nokia 8)",
+      "* heuristic video caps for NB1"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "us997": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for us997 (LG G6 (US Unlocked))",
+      "* heuristic video caps for us997"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "h830": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for h830 (LG G5 (T-Mobile))",
+      "* heuristic video caps for h830"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "h850": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for h850 (LG G5 (International))",
+      "* heuristic video caps for h850"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "h910": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for h910 (LG V20 (AT&T))",
+      "* heuristic video caps for h910"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "h918": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for h918 (LG V20 (T-Mobile))",
+      "* heuristic video caps for h918"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "h990": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for h990 (LG V20 (Global))",
+      "* heuristic video caps for h990"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "ls997": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for ls997 (LG V20 (Sprint))",
+      "* heuristic video caps for ls997"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "rs988": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for rs988 (LG G5 (US Unlocked))",
+      "* heuristic video caps for rs988"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "us996": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for us996 (LG V20 (GSM Unlocked))",
+      "* heuristic video caps for us996"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "us996d": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for us996d (LG V20 (GSM Unlocked - DirtySanta))",
+      "* heuristic video caps for us996d"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "vs995": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for vs995 (LG V20 (Verizon))",
+      "* heuristic video caps for vs995"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "bonito": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12.2,
+        "flash": "Dual LED",
+        "info": "12.2 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for bonito (Google Pixel 3a XL)",
+      "* heuristic video caps for bonito"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "FP3": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for FP3 (Fairphone 3)",
+      "* heuristic video caps for FP3"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "I01WD": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 48,
+        "flash": "Dual LED (dual tone)",
+        "info": "48 MP main (S5KGM1) *",
+        "sensor_model": "S5KGM1",
+        "pixel_pitch_um": 0.8,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 13,
+        "flash": "Dual LED (dual tone)",
+        "info": "13 MP other (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for I01WD (ASUS Zenfone 6 (ZS630KL))",
+      "* heuristic video caps for I01WD"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "RMX1851": {
+    "cameras": [
+      {
+        "type": "depth",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP depth (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 24.0,
+        "aperture": 2.4,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 25,
+        "flash": "None",
+        "info": "25 MP front (S5KGD1) *",
+        "sensor_size_mm": 5.7143,
+        "sensor_model": "S5KGD1",
+        "pixel_pitch_um": 0.8,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for RMX1851 (Realme 3 Pro)",
+      "* heuristic video caps for RMX1851"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "sargo": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12.2,
+        "flash": "Dual LED",
+        "info": "12.2 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for sargo (Google Pixel 3a)",
+      "* heuristic video caps for sargo"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "TP1803": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 48,
+        "flash": "LED",
+        "info": "48 MP main (S5KGM1) *",
+        "sensor_model": "S5KGM1",
+        "pixel_pitch_um": 0.8,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for TP1803 (Nubia Mini 5G)",
+      "* heuristic video caps for TP1803"
+    ],
+    "video": {
+      "8k": {
+        "24": true
+      },
+      "4k": {
+        "60": true,
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "ahannah": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "LED",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for ahannah (Motorola moto e5 plus (XT1924-3/9))",
+      "* heuristic video caps for ahannah"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "blueline": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12.2,
+        "flash": "Dual LED",
+        "info": "12.2 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for blueline (Google Pixel 3)",
+      "* heuristic video caps for blueline"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "crosshatch": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12.2,
+        "flash": "Dual LED",
+        "info": "12.2 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for crosshatch (Google Pixel 3 XL)",
+      "* heuristic video caps for crosshatch"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "hannah": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "LED",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for hannah (Motorola moto e5 plus (XT1924-6/7/8))",
+      "* heuristic video caps for hannah"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "PL2": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED (dual tone)",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for PL2 (Nokia 6.1 (2018))",
+      "* heuristic video caps for PL2"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "rhannah": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "LED",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for rhannah (Motorola moto e5 plus (XT1924-1/2/4/5))",
+      "* heuristic video caps for rhannah"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "RMX1801": {
+    "cameras": [
+      {
+        "type": "depth",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP depth (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 24.0,
+        "aperture": 2.4,
+        "ois": false
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "flash": "None",
+        "info": "16 MP front (IMX376) *",
+        "sensor_size_mm": 5.3333,
+        "sensor_model": "IMX376",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for RMX1801 (Realme 2 Pro)",
+      "* heuristic video caps for RMX1801"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "starlte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for starlte (Samsung Galaxy S9)",
+      "* heuristic video caps for starlte"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "a5y17lte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "flash": "None",
+        "info": "16 MP front (IMX376) *",
+        "sensor_size_mm": 5.3333,
+        "sensor_model": "IMX376",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for a5y17lte (Samsung Galaxy A5 (2017))",
+      "* heuristic video caps for a5y17lte"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "a7y17lte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "flash": "None",
+        "info": "16 MP front (IMX376) *",
+        "sensor_size_mm": 5.3333,
+        "sensor_model": "IMX376",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for a7y17lte (Samsung Galaxy A7 (2017))",
+      "* heuristic video caps for a7y17lte"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "albus": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "Dual LED (dual tone)",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "Dual LED (dual tone)",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for albus (Motorola moto z2 play)",
+      "* heuristic video caps for albus"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "cedric": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for cedric (Motorola moto g5)",
+      "* heuristic video caps for cedric"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "Mi8917": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for Mi8917 (Xiaomi Redmi 5A)",
+      "* heuristic video caps for Mi8917"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "Mi8937": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for Mi8937 (Xiaomi Redmi 4 (India))",
+      "* heuristic video caps for Mi8937"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "mido": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED (dual tone)",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for mido (Xiaomi Redmi Note 4)",
+      "* heuristic video caps for mido"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "montana": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 4,
+        "flash": "LED",
+        "info": "4 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for montana (Motorola moto g5s)",
+      "* heuristic video caps for montana"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "santoni": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for santoni (Xiaomi Redmi 4(X))",
+      "* heuristic video caps for santoni"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "60": true,
+        "30": true
+      }
+    }
+  },
+  "zl1": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED (dual tone)",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for zl1 (LeEco Le Pro3 Elite)",
+      "* heuristic video caps for zl1"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "A6020": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for A6020 (Lenovo Vibe K5)",
+      "* heuristic video caps for A6020"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "addison": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "LED",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for addison (Motorola moto z play)",
+      "* heuristic video caps for addison"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "athene": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for athene (Motorola moto g4)",
+      "* heuristic video caps for athene"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "axon7": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 20,
+        "flash": "Dual LED (dual tone)",
+        "info": "20 MP main (IMX318) *",
+        "sensor_model": "IMX318",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for axon7 (ZTE Axon 7)",
+      "* heuristic video caps for axon7"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "capricorn": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "Dual LED (dual tone)",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 4,
+        "flash": "None",
+        "info": "4 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for capricorn (Xiaomi Mi 5s)",
+      "* heuristic video caps for capricorn"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "chaozu": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for chaozu (BQ Aquaris U)",
+      "* heuristic video caps for chaozu"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "ether": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED (dual tone)",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for ether (Nextbit Robin)",
+      "* heuristic video caps for ether"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "gohan": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for gohan (BQ Aquaris X5 Plus)",
+      "* heuristic video caps for gohan"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "griffin": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED (dual tone)",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "LED",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for griffin (Motorola moto z)",
+      "* heuristic video caps for griffin"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "harpia": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for harpia (Motorola moto g4 play)",
+      "* heuristic video caps for harpia"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "hero2lte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for hero2lte (Samsung Galaxy S7 Edge)",
+      "* heuristic video caps for hero2lte"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "herolte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for herolte (Samsung Galaxy S7)",
+      "* heuristic video caps for herolte"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "hydrogen": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED (dual tone)",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for hydrogen (Xiaomi Mi Max)",
+      "* heuristic video caps for hydrogen"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "ido": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for ido (Xiaomi Redmi 3)",
+      "* heuristic video caps for ido"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "kenzo": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED (dual tone)",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for kenzo (Xiaomi Redmi Note 3)",
+      "* heuristic video caps for kenzo"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "kugo": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 23,
+        "flash": "LED",
+        "info": "23 MP main (IMX318) *",
+        "sensor_model": "IMX318",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for kugo (Sony Xperia X Compact)",
+      "* heuristic video caps for kugo"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "kuntao": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for kuntao (Lenovo P2)",
+      "* heuristic video caps for kuntao"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "land": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for land (Xiaomi Redmi 3S / 3X)",
+      "* heuristic video caps for land"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "lithium": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED (dual tone)",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for lithium (Xiaomi Mi MIX)",
+      "* heuristic video caps for lithium"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "marlin": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "Dual LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for marlin (Google Pixel XL)",
+      "* heuristic video caps for marlin"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "oneplus3": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for oneplus3 (OnePlus 3)",
+      "* heuristic video caps for oneplus3"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "pme": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "Dual LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for pme (HTC 10)",
+      "* heuristic video caps for pme"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "s2": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED (dual tone)",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for s2 (LeEco Le 2)",
+      "* heuristic video caps for s2"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "sailfish": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "Dual LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for sailfish (Google Pixel)",
+      "* heuristic video caps for sailfish"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "suzu": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 23,
+        "flash": "LED",
+        "info": "23 MP main (IMX318) *",
+        "sensor_model": "IMX318",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 13,
+        "flash": "None",
+        "info": "13 MP front (S5K3P9) *",
+        "sensor_size_mm": 4.7059,
+        "sensor_model": "S5K3P9",
+        "pixel_pitch_um": 1.0,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for suzu (Sony Xperia X)",
+      "* heuristic video caps for suzu"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "tenshi": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for tenshi (BQ Aquaris U Plus)",
+      "* heuristic video caps for tenshi"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "tulip": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for tulip (ZTE Axon 7 Mini)",
+      "* heuristic video caps for tulip"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "x2": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 21,
+        "flash": "Dual LED (dual tone)",
+        "info": "21 MP main (IMX318) *",
+        "sensor_model": "IMX318",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for x2 (LeEco Le Max2)",
+      "* heuristic video caps for x2"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "zenfone3": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for zenfone3 (ASUS Zenfone 3)",
+      "* heuristic video caps for zenfone3"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "a3xelte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for a3xelte (Samsung Galaxy A3 (2016))",
+      "* heuristic video caps for a3xelte"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "a5xelte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for a5xelte (Samsung Galaxy A5 (2016))",
+      "* heuristic video caps for a5xelte"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "a7xelte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for a7xelte (Samsung Galaxy A7 (2016))",
+      "* heuristic video caps for a7xelte"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "angler": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12.3,
+        "flash": "Dual LED (dual tone)",
+        "info": "12.3 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for angler (Google Nexus 6P)",
+      "* heuristic video caps for angler"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "bullhead": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12.3,
+        "flash": "Dual LED (dual tone)",
+        "info": "12.3 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for bullhead (Google Nexus 5X)",
+      "* heuristic video caps for bullhead"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "clark": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 21,
+        "flash": "Dual LED",
+        "info": "21 MP main (IMX318) *",
+        "sensor_model": "IMX318",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for clark (Motorola moto x pure edition (2015))",
+      "* heuristic video caps for clark"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "crackling": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for crackling (Wileyfox Swift)",
+      "* heuristic video caps for crackling"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "FP2": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "flash": "LED",
+        "info": "12 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for FP2 (Fairphone 2)",
+      "* heuristic video caps for FP2"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "h811": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for h811 (LG G4 (T-Mobile))",
+      "* heuristic video caps for h811"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "h815": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for h815 (LG G4 (International))",
+      "* heuristic video caps for h815"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "ham": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for ham (ZUK Z1)",
+      "* heuristic video caps for ham"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "hiae": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 4,
+        "flash": "None",
+        "info": "4 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for hiae (HTC One A9)",
+      "* heuristic video caps for hiae"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "himaul": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 20,
+        "flash": "Dual LED",
+        "info": "20 MP main (IMX318) *",
+        "sensor_model": "IMX318",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 4,
+        "flash": "None",
+        "info": "4 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for himaul (HTC One M9 (GSM))",
+      "* heuristic video caps for himaul"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "himawl": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 20,
+        "flash": "Dual LED",
+        "info": "20 MP main (IMX318) *",
+        "sensor_model": "IMX318",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 4,
+        "flash": "None",
+        "info": "4 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for himawl (HTC One M9 (Verizon))",
+      "* heuristic video caps for himawl"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "ivy": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 20.7,
+        "flash": "LED",
+        "info": "20.7 MP main (IMX318) *",
+        "sensor_model": "IMX318",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5.1,
+        "flash": "None",
+        "info": "5.1 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for ivy (Sony Xperia Z3+)",
+      "* heuristic video caps for ivy"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "j7elte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "LED",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for j7elte (Samsung Galaxy J7 (2015))",
+      "* heuristic video caps for j7elte"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "jalebi": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 2,
+        "flash": "None",
+        "info": "2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for jalebi (YU Yunique)",
+      "* heuristic video caps for jalebi"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "kipper": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 20,
+        "flash": "LED",
+        "info": "20 MP main (IMX318) *",
+        "sensor_model": "IMX318",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for kipper (Wileyfox Storm)",
+      "* heuristic video caps for kipper"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "kiwi": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for kiwi (Huawei Honor 5X)",
+      "* heuristic video caps for kiwi"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "lettuce": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for lettuce (YU Yuphoria)",
+      "* heuristic video caps for lettuce"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "libra": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED (dual tone)",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for libra (Xiaomi Mi 4c)",
+      "* heuristic video caps for libra"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "lux": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 21,
+        "flash": "Dual LED",
+        "info": "21 MP main (IMX318) *",
+        "sensor_model": "IMX318",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for lux (Motorola moto x play)",
+      "* heuristic video caps for lux"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "merlin": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for merlin (Motorola moto g3 turbo)",
+      "* heuristic video caps for merlin"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "nx512j": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 15.9,
+        "flash": "LED",
+        "info": "15.9 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP other (OV8856) *",
+        "sensor_model": "OV8856",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for nx512j (Nubia Z9 Max)",
+      "* heuristic video caps for nx512j"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "oneplus2": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for oneplus2 (OnePlus 2)",
+      "* heuristic video caps for oneplus2"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "onyx": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for onyx (OnePlus X)",
+      "* heuristic video caps for onyx"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "osprey": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for osprey (Motorola moto g (2015))",
+      "* heuristic video caps for osprey"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "otus": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 0.3,
+        "flash": "None",
+        "info": "0.3 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for otus (Motorola moto e (2015))",
+      "* heuristic video caps for otus"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "paella": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "other",
+        "mp": 5,
+        "flash": "LED",
+        "info": "5 MP other (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.2,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for paella (BQ Aquaris X5)",
+      "* heuristic video caps for paella"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "peach": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "Dual LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 2,
+        "flash": "None",
+        "info": "2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for peach (ARK Benefit A3)",
+      "* heuristic video caps for peach"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "piccolo": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for piccolo (BQ Aquaris M5)",
+      "* heuristic video caps for piccolo"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "r7plus": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "flash": "None",
+        "info": "8 MP front (S5K4H7) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "S5K4H7",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for r7plus (OPPO R7 Plus (International))",
+      "* heuristic video caps for r7plus"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "s5neolte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for s5neolte (Samsung Galaxy S5 Neo)",
+      "* heuristic video caps for s5neolte"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "seed": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for seed (Google Android One 2nd Gen)",
+      "* heuristic video caps for seed"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "sumire": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 23,
+        "flash": "LED",
+        "info": "23 MP main (IMX318) *",
+        "sensor_model": "IMX318",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5.1,
+        "flash": "None",
+        "info": "5.1 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for sumire (Sony Xperia Z5)",
+      "* heuristic video caps for sumire"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "surnia": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP main (OV5675) *",
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 0.3,
+        "flash": "None",
+        "info": "0.3 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for surnia (Motorola moto e LTE (2015))",
+      "* heuristic video caps for surnia"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "suzuran": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 23,
+        "flash": "LED",
+        "info": "23 MP main (IMX318) *",
+        "sensor_model": "IMX318",
+        "pixel_pitch_um": 1.22,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5.1,
+        "flash": "None",
+        "info": "5.1 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for suzuran (Sony Xperia Z5 Compact)",
+      "* heuristic video caps for suzuran"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "thea": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 2,
+        "flash": "None",
+        "info": "2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for thea (Motorola moto g LTE (2014))",
+      "* heuristic video caps for thea"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "tomato": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for tomato (YU Yureka Plus)",
+      "* heuristic video caps for tomato"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "vegetalte": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "Dual LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for vegetalte (BQ Aquaris E5s)",
+      "* heuristic video caps for vegetalte"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "wt88047": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 2,
+        "flash": "None",
+        "info": "2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for wt88047 (Wingtech Redmi 2)",
+      "* heuristic video caps for wt88047"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "Z008": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for Z008 (ASUS Zenfone 2 (720p))",
+      "* heuristic video caps for Z008"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "Z00A": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for Z00A (ASUS Zenfone 2 (1080p))",
+      "* heuristic video caps for Z00A"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "Z00D": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 8,
+        "flash": "LED",
+        "info": "8 MP main (IMX219) *",
+        "sensor_model": "IMX219",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 2,
+        "flash": "None",
+        "info": "2 MP front (OV5675) *",
+        "sensor_size_mm": 3.2,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for Z00D (ASUS Zenfone 2 (ZE500CL))",
+      "* heuristic video caps for Z00D"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "Z00L": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for Z00L (ASUS Zenfone 2 Laser (720p))",
+      "* heuristic video caps for Z00L"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "Z00T": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "flash": "LED",
+        "info": "13 MP main (IMX363) *",
+        "sensor_model": "IMX363",
+        "pixel_pitch_um": 1.4,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for Z00T (ASUS Zenfone 2 Laser (1080p))",
+      "* heuristic video caps for Z00T"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "zerofltexx": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for zerofltexx (Samsung Galaxy S6)",
+      "* heuristic video caps for zerofltexx"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "zeroltexx": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "flash": "None",
+        "info": "5 MP front (OV5675) *",
+        "sensor_size_mm": 4,
+        "sensor_model": "OV5675",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 2.0,
+        "ois": false
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for zeroltexx (Samsung Galaxy S6 Edge)",
+      "* heuristic video caps for zeroltexx"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  },
+  "n3": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "flash": "Dual LED",
+        "info": "16 MP main (IMX298) *",
+        "sensor_model": "IMX298",
+        "pixel_pitch_um": 1.12,
+        "focal_length_mm": 26.0,
+        "aperture": 1.8,
+        "ois": true
+      }
+    ],
+    "sources": [
+      "* heuristic model/geometry fill for n3 (OPPO N3)",
+      "* heuristic video caps for n3"
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    }
+  }
+}

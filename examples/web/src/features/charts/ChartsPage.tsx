@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { t } from "../../i18n";
 import type { DevicesFile } from "../../types/device";
+import { countDataQualityStats } from "../table/dataQualityLabel";
 import { type DeviceCategory, deviceCategory } from "../table/deviceCategory";
 import { loadDevices } from "../table/loadDevices";
 import { analyzeDeviceLenses } from "../table/opticsMath";
@@ -33,6 +34,24 @@ export function ChartsPage({ category, onBack, onSensorBin, onYear }: Props) {
     };
   }, []);
 
+  const categoryDevices = useMemo(() => {
+    if (!data) return [];
+    return data.devices.filter((d) => {
+      if (deviceCategory(d.type) !== category) return false;
+      analyzeDeviceLenses(d);
+      return true;
+    });
+  }, [data, category]);
+
+  const qualityCounts = useMemo(() => countDataQualityStats(categoryDevices), [categoryDevices]);
+
+  const statsText = data
+    ? t("charts.stats")
+        .replace("{total}", String(categoryDevices.length))
+        .replace("{complete}", String(qualityCounts.complete))
+        .replace("{partial}", String(qualityCounts.partial))
+    : null;
+
   return (
     <div className="ll-charts-page" data-testid="charts-page">
       <header className="ll-charts-page-header">
@@ -49,6 +68,11 @@ export function ChartsPage({ category, onBack, onSensorBin, onYear }: Props) {
         </button>
       </header>
       <p className="ll-muted ll-charts-page-hint">{t("charts.hint")}</p>
+      {statsText ? (
+        <p className="ll-muted" data-testid="charts-stats">
+          {statsText}
+        </p>
+      ) : null}
       {error ? (
         <p className="gp-body" role="alert">
           {error}
@@ -56,16 +80,7 @@ export function ChartsPage({ category, onBack, onSensorBin, onYear }: Props) {
       ) : null}
       {!data && !error ? <p className="gp-body">{t("table.loading")}</p> : null}
       {data ? (
-        <DeviceCharts
-          tall
-          devices={data.devices.filter((d) => {
-            if (deviceCategory(d.type) !== category) return false;
-            analyzeDeviceLenses(d);
-            return true;
-          })}
-          onSensorBin={onSensorBin}
-          onYear={onYear}
-        />
+        <DeviceCharts tall devices={categoryDevices} onSensorBin={onSensorBin} onYear={onYear} />
       ) : null}
     </div>
   );

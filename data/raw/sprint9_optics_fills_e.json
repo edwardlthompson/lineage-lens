@@ -1,0 +1,2042 @@
+{
+  "_meta": {
+    "note": "Bulk single-source fills; info ending with * = single-source or uncertain",
+    "asterisk": "Appended to camera info when PN/optics are not dual-sourced"
+  },
+  "parker": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 48,
+        "ois": true,
+        "flash": "Dual-LED",
+        "info": "48 MP wide (S5KGM1)",
+        "sensor_model": "S5KGM1",
+        "focal_length_mm": 26,
+        "aperture": 1.7,
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8
+      },
+      {
+        "type": "telephoto",
+        "mp": 8,
+        "ois": true,
+        "flash": "Dual-LED",
+        "info": "8 MP 3x tele (OV16885) *",
+        "sensor_model": "OV16885",
+        "focal_length_mm": 78,
+        "aperture": 2.4,
+        "zoom": 3
+      },
+      {
+        "type": "ultrawide",
+        "mp": 16,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "16 MP ultrawide (OV08A10)",
+        "sensor_model": "OV08A10",
+        "focal_length_mm": 13,
+        "aperture": 2.2,
+        "fov_deg": 117
+      },
+      {
+        "type": "depth",
+        "mp": 5,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "5 MP depth (S5K2X5SP) *",
+        "sensor_model": "S5K2X5SP",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      },
+      {
+        "type": "front",
+        "mp": 25,
+        "ois": false,
+        "flash": "None",
+        "info": "25 MP selfie (S5K2X7SP) *",
+        "sensor_model": "S5K2X7SP",
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 0.9
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "Motorola one zoom specs",
+      "* front PN guessed S5K2X7SP"
+    ]
+  },
+  "flashlmdd": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": true,
+        "flash": "Dual-LED",
+        "info": "12 MP wide (IMX351)",
+        "sensor_model": "IMX351",
+        "focal_length_mm": 27,
+        "aperture": 1.5
+      },
+      {
+        "type": "telephoto",
+        "mp": 12,
+        "ois": true,
+        "flash": "Dual-LED",
+        "info": "12 MP tele (S5K3M5) *",
+        "sensor_model": "S5K3M5",
+        "focal_length_mm": 52,
+        "aperture": 2.4,
+        "zoom": 2
+      },
+      {
+        "type": "ultrawide",
+        "mp": 16,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "16 MP ultrawide (IMX351) *",
+        "sensor_model": "IMX351",
+        "focal_length_mm": 13,
+        "aperture": 1.9
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (IMX351) *",
+        "sensor_model": "IMX351",
+        "focal_length_mm": 26,
+        "aperture": 1.9
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "ois": false,
+        "flash": "None",
+        "info": "5 MP depth/ToF aid (GC5035) *",
+        "sensor_model": "GC5035",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena LG V50",
+      "* module role/PN mapping uncertain"
+    ]
+  },
+  "judypn": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": true,
+        "flash": "Dual-LED",
+        "info": "12 MP wide (IMX351)",
+        "sensor_model": "IMX351",
+        "focal_length_mm": 27,
+        "aperture": 1.5
+      },
+      {
+        "type": "ultrawide",
+        "mp": 16,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "16 MP ultrawide (IMX363)",
+        "sensor_model": "IMX363",
+        "focal_length_mm": 13,
+        "aperture": 1.9
+      },
+      {
+        "type": "telephoto",
+        "mp": 12,
+        "ois": true,
+        "flash": "Dual-LED",
+        "info": "12 MP tele (S5K3M5)",
+        "sensor_model": "S5K3M5",
+        "focal_length_mm": 52,
+        "aperture": 2.4,
+        "zoom": 2
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (IMX351)",
+        "sensor_model": "IMX351",
+        "focal_length_mm": 26,
+        "aperture": 1.9
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "ois": false,
+        "flash": "None",
+        "info": "5 MP depth (GC5035) *",
+        "sensor_model": "GC5035",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena LG V40",
+      "* 5MP front depth PN guessed"
+    ]
+  },
+  "kirin": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "ois": false,
+        "flash": "LED",
+        "info": "13 MP wide (S5K3L6)",
+        "sensor_model": "S5K3L6",
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "optical_format": "1/3.0",
+        "pixel_pitch_um": 1.12
+      },
+      {
+        "type": "depth",
+        "mp": 5,
+        "ois": false,
+        "flash": "LED",
+        "info": "5 MP depth (OV5675) *",
+        "sensor_model": "OV5675",
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "optical_format": "1/5.0",
+        "pixel_pitch_um": 1.12
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (S5K4H7) *",
+        "sensor_model": "S5K4H7",
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "Sony Xperia 10 specs",
+      "* depth PN OV5675 guessed"
+    ]
+  },
+  "mermaid": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP wide (IMX486)",
+        "sensor_model": "IMX486",
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "optical_format": "1/2.9",
+        "pixel_pitch_um": 1.25
+      },
+      {
+        "type": "telephoto",
+        "mp": 8,
+        "ois": false,
+        "flash": "LED",
+        "info": "8 MP 2x tele (OV8856) *",
+        "sensor_model": "OV8856",
+        "focal_length_mm": 52,
+        "aperture": 2.4,
+        "zoom": 2,
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (S5K4H8) *",
+        "sensor_model": "S5K4H8",
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "GSMArena Xperia 10 Plus",
+      "* tele PN OV8856 guessed"
+    ]
+  },
+  "lake": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "ois": true,
+        "flash": "Dual-LED",
+        "info": "16 MP wide (IMX519)",
+        "sensor_model": "IMX519",
+        "focal_length_mm": 26,
+        "aperture": 1.7,
+        "optical_format": "1/2.6",
+        "pixel_pitch_um": 1.22
+      },
+      {
+        "type": "depth",
+        "mp": 5,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "5 MP depth (GC5035) *",
+        "sensor_model": "GC5035",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      },
+      {
+        "type": "front",
+        "mp": 12,
+        "ois": false,
+        "flash": "None",
+        "info": "12 MP selfie (S5K5E9) *",
+        "sensor_model": "S5K5E9",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true,
+        "120": true
+      },
+      "720p": {
+        "240": true
+      }
+    },
+    "sources": [
+      "Motorola G7 Plus",
+      "* depth GC5035 guessed"
+    ]
+  },
+  "pro1": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP wide (GC5025) *",
+        "sensor_model": "GC5025",
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "optical_format": "1/2.9",
+        "pixel_pitch_um": 1.25
+      },
+      {
+        "type": "depth",
+        "mp": 5,
+        "ois": false,
+        "flash": "LED",
+        "info": "5 MP depth (OV5675) *",
+        "sensor_model": "OV5675",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (S5K4H7)",
+        "sensor_model": "S5K4H7",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* F(x)tec Pro1 — limited published optics"
+    ]
+  },
+  "ginkgo": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 48,
+        "ois": false,
+        "flash": "LED",
+        "info": "48 MP wide (S5KGM2)",
+        "sensor_model": "S5KGM2",
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "optical_format": "1/2.25",
+        "pixel_pitch_um": 0.8
+      },
+      {
+        "type": "ultrawide",
+        "mp": 8,
+        "ois": false,
+        "flash": "LED",
+        "info": "8 MP ultrawide (GC2375H) *",
+        "sensor_model": "GC2375H",
+        "focal_length_mm": 13,
+        "aperture": 2.2,
+        "fov_deg": 119
+      },
+      {
+        "type": "macro",
+        "mp": 2,
+        "ois": false,
+        "flash": "LED",
+        "info": "2 MP macro (GC02M1)",
+        "sensor_model": "GC02M1",
+        "focal_length_mm": 24,
+        "aperture": 2.4
+      },
+      {
+        "type": "depth",
+        "mp": 2,
+        "ois": false,
+        "flash": "LED",
+        "info": "2 MP depth (OV02B10) *",
+        "sensor_model": "OV02B10",
+        "focal_length_mm": 24,
+        "aperture": 2.4
+      },
+      {
+        "type": "front",
+        "mp": 13,
+        "ois": false,
+        "flash": "None",
+        "info": "13 MP selfie (S5K3L6) *",
+        "sensor_model": "S5K3L6",
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "optical_format": "1/3.1",
+        "pixel_pitch_um": 1.12
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true,
+        "120": true
+      }
+    },
+    "sources": [
+      "GSMArena Note 8 GM2",
+      "* depth/front PN guessed"
+    ]
+  },
+  "beckham": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": true,
+        "flash": "Dual-LED",
+        "info": "12 MP wide (IMX362) *",
+        "sensor_model": "IMX362",
+        "focal_length_mm": 26,
+        "aperture": 1.7,
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4
+      },
+      {
+        "type": "depth",
+        "mp": 5,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "5 MP depth (OV5675) *",
+        "sensor_model": "OV5675",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (S5K2L7SA) *",
+        "sensor_model": "S5K2L7SA",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* moto z3 play — main was mislabeled OV5675; IMX362 guessed"
+    ]
+  },
+  "evert": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": true,
+        "flash": "Dual-LED",
+        "info": "12 MP wide (IMX362) *",
+        "sensor_model": "IMX362",
+        "focal_length_mm": 26,
+        "aperture": 1.7,
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4
+      },
+      {
+        "type": "depth",
+        "mp": 5,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "5 MP depth (OV5675) *",
+        "sensor_model": "OV5675",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "8 MP ultrawide (OV8856) *",
+        "sensor_model": "OV8856",
+        "focal_length_mm": 13,
+        "aperture": 2.2
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (S5K4H7)",
+        "sensor_model": "S5K4H7",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* moto g6 plus — main/UW PN guessed"
+    ]
+  },
+  "chiron": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": true,
+        "flash": "Dual-LED",
+        "info": "12 MP wide (IMX386)",
+        "sensor_model": "IMX386",
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "optical_format": "1/2.9",
+        "pixel_pitch_um": 1.25
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "ois": false,
+        "flash": "None",
+        "info": "5 MP selfie (OV5675) *",
+        "sensor_model": "OV5675",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "GSMArena MIX 2",
+      "* front OV5675 guessed"
+    ]
+  },
+  "cheeseburger": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "ois": true,
+        "flash": "Dual-LED",
+        "info": "16 MP wide (IMX350) *",
+        "sensor_model": "IMX350",
+        "focal_length_mm": 24,
+        "aperture": 1.7
+      },
+      {
+        "type": "telephoto",
+        "mp": 20,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "20 MP tele (IMX371) *",
+        "sensor_model": "IMX371",
+        "focal_length_mm": 68,
+        "aperture": 2.6,
+        "zoom": 2
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "ois": false,
+        "flash": "None",
+        "info": "16 MP selfie (IMX371) *",
+        "sensor_model": "IMX371",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena OnePlus 5",
+      "* tele/front IMX371 guessed from era"
+    ]
+  },
+  "dumpling": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "ois": true,
+        "flash": "Dual-LED",
+        "info": "16 MP wide (IMX376K)",
+        "sensor_model": "IMX376K",
+        "focal_length_mm": 24,
+        "aperture": 1.7
+      },
+      {
+        "type": "other",
+        "mp": 20,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "20 MP secondary (IMX376K) *",
+        "sensor_model": "IMX376K",
+        "focal_length_mm": 24,
+        "aperture": 1.7
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "ois": false,
+        "flash": "None",
+        "info": "16 MP selfie (IMX371) *",
+        "sensor_model": "IMX371",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena OnePlus 5T",
+      "* secondary/front PN guessed"
+    ]
+  },
+  "akatsuki": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 19,
+        "ois": true,
+        "flash": "LED",
+        "info": "19 MP Motion Eye (IMX400)",
+        "sensor_model": "IMX400",
+        "focal_length_mm": 25,
+        "aperture": 1.6,
+        "optical_format": "1/2.3"
+      },
+      {
+        "type": "front",
+        "mp": 13,
+        "ois": false,
+        "flash": "None",
+        "info": "13 MP selfie (IMX300) *",
+        "sensor_model": "IMX300",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "GSMArena XZ3",
+      "* front IMX300 guessed"
+    ]
+  },
+  "aurora": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 19,
+        "ois": true,
+        "flash": "LED",
+        "info": "19 MP color (IMX400) *",
+        "sensor_model": "IMX400",
+        "focal_length_mm": 25,
+        "aperture": 1.6
+      },
+      {
+        "type": "other",
+        "mp": 12,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP mono (IMX400) *",
+        "sensor_model": "IMX400",
+        "focal_length_mm": 25,
+        "aperture": 1.6
+      },
+      {
+        "type": "front",
+        "mp": 13,
+        "ois": false,
+        "flash": "None",
+        "info": "13 MP selfie (IMX300) *",
+        "sensor_model": "IMX300",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "GSMArena XZ2 Premium",
+      "* mono/front PN guessed"
+    ]
+  },
+  "discovery": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 23,
+        "ois": false,
+        "flash": "LED",
+        "info": "23 MP wide (IMX300) *",
+        "sensor_model": "IMX300",
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "optical_format": "1/2.3"
+      },
+      {
+        "type": "other",
+        "mp": 16,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP ultrawide (IMX219) *",
+        "sensor_model": "IMX219",
+        "focal_length_mm": 13,
+        "aperture": 2.4
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "ois": false,
+        "flash": "None",
+        "info": "16 MP selfie (IMX219) *",
+        "sensor_model": "IMX219",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP secondary selfie (IMX219) *",
+        "sensor_model": "IMX219",
+        "focal_length_mm": 26,
+        "aperture": 2.4
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* XA2 Ultra — module PNs guessed from XA2 family"
+    ]
+  },
+  "pioneer": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 23,
+        "ois": false,
+        "flash": "LED",
+        "info": "23 MP wide (IMX300)",
+        "sensor_model": "IMX300",
+        "focal_length_mm": 24,
+        "aperture": 2.0,
+        "optical_format": "1/2.3"
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (IMX219)",
+        "sensor_model": "IMX219",
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "optical_format": "1/4.0"
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "Sony XA2 / already filled — reinforce"
+    ]
+  },
+  "nx563j": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 23,
+        "ois": false,
+        "flash": "LED",
+        "info": "23 MP wide (IMX318) *",
+        "sensor_model": "IMX318",
+        "focal_length_mm": 26,
+        "aperture": 1.8
+      },
+      {
+        "type": "telephoto",
+        "mp": 12,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP tele (S5K3M3) *",
+        "sensor_model": "S5K3M3",
+        "focal_length_mm": 50,
+        "aperture": 2.6,
+        "zoom": 2
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "ois": false,
+        "flash": "None",
+        "info": "16 MP selfie (S5K3P3)",
+        "sensor_model": "S5K3P3",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* Nubia Z17 tele PN guessed S5K3M3"
+    ]
+  },
+  "nx609j": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 24,
+        "ois": false,
+        "flash": "LED",
+        "info": "24 MP wide (HI846) *",
+        "sensor_model": "HI846",
+        "focal_length_mm": 26,
+        "aperture": 1.8
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (S5K4H7) *",
+        "sensor_model": "S5K4H7",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* Red Magic front PN guessed"
+    ]
+  },
+  "nx619j": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "ois": false,
+        "flash": "LED",
+        "info": "48/16 MP wide (IMX586) *",
+        "sensor_model": "IMX586",
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (IMX519) *",
+        "sensor_model": "IMX519",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* Red Magic Mars — replace IMX000 placeholder"
+    ]
+  },
+  "nx606j": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP wide (IMX586) *",
+        "sensor_model": "IMX586",
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8
+      },
+      {
+        "type": "other",
+        "mp": 24,
+        "ois": false,
+        "flash": "LED",
+        "info": "24 MP secondary (IMX376) *",
+        "sensor_model": "IMX376",
+        "focal_length_mm": 26,
+        "aperture": 1.8
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (S5K2X7) *",
+        "sensor_model": "S5K2X7",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* Nubia Z18 — replace IMX000; PNs guessed"
+    ]
+  },
+  "nx616j": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP wide (IMX586) *",
+        "sensor_model": "IMX586",
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8
+      },
+      {
+        "type": "other",
+        "mp": 24,
+        "ois": false,
+        "flash": "LED",
+        "info": "24 MP secondary (IMX376) *",
+        "sensor_model": "IMX376",
+        "focal_length_mm": 26,
+        "aperture": 1.8
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "ois": false,
+        "flash": "None",
+        "info": "16 MP selfie (IMX519) *",
+        "sensor_model": "IMX519",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* Nubia X — replace IMX000; PNs guessed"
+    ]
+  },
+  "bardock": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP wide (IMX298)",
+        "sensor_model": "IMX298",
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 1.12
+      },
+      {
+        "type": "depth",
+        "mp": 8,
+        "ois": false,
+        "flash": "LED",
+        "info": "8 MP depth/secondary (OV8856) *",
+        "sensor_model": "OV8856",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (S5K4H7) *",
+        "sensor_model": "S5K4H7",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* BQ Aquaris X secondary/front guessed"
+    ]
+  },
+  "bardockpro": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": true,
+        "flash": "LED",
+        "info": "12 MP wide (IMX298)",
+        "sensor_model": "IMX298",
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 1.12
+      },
+      {
+        "type": "depth",
+        "mp": 8,
+        "ois": false,
+        "flash": "LED",
+        "info": "8 MP depth/secondary (OV8856) *",
+        "sensor_model": "OV8856",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (S5K4H7) *",
+        "sensor_model": "S5K4H7",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* BQ Aquaris X Pro secondary guessed"
+    ]
+  },
+  "cheryl": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP wide (S5K2L7SA) *",
+        "sensor_model": "S5K2L7SA",
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "optical_format": "1/2.6"
+      },
+      {
+        "type": "other",
+        "mp": 12,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP secondary (S5K2L7SA) *",
+        "sensor_model": "S5K2L7SA",
+        "focal_length_mm": 26,
+        "aperture": 1.8
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (S5K3H7) *",
+        "sensor_model": "S5K3H7",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* Razer Phone — secondary PN guessed same family"
+    ]
+  },
+  "aura": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": true,
+        "flash": "LED",
+        "info": "12 MP wide (IMX362) *",
+        "sensor_model": "IMX362",
+        "focal_length_mm": 26,
+        "aperture": 1.75,
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4
+      },
+      {
+        "type": "front",
+        "mp": 12,
+        "ois": false,
+        "flash": "None",
+        "info": "12 MP selfie (IMX577) *",
+        "sensor_model": "IMX577",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP secondary selfie (IMX377) *",
+        "sensor_model": "IMX377",
+        "focal_length_mm": 26,
+        "aperture": 2.2
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* Razer Phone 2 — main was IMX318; IMX362 more likely*"
+    ]
+  },
+  "taimen": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12.2,
+        "ois": true,
+        "flash": "LED",
+        "info": "12.2 MP wide (IMX362) *",
+        "sensor_model": "IMX362",
+        "focal_length_mm": 27,
+        "aperture": 1.8,
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (IMX268) *",
+        "sensor_model": "IMX268",
+        "focal_length_mm": 26,
+        "aperture": 2.4
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true,
+        "120": true
+      }
+    },
+    "sources": [
+      "* Pixel 2 XL — IMX362/IMX268 commonly cited; single-source*"
+    ]
+  },
+  "walleye": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12.2,
+        "ois": true,
+        "flash": "LED",
+        "info": "12.2 MP wide (IMX362) *",
+        "sensor_model": "IMX362",
+        "focal_length_mm": 27,
+        "aperture": 1.8,
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (IMX268) *",
+        "sensor_model": "IMX268",
+        "focal_length_mm": 26,
+        "aperture": 2.4
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true,
+        "60": true,
+        "120": true
+      }
+    },
+    "sources": [
+      "* Pixel 2 — same stack as XL*"
+    ]
+  },
+  "gemini": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "ois": true,
+        "flash": "LED",
+        "info": "16 MP wide (IMX298)",
+        "sensor_model": "IMX298",
+        "focal_length_mm": 27,
+        "aperture": 2.0,
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 1.12
+      },
+      {
+        "type": "front",
+        "mp": 4,
+        "ois": false,
+        "flash": "None",
+        "info": "4 MP selfie (OV5675) *",
+        "sensor_model": "OV5675",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "GSMArena Mi 5",
+      "* front OV5675 guessed"
+    ]
+  },
+  "scorpio": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 22.5,
+        "ois": true,
+        "flash": "LED",
+        "info": "22.5 MP wide (IMX318) *",
+        "sensor_model": "IMX318",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (IMX179) *",
+        "sensor_model": "IMX179",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* Mi Note 2 — main was IMX268; IMX318 more common for 22.5MP*"
+    ]
+  },
+  "z2_plus": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "ois": false,
+        "flash": "LED",
+        "info": "13 MP wide (S5K2M8)",
+        "sensor_model": "S5K2M8",
+        "focal_length_mm": 26,
+        "aperture": 1.8
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (S5K4H7) *",
+        "sensor_model": "S5K4H7",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* ZUK Z2 Plus front guessed"
+    ]
+  },
+  "natrium": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP wide (IMX258)",
+        "sensor_model": "IMX258",
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "optical_format": "1/3.06"
+      },
+      {
+        "type": "other",
+        "mp": 16,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP secondary (IMX258) *",
+        "sensor_model": "IMX258",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      },
+      {
+        "type": "front",
+        "mp": 4,
+        "ois": false,
+        "flash": "None",
+        "info": "4 MP selfie (OV5675) *",
+        "sensor_model": "OV5675",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* Mi 5s Plus secondary/front guessed"
+    ]
+  },
+  "payton": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP wide (S5K2L7SA) *",
+        "sensor_model": "S5K2L7SA",
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "optical_format": "1/2.6"
+      },
+      {
+        "type": "other",
+        "mp": 12,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP secondary (S5K2L7SA) *",
+        "sensor_model": "S5K2L7SA",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      },
+      {
+        "type": "other",
+        "mp": 8,
+        "ois": false,
+        "flash": "LED",
+        "info": "8 MP ultrawide (OV8856) *",
+        "sensor_model": "OV8856",
+        "focal_length_mm": 13,
+        "aperture": 2.2
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "ois": false,
+        "flash": "None",
+        "info": "16 MP selfie (S5K4H7) *",
+        "sensor_model": "S5K4H7",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* moto x4 module PNs guessed"
+    ]
+  },
+  "twolip": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP wide (IMX486) *",
+        "sensor_model": "IMX486",
+        "focal_length_mm": 26,
+        "aperture": 1.9,
+        "optical_format": "1/2.9",
+        "pixel_pitch_um": 1.25
+      },
+      {
+        "type": "depth",
+        "mp": 5,
+        "ois": false,
+        "flash": "LED",
+        "info": "5 MP depth (S5K5E8) *",
+        "sensor_model": "S5K5E8",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      },
+      {
+        "type": "front",
+        "mp": 20,
+        "ois": false,
+        "flash": "None",
+        "info": "20 MP selfie (S5K3T1)",
+        "sensor_model": "S5K3T1",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      },
+      {
+        "type": "front",
+        "mp": 2,
+        "ois": false,
+        "flash": "None",
+        "info": "2 MP depth selfie (OV02A10) *",
+        "sensor_model": "OV02A10",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* Note 6 Pro main/depth guessed; dual front from tree"
+    ]
+  },
+  "heart": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "ois": true,
+        "flash": "LED",
+        "info": "16 MP wide (IMX519)",
+        "sensor_model": "IMX519",
+        "focal_length_mm": 26,
+        "aperture": 1.7,
+        "optical_format": "1/2.6",
+        "pixel_pitch_um": 1.22
+      },
+      {
+        "type": "other",
+        "mp": 24,
+        "ois": false,
+        "flash": "LED",
+        "info": "24.8 MP secondary (IMX576) *",
+        "sensor_model": "IMX576",
+        "focal_length_mm": 26,
+        "aperture": 1.8
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "ois": false,
+        "flash": "None",
+        "info": "16 MP selfie (S5K3P9) *",
+        "sensor_model": "S5K3P9",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP secondary selfie (OV8856) *",
+        "sensor_model": "OV8856",
+        "focal_length_mm": 26,
+        "aperture": 2.2
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* Lenovo Z5 Pro GT secondary/front guessed"
+    ]
+  },
+  "zippo": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 48,
+        "ois": true,
+        "flash": "LED",
+        "info": "48 MP wide (S5KGM1) *",
+        "sensor_model": "S5KGM1",
+        "focal_length_mm": 26,
+        "aperture": 1.7,
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8
+      },
+      {
+        "type": "telephoto",
+        "mp": 8,
+        "ois": false,
+        "flash": "LED",
+        "info": "8 MP tele (OV8856)",
+        "sensor_model": "OV8856",
+        "focal_length_mm": 52,
+        "aperture": 2.4,
+        "zoom": 2
+      },
+      {
+        "type": "ultrawide",
+        "mp": 16,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP ultrawide (IMX350) *",
+        "sensor_model": "IMX350",
+        "focal_length_mm": 13,
+        "aperture": 2.2
+      },
+      {
+        "type": "depth",
+        "mp": 2,
+        "ois": false,
+        "flash": "LED",
+        "info": "2 MP depth (S5KGD1) *",
+        "sensor_model": "S5KGD1",
+        "focal_length_mm": 24,
+        "aperture": 2.4
+      },
+      {
+        "type": "front",
+        "mp": 32,
+        "ois": false,
+        "flash": "None",
+        "info": "32 MP selfie (S5KGD1) *",
+        "sensor_model": "S5KGD1",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* Lenovo Z6 Pro — GM1/UW/front guessed"
+    ]
+  },
+  "chef": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 16,
+        "ois": false,
+        "flash": "LED",
+        "info": "16 MP wide (OV12A10)",
+        "sensor_model": "OV12A10",
+        "focal_length_mm": 26,
+        "aperture": 1.7,
+        "optical_format": "1/2.9",
+        "pixel_pitch_um": 1.25
+      },
+      {
+        "type": "depth",
+        "mp": 5,
+        "ois": false,
+        "flash": "LED",
+        "info": "5 MP depth (OV5675) *",
+        "sensor_model": "OV5675",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      },
+      {
+        "type": "other",
+        "mp": 12,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP ultrawide (OV8856) *",
+        "sensor_model": "OV8856",
+        "focal_length_mm": 13,
+        "aperture": 2.2
+      },
+      {
+        "type": "front",
+        "mp": 12,
+        "ois": false,
+        "flash": "None",
+        "info": "12 MP selfie (S5K4H7) *",
+        "sensor_model": "S5K4H7",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* moto one power secondary PNs guessed"
+    ]
+  },
+  "river": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP wide (IMX363) *",
+        "sensor_model": "IMX363",
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4
+      },
+      {
+        "type": "depth",
+        "mp": 5,
+        "ois": false,
+        "flash": "LED",
+        "info": "5 MP depth (GC5035) *",
+        "sensor_model": "GC5035",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (S5K4H7) *",
+        "sensor_model": "S5K4H7",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true,
+        "60": true
+      }
+    },
+    "sources": [
+      "* moto g7 — all PNs guessed from family"
+    ]
+  },
+  "ocean": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP wide (IMX362) *",
+        "sensor_model": "IMX362",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (S5K4H7) *",
+        "sensor_model": "S5K4H7",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* moto g7 power guessed"
+    ]
+  },
+  "channel": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 13,
+        "ois": false,
+        "flash": "LED",
+        "info": "13 MP wide (S5K3L6) *",
+        "sensor_model": "S5K3L6",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      },
+      {
+        "type": "depth",
+        "mp": 8,
+        "ois": false,
+        "flash": "LED",
+        "info": "8 MP depth (OV8856) *",
+        "sensor_model": "OV8856",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      },
+      {
+        "type": "front",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP selfie (S5K4H7) *",
+        "sensor_model": "S5K4H7",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* moto g7 play guessed"
+    ]
+  },
+  "kane": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 48,
+        "ois": true,
+        "flash": "LED",
+        "info": "48 MP wide (S5KGM1) *",
+        "sensor_model": "S5KGM1",
+        "focal_length_mm": 26,
+        "aperture": 1.7,
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8
+      },
+      {
+        "type": "front",
+        "mp": 25,
+        "ois": false,
+        "flash": "None",
+        "info": "25 MP selfie (S5K2X7SP) *",
+        "sensor_model": "S5K2X7SP",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      },
+      {
+        "type": "depth",
+        "mp": 5,
+        "ois": false,
+        "flash": "LED",
+        "info": "5 MP depth (GC5035) *",
+        "sensor_model": "GC5035",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      }
+    ],
+    "video": {
+      "4k": {
+        "30": true
+      },
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* one vision / p50 — GM1 + 25MP front guessed"
+    ]
+  },
+  "troika": {
+    "cameras": [
+      {
+        "type": "main",
+        "mp": 12,
+        "ois": false,
+        "flash": "LED",
+        "info": "12 MP wide (S5K2L7) *",
+        "sensor_model": "S5K2L7",
+        "focal_length_mm": 26,
+        "aperture": 1.8
+      },
+      {
+        "type": "front",
+        "mp": 16,
+        "ois": false,
+        "flash": "None",
+        "info": "16 MP selfie (S5K3P9) *",
+        "sensor_model": "S5K3P9",
+        "focal_length_mm": 26,
+        "aperture": 2.0
+      },
+      {
+        "type": "ultrawide",
+        "mp": 8,
+        "ois": false,
+        "flash": "None",
+        "info": "8 MP UW selfie aid (OV8856) *",
+        "sensor_model": "OV8856",
+        "focal_length_mm": 13,
+        "aperture": 2.2
+      },
+      {
+        "type": "front",
+        "mp": 5,
+        "ois": false,
+        "flash": "None",
+        "info": "5 MP depth selfie (GC5035) *",
+        "sensor_model": "GC5035",
+        "focal_length_mm": 24,
+        "aperture": 2.2
+      }
+    ],
+    "video": {
+      "1080p": {
+        "30": true
+      }
+    },
+    "sources": [
+      "* one action — unusual dual-selfie; PNs guessed"
+    ]
+  }
+}

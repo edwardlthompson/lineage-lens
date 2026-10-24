@@ -1,0 +1,315 @@
+{
+  "_meta": {
+    "note": "Bulk near-complete / mislabeled stacks (2018–19 Xiaomi+OnePlus); maker/GSMArena PNs",
+    "ceiling": "287 partials still have zero sensor models — need proprietary re-extract or per-device research"
+  },
+  "hotdogb": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.6,
+        "ois": true,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8,
+        "info": "48 MP wide OIS (IMX586)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3M5",
+        "mp": 12,
+        "focal_length_mm": 51,
+        "aperture": 2.2,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.4",
+        "pixel_pitch_um": 1.0,
+        "info": "12 MP 2x tele (S5K3M5)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX481",
+        "mp": 16,
+        "focal_length_mm": 17,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP ultrawide (IMX481)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX471",
+        "mp": 16,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/3.06",
+        "pixel_pitch_um": 1.0,
+        "info": "16 MP selfie (IMX471)"
+      }
+    ],
+    "video": { "4k": { "30": true, "60": true }, "1080p": { "30": true, "60": true } },
+    "sources": ["NanoReview OnePlus 7T", "proprietary s5k3m5 + 7T calibration"]
+  },
+  "tucana": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "S5KHMX",
+        "mp": 108,
+        "focal_length_mm": 25,
+        "aperture": 1.69,
+        "ois": true,
+        "flash": "Dual-LED",
+        "optical_format": "1/1.33",
+        "pixel_pitch_um": 0.8,
+        "info": "108 MP wide OIS (HMX)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K2L7",
+        "mp": 12,
+        "focal_length_mm": 50,
+        "aperture": 2.0,
+        "ois": false,
+        "zoom": 2,
+        "flash": "Dual-LED",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "info": "12 MP 2x portrait tele (S5K2L7)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "OV08A10",
+        "mp": 8,
+        "focal_length_mm": 80,
+        "aperture": 2.0,
+        "ois": true,
+        "zoom": 3.7,
+        "flash": "Dual-LED",
+        "optical_format": "1/4.0",
+        "pixel_pitch_um": 1.12,
+        "info": "8 MP ~5x tele OIS (OV08A10)"
+      },
+      {
+        "type": "ultrawide",
+        "sensor_model": "IMX350",
+        "mp": 20,
+        "focal_length_mm": 13,
+        "aperture": 2.2,
+        "ois": false,
+        "flash": "Dual-LED",
+        "optical_format": "1/3.0",
+        "pixel_pitch_um": 1.12,
+        "fov_deg": 117,
+        "info": "20 MP ultrawide (IMX350)"
+      },
+      {
+        "type": "macro",
+        "sensor_model": "OV02A10",
+        "mp": 2,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "Dual-LED",
+        "info": "2 MP macro"
+      },
+      {
+        "type": "front",
+        "sensor_model": "S5KHMX",
+        "mp": 32,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 0.8,
+        "info": "32 MP selfie (HMX listing)"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "60": true }, "720p": { "960": true } },
+    "sources": ["Gizmochina Mi Note 10 camera poster", "GSMArena Mi Note 10", "mi.com"]
+  },
+  "jasmine_sprout": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX486",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.75,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.9",
+        "pixel_pitch_um": 1.25,
+        "info": "12 MP wide (IMX486)"
+      },
+      {
+        "type": "other",
+        "sensor_model": "IMX376",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 1.75,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 1.0,
+        "info": "20 MP secondary (IMX376)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX376",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 1.0,
+        "info": "20 MP selfie (IMX376)"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "60": true }, "720p": { "120": true } },
+    "sources": ["mi.com Mi 6X / GSMArena Mi A2"]
+  },
+  "wayne": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX486",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.75,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.9",
+        "pixel_pitch_um": 1.25,
+        "info": "12 MP wide (IMX486)"
+      },
+      {
+        "type": "other",
+        "sensor_model": "IMX376",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 1.75,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 1.0,
+        "info": "20 MP secondary (IMX376)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX376",
+        "mp": 20,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 1.0,
+        "info": "20 MP selfie (IMX376)"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "60": true }, "720p": { "120": true } },
+    "sources": ["mi.com Mi 6X specs"]
+  },
+  "perseus": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX363",
+        "mp": 12,
+        "focal_length_mm": 26,
+        "aperture": 1.8,
+        "ois": true,
+        "flash": "LED",
+        "optical_format": "1/2.55",
+        "pixel_pitch_um": 1.4,
+        "info": "12 MP wide OIS (IMX363)"
+      },
+      {
+        "type": "telephoto",
+        "sensor_model": "S5K3M3",
+        "mp": 12,
+        "focal_length_mm": 52,
+        "aperture": 2.4,
+        "ois": false,
+        "zoom": 2,
+        "flash": "LED",
+        "optical_format": "1/3.4",
+        "pixel_pitch_um": 1.0,
+        "info": "12 MP 2x tele (S5K3M3+)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX576",
+        "mp": 24,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "optical_format": "1/2.8",
+        "pixel_pitch_um": 0.9,
+        "info": "24 MP selfie (IMX576)"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "OV02A10",
+        "mp": 2,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "None",
+        "info": "2 MP front depth (OC0A10-class)"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true }, "720p": { "960": true } },
+    "sources": ["mi.com MIX 3 specs"]
+  },
+  "violet": {
+    "cameras": [
+      {
+        "type": "main",
+        "sensor_model": "IMX586",
+        "mp": 48,
+        "focal_length_mm": 26,
+        "aperture": 1.79,
+        "ois": false,
+        "flash": "LED",
+        "optical_format": "1/2.0",
+        "pixel_pitch_um": 0.8,
+        "info": "48 MP wide (IMX586)"
+      },
+      {
+        "type": "depth",
+        "sensor_model": "GC5035",
+        "mp": 5,
+        "focal_length_mm": 24,
+        "aperture": 2.4,
+        "ois": false,
+        "flash": "LED",
+        "info": "5 MP depth (GC5035)"
+      },
+      {
+        "type": "front",
+        "sensor_model": "IMX576",
+        "mp": 13,
+        "focal_length_mm": 26,
+        "aperture": 2.0,
+        "ois": false,
+        "flash": "None",
+        "info": "13 MP selfie"
+      }
+    ],
+    "video": { "4k": { "30": true }, "1080p": { "30": true, "60": true, "120": true } },
+    "sources": ["TechRadar / mi.com Note 7 Pro", "Lineage violet proprietary GC5035"]
+  }
+}

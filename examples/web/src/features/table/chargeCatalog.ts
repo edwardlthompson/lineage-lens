@@ -8,12 +8,14 @@
 export type { CatalogCharge } from "./chargeCatalogTypes";
 
 import { CHARGE_CATALOG_LEGACY } from "./chargeCatalogLegacy";
+import { CHARGE_CATALOG_TABLETS } from "./chargeCatalogTablets";
 import { CHARGE_CATALOG_MODERN } from "./chargeCatalogModern";
 import type { CatalogCharge } from "./chargeCatalogTypes";
 
 export const CHARGE_BY_CODENAME: Record<string, CatalogCharge> = {
   ...CHARGE_CATALOG_MODERN,
   ...CHARGE_CATALOG_LEGACY,
+  ...CHARGE_CATALOG_TABLETS,
 };
 
 export function lookupCharge(codename: string | null | undefined): CatalogCharge | null {

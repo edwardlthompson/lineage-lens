@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "note": "After tablet models/cellular bulk — quality gaps remain empty",
+    "device_rows": 0,
+    "phone_rollup": "645 complete / 0 partial",
+    "all_devices": "767 complete / 0 partial",
+    "tablet_rollup": "68 complete / 0 partial",
+    "tablet_5g": ["gts7xl", "nicole (Edge 5G)"],
+    "tablet_models_fills": "data/raw/sprint9_tablet_models_fills.json"
+  },
+  "devices": []
+}

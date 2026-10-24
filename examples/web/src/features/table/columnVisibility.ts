@@ -14,6 +14,13 @@ export const DEFAULT_HIDDEN_COLUMNS: VisibilityState = {
   quality: false,
   storage_speed: false,
   refresh_rate: false,
+  /** Phone-first default; tablets force visible via categoryVisibility. */
+  cellular: false,
+};
+
+/** Extra visibility when browsing tablets (cellular is a primary buying signal). */
+export const TABLET_COLUMN_VISIBILITY: VisibilityState = {
+  cellular: true,
 };
 
 /** Toggleable secondary columns (visibility panel). */
@@ -34,6 +41,7 @@ export const TOGGLEABLE_COLUMN_IDS = [
   "ip_rating",
   "storage_speed",
   "refresh_rate",
+  "cellular",
 ] as const;
 
 export type ToggleableColumnId = (typeof TOGGLEABLE_COLUMN_IDS)[number];
@@ -56,4 +64,5 @@ export const TOGGLEABLE_I18N: Record<ToggleableColumnId, string> = {
   ip_rating: "ip",
   storage_speed: "storage",
   refresh_rate: "refresh",
+  cellular: "cellular",
 };
