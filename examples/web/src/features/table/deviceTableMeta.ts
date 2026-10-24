@@ -23,6 +23,10 @@ export const NARROW_ID_COLS = new Set([
   "ram",
   "ux_score",
   "status",
+  "screen_res",
+  "screen_size",
+  "screen_ppi",
+  "screen_tech",
 ]);
 
 /** First click: high→low so best / newest rows land on top. */
@@ -41,6 +45,9 @@ export const SORT_DESC_FIRST_IDS = new Set([
   "worth_buy",
   "used_market",
   "maturity",
+  "screen_res",
+  "screen_size",
+  "screen_ppi",
 ]);
 
 /** Optics column sort: equal scores break on SoC / RAM. */

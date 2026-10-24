@@ -8,8 +8,8 @@
 export type { CatalogCharge } from "./chargeCatalogTypes";
 
 import { CHARGE_CATALOG_LEGACY } from "./chargeCatalogLegacy";
-import { CHARGE_CATALOG_TABLETS } from "./chargeCatalogTablets";
 import { CHARGE_CATALOG_MODERN } from "./chargeCatalogModern";
+import { CHARGE_CATALOG_TABLETS } from "./chargeCatalogTablets";
 import type { CatalogCharge } from "./chargeCatalogTypes";
 
 export const CHARGE_BY_CODENAME: Record<string, CatalogCharge> = {

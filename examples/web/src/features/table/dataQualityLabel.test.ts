@@ -1,9 +1,5 @@
 import { describe, expect, it } from "vitest";
-import {
-  countDataQuality,
-  countDataQualityStats,
-  dataQualityLabelKey,
-} from "./dataQualityLabel";
+import { countDataQuality, countDataQualityStats, dataQualityLabelKey } from "./dataQualityLabel";
 
 describe("dataQualityLabel", () => {
   it("maps quality to i18n keys", () => {

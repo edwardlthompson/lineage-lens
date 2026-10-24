@@ -163,7 +163,11 @@ export function ColumnFilter({ column }: { column: Column<Device, unknown> }) {
         .sort((a, b) => a.localeCompare(b))
     : [];
 
-  if (options.length > 0 && options.length <= 80 && ["status", "quality", "vendor"].includes(id)) {
+  if (
+    options.length > 0 &&
+    options.length <= 80 &&
+    ["status", "quality", "vendor", "screen_tech"].includes(id)
+  ) {
     const selected = (column.getFilterValue() as string | undefined) ?? "";
     return (
       <select

@@ -1,0 +1,175 @@
+{
+  "_meta": {
+    "note": "TV-category screen/output fills. Panel size/tech only for real panels; HDMI boxes get max resolution only. * = unsure.",
+    "protocol": "match by codename; name_contains when shared trees differ"
+  },
+  "rows": [
+    {
+      "codename": "baracus",
+      "screen": {
+        "resolution": "3840x2160",
+        "size": 55,
+        "technology": "LCD"
+      },
+      "sources": ["Jamboard 55\" 4K LCD"]
+    },
+    {
+      "codename": "baracus_tab",
+      "screen": {
+        "resolution": "3840x2160",
+        "size": 55,
+        "technology": "LCD"
+      },
+      "sources": ["Jamboard 55\" 4K LCD"]
+    },
+    {
+      "codename": "beast",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["ADT-2 Amlogic S905X HDMI 4K60 HDR (Android Police / comparison tables)"]
+    },
+    {
+      "codename": "deadpool",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* ADT-3 HDMI 4K"]
+    },
+    {
+      "codename": "dopinder",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["onn. TV Box 4K (2021)"]
+    },
+    {
+      "codename": "foster",
+      "name_contains": "Shield",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["NVIDIA Shield TV HDMI 4K"]
+    },
+    {
+      "codename": "foster",
+      "name_contains": "Jetson",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Jetson TX1 HDMI 4K class"]
+    },
+    {
+      "codename": "foster_tab",
+      "name_contains": "Shield",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["NVIDIA Shield TV HDMI 4K"]
+    },
+    {
+      "codename": "foster_tab",
+      "name_contains": "Jetson",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Jetson TX1 HDMI 4K class"]
+    },
+    {
+      "codename": "fugu",
+      "screen": { "resolution": "1920x1080" },
+      "sources": ["Nexus Player HDMI 1080p"]
+    },
+    {
+      "codename": "m5",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Banana Pi M5 HDMI 4K"]
+    },
+    {
+      "codename": "m5_tab",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Banana Pi M5 HDMI 4K"]
+    },
+    {
+      "codename": "mdarcy",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["Shield TV 2019 Pro HDMI 4K"]
+    },
+    {
+      "codename": "mdarcy_tab",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["Shield TV 2019 Pro HDMI 4K"]
+    },
+    {
+      "codename": "nicepool",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Freebox Pop/TV S905X2 HDMI 4K class"]
+    },
+    {
+      "codename": "nicepool_rtk",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Freebox Pop/TV Realtek variant HDMI 4K class"]
+    },
+    {
+      "codename": "odroidc4",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* ODROID-C4 HDMI 4K"]
+    },
+    {
+      "codename": "odroidc4_tab",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* ODROID-C4 HDMI 4K"]
+    },
+    {
+      "codename": "ohm",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* S905X4 / ADT-4 HDMI 4K *"]
+    },
+    {
+      "codename": "porg",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Jetson Nano HDMI 4K class"]
+    },
+    {
+      "codename": "porg_tab",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Jetson Nano HDMI 4K class"]
+    },
+    {
+      "codename": "quill",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Jetson TX2 HDMI 4K class"]
+    },
+    {
+      "codename": "quill_tab",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Jetson TX2 HDMI 4K class"]
+    },
+    {
+      "codename": "radxa0",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Radxa Zero HDMI 4K *"]
+    },
+    {
+      "codename": "radxa0_tab",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Radxa Zero HDMI 4K *"]
+    },
+    {
+      "codename": "radxa02",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Radxa Zero 2 HDMI 4K *"]
+    },
+    {
+      "codename": "radxa02_tab",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Radxa Zero 2 HDMI 4K *"]
+    },
+    {
+      "codename": "sabrina",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["Chromecast with Google TV 4K"]
+    },
+    {
+      "codename": "sif",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["Shield TV 2019 HDMI 4K"]
+    },
+    {
+      "codename": "tifa",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Dynalink DV9135 Google TV 4K *"]
+    },
+    {
+      "codename": "wade",
+      "screen": { "resolution": "3840x2160" },
+      "sources": ["* Dynalink / Walmart TV Box 4K 2021"]
+    }
+  ]
+}

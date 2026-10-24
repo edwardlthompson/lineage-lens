@@ -1,9 +1,5 @@
 import { describe, expect, it } from "vitest";
-import {
-  cellularTier,
-  cellularTierRank,
-  meetsCellularFilter,
-} from "./cellularTier";
+import { cellularTier, cellularTierRank, meetsCellularFilter } from "./cellularTier";
 
 describe("cellularTier", () => {
   it("maps 5G NR ahead of 4G", () => {

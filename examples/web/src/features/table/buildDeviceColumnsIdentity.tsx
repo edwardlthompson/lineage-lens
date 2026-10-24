@@ -14,6 +14,17 @@ import { formatGbShort, formatSocOnly, topCapacityGb } from "./hardwareSpec";
 import { CodenameModelsCell, ModelAlignedCell } from "./ModelAlignedCells";
 import { analyzeDeviceLenses } from "./opticsMath";
 import { IpRatingCell } from "./StackedLensCells";
+import {
+  formatPpi,
+  formatResolution,
+  formatSize,
+  formatTech,
+  panelTechSortRank,
+  resolutionPixelCount,
+  screenPpi,
+  screenSizeInches,
+  screenTech,
+} from "./screenGeometry";
 import { rankOrUndefined } from "./sortRank";
 
 export function buildIdentityDeviceColumns({
@@ -160,6 +171,43 @@ export function buildIdentityDeviceColumns({
       id: "battery",
       header: () => t("table.col.battery"),
       cell: ({ row }) => <BatteryCell device={row.original} />,
+    }),
+    col.accessor((r) => rankOrUndefined(resolutionPixelCount(r.screen)), {
+      id: "screen_res",
+      header: () => t("table.col.resolution"),
+      cell: ({ row }) => formatResolution(row.original.screen),
+      sortingFn: "basic",
+      sortDescFirst: true,
+      sortUndefined: "last",
+      filterFn: yearMinFilter,
+    }),
+    col.accessor((r) => rankOrUndefined(screenSizeInches(r.screen)), {
+      id: "screen_size",
+      header: () => t("table.col.screenSize"),
+      cell: ({ row }) => formatSize(row.original.screen),
+      sortingFn: "basic",
+      sortDescFirst: true,
+      sortUndefined: "last",
+      filterFn: yearMinFilter,
+    }),
+    col.accessor((r) => rankOrUndefined(screenPpi(r.screen)), {
+      id: "screen_ppi",
+      header: () => t("table.col.ppi"),
+      cell: ({ row }) => formatPpi(row.original.screen),
+      sortingFn: "basic",
+      sortDescFirst: true,
+      sortUndefined: "last",
+      filterFn: yearMinFilter,
+    }),
+    col.accessor((r) => screenTech(r.screen) ?? "", {
+      id: "screen_tech",
+      header: () => t("table.col.screenTech"),
+      cell: ({ row }) => formatTech(row.original.screen),
+      sortingFn: (a, b) =>
+        panelTechSortRank(screenTech(a.original.screen)) -
+        panelTechSortRank(screenTech(b.original.screen)),
+      sortDescFirst: true,
+      filterFn: equalsFilter,
     }),
     col.accessor((r) => r.waterproofing ?? "", {
       id: "ip_rating",

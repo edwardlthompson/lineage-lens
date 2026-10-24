@@ -22,6 +22,7 @@ import { type CompareWins, computeCompareWins } from "./compareWins";
 import { DeviceDataGrid } from "./DeviceDataGrid";
 import { DeviceDetailPanel } from "./DeviceDetailPanel";
 import { DeviceTableToolbar } from "./DeviceTableToolbar";
+import { countDataQualityStats } from "./dataQualityLabel";
 import {
   type DeviceCategory,
   deviceCategory,
@@ -34,7 +35,6 @@ import { type HomeView, parseHomeView, writeHomeView } from "./homeView";
 import { loadDevices } from "./loadDevices";
 import { analyzeDeviceLenses } from "./opticsMath";
 import { findSimilarDevices, type SimilarHit } from "./similarDevices";
-import { countDataQualityStats } from "./dataQualityLabel";
 import { useTableUrlSync } from "./useTableUrlSync";
 
 export { yearMinFilter } from "./deviceTableFilters";

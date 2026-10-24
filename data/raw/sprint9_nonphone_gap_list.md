@@ -1,4 +1,4 @@
-# Device quality after tablet models bulk
+# Device quality after TV screen fills
 
 Phones complete·partial: **645 · 0**
 All devices: **767 · 0**
@@ -8,4 +8,4 @@ All devices: **767 · 0**
 - **tv**: 36 complete · 0 partial
 - **gaming**: 18 complete · 0 partial
 
-Model/network row matches applied: 45
+TV screen matches: 36; resolution filled 36/36; size 2; tech 2

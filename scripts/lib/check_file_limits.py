@@ -19,6 +19,7 @@ STATIC_GLOBS = (
     "examples/web/src/features/table/chargeCatalogModern.ts",
     "examples/web/src/features/table/chargeCatalogLegacy.ts",
     "examples/web/src/features/table/chargeCatalogTablets.ts",
+    "examples/web/src/features/table/socPerformanceData.ts",
     "examples/android/app/src/main/java/*/ui/*/*.kt",
     "examples/android/app/src/main/java/*/ui/GoldenPath*.kt",
     "examples/*/locales/*.json",

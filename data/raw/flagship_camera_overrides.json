@@ -4653,32 +4653,48 @@
     "cameras": [],
     "_sources": [
       "DroidLogic STB — no camera",
-      "* camera-less complete stub for ohm (DroidLogic ADT-4/4+/4 (Low Ram))"
-    ]
+      "* camera-less complete stub for ohm (DroidLogic ADT-4/4+/4 (Low Ram))",
+      "* S905X4 / ADT-4 HDMI 4K *"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "radxa02": {
     "waterproofing": "Not rated *",
     "cameras": [],
     "_sources": [
       "Radxa Zero 2 — no camera",
-      "* camera-less complete stub for radxa02 (Radxa Zero 2 (S905D3, eMMC Only) [Android TV])"
-    ]
+      "* camera-less complete stub for radxa02 (Radxa Zero 2 (S905D3, eMMC Only) [Android TV])",
+      "* Radxa Zero 2 HDMI 4K *"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "radxa02_tab": {
     "waterproofing": "Not rated *",
     "cameras": [],
     "_sources": [
       "Radxa Zero 2 tab — no camera",
-      "* camera-less complete stub for radxa02_tab (Radxa Zero 2 (S905D3, eMMC Only) [Tablet])"
-    ]
+      "* camera-less complete stub for radxa02_tab (Radxa Zero 2 (S905D3, eMMC Only) [Tablet])",
+      "* Radxa Zero 2 HDMI 4K *"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "tifa": {
     "waterproofing": "Not rated *",
     "cameras": [],
     "_sources": [
       "SDMC STB — no camera",
-      "* camera-less complete stub for tifa (SDMC DV9135)"
-    ]
+      "* camera-less complete stub for tifa (SDMC DV9135)",
+      "* Dynalink DV9135 Google TV 4K *"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "r0s": {
     "_sources": [
@@ -7290,48 +7306,74 @@
     "cameras": [],
     "_sources": [
       "Google ADT-3 — no camera",
-      "* camera-less complete stub for deadpool (Google ADT-3)"
-    ]
+      "* camera-less complete stub for deadpool (Google ADT-3)",
+      "* ADT-3 HDMI 4K"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "dopinder": {
     "waterproofing": "Not rated *",
     "cameras": [],
     "_sources": [
       "onn TV Box 4K — no camera",
-      "* camera-less complete stub for dopinder (Walmart onn. TV Box 4K (2021))"
-    ]
+      "* camera-less complete stub for dopinder (Walmart onn. TV Box 4K (2021))",
+      "onn. TV Box 4K (2021)"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "m5": {
     "waterproofing": "Not rated *",
     "cameras": [],
     "_sources": [
       "Banana Pi M5 — no camera",
-      "* camera-less complete stub for m5 (Banana Pi M5 (S905X3, eMMC Only) [Android TV])"
-    ]
+      "* camera-less complete stub for m5 (Banana Pi M5 (S905X3, eMMC Only) [Android TV])",
+      "* Banana Pi M5 HDMI 4K"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "m5_tab": {
     "waterproofing": "Not rated *",
     "cameras": [],
     "_sources": [
       "Banana Pi M5 tab — no camera",
-      "* camera-less complete stub for m5_tab (Banana Pi M5 (S905X3, eMMC Only) [Tablet])"
-    ]
+      "* camera-less complete stub for m5_tab (Banana Pi M5 (S905X3, eMMC Only) [Tablet])",
+      "* Banana Pi M5 HDMI 4K"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "nicepool": {
     "waterproofing": "Not rated *",
     "cameras": [],
     "_sources": [
       "Freebox Pop — no camera",
-      "* camera-less complete stub for nicepool (Freebox Pop / TV (Broadcom Wi-Fi/Bluetooth))"
-    ]
+      "* camera-less complete stub for nicepool (Freebox Pop / TV (Broadcom Wi-Fi/Bluetooth))",
+      "* onn Pop / TV class 1080p *",
+      "* Freebox Pop/TV S905X2 HDMI 4K class"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "nicepool_rtk": {
     "waterproofing": "Not rated *",
     "cameras": [],
     "_sources": [
       "Freebox Pop RTK — no camera",
-      "* camera-less complete stub for nicepool_rtk (Freebox Pop / TV (Realtek Wi-Fi/Bluetooth))"
-    ]
+      "* camera-less complete stub for nicepool_rtk (Freebox Pop / TV (Realtek Wi-Fi/Bluetooth))",
+      "* onn Pop / TV Realtek 1080p *",
+      "* Freebox Pop/TV Realtek variant HDMI 4K class"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "nx": {
     "waterproofing": "Not rated *",
@@ -7354,48 +7396,72 @@
     "cameras": [],
     "_sources": [
       "ODROID-C4 — no camera",
-      "* camera-less complete stub for odroidc4 (HardKernel ODROID-C4 (S905X3, eMMC Only) [Android TV])"
-    ]
+      "* camera-less complete stub for odroidc4 (HardKernel ODROID-C4 (S905X3, eMMC Only) [Android TV])",
+      "* ODROID-C4 HDMI 4K"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "odroidc4_tab": {
     "waterproofing": "Not rated *",
     "cameras": [],
     "_sources": [
       "ODROID-C4 tab — no camera",
-      "* camera-less complete stub for odroidc4_tab (HardKernel ODROID-C4 (S905X3, eMMC Only) [Tablet])"
-    ]
+      "* camera-less complete stub for odroidc4_tab (HardKernel ODROID-C4 (S905X3, eMMC Only) [Tablet])",
+      "* ODROID-C4 HDMI 4K"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "radxa0": {
     "waterproofing": "Not rated *",
     "cameras": [],
     "_sources": [
       "Radxa Zero — no camera",
-      "* camera-less complete stub for radxa0 (Radxa Zero (S905Y2, eMMC Only) [Android TV])"
-    ]
+      "* camera-less complete stub for radxa0 (Radxa Zero (S905Y2, eMMC Only) [Android TV])",
+      "* Radxa Zero HDMI 4K *"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "radxa0_tab": {
     "waterproofing": "Not rated *",
     "cameras": [],
     "_sources": [
       "Radxa Zero tab — no camera",
-      "* camera-less complete stub for radxa0_tab (Radxa Zero (S905Y2, eMMC Only) [Tablet])"
-    ]
+      "* camera-less complete stub for radxa0_tab (Radxa Zero (S905Y2, eMMC Only) [Tablet])",
+      "* Radxa Zero HDMI 4K *"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "sabrina": {
     "waterproofing": "Not rated *",
     "cameras": [],
     "_sources": [
       "Chromecast with Google TV — no camera",
-      "* camera-less complete stub for sabrina (Google Chromecast with Google TV (4K))"
-    ]
+      "* camera-less complete stub for sabrina (Google Chromecast with Google TV (4K))",
+      "Chromecast with Google TV 4K"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "wade": {
     "waterproofing": "Not rated *",
     "cameras": [],
     "_sources": [
       "Dynalink TV Box — no camera",
-      "* camera-less complete stub for wade (Dynalink TV Box 4K (2021))"
-    ]
+      "* camera-less complete stub for wade (Dynalink TV Box 4K (2021))",
+      "* Dynalink / Walmart TV Box 4K 2021"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "sunfish": {
     "_sources": [
@@ -30067,8 +30133,14 @@
       }
     },
     "_sources": [
-      "* heuristic tablet optics fill for baracus (Google Jamboard [Android TV])"
-    ]
+      "* heuristic tablet optics fill for baracus (Google Jamboard [Android TV])",
+      "Jamboard 55\" 4K LCD"
+    ],
+    "screen": {
+      "resolution": "3840x2160",
+      "size": 55,
+      "technology": "LCD"
+    }
   },
   "baracus_tab": {
     "cameras": [
@@ -30094,14 +30166,25 @@
       }
     },
     "_sources": [
-      "* heuristic tablet optics fill for baracus_tab (Google Jamboard [Tablet])"
-    ]
+      "* heuristic tablet optics fill for baracus_tab (Google Jamboard [Tablet])",
+      "Jamboard 55\" 4K LCD"
+    ],
+    "screen": {
+      "resolution": "3840x2160",
+      "size": 55,
+      "technology": "LCD"
+    }
   },
   "beast": {
     "waterproofing": "Not rated *",
     "_sources": [
-      "* camera-less complete stub for beast (Google ADT-2)"
-    ]
+      "* camera-less complete stub for beast (Google ADT-2)",
+      "* ADT-2 HDMI max ~1080p",
+      "ADT-2 Amlogic S905X HDMI 4K60 HDR (Android Police / comparison tables)"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "foster_tab": {
     "waterproofing": "Not rated *",
@@ -30118,44 +30201,72 @@
   "fugu": {
     "waterproofing": "Not rated *",
     "_sources": [
-      "* camera-less complete stub for fugu (Google Nexus Player)"
-    ]
+      "* camera-less complete stub for fugu (Google Nexus Player)",
+      "Nexus Player HDMI 1080p"
+    ],
+    "screen": {
+      "resolution": "1920x1080"
+    }
   },
   "mdarcy": {
     "waterproofing": "Not rated *",
     "_sources": [
-      "* camera-less complete stub for mdarcy (NVIDIA Shield TV 2019 Pro [Android TV])"
-    ]
+      "* camera-less complete stub for mdarcy (NVIDIA Shield TV 2019 Pro [Android TV])",
+      "Shield TV 2019 Pro HDMI 4K"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "mdarcy_tab": {
     "waterproofing": "Not rated *",
     "_sources": [
-      "* camera-less complete stub for mdarcy_tab (NVIDIA Shield TV 2019 Pro [Tablet])"
-    ]
+      "* camera-less complete stub for mdarcy_tab (NVIDIA Shield TV 2019 Pro [Tablet])",
+      "Shield TV 2019 Pro HDMI 4K"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "porg_tab": {
     "waterproofing": "Not rated *",
     "_sources": [
-      "* camera-less complete stub for porg_tab (NVIDIA Jetson Nano 2GB [Tablet])"
-    ]
+      "* camera-less complete stub for porg_tab (NVIDIA Jetson Nano 2GB [Tablet])",
+      "* Jetson Nano HDMI 4K class"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "porg": {
     "waterproofing": "Not rated *",
     "_sources": [
-      "* camera-less complete stub for porg (NVIDIA Jetson Nano 2GB [Android TV])"
-    ]
+      "* camera-less complete stub for porg (NVIDIA Jetson Nano 2GB [Android TV])",
+      "* Jetson Nano HDMI 4K class"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "quill_tab": {
     "waterproofing": "Not rated *",
     "_sources": [
-      "* camera-less complete stub for quill_tab (NVIDIA Jetson TX2 NX [Tablet])"
-    ]
+      "* camera-less complete stub for quill_tab (NVIDIA Jetson TX2 NX [Tablet])",
+      "* Jetson TX2 HDMI 4K class"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "quill": {
     "waterproofing": "Not rated *",
     "_sources": [
-      "* camera-less complete stub for quill (NVIDIA Jetson TX2 NX [Android TV])"
-    ]
+      "* camera-less complete stub for quill (NVIDIA Jetson TX2 NX [Android TV])",
+      "* Jetson TX2 HDMI 4K class"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   },
   "roth": {
     "waterproofing": "Not rated *",
@@ -30178,7 +30289,11 @@
   "sif": {
     "waterproofing": "Not rated *",
     "_sources": [
-      "* camera-less complete stub for sif (NVIDIA Shield TV (2019) [Android TV])"
-    ]
+      "* camera-less complete stub for sif (NVIDIA Shield TV (2019) [Android TV])",
+      "Shield TV 2019 HDMI 4K"
+    ],
+    "screen": {
+      "resolution": "3840x2160"
+    }
   }
 }

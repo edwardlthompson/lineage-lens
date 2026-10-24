@@ -16,6 +16,7 @@ reported=0
 is_large_allowlisted() {
   case "$1" in
     examples/web/public/data/devices.json) return 0 ;;
+    data/raw/flagship_camera_overrides.json) return 0 ;;
     branding/template/logo-handshake-crop-source-guide.png) return 0 ;;
     branding/template/readme-splash-handshake.png) return 0 ;;
     branding/template/readme-splash.png) return 0 ;;

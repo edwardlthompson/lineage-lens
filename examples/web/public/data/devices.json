@@ -114361,7 +114361,9 @@
       "gpu": "ARM Mali-450 MP3",
       "ram": "2 GB",
       "storage": "8 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 15,
@@ -114447,7 +114449,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "2 GB",
       "storage": "8 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 15,
@@ -114531,7 +114535,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "2 GB",
       "storage": "8 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 15,
@@ -114624,7 +114630,9 @@
       "gpu": "NVIDIA GM20B (Maxwell)",
       "ram": "3 GB",
       "storage": "16 GB / 500 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -114710,7 +114718,9 @@
       "gpu": "NVIDIA GM20B (Maxwell)",
       "ram": "3 GB",
       "storage": "16 GB / 500 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -114799,7 +114809,9 @@
       "gpu": "NVIDIA GM20B (Maxwell)",
       "ram": "3 GB",
       "storage": "16 GB / 500 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -114885,7 +114897,9 @@
       "gpu": "NVIDIA GM20B (Maxwell)",
       "ram": "3 GB",
       "storage": "16 GB / 500 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -114960,7 +114974,9 @@
       "gpu": "PowerVR G6430",
       "ram": "1 GB",
       "storage": "8 GB eMMC",
-      "screen": null,
+      "screen": {
+        "resolution": "1920x1080"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -115040,7 +115056,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "4 GB",
       "storage": "16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 17,
@@ -115124,7 +115142,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "4 GB",
       "storage": "16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 17,
@@ -115204,7 +115224,9 @@
       "gpu": "NVIDIA GM20B (Maxwell)",
       "ram": "3 GB",
       "storage": "16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -115280,7 +115302,9 @@
       "gpu": "NVIDIA GM20B (Maxwell)",
       "ram": "3 GB",
       "storage": "16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -115357,7 +115381,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "2 GB",
       "storage": "16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 15,
@@ -115438,7 +115464,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "2 GB",
       "storage": "16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 15,
@@ -117013,7 +117041,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "4 GB",
       "storage": "16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 10,
@@ -117100,7 +117130,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "4 GB",
       "storage": "16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 10,
@@ -117184,7 +117216,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "1/2 GB",
       "storage": "16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 127,
@@ -117269,7 +117303,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "1/2 GB",
       "storage": "16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 127,
@@ -117361,7 +117397,9 @@
       "gpu": "NVIDIA GM20B (Maxwell)",
       "ram": "4 GB",
       "storage": "Sdcard/16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -117445,7 +117483,9 @@
       "gpu": "NVIDIA GM20B (Maxwell)",
       "ram": "2 GB",
       "storage": "Sdcard/16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -117529,7 +117569,9 @@
       "gpu": "NVIDIA GM20B (Maxwell)",
       "ram": "4 GB",
       "storage": "Sdcard/16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -117613,7 +117655,9 @@
       "gpu": "NVIDIA GM20B (Maxwell)",
       "ram": "2 GB",
       "storage": "Sdcard/16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -117694,7 +117738,9 @@
       "gpu": "NVIDIA GP10B (Pascal)",
       "ram": "8 GB",
       "storage": "16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -117776,7 +117822,9 @@
       "gpu": "NVIDIA GP10B (Pascal)",
       "ram": "4 GB",
       "storage": "Sdcard",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -117858,7 +117906,9 @@
       "gpu": "NVIDIA GP10B (Pascal)",
       "ram": "8 GB",
       "storage": "16 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -117940,7 +117990,9 @@
       "gpu": "NVIDIA GP10B (Pascal)",
       "ram": "4 GB",
       "storage": "Sdcard",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -118020,7 +118072,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "2/4 GB",
       "storage": "8/16/32/64/128 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 5,
@@ -118103,7 +118157,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "2/4 GB",
       "storage": "8/16/32/64/128 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 5.15,
@@ -118186,7 +118242,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "2/4 GB",
       "storage": "8/16/32/64/128 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 5.15,
@@ -118271,7 +118329,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "2/4 GB",
       "storage": "8/16/32/64/128 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 5,
@@ -118633,7 +118693,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "2 GB",
       "storage": "8 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 12.5,
@@ -118717,7 +118779,9 @@
       "gpu": "NVIDIA GM20B (Maxwell)",
       "ram": "2 GB",
       "storage": "8 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": null,
       "network": [
@@ -118793,7 +118857,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "2 GB",
       "storage": "8 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 127,
@@ -118885,7 +118951,9 @@
       "gpu": "ARM Mali-G31 MP2",
       "ram": "2 GB",
       "storage": "8 GB",
-      "screen": null,
+      "screen": {
+        "resolution": "3840x2160"
+      },
       "battery": null,
       "dimensions": {
         "depth": 15,
