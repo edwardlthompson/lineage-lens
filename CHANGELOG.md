@@ -6,6 +6,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.14.0](https://github.com/edwardlthompson/lineage-lens/compare/v1.13.0...v1.14.0) (2026-11-22)
+
+
+### Added
+
+* add display columns, soft-ceiling UX, and fuller SoC/TV coverage ([d37776e](https://github.com/edwardlthompson/lineage-lens/commit/d37776eb8fe3374527d8f6673d121c5f6c40a52f))
+* camera-first enrichment through 2020 and metric sort fix ([2b7b06f](https://github.com/edwardlthompson/lineage-lens/commit/2b7b06fb0b6916b62183e63bf2107ba61f90d50c))
+* complete device enrichment and add tablet cellular filter ([6bbd0e9](https://github.com/edwardlthompson/lineage-lens/commit/6bbd0e9520d157dff0c9c6f03fe37c582f10feed))
+* enrich phone optics to ~310 complete and ship table UX slices ([37d1843](https://github.com/edwardlthompson/lineage-lens/commit/37d1843929f8e09a43f9a24a28b6459aa8089c21))
+* scaffold Lineage Lens Sprint 0–1 (React table + data pipeline) ([b5c00a3](https://github.com/edwardlthompson/lineage-lens/commit/b5c00a362171794c3f2681d21132ac36d79a28f8))
+
+
+### Fixed
+
+* **ci:** remove duplicate job-level if: keys in ci.yml ([#20](https://github.com/edwardlthompson/lineage-lens/issues/20)) ([d267a22](https://github.com/edwardlthompson/lineage-lens/commit/d267a22698615380db1e49dcd572a95c27785314))
+* **deps:** npm audit fix in examples/web (basic-ftp) ([#21](https://github.com/edwardlthompson/lineage-lens/issues/21)) ([16112fe](https://github.com/edwardlthompson/lineage-lens/commit/16112fe4f5c419a7da551e318770bef7e4ccf5b4))
+
 ## [Unreleased]
 
 ## [1.10.0](https://github.com/edwardlthompson/agent-project-bootstrap/compare/v1.9.0...v1.10.0) (2026-10-16)
