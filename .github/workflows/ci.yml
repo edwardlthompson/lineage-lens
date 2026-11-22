@@ -352,7 +352,6 @@ jobs:
   android-structure:
     if: false
     name: Android - Structure Validation
-    if: false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -395,7 +394,6 @@ jobs:
   android-build:
     if: false
     name: Android - assembleDebug
-    if: false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -420,10 +418,8 @@ jobs:
   android-instrumented:
     if: false
     name: Android - connectedDebugAndroidTest
-    if: false
     runs-on: ubuntu-latest
     needs: path-changes
-    if: needs.path-changes.outputs.android == 'true'
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v7
@@ -605,7 +601,6 @@ jobs:
   android-release:
     if: false
     name: Android - assembleRelease
-    if: false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
